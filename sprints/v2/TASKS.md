@@ -1,6 +1,6 @@
 # Sprint v2 — Tasks
 
-## Status: In Progress
+## Status: Done
 
 - [x] Task 1: Repo scaffolding — git init, .gitignore, GANESH in .env.local (P0)
   - Acceptance: `git init` run at repo root; `.gitignore` created containing
@@ -389,7 +389,7 @@
     not touch `app/index.html`, `app/styles.css`, `app/app.js`, or any
     `app/data/*.json` content.
 
-- [ ] Task 12: Commit as one v2 commit (P0)
+- [x] Task 12: Commit as one v2 commit (P0)
   - Acceptance: `git status` confirms `.env.local` is not staged; `git add` covers
     the full v1 baseline (since this is the first commit in a freshly initialized
     repo) plus all v2 changes; one commit created using the message from
@@ -397,3 +397,19 @@
     pushed only if a remote is configured (none is expected yet — confirm and skip
     push if so, noting it for the user rather than silently failing).
   - Files: none (git metadata only)
+  - Completed: 2026-09-14 — Pre-commit review of `git status`/staged diff (not a
+    blind `git add -A`) caught two things worth fixing before they shipped: (1) a
+    stale `app/.gitignore` left over from v1's `vercel link` run inside `app/`
+    (superseded now that the deploy root is the repo root) — removed; (2)
+    `app/README.md`, the old v1 README, was now actively misleading alongside the
+    new root `README.md` — it still told a reader to deploy from inside `app/` with
+    no build step, which would ship a broken page (no `papersData`, unreplaced
+    `__GANESH_HASH__` placeholder) — removed in favor of the single canonical root
+    `README.md` from Task 11. `git status` confirmed `.env.local` and `dist/` were
+    never staged (both correctly `.gitignore`d). Committed all 20 files (v1 baseline
+    + v2 changes, since this is the repo's first-ever commit — `git log` had no
+    prior commits) as one root commit (`dad696a`) using the exact message from
+    REQUIREMENTS-v2 §8 plus one added paragraph noting this is the initial commit
+    and covers the v1 baseline too. `git status` after commit: working tree clean.
+    No remote is configured (`git remote -v` empty) — push skipped, noted here for
+    the user rather than silently failing.
