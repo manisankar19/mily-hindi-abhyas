@@ -172,7 +172,9 @@ function main() {
     fail(`Expected tag not found in app/index.html: ${STYLESHEET_TAG}`);
     return;
   }
-  html = html.replace(STYLESHEET_TAG, '<style>\n' + stylesCss + '\n</style>');
+  // Function replacers: the inserted text is used verbatim (a string replacement
+  // would expand patterns such as $& and $' that appear in app.js).
+  html = html.replace(STYLESHEET_TAG, () => '<style>\n' + stylesCss + '\n</style>');
 
   if (!html.includes(APP_SCRIPT_TAG)) {
     fail(`Expected tag not found in app/index.html: ${APP_SCRIPT_TAG}`);
@@ -183,7 +185,7 @@ function main() {
     '<script type="application/json" id="worksheetOrder">' + safeJson(order) + '</script>\n' +
     '<script type="application/json" id="assetsData">' + safeJson(assets) + '</script>';
   const inlinedAppScript = '<script>\n' + patchedAppJs + '\n</script>';
-  html = html.replace(APP_SCRIPT_TAG, papersDataTag + '\n' + inlinedAppScript);
+  html = html.replace(APP_SCRIPT_TAG, () => papersDataTag + '\n' + inlinedAppScript);
 
   // ---- write dist/index.html — only after every validation above passed ----
   fs.mkdirSync(DIST_DIR, { recursive: true });

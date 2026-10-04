@@ -1,6 +1,6 @@
 # Sprint v3 — Tasks: School Worksheets with answers
 
-## Status: Phases 0–3 done (Tasks 1–30); Phase 4 next (Task 31)
+## Status: Phases 0–4 done (Tasks 1–37); Phase 5 next (Task 38)
 
 Rules: `sprints/v3/instruction.md`. Plan: `sprints/v3/PRD.md`.
 🛑 = stop for the owner. Paper tasks (17–30) run one sub-agent per paper. That sub-agent writes only its own
@@ -152,29 +152,35 @@ Batch order is set at Gate 0. The default order is below, fewest pictures first.
   - Files: build.js
   - Completed: 2026-10-04 — papers discovered from app/data; app/worksheet-order.json (must list each worksheet once); SVGs inlined once as data URIs (#assetsData); tests/build.test.js 12/12; dist 698 KB
 
-- [ ] Task 32: Paper ids, home group and score keys (P0)
+- [x] Task 32: Paper ids, home group and score keys (P0)
   - Acceptance: Papers are keyed by id. A "विद्यालय कार्यपत्रक" section under the chapter grid shows short label, total and progress. Worksheet scores use their own localStorage key. Existing chapter score keys and saved marks still load.
   - Files: app/app.js, app/index.html, app/styles.css
+  - Completed: 2026-10-04 — papers keyed by id; विद्यालय कार्यपत्रक group (order from app/worksheet-order.json); scores mily.scores.wsNN, chapter keys unchanged (e2e: seeded ch6 marks still show)
 
-- [ ] Task 33: Answers built lazily, for all papers (P0)
+- [x] Task 33: Answers built lazily, for all papers (P0)
   - Acceptance: `renderItem` no longer creates the `.answer` node until "उत्तर देखें" or "सभी उत्तर दिखाएँ". In practice mode the DOM has no answer text for any paper. Chapter papers look the same once an answer is revealed.
   - Files: app/app.js
+  - Completed: 2026-10-04 — answer panel built on reveal, removed on hide/lock (all papers); e2e checks every worksheet: no answer/acceptable/note/rubric text in DOM in practice or before reveal, all present after reveal-all, gone after re-lock
 
-- [ ] Task 34: Worksheet rendering (P0)
+- [x] Task 34: Worksheet rendering (P0)
   - Acceptance: The page shows the printed header, labels, headings, passages, `underline` spans, pictures from the asset map with alt text, adaptation notes and a paper-only badge (यह प्रश्न छपे हुए पत्र पर करें). The chapter render is unchanged.
   - Files: app/app.js, app/styles.css
+  - Completed: 2026-10-04 — printed header lines, untitled sections, block printed marks, adaptations, pictures (alt), match column, options, underline spans (plain scan, no data-built RegExp), slot labels, paper-only badge
 
-- [ ] Task 35: Checking-mode answer panel for worksheets (P0)
+- [x] Task 35: Checking-mode answer panel for worksheets (P0)
   - Acceptance: After reveal, the panel shows model answer, स्वीकार्य उत्तर, rubric, ⚑, teacherNote and answerRef. The disclaimer line shows once per worksheet in checking mode. None of these is in the DOM before reveal.
   - Files: app/app.js, app/styles.css
+  - Completed: 2026-10-04 — ⚑, स्वीकार्य उत्तर, अंक-योजना, टिप्पणी, स्रोत after reveal; disclaimer only in checking mode on worksheets; chapter panel unchanged
 
-- [ ] Task 36: ½ marks, printed total and title on the result page (P0)
+- [x] Task 36: ½ marks, printed total and title on the result page (P0)
   - Acceptance: Marks buttons step by ½ where an item's marks are fractional or split, and show as e.g. ½, १½. The score bar, result and grade use `totalMarks`. The result title shows the worksheet title instead of "पाठ N". Chapter results are unchanged.
   - Files: app/app.js
+  - Completed: 2026-10-04 — ½ steps on worksheets (chapters stay whole); score bar/result/home card use printed total; result shows worksheet label + title
 
-- [ ] Task 37: Print styles for worksheets (P1)
+- [x] Task 37: Print styles for worksheets (P1)
   - Acceptance: Print emulation of a worksheet shows questions, pictures and paper-only items, and no answers, marks UI or banners.
   - Files: app/styles.css
+  - Completed: 2026-10-04 — print: answers, marks UI, banners, adaptation and paper-only notes hidden; pictures and choices print (e2e with print media)
 
 ## Phase 5 — Tests, deploy, docs
 

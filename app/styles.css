@@ -365,6 +365,42 @@ button,input{font-family:inherit; font-size:inherit; color:inherit}
 }
 
 /* ---------- print: blank question paper ---------- */
+/* ---------- v3: school worksheets ---------- */
+.ws-group{margin-top:30px}
+.block-marks{margin-left:auto; flex:none; font-size:13.5px; font-weight:600; color:var(--muted); white-space:nowrap}
+.ws-group-title{font-family:"Baloo Bhai 2",sans-serif; font-size:22px; color:var(--ink); margin:0}
+.ws-group-sub{margin:2px 0 14px; color:var(--muted); font-size:14px}
+.ws-card .ch-num{background:var(--good-soft); color:var(--good)}
+
+.ph-printed{text-align:center; color:var(--ink-soft); font-size:14px; line-height:1.7}
+.ph-printed .ph-line:first-child{color:var(--muted); font-size:12.5px}
+.ph-line{white-space:pre-wrap}
+
+.adaptation{
+  margin:6px 0 4px; padding:8px 12px; border-radius:10px; font-size:14px; line-height:1.7;
+  background:var(--accent-soft); border:1px dashed var(--accent-line); color:var(--accent-ink);
+}
+.block-picture{display:block; max-width:min(100%, 560px); height:auto; margin:10px auto; border-radius:10px; background:#fff; border:1px solid var(--line)}
+.match-col{margin:10px 0 2px; font-size:15px; color:var(--ink-soft); line-height:1.9}
+.match-word{display:inline-block; padding:0 8px; border:1px solid var(--line); border-radius:8px; background:var(--raised); color:var(--ink)}
+.options{display:flex; flex-wrap:wrap; gap:6px 14px; margin-top:6px; white-space:normal}
+.option{padding:1px 10px; border:1px solid var(--line); border-radius:8px; background:var(--raised)}
+.paper-only{
+  margin-top:6px; display:inline-block; padding:4px 10px; border-radius:8px; font-size:13.5px; white-space:normal;
+  background:var(--bad-soft); color:var(--bad); font-weight:600;
+}
+.ws-disclaimer{
+  max-width:820px; margin:12px auto 0; padding:10px 14px; border-radius:10px; font-size:14px; line-height:1.7;
+  background:var(--accent-soft); border:1px solid var(--accent-line); color:var(--accent-ink); font-weight:600;
+}
+.answer .ans-flag{margin:8px 0 0; font-weight:700; color:var(--accent-ink); background:var(--accent-soft); border-radius:8px; padding:4px 10px; white-space:normal}
+.answer .ans-acceptable,.answer .ans-note,.answer .ans-ref{margin:8px 0 0; white-space:normal; color:var(--ink-soft)}
+.answer .ans-ref{font-size:13px; color:var(--muted)}
+.answer .ans-rubric{margin-top:8px; white-space:normal; color:var(--ink-soft)}
+.answer .ans-rubric ul{margin:4px 0 0; padding-left:20px}
+.answer b{color:var(--good-ink)}
+.rc-sub{margin:-6px 0 6px; color:var(--muted); font-size:13.5px; text-align:center}
+
 @media print{
   body{background:#fff; color:#000; font-size:12.5pt}
   .no-print,.topbar,.scorebar,.answer,.item-tools,#ganeshDialog{display:none !important}
@@ -374,4 +410,6 @@ button,input{font-family:inherit; font-size:inherit; color:inherit}
   .section-head{background:#eee !important; color:#000 !important; -webkit-print-color-adjust:exact; print-color-adjust:exact}
   .section-head span{color:#333 !important}
   .item{padding-bottom:34px}
+  .block-picture{max-width:12cm; border:0}
+  .match-word,.option{border-color:#999; background:#fff}
 }

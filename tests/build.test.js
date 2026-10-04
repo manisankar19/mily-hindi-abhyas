@@ -74,6 +74,12 @@ test('GANESH hash injected; plaintext code absent', () => {
   assert.ok(!html.includes(TEST_CODE));
   assert.ok(!html.includes('__GANESH_HASH__'));
 });
+test('app.js and styles.css are inlined verbatim (no $& / $\' replacement patterns applied)', () => {
+  const app = fs.readFileSync(path.join(ROOT, 'app/app.js'), 'utf8');
+  const hash = crypto.createHash('sha256').update(TEST_CODE).digest('hex');
+  assert.ok(html.includes(app.split('__GANESH_HASH__').join(hash)), 'app.js verbatim');
+  assert.ok(html.includes(fs.readFileSync(path.join(ROOT, 'app/styles.css'), 'utf8')), 'styles.css verbatim');
+});
 test('chapter JSON content is unchanged inside papersData', () => {
   const papers = jsonTag(html, 'papersData');
   for (let n = 1; n <= 7; n++) {

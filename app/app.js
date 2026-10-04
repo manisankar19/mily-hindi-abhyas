@@ -1,5 +1,5 @@
 /* हिंदी अभ्यास — कक्षा ४ (वीणा)
-   Fixed chapter papers · reveal answer · student enters her own marks. */
+   Fixed chapter papers + school worksheets (v3) · reveal answer · checker enters marks. */
 
 'use strict';
 
@@ -17,12 +17,25 @@ const CHAPTERS = [
 
 const HI = ['०','१','२','३','४','५','६','७','८','९'];
 const hin = n => String(n).replace(/\d/g, d => HI[+d]);
+/* Marks may be halves on worksheets: 0.5 → ½, 1.5 → १½, 2 → २. */
+const hinMarks = v => {
+  const n = Number(v) || 0;
+  const whole = Math.floor(n);
+  const half = n - whole >= 0.5;
+  return (whole || !half ? hin(whole) : '') + (half ? '½' : '');
+};
 
+const DISCLAIMER = 'ये उत्तर अभ्यास के लिए लिखे गए हैं, शिक्षक ने नहीं दिए — ⚑ वाले उत्तर एक बार दोबारा देख लें।';
+
+/* Score keys: chapters keep their v1 key (mily.scores.ch6) so saved marks survive;
+   worksheets use their id (mily.scores.ws04). */
 const LS = {
   session: 'mily.session',
   name:    'mily.studentName',
-  scores:  ch => `mily.scores.ch${ch}`
+  scores:  key => `mily.scores.${key}`
 };
+const paperKey = p => (p.kind === 'school' ? p.ws : 'ch' + p.chapter);
+const isSchool = p => !!p && p.kind === 'school';
 
 const store = {
   get(k, fb) { try { const v = localStorage.getItem(k); return v == null ? fb : JSON.parse(v); } catch { return fb; } },
@@ -32,16 +45,26 @@ const store = {
 
 const $  = s => document.querySelector(s);
 const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
+const tid = (node, id) => { node.dataset.testid = id; return node; };
 
-const state = { paper: null, scores: {}, studentName: '' };
-const paperCache = {};
-let allPapers = null;
+const state = { paper: null, key: null, scores: {}, studentName: '' };
+let embedded = null;
 
 /* जाँच (marking) mode — in-memory only; never written to
    localStorage/sessionStorage/a cookie/the URL, so it resets to false on
    every page load for free. */
 let checkMode = false;
 const GANESH_HASH = '__GANESH_HASH__';
+
+/* ==================== EMBEDDED DATA ==================== */
+
+function data() {
+  if (!embedded) {
+    const read = (id, fb) => { const n = document.getElementById(id); return n ? JSON.parse(n.textContent) : fb; };
+    embedded = { papers: read('papersData', {}), order: read('worksheetOrder', []), assets: read('assetsData', {}) };
+  }
+  return embedded;
+}
 
 /* ==================== LOGIN ==================== */
 
@@ -107,14 +130,39 @@ function paintWho() {
   $('#whoLabel').textContent = n;
 }
 
-/* ==================== CHAPTER LIST ==================== */
+/* ==================== CHAPTER LIST + WORKSHEETS ==================== */
 
-function chapterProgress(n) {
-  const s = store.get(LS.scores(n), {});
+function progress(key) {
+  const s = store.get(LS.scores(key), {});
   const keys = Object.keys(s);
   let got = 0;
   keys.forEach(k => { got += Number(s[k]) || 0; });
   return { answered: keys.length, got };
+}
+
+function card({ num, name, meta, got, answered, total, onOpen }) {
+  const c = el('button', 'ch-card');
+  c.type = 'button';
+  const top = el('div', 'ch-top');
+  top.append(el('div', 'ch-num', num));
+  const box = el('div');
+  box.append(el('div', 'ch-name', name));
+  box.append(el('div', 'ch-meta', meta));
+  top.append(box);
+  c.append(top);
+
+  const bar = el('div', 'ch-bar');
+  const fill = el('i');
+  fill.style.width = Math.min(100, (got / total) * 100) + '%';
+  bar.append(fill);
+  c.append(bar);
+
+  const st = el('div', 'ch-status');
+  st.append(el('span', answered ? 'done' : '', answered ? `प्राप्तांक ${hinMarks(got)}/${hin(total)}` : 'अभी शुरू नहीं किया'));
+  st.append(el('span', '', answered ? `${hin(answered)} प्रश्न जाँचे` : 'आरंभ करें →'));
+  c.append(st);
+  c.addEventListener('click', onOpen);
+  return c;
 }
 
 function renderChapters() {
@@ -124,79 +172,103 @@ function renderChapters() {
   let totalGot = 0, totalAttempted = 0;
 
   CHAPTERS.forEach(ch => {
-    const p = chapterProgress(ch.n);
+    const p = progress('ch' + ch.n);
     if (p.answered) { totalGot += p.got; totalAttempted++; }
-
-    const card = el('button', 'ch-card');
-    card.type = 'button';
-
-    const top = el('div', 'ch-top');
-    top.append(el('div', 'ch-num', hin(ch.n)));
-    const box = el('div');
-    box.append(el('div', 'ch-name', ch.title));
-    box.append(el('div', 'ch-meta', `पाठ ${hin(ch.n)} · ${ch.kind} · १०० अंक`));
-    top.append(box);
-    card.append(top);
-
-    const bar = el('div', 'ch-bar');
-    const fill = el('i');
-    fill.style.width = Math.min(100, p.got) + '%';
-    bar.append(fill);
-    card.append(bar);
-
-    const st = el('div', 'ch-status');
-    st.append(el('span', p.answered ? 'done' : '', p.answered ? `प्राप्तांक ${hin(p.got)}/१००` : 'अभी शुरू नहीं किया'));
-    st.append(el('span', '', p.answered ? `${hin(p.answered)} प्रश्न जाँचे` : 'आरंभ करें →'));
-    card.append(st);
-
-    card.addEventListener('click', () => openPaper(ch.n));
-    grid.append(card);
+    grid.append(tid(card({
+      num: hin(ch.n), name: ch.title, meta: `पाठ ${hin(ch.n)} · ${ch.kind} · १०० अंक`,
+      got: p.got, answered: p.answered, total: 100, onOpen: () => openPaper(String(ch.n))
+    }), 'chapter-card'));
   });
 
   const oc = $('#overallCard');
   if (totalAttempted) {
-    oc.innerHTML = `अब तक <b>${hin(totalAttempted)}</b> पाठ के प्रश्नपत्र जाँचे गए · कुल प्राप्तांक <b>${hin(totalGot)}</b> / ${hin(totalAttempted * 100)}`;
+    oc.innerHTML = `अब तक <b>${hin(totalAttempted)}</b> पाठ के प्रश्नपत्र जाँचे गए · कुल प्राप्तांक <b>${hinMarks(totalGot)}</b> / ${hin(totalAttempted * 100)}`;
   } else {
     oc.innerHTML = 'अभी कोई प्रश्नपत्र आरंभ नहीं हुआ। ऊपर से कोई पाठ चुनिए और उत्तर अपनी उत्तर-पुस्तिका में लिखिए। 📝';
   }
+
+  /* School worksheets, in the owner-confirmed order (app/worksheet-order.json). */
+  const { papers, order } = data();
+  const wsGrid = $('#wsGrid');
+  wsGrid.innerHTML = '';
+  $('#wsGroup').hidden = !order.length;
+  order.forEach((ws, i) => {
+    const p = papers[ws];
+    if (!p) return;
+    const pr = progress(ws);
+    const c = tid(card({
+      num: hin(i + 1), name: p.shortLabel, meta: `${p.subtitle} · ${hin(p.totalMarks)} अंक`,
+      got: pr.got, answered: pr.answered, total: p.totalMarks, onOpen: () => openPaper(ws)
+    }), 'ws-card');
+    c.dataset.ws = ws;
+    c.classList.add('ws-card');
+    wsGrid.append(c);
+  });
 }
 
 /* ==================== PAPER ==================== */
 
-async function loadPaper(n) {
-  if (paperCache[n]) return paperCache[n];
-  if (!allPapers) {
-    allPapers = JSON.parse(document.getElementById('papersData').textContent);
-  }
-  const data = allPapers[n];
-  if (!data) throw new Error('paper ' + n + ' not found');
-  paperCache[n] = data;
-  return data;
-}
-
-async function openPaper(n) {
-  let data;
-  try {
-    data = await loadPaper(n);
-  } catch (err) {
+function openPaper(id) {
+  const paper = data().papers[id];
+  if (!paper) {
     alert('क्षमा कीजिए, यह प्रश्नपत्र लोड नहीं हो सका। कृपया पृष्ठ पुनः लोड कीजिए।');
     return;
   }
   checkMode = false;
-  state.paper = data;
-  state.scores = store.get(LS.scores(n), {});
+  state.paper = paper;
+  state.key = paperKey(paper);
+  state.scores = store.get(LS.scores(state.key), {});
   renderPaper();
   goto('paper');
 }
 
 function itemId(si, bi, ii) { return `${si}-${bi}-${ii}`; }
 
-function renderPaper() {
-  const p = state.paper;
+/* Text with the printed underlined (रेखांकित / गहरे) words wrapped in <u>. */
+function underlined(text, spans) {
+  const frag = document.createDocumentFragment();
+  const words = (spans || []).filter(w => w && text.includes(w));
+  /* Plain left-to-right scan (no RegExp built from data): at each position take
+     the earliest, then longest, matching word. */
+  let i = 0;
+  while (i < text.length) {
+    let at = -1, word = '';
+    words.forEach(w => {
+      const k = text.indexOf(w, i);
+      if (k !== -1 && (at === -1 || k < at || (k === at && w.length > word.length))) { at = k; word = w; }
+    });
+    if (at === -1) { frag.append(text.slice(i)); break; }
+    if (at > i) frag.append(text.slice(i, at));
+    frag.append(el('u', null, word));
+    i = at + word.length;
+  }
+  return frag;
+}
 
-  /* ---- header ---- */
+function renderHead(p) {
   const head = $('#paperHead');
   head.innerHTML = '';
+  if (isSchool(p)) {
+    /* The worksheet's own printed header, line by line. */
+    const hb = tid(el('div', 'ph-printed'), 'ws-header');
+    (p.header || []).forEach(line => hb.append(el('div', 'ph-line', line)));
+    head.append(hb);
+    head.append(el('hr', 'ph-rule'));
+    const grid = el('div', 'ph-grid');
+    [['कुल अंक', hin(p.totalMarks)], ['विद्यार्थी', (state.studentName || '').trim() || '—']].forEach(([k, v]) => {
+      const s = el('div');
+      s.append(document.createTextNode(k + ': '));
+      s.append(el('b', null, v));
+      grid.append(s);
+    });
+    head.append(grid);
+    const note = el('div', 'ph-note');
+    note.innerHTML = '<b>निर्देश —</b> यह विद्यालय का कार्यपत्रक है, जैसा छपा था वैसा ही। उत्तर अपनी उत्तर-पुस्तिका में लिखिए; ' +
+      'जहाँ लिखा हो, वह प्रश्न छपे हुए पत्र पर ही करें।';
+    head.append(note);
+    return;
+  }
+
   head.append(el('div', 'ph-org', 'परमाणु ऊर्जा शिक्षण संस्था'));
   head.append(el('div', 'ph-sub', 'अभ्यास प्रश्नपत्र (२०२५–२६)'));
   head.append(el('div', 'ph-title', `पाठ ${hin(p.chapter)} — ${p.title}`));
@@ -221,18 +293,25 @@ function renderPaper() {
   note.innerHTML = '<b>निर्देश —</b> सभी प्रश्नों के उत्तर अपनी उत्तर-पुस्तिका में लिखिए। पूरा प्रश्नपत्र हल करने के बाद ' +
     '“<b>उत्तर देखें</b>” दबाकर अपने उत्तर से मिलाइए और स्वयं अपने अंक भरिए। अधूरा या आंशिक उत्तर होने पर कम अंक दीजिए।';
   head.append(note);
+}
 
-  /* ---- body ---- */
+function renderPaper() {
+  const p = state.paper;
+  const school = isSchool(p);
+  renderHead(p);
+
   const body = $('#paperBody');
   body.innerHTML = '';
   let count = 0;
 
   p.sections.forEach((sec, si) => {
     const secEl = el('section', 'section');
-    const sh = el('div', 'section-head');
-    sh.append(el('div', null, `खंड ${sec.code} — ${sec.title}`));
-    sh.append(el('span', null, `${hin(sec.marks)} अंक`));
-    secEl.append(sh);
+    if (!school || sec.title) {
+      const sh = el('div', 'section-head');
+      sh.append(el('div', null, school ? sec.title : `खंड ${sec.code} — ${sec.title}`));
+      sh.append(el('span', null, `${hinMarks(sec.marks)} अंक`));
+      secEl.append(sh);
+    }
 
     sec.blocks.forEach((blk, bi) => {
       const bEl = el('div', 'block');
@@ -241,17 +320,46 @@ function renderPaper() {
         const bh = el('div', 'block-head');
         if (blk.num) bh.append(el('div', 'block-num', blk.num));
         if (blk.instruction) bh.append(el('div', 'block-inst', blk.instruction));
+        /* Printed block marks, e.g. "10 अंक" or "(5M)", unless already in the instruction text. */
+        if (school && blk.printedMarks && !(blk.instruction || '').includes(blk.printedMarks)) {
+          bh.append(el('span', 'block-marks', blk.printedMarks));
+        }
         bEl.append(bh);
+      }
+      if (school && blk.adaptation) {
+        const ad = tid(el('p', 'adaptation no-print'), 'adaptation');
+        ad.append(el('b', null, 'यहाँ ऐसे करें: '), blk.adaptation);
+        bEl.append(ad);
       }
 
       if (blk.passage) {
-        const pe = el('div', 'passage' + (blk.passageType === 'poem' ? ' poem' : ''), blk.passage);
+        const pe = el('div', 'passage' + (blk.passageType === 'poem' || blk.passageType === 'पद्यांश' ? ' poem' : ''), blk.passage);
         bEl.append(pe);
+      }
+
+      if (school && blk.picture) {
+        const src = data().assets[blk.picture];
+        if (src) {
+          const img = tid(el('img', 'block-picture'), 'block-picture');
+          img.src = src;
+          img.alt = blk.pictureAlt || 'चित्र';
+          img.loading = 'eager';
+          bEl.append(img);
+        }
+      }
+
+      /* Match questions: the printed right-hand column, once per block, in printed order. */
+      const right = school && (blk.items.find(i => Array.isArray(i.printedRight) && i.printedRight.length) || {}).printedRight;
+      if (right) {
+        const mc = tid(el('div', 'match-col'), 'match-col');
+        mc.append(el('b', null, 'मिलान के लिए: '));
+        right.forEach((w, k) => { if (k) mc.append(' · '); mc.append(el('span', 'match-word', w)); });
+        bEl.append(mc);
       }
 
       blk.items.forEach((it, ii) => {
         count++;
-        bEl.append(renderItem(it, itemId(si, bi, ii)));
+        bEl.append(renderItem(it, itemId(si, bi, ii), school));
       });
 
       secEl.append(bEl);
@@ -267,41 +375,53 @@ function renderPaper() {
   applyMode();
 }
 
-function renderItem(it, id) {
+/* Mark buttons: whole numbers on chapter papers (as before); ½ steps on worksheets. */
+function markSteps(marks, school) {
+  const step = school ? 0.5 : 1;
+  const out = [];
+  for (let v = 0; v <= marks + 1e-9; v += step) out.push(Math.round(v * 2) / 2);
+  return out;
+}
+
+function renderItem(it, id, school) {
   const wrap = el('div', 'item');
   wrap.dataset.id = id;
+  wrap._item = it;
 
   const q = el('div', 'item-q');
-  if (it.label) q.append(el('div', 'item-label', it.label));
-  q.append(el('div', 'item-text', it.q));
-  q.append(el('div', 'item-marks', hin(it.marks)));
+  const label = it.label || (school ? it.slot : '');
+  if (label) q.append(el('div', 'item-label', label));
+  const text = el('div', 'item-text');
+  text.append(school ? underlined(it.q || '', it.underline) : (it.q || ''));
+  if (school && Array.isArray(it.options) && it.options.length) {
+    const ol = tid(el('div', 'options'), 'options');
+    it.options.forEach(o => ol.append(el('span', 'option', o)));
+    text.append(ol);
+  }
+  if (school && it.answerKind === 'paperOnly') {
+    text.append(tid(el('div', 'paper-only no-print', '📝 यह प्रश्न छपे हुए पत्र पर करें; अभिभावक जाँचेंगे।'), 'paper-only'));
+  }
+  q.append(text);
+  q.append(el('div', 'item-marks', hinMarks(it.marks)));
   wrap.append(q);
-
-  const ans = el('div', 'answer');
-  ans.hidden = true;
-  ans.append(el('b', 'ans-tag', 'आदर्श उत्तर'));
-  ans.append(document.createTextNode(it.a));
 
   const tools = el('div', 'item-tools');
 
   const ansBtn = el('button', 'ans-btn', '👁 उत्तर देखें');
   ansBtn.type = 'button';
-  ansBtn.addEventListener('click', () => {
-    ans.hidden = !ans.hidden;
-    ansBtn.textContent = ans.hidden ? '👁 उत्तर देखें' : '🙈 उत्तर छिपाएँ';
-  });
+  ansBtn.addEventListener('click', () => toggleAnswer(wrap, !wrap.querySelector('.answer')));
   tools.append(ansBtn);
 
   const mrow = el('div', 'marks-row');
-  mrow.append(el('span', null, 'मेरे अंक:'));
-  for (let v = 0; v <= it.marks; v++) {
-    const b = el('button', 'mk', hin(v));
+  mrow.append(el('span', null, school ? 'अंक:' : 'मेरे अंक:'));
+  markSteps(it.marks, school).forEach(v => {
+    const b = el('button', 'mk', hinMarks(v));
     b.type = 'button';
     b.dataset.val = v;
     if (state.scores[id] === v) b.classList.add('on');
     b.addEventListener('click', () => setMark(id, v, mrow, wrap));
     mrow.append(b);
-  }
+  });
   const clr = el('button', 'mk', '✕');
   clr.type = 'button';
   clr.title = 'अंक हटाएँ';
@@ -310,16 +430,58 @@ function renderItem(it, id) {
   tools.append(mrow);
 
   wrap.append(tools);
-  wrap.append(ans);
   if (state.scores[id] != null) wrap.classList.add('scored');
   return wrap;
+}
+
+/* The answer panel is built only when revealed and removed when hidden, so no
+   answer text (or ⚑, note, rubric) is in the page before "उत्तर देखें". */
+function buildAnswer(it, school) {
+  const ans = el('div', 'answer');
+  ans.append(el('b', 'ans-tag', 'आदर्श उत्तर'));
+  ans.append(document.createTextNode(it.a));
+  if (!school) return ans;
+
+  if (it.answerConfidence === 'check') {
+    ans.append(tid(el('p', 'ans-flag', '⚑ दोबारा देखें — यह उत्तर विवेक से जाँचें।'), 'ans-flag'));
+  }
+  if (Array.isArray(it.acceptable) && it.acceptable.length) {
+    const acc = tid(el('p', 'ans-acceptable'), 'ans-acceptable');
+    acc.append(el('b', null, 'स्वीकार्य उत्तर: '), it.acceptable.join(' · '));
+    ans.append(acc);
+  }
+  if (Array.isArray(it.rubric) && it.rubric.length) {
+    const rb = tid(el('div', 'ans-rubric'), 'ans-rubric');
+    rb.append(el('b', null, 'अंक-योजना:'));
+    const ul = el('ul');
+    it.rubric.forEach(r => ul.append(el('li', null, `${hinMarks(r.marks)} अंक — ${r.desc}`)));
+    rb.append(ul);
+    ans.append(rb);
+  }
+  if (it.teacherNote) {
+    const n = tid(el('p', 'ans-note'), 'ans-note');
+    n.append(el('b', null, 'टिप्पणी: '), it.teacherNote);
+    ans.append(n);
+  }
+  if (it.answerRef && it.answerRef.trim() !== '—') {
+    ans.append(el('p', 'ans-ref', 'स्रोत: ' + it.answerRef));
+  }
+  return ans;
+}
+
+function toggleAnswer(wrap, show) {
+  const existing = wrap.querySelector('.answer');
+  if (show && !existing) wrap.append(buildAnswer(wrap._item, isSchool(state.paper)));
+  if (!show && existing) existing.remove();
+  const btn = wrap.querySelector('.ans-btn');
+  if (btn) btn.textContent = show ? '🙈 उत्तर छिपाएँ' : '👁 उत्तर देखें';
 }
 
 function setMark(id, val, mrow, wrap) {
   if (val === null) { delete state.scores[id]; wrap.classList.remove('scored'); }
   else { state.scores[id] = val; wrap.classList.add('scored'); }
   mrow.querySelectorAll('.mk').forEach(b => b.classList.toggle('on', b.dataset.val !== undefined && Number(b.dataset.val) === val));
-  store.set(LS.scores(state.paper.chapter), state.scores);
+  store.set(LS.scores(state.key), state.scores);
   updateScore();
 }
 
@@ -328,7 +490,7 @@ function updateScore() {
   let got = 0;
   keys.forEach(k => { got += Number(state.scores[k]) || 0; });
   const total = state.paper ? state.paper.totalMarks : 100;
-  $('#sbGot').textContent = hin(got);
+  $('#sbGot').textContent = hinMarks(got);
   $('#sbDone').textContent = hin(keys.length);
   $('#sbFill').style.width = Math.min(100, (got / total) * 100) + '%';
 }
@@ -336,17 +498,16 @@ function updateScore() {
 /* ---- toolbar ---- */
 $('#revealAllBtn').addEventListener('click', e => {
   const show = e.target.textContent.indexOf('दिखाएँ') > -1;
-  document.querySelectorAll('#paperBody .answer').forEach(a => { a.hidden = !show; });
-  document.querySelectorAll('#paperBody .ans-btn').forEach(b => { b.textContent = show ? '🙈 उत्तर छिपाएँ' : '👁 उत्तर देखें'; });
+  document.querySelectorAll('#paperBody .item').forEach(w => toggleAnswer(w, show));
   e.target.textContent = show ? 'सभी उत्तर छिपाएँ' : 'सभी उत्तर दिखाएँ';
 });
 
 $('#printBtn').addEventListener('click', () => window.print());
 
 $('#resetBtn').addEventListener('click', () => {
-  if (!confirm('इस पाठ के सारे अंक मिटा दिए जाएँ?')) return;
+  if (!confirm('इस प्रश्नपत्र के सारे अंक मिटा दिए जाएँ?')) return;
   state.scores = {};
-  store.del(LS.scores(state.paper.chapter));
+  store.del(LS.scores(state.key));
   renderPaper();
 });
 
@@ -372,9 +533,17 @@ function applyMode() {
   $('#resultBtn').hidden = !on;
   $('#practiceBanner').hidden = on;
 
+  /* Worksheet disclaimer: only in checking mode, only for school papers. */
+  const old = $('#wsDisclaimer');
+  if (old) old.remove();
+  if (on && isSchool(state.paper)) {
+    const d = tid(el('p', 'ws-disclaimer no-print', DISCLAIMER), 'ws-disclaimer');
+    d.id = 'wsDisclaimer';
+    $('#practiceBanner').after(d);
+  }
+
   if (!on) {
-    document.querySelectorAll('#paperBody .answer').forEach(a => { a.hidden = true; });
-    document.querySelectorAll('#paperBody .ans-btn').forEach(b => { b.textContent = '👁 उत्तर देखें'; });
+    document.querySelectorAll('#paperBody .item').forEach(w => toggleAnswer(w, false));
     $('#revealAllBtn').textContent = 'सभी उत्तर दिखाएँ';
   }
 }
@@ -441,6 +610,7 @@ function gradeFor(pct) {
 
 function renderResult() {
   const p = state.paper;
+  const school = isSchool(p);
   let got = 0, answered = 0, count = 0;
   const rows = [];
 
@@ -451,7 +621,7 @@ function renderResult() {
       const v = state.scores[itemId(si, bi, ii)];
       if (v != null) { sGot += v; sAns++; answered++; got += v; }
     }));
-    rows.push({ code: sec.code, title: sec.title, marks: sec.marks, got: sGot, ans: sAns, count: sCount });
+    rows.push({ code: sec.code, title: sec.title || '—', marks: sec.marks, got: sGot, ans: sAns, count: sCount });
   });
 
   const pct = Math.round((got / p.totalMarks) * 1000) / 10;
@@ -459,23 +629,25 @@ function renderResult() {
 
   const view = $('#resultView');
   view.innerHTML = '';
-  const card = el('div', 'result-card');
+  const cardEl = el('div', 'result-card');
 
-  card.append(el('h2', 'rc-title', 'परिणाम'));
-  card.append(el('p', 'rc-for', `${(state.studentName || 'विद्यार्थी').trim()} · पाठ ${hin(p.chapter)} — ${p.title}`));
+  cardEl.append(el('h2', 'rc-title', 'परिणाम'));
+  const who = (state.studentName || 'विद्यार्थी').trim();
+  cardEl.append(el('p', 'rc-for', school ? `${who} · ${p.shortLabel}` : `${who} · पाठ ${hin(p.chapter)} — ${p.title}`));
+  if (school) cardEl.append(el('p', 'rc-sub', p.title));
 
   const sc = el('div', 'rc-score');
-  sc.append(document.createTextNode(hin(got)));
+  sc.append(document.createTextNode(hinMarks(got)));
   sc.append(el('small', null, ' / ' + hin(p.totalMarks)));
-  card.append(sc);
-  card.append(el('div', 'rc-pct', hin(pct) + '%'));
-  card.append(el('div', 'rc-grade', gr.g));
-  card.append(el('p', 'rc-note', gr.msg));
+  cardEl.append(sc);
+  cardEl.append(el('div', 'rc-pct', hin(pct) + '%'));
+  cardEl.append(el('div', 'rc-grade', gr.g));
+  cardEl.append(el('p', 'rc-note', gr.msg));
 
   if (answered < count) {
     const warn = el('p', 'rc-note');
     warn.innerHTML = `⚠️ अभी <b>${hin(count - answered)}</b> प्रश्नों के अंक नहीं भरे गए हैं।`;
-    card.append(warn);
+    cardEl.append(warn);
   }
 
   const tbl = el('table', 'rc-table');
@@ -486,17 +658,17 @@ function renderResult() {
     tr.append(el('td', null, r.code));
     tr.append(el('td', null, r.title));
     tr.append(el('td', null, `${hin(r.ans)}/${hin(r.count)}`));
-    tr.append(el('td', null, `${hin(r.got)} / ${hin(r.marks)}`));
+    tr.append(el('td', null, `${hinMarks(r.got)} / ${hinMarks(r.marks)}`));
     tb.append(tr);
   });
   const tr = el('tr');
   tr.append(el('td', null, ''));
   tr.append(el('td', null, 'कुल'));
   tr.append(el('td', null, `${hin(answered)}/${hin(count)}`));
-  tr.append(el('td', null, `${hin(got)} / ${hin(p.totalMarks)}`));
+  tr.append(el('td', null, `${hinMarks(got)} / ${hin(p.totalMarks)}`));
   tb.append(tr);
   tbl.append(tb);
-  card.append(tbl);
+  cardEl.append(tbl);
 
   const acts = el('div', 'rc-actions');
   const back = el('button', 'btn btn-ghost', '← प्रश्नपत्र पर लौटें');
@@ -506,9 +678,9 @@ function renderResult() {
   const print = el('button', 'btn btn-ghost', '🖨️ परिणाम छापें');
   print.addEventListener('click', () => window.print());
   acts.append(back, print, home);
-  card.append(acts);
+  cardEl.append(acts);
 
-  view.append(card);
+  view.append(cardEl);
   goto('result');
 }
 
