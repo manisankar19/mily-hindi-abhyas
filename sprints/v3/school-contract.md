@@ -83,7 +83,7 @@ This is today's chapter shape plus the school fields marked †. The chapter fil
     { "code": "1", "title": "<printed section heading verbatim, or \"\" if none>", "marks": 10,
       "blocks": [
         { "num": "प्रश्न 1.", "instruction": "<verbatim>", "passage": "<verbatim, optional>", "passageType": "गद्यांश | पद्यांश | null",
-          "printedMarks": "(5M)"†, "adaptation": "<Hindi note shown under the instruction, or null>"†, "picture": "ws99-q4.svg or null"†,
+          "printedMarks": "(5M)"†, "marks": 5† /* optional numeric override when print gives no/incorrect block total */, "adaptation": "<Hindi note shown under the instruction, or null>"†, "picture": "ws99-q4.svg or null"†,
           "pictureAlt": "<Hindi alt text that does not give away the answer>"†,
           "items": [
             { "label": "(क)", "q": "<verbatim>", "marks": 1,

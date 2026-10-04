@@ -72,21 +72,25 @@ Every task ends with `node build.js` still passing and the chapter1..7.json hash
 
 ## Phase 2 — Schema and tooling
 
-- [ ] Task 14: Schema doc + `validate.js` with school rules and bad fixtures (P0)
+- [x] Task 14: Schema doc + `validate.js` with school rules and bad fixtures (P0)
   - Acceptance: `SCHEMA.md` documents the chapter and `kind:"school"` fields. `validate.js` passes on chapter1..7 with today's rules. School rules check that marks sum per block, section and printed total (in ½ units); that every objective item has `acceptable`; that every judgement item has a rubric; that `answerConfidence` is set; that spelling items have no `acceptable` other than the target unless they are ⚑; that SVG assets exist; and that alt text does not contain the answer. Each rule has a fixture in `tests/fixtures/bad-*.json` that fails it.
   - Files: SCHEMA.md, validate.js, tests/fixtures/*, package.json
+  - Completed: 2026-10-04 — validator 37/37 (26 bad fixtures in tests/fixtures/validate/); `node validate.js` OK 7 papers, 400 items; SCHEMA.md. Chapter papers keep parse-only rules (as build.js)
 
-- [ ] Task 15: `scripts/fidelity.js` with fixtures (P0)
+- [x] Task 15: `scripts/fidelity.js` with fixtures (P0)
   - Acceptance: Every heading, instruction, passage, question and option in `hindi-wsNN.json` is found in `source/transcripts/wsNN.txt`. Matching normalises whitespace, `|`/`।`, quotes and dashes, but not nukta, chandrabindu or matras. Total and section marks equal the intake. Fixtures with one altered matra, one wrong section mark and one dropped question each fail. A good fixture passes.
   - Files: scripts/fidelity.js, tests/fixtures/fidelity-*
+  - Completed: 2026-10-04 — fidelity 26/26 (fixtures in tests/fixtures/fidelity/): matra, word, nukta, chandrabindu, numeral, dropped item (coverage check), marks, total; normalise keeps nukta/matras/numerals
 
-- [ ] Task 16: Review-sheet generator and existing-paper hash check (P0)
+- [x] Task 16: Review-sheet generator and existing-paper hash check (P0)
   - Acceptance: `scripts/review-sheet.js` writes `sprints/v3/answer-review/wsNN.md` with ⚑ items first (question, answer, acceptable, rubric, teacherNote, answerRef), and `validate.js` fails if a sheet is stale. `scripts/check-existing.js` compares chapter1..7.json with `preflight-hashes.json`. The npm scripts `validate`, `fidelity`, `review-sheets`, `check:existing` and `test:fixtures` all work.
   - Files: scripts/review-sheet.js, scripts/check-existing.js, package.json
+  - Completed: 2026-10-04 — review-sheet 10/10 (expected ws99.md by hand first); instruction/adaptation repeated per part (coordinator change); check-existing 7/7 OK
 
-- [ ] Task 17: Sub-agent brief (P0)
+- [x] Task 17: Sub-agent brief (P0)
   - Acceptance: `sprints/v3/subagent-brief.md` gives the per-paper rules from instruction §5–7. That covers the Hindi variant list for `acceptable` and the spelling exception, the ⚑ policy (flag when in doubt), pictures and numbered blanks, the paper-only marker, the files the sub-agent may write, and the commands it must run before reporting.
   - Files: sprints/v3/subagent-brief.md
+  - Completed: 2026-10-04 — sprints/v3/subagent-brief.md (+ block.marks override rule from Task 14)
 
 ## Phase 3 — Worksheets, in batches (sub-agent per paper; no-picture papers first)
 
