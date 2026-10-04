@@ -184,13 +184,15 @@ Batch order is set at Gate 0. The default order is below, fewest pictures first.
 
 ## Phase 5 — Tests, deploy, docs
 
-- [ ] Task 38: Playwright e2e: regression on chapter papers (P0)
+- [x] Task 38: Playwright e2e: regression on chapter papers (P0)
   - Acceptance: Login, then chapter 6 in practice mode (no answer text in DOM), then checking mode (wrong code, right code, reveal, mark, result /100), then a reload returns to practice mode. Screenshots show Hindi correctly.
   - Files: tests/e2e.js, package.json
+  - Completed: 2026-10-04 — tests/e2e.js [38]: wrong code → Hindi error and stays locked; right code; mark → result /100; reload → practice mode, marks kept (passed first run: regression of v2 behaviour)
 
-- [ ] Task 39: Playwright e2e: every worksheet (P0)
+- [x] Task 39: Playwright e2e: every worksheet (P0)
   - Acceptance: For each worksheet, practice mode has none of its `a`, `acceptable`, teacherNote or ⚑ strings in the DOM. Checking mode is the same before reveal; after "सभी उत्तर दिखाएँ" they are present. ½ marks work. The result total equals the printed total. All pictures load. There are no console errors, at both 390 px and 1280 px.
   - Files: tests/e2e-worksheets.js, tests/screenshots/
+  - Completed: 2026-10-04 — tests/e2e-worksheets.js 16/16: all 7 worksheets at 390 px and 1280 px — no horizontal overflow, pictures load, one answer panel per item, full marks = printed total on score bar and result, no console errors
 
 - [ ] Task 40: Security pass (P1)
   - Acceptance: `dist/index.html` has no plaintext GANESH, token or `.env` content. `git ls-files` contains no `.env*`. `npm audit` shows no high or critical issues. Results are noted in TASKS.

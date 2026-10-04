@@ -12,7 +12,7 @@
     "test:font": "node tests/font-check.js",
     "consistency": "node scripts/consistency.js",
     "test:build": "node tests/build.test.js",
-    "test:e2e": "node tests/e2e.js"
+    "test:e2e": "node tests/e2e.js && node tests/e2e-worksheets.js"
   },
   "devDependencies": {
     "playwright": "1.63.0"

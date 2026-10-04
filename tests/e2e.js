@@ -100,6 +100,43 @@ const leaks = (html, list) => list.filter(s => norm(html.replace(/<[^>]+>/g, ' '
   page.on('pageerror', e => consoleErrors.push(String(e)));
   page.on('console', m => { if (m.type() === 'error') consoleErrors.push(m.text()); });
 
+  // ---------------- Task 38: chapter regression (v2 behaviour unchanged) ----------------
+  await test(38, 'chapter 6: wrong code → Hindi error, stays locked; right code unlocks', async () => {
+    await login(page);
+    await page.locator('[data-testid="chapter-card"]').nth(5).click();
+    await shot(page, 'task38-01-ch6-practice.png');
+    await page.click('#checkModeBtn');
+    await page.fill('#ganeshInput', 'wrong-code');
+    await page.click('#ganeshSubmit');
+    await page.waitForSelector('#ganeshError:not([hidden])');
+    assert.ok((await page.locator('#ganeshError').innerText()).includes('ग़लत कोड'));
+    assert.strictEqual(await page.locator('#checkModeBtn.on').count(), 0);
+    await shot(page, 'task38-02-wrong-code.png');
+    await page.fill('#ganeshInput', CODE);
+    await page.click('#ganeshSubmit');
+    await page.waitForSelector('#checkModeBtn.on');
+    assert.ok(await page.locator('#paperBody .marks-row').first().isVisible());
+  });
+  await test(38, 'chapter 6: mark, result /100, reload → practice mode with marks kept', async () => {
+    await login(page);
+    await page.locator('[data-testid="chapter-card"]').nth(5).click();
+    await unlock(page);
+    await page.locator('#paperBody .item').first().locator('.mk[data-val="1"]').click();
+    await page.click('#resultBtn');
+    const r = await page.locator('#resultView').innerText();
+    assert.ok(r.includes('१ / १००') || r.includes('१') && r.includes('/ १००'), r.slice(0, 200));
+    assert.ok(r.includes('पाठ ६ — जयपुर से पत्र'));
+    await shot(page, 'task38-03-ch6-result.png');
+    await page.reload();
+    await page.waitForSelector('[data-testid="chapter-card"]');
+    const card = await page.locator('[data-testid="chapter-card"]').nth(5).innerText();
+    assert.ok(card.includes('प्राप्तांक १/१००'), card);
+    await page.locator('[data-testid="chapter-card"]').nth(5).click();
+    assert.strictEqual(await page.locator('#checkModeBtn.on').count(), 0, 'locked after reload');
+    assert.ok(await page.locator('#practiceBanner').isVisible());
+    assert.strictEqual(await page.locator('#paperBody .answer').count(), 0);
+  });
+
   // ---------------- Task 32: home group, ids, score keys ----------------
   await test(32, 'home shows 7 chapter cards and a विद्यालय कार्यपत्रक group in the configured order', async () => {
     await login(page);
