@@ -5,7 +5,7 @@
 ## Summary
 The school's seven Hindi worksheets are now on the live site as a **विद्यालय कार्यपत्रक** group under the seven chapter papers. Each one is copied exactly as printed (wording, typos, numbering, marks, Devanagari or Latin numerals) and has an authored answer key. Mily writes on paper in अभ्यास mode. A parent unlocks जाँच mode with the existing code. For each question it shows the model answer, the other acceptable answers, the marking rubric, a ⚑ where the answer rests on judgement, and a note on every printed mistake. Nothing answer-related is in the page before "उत्तर देखें".
 
-- **Live:** https://mily-hindi-abhyas-nu.vercel.app (production deployment `dpl_6Q2qkYCvGE1uSX7JnwnkrocUpau4`, `index.html` sha256 `db5c95c5b2b8df92…`, byte-identical to the local build)
+- **Live:** https://mily-hindi-abhyas-nu.vercel.app (production deployment `dpl_5NANHmPTzd1oDPmY5nmBheiG5z6t` after the code rotation, `index.html` sha256 `9863aaff53b1cf07…`, byte-identical to the local build. The first v3 deploy was `dpl_6Q2qkYCvGE1uSX7JnwnkrocUpau4`.)
 - **On the site:** 14 papers. That is 7 chapter papers (पाठ १–७, 100 marks each, unchanged) and 7 worksheets (400 marks, 343 items, 205 ⚑).
 - **Chapter papers:** byte-identical to the sprint baseline (table below). Saved chapter marks still load.
 
@@ -17,6 +17,7 @@ The school's seven Hindi worksheets are now on the live site as a **विद्
 | Defaults (overridable) | Worksheets are shown newest first (`app/worksheet-order.json`). ws03 Q14's ambiguous arrow keys पत्ती and also accepts फल. Header page counts that don't match the PDF are kept as printed, with a note. |
 | Phase 3 | The owner asked to run Phase 3 straight through, so the batch gates did not stop for the owner. The coordinator re-check still ran after each batch. Batches 2 and 3 ran at the same time. |
 | Phase 5 | Production deploy approved. The old `.env.local` token had no access to the project's team, so the owner supplied a new token. |
+| After deploy | The owner **rotated the जाँच code** (Task 44). The production and preview `GANESH` had been deleted in Vercel, so a production build failed. The coordinator set `GANESH` for all three environments from `.env.local` (value never printed) and redeployed; live was re-verified. |
 
 ## Architecture
 ```
@@ -90,7 +91,7 @@ source/textbook/*.pdf ─pdftotext─► source/textbook-text/chN.txt     ▼
 | `npm run test:build` | 13/13 |
 | `npm run test:e2e` | e2e 24/24 (Tasks 32–38) · e2e-worksheets 16/16 (7 worksheets × 390/1280 px) |
 | Live: sha256 | production `index.html` = local build, byte for byte |
-| Live: `npm run test:live` | 8/8: chapter 6 + ws05, 390/1280 px, real code, no console errors |
+| Live: `npm run test:live` | 8/8: chapter 6 + ws05, 390/1280 px, real code, no console errors (re-run 8/8 after the code rotation) |
 | Deploy source | 28 files (build inputs only); no docs, env or PDFs |
 | `npm audit` | 0 vulnerabilities |
 | semgrep | `app.js`/`build.js` clean. 29 path-join audit findings in local CLI scripts (reviewed: inputs regex-checked). 1 missing-integrity on the v1 Google Fonts link (pre-existing). |
@@ -100,7 +101,7 @@ The e2e leak test reads every answer, acceptable answer, note and rubric string 
 ## Security
 - `GANESH` is still only a SHA-256 in the page. The browser tests build with a throw-away code, and the live test reads the real one in-process without printing it.
 - `.vercelignore` keeps sprint docs, source PDFs, tests and env files out of the Vercel upload.
-- **Finding (from before this sprint, open as Task 44):** the plaintext जाँच code is written in four committed **v2** docs (`sprints/v2/PRD.md`, `REQUIREMENTS-v2.md`, `TASKS.md`, `WALKTHROUGH.md`; commit `dad696a`). This contradicts the README. No v3 file contains it, the repo has no remote, and the docs are no longer uploaded to Vercel. The recommended fix is to rotate `GANESH`; that is the owner's decision.
+- **Finding (from before this sprint, resolved as Task 44):** the old plaintext जाँच code is written in four committed **v2** docs (`sprints/v2/PRD.md`, `REQUIREMENTS-v2.md`, `TASKS.md`, `WALKTHROUGH.md`; commit `dad696a`). The owner **rotated the code**, so that value no longer unlocks anything. The new value is in no tracked file and nowhere in git history. Redacting the v2 docs is optional.
 - As before, the gate is a deterrent, not a security boundary: answers are embedded in the static page.
 
 ## What was NOT verified
@@ -116,7 +117,7 @@ The e2e leak test reads every answer, acceptable answer, note and rubric string 
 - Phones with the old page open may need one refresh.
 
 ## What's next
-- **Task 44:** rotate `GANESH`, and optionally redact the v2 docs.
+- Optionally redact the old (now useless) code from the v2 docs.
 - If the ओणम के रंग chapter PDF is added, re-check the ws07 ⚑ items against it.
 - New worksheets: follow README → "Adding a new worksheet".
 - `.env.local` holds two token lines; the old one no longer has project access and can be removed by the owner.

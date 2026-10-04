@@ -1,6 +1,6 @@
 # Sprint v3 — Tasks: School Worksheets with answers
 
-## Status: Tasks 1–43 done; Task 44 (P1, owner decision) open
+## Status: all tasks done (1–44)
 
 Rules: `sprints/v3/instruction.md`. Plan: `sprints/v3/PRD.md`.
 🛑 = stop for the owner. Paper tasks (17–30) run one sub-agent per paper. That sub-agent writes only its own
@@ -213,9 +213,11 @@ Batch order is set at Gate 0. The default order is below, fewest pictures first.
   - Files: tests/e2e-live.js
   - Completed: 2026-10-04 — owner approved; old .env.local token had no team access → owner added a new token; `vercel deploy --prod` (scope = project team): deployment dpl_6Q2qkYCvGE1uSX7JnwnkrocUpau4 READY; live index.html sha256 db5c95c5b2b8df92… = local build (byte-identical, first try); deploy source = 28 files (build.js, app/, vercel.json, package.json, .vercelignore — no docs/env/PDFs); tests/e2e-live.js 8/8 (ch6 + ws05 at 390/1280, real code, no console errors)
 
-- [ ] Task 44: Remove the plaintext jाँच code from the v2 docs and rotate it (P1, found in Task 40)
+- [x] Task 44: Remove the plaintext jाँच code from the v2 docs and rotate it (P1, found in Task 40)
   - Acceptance: owner chooses: (a) rotate GANESH (new value in Vercel env + .env.local, redeploy) so the old value in v2 docs is harmless, and/or (b) redact the value in sprints/v2/*.md going forward (history keeps it unless rewritten — owner decision). No v3 file contains the value.
   - Files: sprints/v2/*.md (redaction), Vercel env (rotation)
+  - Completed: 2026-10-04 — owner rotated GANESH (new value in .env.local; not in any tracked file or git history). The old value written in the v2 docs no longer unlocks anything. Redaction of the v2 docs is optional and not done (history would keep it anyway).
+  - Incident during rotation: the owner deleted the production + preview GANESH in Vercel, so the next production build failed ("GANESH environment variable is not set"). Fixed by upserting GANESH from .env.local to production/preview/development via the Vercel API (value never printed), then redeploying: dpl_5NANHmPTzd1oDPmY5nmBheiG5z6t READY; live index.html sha256 9863aaff53b1cf07… = local build; tests/e2e-live.js 8/8 with the new code.
 
 - [x] Task 43: Walkthrough (P0)
   - Acceptance: `sprints/v3/WALKTHROUGH.md` covers instruction §14: ⚑ actual vs estimate per paper, every teacherNote, adaptations, pictures, paper-only items, second-read disagreements, PDF hashes re-checked, chapter files byte-identical and what was not verified. It states that the parent reads every review sheet before Mily uses that worksheet.

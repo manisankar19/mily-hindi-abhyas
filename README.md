@@ -54,6 +54,17 @@ No source edit is needed. Either:
 If you're rebuilding locally, also update the `GANESH=` line in your local
 `.env.local`.
 
+**Two things that bit us (v3):**
+
+- The code is baked into the page **at build time**. Changing the env var in
+  Vercel does nothing until you **redeploy**; until then the old code keeps
+  working on the live site.
+- `GANESH` must exist for **Production** (and Preview, for preview deploys).
+  If it is deleted there, the next build fails with "GANESH environment
+  variable is not set" and the site keeps serving the previous build. Keep
+  one `GANESH` covering Production, Preview and Development, with the same
+  value as `.env.local`.
+
 ---
 
 ## What this gate does and does not do
