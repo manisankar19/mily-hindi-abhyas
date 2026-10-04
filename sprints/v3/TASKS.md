@@ -104,13 +104,16 @@ Every task ends with `node build.js` still passing and the chapter1..7.json hash
 
 Batch order is set at Gate 0. The default order is below, fewest pictures first. Each paper task's acceptance: `npm run validate`, `fidelity` and `review-sheets` pass for that paper; existing hashes are unchanged; its pictures are viewed at 2× and the picture questions can be answered from the drawing; and there is one commit per paper.
 
-- [ ] Task 18: ws07 (ओणम के रंग, 40) per the Gate 0 decision (P0)
+- [x] Task 18: ws07 (ओणम के रंग, 40) per the Gate 0 decision (P0)
   - Files: app/data/hindi-ws07.json, sprints/v3/answer-review/ws07.md
-- [ ] Task 19: ws06 (पाठ 4–5, 40) (P0)
+  - Completed: 2026-10-04 — 35 items, 25 ⚑ (est. 26); chapter-dependent items ⚑ per Gate 0 #2; no hard stop
+- [x] Task 19: ws06 (पाठ 4–5, 40) (P0)
   - Files: app/data/hindi-ws06.json, app/assets/ws06-*.svg, sprints/v3/answer-review/ws06.md
-- [ ] Task 20: 🛑 Batch 1 coordinator re-check (not delegated) (P0)
+  - Completed: 2026-10-04 — 33 items, 17 ⚑ (est. 16); no pictures
+- [x] Task 20: 🛑 Batch 1 coordinator re-check (not delegated) (P0)
   - Acceptance: Every ⚑ answer is re-derived from the textbook text or passage. Every non-⚑ objective item is swept for a missing ⚑ or a narrow `acceptable`. 10% of transcript lines are re-read against the images. Findings and fixes go in `sprints/v3/recheck-batch1.md`, and the brief is tightened if needed. The parent reads the ws06/ws07 sheets.
   - Files: sprints/v3/recheck-batch1.md, sprints/v3/subagent-brief.md
+  - Completed: 2026-10-04 — recheck-batch1.md: 2 fixes, nukta policy + worked-example rule added to brief; owner asked to run Phase 3 straight through — parent still reads ws06/ws07 sheets before use
 - [ ] Task 21: ws01 (पाठ 6–7, Aug 2025, 40) (P0)
   - Files: app/data/hindi-ws01.json, app/assets/ws01-*.svg, sprints/v3/answer-review/ws01.md
 - [ ] Task 22: ws05 (पाठ 6–7, Aug 2026, 40). If Gate 0 drops it, mark it excluded. (P0)

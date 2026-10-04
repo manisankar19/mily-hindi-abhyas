@@ -1,0 +1,886 @@
+{
+  "kind": "school",
+  "ws": "ws06",
+  "sourceFile": "3.1.6 4_Hindi_WS_ July 26 L 4-5.pdf",
+  "title": "कार्यपत्रक (2026-27)",
+  "shortLabel": "कार्यपत्रक · जुलाई 2026 · पाठ 4–5",
+  "subtitle": "विद्यालय कार्यपत्रक · जुलाई 2026",
+  "header": [
+    "कुल मुद्रित पृष्ठों की संख्या: 06",
+    "परमाणु ऊर्जा शिक्षण संस्था",
+    "कार्यपत्रक (2026-27)",
+    "कक्षा: चार    विषय:हिन्दी    माह:जुलाई    अंक:40",
+    "दिया गया पाठ्यक्रम: पाठ4. हमारा आहार सेपाठ 5. आसमान गिरा तक",
+    "विद्यार्थीका नाम:____",
+    "अनुक्रमांक:____कक्षा / अनुभाग:____दिनांक: ____"
+  ],
+  "portion": "पाठ4. हमारा आहार सेपाठ 5. आसमान गिरा तक",
+  "chapters": [
+    4,
+    5
+  ],
+  "totalMarks": 40,
+  "disclaimer": true,
+  "sections": [
+    {
+      "code": "1",
+      "title": "वाचन पर आधारित प्रश्न 10 अंक",
+      "marks": 10,
+      "blocks": [
+        {
+          "num": "प्रश्न 1.",
+          "instruction": "पठित और अपठित गद्यांशों को पढ़कर नीचे लिखे प्रश्नों के उत्तर दो ।",
+          "passage": "पठित गद्यांश\nएक खरगोश था । वह पेड़ के नीचे सो रहा था । अचानक जोर की आवाज हुई – धम्म! खरगोश चौंककर उठ गया। वह बोला , “अरे! क्या गिरा ?”\nखरगोश ने इधर – उधर देखा । उसे कुछ दिखाई नहीं दिया । उसे लगा आसमान गिर रहा है । खरगोश डर गया और भागने लगा ।\nभागते – भागतेउसे एक लोमड़ी मिली । उसने पूछा , “ खरगोश भाई, कहाँ भागे जा रहे हो? जरा सुनो तो ।” खरगोश भागते – भागते बोला, “आसमान गिर रहा है, भागो! भागो! जल्दी भागो!”",
+          "passageType": "गद्यांश",
+          "printedMarks": null,
+          "marks": 5,
+          "adaptation": null,
+          "picture": null,
+          "pictureAlt": null,
+          "items": [
+            {
+              "label": "(क)",
+              "q": "खरगोश नेभागते – भागते क्याबोला?",
+              "marks": 1,
+              "answerKind": "objective",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "खरगोश ने भागते-भागते कहा, “आसमान गिर रहा है, भागो! भागो! जल्दी भागो!”",
+              "acceptable": [
+                "आसमान गिर रहा है, भागो! भागो! जल्दी भागो!",
+                "आसमान गिर रहा है, भागो!",
+                "आसमान गिर रहा है",
+                "खरगोश बोला कि आसमान गिर रहा है, भागो।",
+                "खरगोश बोला, “आसमान गिर रहा है, भागो! भागो! जल्दी भागो!”"
+              ],
+              "rubric": null,
+              "answerSource": "textbook",
+              "answerRef": "पाठ 5, पृ. 51, 'खरगोश भागते-भागते बोला'",
+              "answerConfidence": "ok",
+              "teacherNote": "शीर्ष पर 'कुल मुद्रित पृष्ठों की संख्या: 06' छपा है, पर PDF में 4 ही पृष्ठ हैं; प्रश्न 1–7 के अंक जोड़कर 40 होते हैं, इसलिए पत्र पूरा है। प्रश्न 1 में खंड का कुल अंक नहीं छपा, हर भाग पर (1) है; इसलिए पठित गद्यांश का कुल 5 अंक रखा गया।"
+            },
+            {
+              "label": "(ख)",
+              "q": "खरगोशकहाँ सो रहा था ?",
+              "marks": 1,
+              "answerKind": "objective",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "खरगोश पेड़ के नीचे सो रहा था।",
+              "acceptable": [
+                "पेड़ के नीचे",
+                "पेड़ के नीचे।",
+                "वृक्ष के नीचे",
+                "खरगोश पेड़ के नीचे सो रहा था"
+              ],
+              "rubric": null,
+              "answerSource": "textbook",
+              "answerRef": "पाठ 5, पृ. 51, 'वह पेड़ के नीचे सो रहा था'",
+              "answerConfidence": "ok",
+              "teacherNote": null
+            },
+            {
+              "label": "(ग)",
+              "q": "लोमड़ी नेखरगोशसे क्या पूछा ?",
+              "marks": 1,
+              "answerKind": "objective",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "लोमड़ी ने पूछा, “खरगोश भाई, कहाँ भागे जा रहे हो? जरा सुनो तो।”",
+              "acceptable": [
+                "खरगोश भाई, कहाँ भागे जा रहे हो? जरा सुनो तो।",
+                "खरगोश भाई, कहाँ भागे जा रहे हो?",
+                "कहाँ भागे जा रहे हो?",
+                "लोमड़ी ने पूछा कि खरगोश भाई, कहाँ भागे जा रहे हो?",
+                "खरगोश भाई, कहां भागे जा रहे हो? जरा सुनो तो।"
+              ],
+              "rubric": null,
+              "answerSource": "textbook",
+              "answerRef": "पाठ 5, पृ. 51, 'उसने पूछा, “खरगोश भाई, कहाँ भागे जा रहे हो?'",
+              "answerConfidence": "check",
+              "teacherNote": "केवल 'कहाँ भागे जा रहे हो?' लिखने पर भी पूरा अंक दें; 'ज़रा सुनो तो' अकेला लिखा हो तो अभिभावक तय करें।"
+            },
+            {
+              "label": "(घ)",
+              "q": "पर्यायवाची शब्द लिखो ।    (1)\nवृक्ष - ____",
+              "marks": 1,
+              "answerKind": "objective",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "पेड़",
+              "acceptable": [
+                "तरु",
+                "विटप",
+                "द्रुम",
+                "पादप",
+                "रूख"
+              ],
+              "rubric": null,
+              "answerSource": "authored",
+              "answerRef": "—",
+              "answerConfidence": "check",
+              "teacherNote": "वृक्ष के कई पर्यायवाची सही हैं (पेड़, तरु, विटप, द्रुम, पादप, रूख); इनमें से कोई एक काफ़ी है।"
+            },
+            {
+              "label": "(ङ)",
+              "q": "विलोम शब्द लिखो ।    (1)\nऊपर - ____",
+              "marks": 1,
+              "answerKind": "objective",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "नीचे",
+              "acceptable": [],
+              "rubric": null,
+              "answerSource": "authored",
+              "answerRef": "—",
+              "answerConfidence": "ok",
+              "teacherNote": null
+            }
+          ]
+        },
+        {
+          "num": "",
+          "instruction": "अपठित गद्यांश",
+          "passage": "एक मकान में ढेर सारे चूहे रहते थे। कहीं से एक दिन एक बिल्ली आ गई। बिल्ली से बचने का उपाय ढूँढ़ने के लिए चूहों ने एक सभा बुलाई।\nएक चूहे ने कहा, “एक घंटी लानी चाहिए और उसे बिल्ली के गले में बाँध दें, वह जहाँ भी जाएगी हमें पता चल जाएगा।”\nतभी एक बूढ़े चूहे ने कहा, “सलाह तो ठीक है पर बिल्ली के गले में घंटी बाँधेगा कौन?” सारे चूहे एक दूसरे की ओर देखने लगे पर किसी ने कुछ भी नहीं कहा।",
+          "passageType": "गद्यांश",
+          "printedMarks": null,
+          "marks": 5,
+          "adaptation": null,
+          "picture": null,
+          "pictureAlt": null,
+          "items": [
+            {
+              "label": "(क)",
+              "q": "चूहे कहाँ रहते थे?",
+              "marks": 1,
+              "answerKind": "objective",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "चूहे एक मकान में रहते थे।",
+              "acceptable": [
+                "एक मकान में",
+                "मकान में",
+                "एक घर में",
+                "घर में",
+                "एक मकान में ढेर सारे चूहे रहते थे।"
+              ],
+              "rubric": null,
+              "answerSource": "passage",
+              "answerRef": "प्रश्न 1 अपठित गद्यांश, वाक्य 1",
+              "answerConfidence": "ok",
+              "teacherNote": "अपठित गद्यांश पर भी हर भाग पर (1) छपा है, कुल नहीं; इसलिए इस भाग का कुल 5 अंक रखा गया।"
+            },
+            {
+              "label": "(ख )",
+              "q": "चूहों ने एक सभा क्यों बुलाई?",
+              "marks": 1,
+              "answerKind": "objective",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "बिल्ली से बचने का उपाय ढूँढ़ने के लिए चूहों ने एक सभा बुलाई।",
+              "acceptable": [
+                "बिल्ली से बचने का उपाय ढूँढ़ने के लिए",
+                "बिल्ली से बचने का उपाय ढूंढने के लिए",
+                "बिल्ली से बचने के लिए",
+                "बिल्ली से बचने का उपाय सोचने के लिए",
+                "क्योंकि एक बिल्ली आ गई थी और उन्हें उससे बचना था"
+              ],
+              "rubric": null,
+              "answerSource": "passage",
+              "answerRef": "प्रश्न 1 अपठित गद्यांश, वाक्य 3",
+              "answerConfidence": "ok",
+              "teacherNote": null
+            },
+            {
+              "label": "(ग)",
+              "q": "इस कहानी से हमें क्या शिक्षा मिलती है?",
+              "marks": 1,
+              "answerKind": "judgement",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "सलाह देना आसान है, पर उसे करके दिखाना कठिन है। (कहना आसान है, करना कठिन।)",
+              "acceptable": [],
+              "rubric": [
+                {
+                  "marks": 1,
+                  "desc": "कहानी से जुड़ी कोई भी उचित शिक्षा, जैसे — कहना आसान है, करना कठिन; ऐसी सलाह दो जिसे पूरा किया जा सके; मुसीबत में सोच-समझकर उपाय करो; मिलकर हिम्मत से काम करो।"
+                },
+                {
+                  "marks": 0.5,
+                  "desc": "शिक्षा का भाव सही है पर अधूरा या अस्पष्ट लिखा है।"
+                },
+                {
+                  "marks": 0,
+                  "desc": "कहानी दोहराई है या शिक्षा कहानी से मेल नहीं खाती।"
+                }
+              ],
+              "answerSource": "passage",
+              "answerRef": "प्रश्न 1 अपठित गद्यांश, वाक्य 5–6",
+              "answerConfidence": "check",
+              "teacherNote": "शिक्षा बच्चे के अपने शब्दों में होगी; कहानी से जुड़ी हर उचित शिक्षा को पूरा अंक दें।"
+            },
+            {
+              "label": "(घ)",
+              "q": "लिंग बदलो ।    (1)\nचुहिया - ____(चूहा ,शेर ,तालाब ,कछुए)",
+              "marks": 1,
+              "answerKind": "objective",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "चूहा",
+              "acceptable": [],
+              "rubric": null,
+              "answerSource": "authored",
+              "answerRef": "—",
+              "answerConfidence": "ok",
+              "teacherNote": null
+            },
+            {
+              "label": "(ङ)",
+              "q": "वचन बदलो ।    (1)\nबिल्लियाँ - ____(औरत ,बिल्ली,बच्ची ,रानियाँ )",
+              "marks": 1,
+              "answerKind": "objective",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "बिल्ली",
+              "acceptable": [],
+              "rubric": null,
+              "answerSource": "authored",
+              "answerRef": "—",
+              "answerConfidence": "ok",
+              "teacherNote": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "2",
+      "title": "पाठ्य पुस्तक पर आधारित प्रश्न 5 अंक",
+      "marks": 5,
+      "blocks": [
+        {
+          "num": "प्रश्न 2.",
+          "instruction": "",
+          "printedMarks": null,
+          "marks": 5,
+          "adaptation": null,
+          "picture": null,
+          "pictureAlt": null,
+          "items": [
+            {
+              "label": "(क)",
+              "q": "सभीजानवरों को किसने रोक लिया ?",
+              "marks": 1,
+              "answerKind": "objective",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "शेर ने सभी जानवरों को रोक लिया।",
+              "acceptable": [
+                "शेर ने",
+                "शेर",
+                "शेर ने रोक लिया।",
+                "शेर ने दहाड़कर सबको रोक लिया।"
+              ],
+              "rubric": null,
+              "answerSource": "textbook",
+              "answerRef": "पाठ 5, पृ. 52, 'शेर ने दहाड़कर कहा … रुको।” यह सुनकर सभी जानवर रुक गए।'",
+              "answerConfidence": "ok",
+              "teacherNote": "प्रश्न 2 में कोई निर्देश-पंक्ति और कुल अंक नहीं छपे; भागों के अंक (1)+(2)+(2) = 5, इसलिए खंड का कुल 5 रखा गया।"
+            },
+            {
+              "label": "(ख)",
+              "q": "हमें भूख से अधिक क्यों नहीं खाना चाहिए ?",
+              "marks": 2,
+              "answerKind": "judgement",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "भूख से अधिक खाने से पेट खराब हो जाता है और हम बीमार पड़ सकते हैं। कविता में कहा है — “पेट से ज्यादा जब कोई खाए, खाकर वह पीछे पछताए।” इसलिए हमें भूख से अधिक नहीं खाना चाहिए।",
+              "acceptable": [],
+              "rubric": [
+                {
+                  "marks": 2,
+                  "desc": "दो बातें: ज़्यादा खाने से नुकसान (पेट खराब/दर्द, बीमारी, आलस, मोटापा) और बाद में पछताना पड़ता है — या कविता की पंक्ति के साथ एक सही कारण।"
+                },
+                {
+                  "marks": 1.5,
+                  "desc": "सही कारण दिया है पर भाषा अधूरी या एक-दो गलतियाँ।"
+                },
+                {
+                  "marks": 1,
+                  "desc": "केवल एक कारण, जैसे 'पेट खराब हो जाता है' या 'बाद में पछताना पड़ता है'।"
+                },
+                {
+                  "marks": 0.5,
+                  "desc": "भाव थोड़ा-सा सही पर उत्तर बहुत अधूरा।"
+                },
+                {
+                  "marks": 0,
+                  "desc": "कारण नहीं दिया या गलत उत्तर।"
+                }
+              ],
+              "answerSource": "textbook",
+              "answerRef": "पाठ 4, पृ. 41, 'पेट से ज्यादा जब कोई खाए, खाकर वह पीछे पछताए।'",
+              "answerConfidence": "check",
+              "teacherNote": "उत्तर बच्चे के अपने शब्दों में होगा; पेट खराब होना, बीमार पड़ना या पछताना — कोई भी उचित कारण मानें।"
+            },
+            {
+              "label": "(ग)",
+              "q": "भोजन का सेवन किस प्रकार करने की सलाह दी गई है और क्यों?",
+              "marks": 2,
+              "answerKind": "judgement",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "हमें भोजन ढंग से करना चाहिए — ताजा खाना, भूख से ज़्यादा नहीं, सलाद, फल, दाल-चावल और हरी सब्ज़ियाँ खानी चाहिए। ऐसा करने से रोग (व्याधि) नहीं होते और हम स्वस्थ रहते हैं, बीमार नहीं पड़ते।",
+              "acceptable": [],
+              "rubric": [
+                {
+                  "marks": 2,
+                  "desc": "दोनों भाग: (1) किस प्रकार — ढंग से/ठीक तरीके से, ताजा, सही मात्रा में (भूख से ज़्यादा नहीं), सलाद-फल-सब्ज़ी के साथ; (2) क्यों — ताकि बीमारी न हो और हम स्वस्थ रहें।"
+                },
+                {
+                  "marks": 1.5,
+                  "desc": "दोनों भाग हैं पर एक भाग अधूरा।"
+                },
+                {
+                  "marks": 1,
+                  "desc": "केवल एक भाग (कैसे या क्यों) सही।"
+                },
+                {
+                  "marks": 0.5,
+                  "desc": "एक भाग का थोड़ा-सा भाव।"
+                },
+                {
+                  "marks": 0,
+                  "desc": "उत्तर नहीं या कविता से मेल नहीं खाता।"
+                }
+              ],
+              "answerSource": "textbook",
+              "answerRef": "पाठ 4, पृ. 41, 'जब खाते हैं ढंग से खाना, व्याधि को ना मिले बहाना।'",
+              "answerConfidence": "check",
+              "teacherNote": "यह पाठ्यपुस्तक का प्रश्न 3(घ) है; कविता में कई सलाहें हैं (ढंग से, ताजा, सलाद, भूख से कम), कोई भी उचित सलाह और उसका कारण मानें।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "3",
+      "title": "रचनात्मक लेखन पर आधारित प्रश्न5 अंक",
+      "marks": 5,
+      "blocks": [
+        {
+          "num": "प्रश्न 3.",
+          "instruction": "हाथीके बारे में पाँच पंक्तियाँ लिखिए ।",
+          "printedMarks": "(5)",
+          "adaptation": null,
+          "picture": null,
+          "pictureAlt": null,
+          "items": [
+            {
+              "label": "",
+              "q": "",
+              "marks": 5,
+              "answerKind": "judgement",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "1. हाथी बहुत बड़ा और ताकतवर जानवर है। 2. इसकी एक लंबी सूँड और दो बड़े-बड़े कान होते हैं। 3. इसके चार मोटे पैर और दो सफ़ेद दाँत होते हैं। 4. हाथी घास, पत्ते, केले और गन्ना खाता है। 5. हाथी बहुत समझदार होता है।",
+              "acceptable": [],
+              "rubric": [
+                {
+                  "marks": 5,
+                  "desc": "हाथी के बारे में पाँच सही, अलग-अलग वाक्य; पूर्ण विराम लगे; वर्तनी लगभग ठीक।"
+                },
+                {
+                  "marks": 4,
+                  "desc": "पाँच वाक्य पर कई वर्तनी/वाक्य की गलतियाँ, या चार सही वाक्य।"
+                },
+                {
+                  "marks": 3,
+                  "desc": "तीन सही वाक्य, या पाँच वाक्य पर बहुत गलतियाँ/दोहराव।"
+                },
+                {
+                  "marks": 2,
+                  "desc": "दो सही वाक्य।"
+                },
+                {
+                  "marks": 1,
+                  "desc": "एक सही वाक्य, या केवल शब्द (वाक्य नहीं)।"
+                },
+                {
+                  "marks": 0,
+                  "desc": "कुछ नहीं लिखा या हाथी के बारे में नहीं।"
+                }
+              ],
+              "answerSource": "authored",
+              "answerRef": "—",
+              "answerConfidence": "check",
+              "teacherNote": "रचनात्मक उत्तर है; हर सही, हाथी से जुड़ा वाक्य लगभग 1 अंक। बीच के अंकों के लिए ½ अंक भी दे सकते हैं।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "4",
+      "title": "व्याकरण पर आधारित प्रश्न 8 अंक",
+      "marks": 8,
+      "blocks": [
+        {
+          "num": "प्रश्न 4.(क)",
+          "instruction": "रेखांकित शब्दों के विपरीत अर्थ वाले शब्द से रिक्त स्थानों की पूर्ति कीजिए ।",
+          "printedMarks": "(1X4=4)",
+          "adaptation": null,
+          "picture": null,
+          "pictureAlt": null,
+          "items": [
+            {
+              "label": "",
+              "q": "खाने में सलाद अधिक और तले हुए व्यंजन ____खाएँ ।",
+              "marks": 1,
+              "answerKind": "objective",
+              "underline": [
+                "अधिक"
+              ],
+              "picture": null,
+              "pictureAlt": null,
+              "a": "कम",
+              "acceptable": [
+                "थोड़े",
+                "थोड़ा",
+                "कम खाएँ"
+              ],
+              "rubric": null,
+              "answerSource": "authored",
+              "answerRef": "—",
+              "answerConfidence": "check",
+              "teacherNote": "विलोम के एक से अधिक सही रूप हो सकते हैं; सूची के सभी रूप पूरे अंक के हैं।"
+            },
+            {
+              "label": "",
+              "q": "अच्छी आदतों को भूलना नहीं , ____रखना चाहिए ।",
+              "marks": 1,
+              "answerKind": "objective",
+              "underline": [
+                "भूलना"
+              ],
+              "picture": null,
+              "pictureAlt": null,
+              "a": "याद",
+              "acceptable": [
+                "याद रखना चाहिए"
+              ],
+              "rubric": null,
+              "answerSource": "authored",
+              "answerRef": "—",
+              "answerConfidence": "ok",
+              "teacherNote": null
+            },
+            {
+              "label": "",
+              "q": "गरमी के मौसम में सूती और____ के मौसम में ऊनी कपड़े पहनने\nचाहिए ।",
+              "marks": 1,
+              "answerKind": "objective",
+              "underline": [
+                "गरमी"
+              ],
+              "picture": null,
+              "pictureAlt": null,
+              "a": "सर्दी",
+              "acceptable": [
+                "सरदी",
+                "सर्दियों",
+                "सरदियों",
+                "ठंड",
+                "ठंडी",
+                "ठण्ड",
+                "जाड़ा",
+                "जाड़े",
+                "जाड़ों",
+                "शीत",
+                "सर्दी के मौसम"
+              ],
+              "rubric": null,
+              "answerSource": "authored",
+              "answerRef": "—",
+              "answerConfidence": "check",
+              "teacherNote": "विलोम के एक से अधिक सही रूप हो सकते हैं; सूची के सभी रूप पूरे अंक के हैं।"
+            },
+            {
+              "label": "",
+              "q": "सही समय पर सोइए औरसही समय पर____।",
+              "marks": 1,
+              "answerKind": "objective",
+              "underline": [
+                "सोइए"
+              ],
+              "picture": null,
+              "pictureAlt": null,
+              "a": "जागिए",
+              "acceptable": [
+                "जागिये",
+                "उठिए",
+                "उठिये",
+                "जागें",
+                "उठें",
+                "जागो",
+                "उठो",
+                "जगिए"
+              ],
+              "rubric": null,
+              "answerSource": "authored",
+              "answerRef": "—",
+              "answerConfidence": "check",
+              "teacherNote": "विलोम के एक से अधिक सही रूप हो सकते हैं; सूची के सभी रूप पूरे अंक के हैं। 'जागिए' और 'उठिए' दोनों सही हैं।"
+            }
+          ]
+        },
+        {
+          "num": "(ख)",
+          "instruction": "‘ नियमित’ शब्द‘ नियम’ में ‘ इत’ जोड़कर बना है । ऐसे हीनीचे दिए गए शब्दों में ‘ इत’\nलगाकरनए शब्द बनाइए।",
+          "passage": "नियम    ←→    नियमित",
+          "passageType": null,
+          "printedMarks": "(1X4=4)",
+          "adaptation": "ऊपर छपा उदाहरण (नियम → नियमित) अंक के लिए नहीं है।",
+          "picture": null,
+          "pictureAlt": null,
+          "items": [
+            {
+              "label": "",
+              "q": "शिक्षा    ←→    ____",
+              "marks": 1,
+              "answerKind": "objective",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "शिक्षित",
+              "acceptable": [],
+              "rubric": null,
+              "answerSource": "authored",
+              "answerRef": "—",
+              "answerConfidence": "ok",
+              "teacherNote": null
+            },
+            {
+              "label": "",
+              "q": "मोह    ←→    ____",
+              "marks": 1,
+              "answerKind": "objective",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "मोहित",
+              "acceptable": [],
+              "rubric": null,
+              "answerSource": "authored",
+              "answerRef": "—",
+              "answerConfidence": "ok",
+              "teacherNote": null
+            },
+            {
+              "label": "",
+              "q": "चर्चा    ←→    ____",
+              "marks": 1,
+              "answerKind": "objective",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "चर्चित",
+              "acceptable": [],
+              "rubric": null,
+              "answerSource": "authored",
+              "answerRef": "—",
+              "answerConfidence": "ok",
+              "teacherNote": null
+            },
+            {
+              "label": "",
+              "q": "सुगंध    ←→    ____",
+              "marks": 1,
+              "answerKind": "objective",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "सुगंधित",
+              "acceptable": [
+                "सुगन्धित"
+              ],
+              "rubric": null,
+              "answerSource": "authored",
+              "answerRef": "—",
+              "answerConfidence": "check",
+              "teacherNote": "'सुगन्धित' (पंचमाक्षर वाला रूप) भी शुद्ध है, पूरा अंक दें।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "5",
+      "title": "शब्द भंडार पर आधारित प्रश्न 5 अंक",
+      "marks": 5,
+      "blocks": [
+        {
+          "num": "प्रश्न 5.",
+          "instruction": "नीचे दिए गए शब्दों में से आपको केवल वर्ण बदलकर फल अथवा साग – तरकारी का\nनाम लिखना है । ध्यान रखिए कि मात्रा न बदले ।",
+          "passage": "भालू    ←→    आलू",
+          "passageType": null,
+          "printedMarks": "(1X5=5)",
+          "adaptation": "ऊपर छपा उदाहरण (भालू → आलू) अंक के लिए नहीं है।",
+          "picture": null,
+          "pictureAlt": null,
+          "items": [
+            {
+              "label": "",
+              "q": "मीरा    ←→    ____",
+              "marks": 1,
+              "answerKind": "objective",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "खीरा",
+              "acceptable": [],
+              "rubric": null,
+              "answerSource": "authored",
+              "answerRef": "—",
+              "answerConfidence": "check",
+              "teacherNote": "'जीरा' भी बनता है पर वह मसाला है, फल या साग-तरकारी नहीं; अभिभावक चाहें तो आधा अंक दें।"
+            },
+            {
+              "label": "",
+              "q": "चौकी    ←→    ____",
+              "marks": 1,
+              "answerKind": "objective",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "लौकी",
+              "acceptable": [],
+              "rubric": null,
+              "answerSource": "authored",
+              "answerRef": "—",
+              "answerConfidence": "ok",
+              "teacherNote": null
+            },
+            {
+              "label": "",
+              "q": "मेला    ←→    ____",
+              "marks": 1,
+              "answerKind": "objective",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "केला",
+              "acceptable": [],
+              "rubric": null,
+              "answerSource": "authored",
+              "answerRef": "—",
+              "answerConfidence": "ok",
+              "teacherNote": null
+            },
+            {
+              "label": "",
+              "q": "जेब    ←→    ____",
+              "marks": 1,
+              "answerKind": "objective",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "सेब",
+              "acceptable": [
+                "बेर"
+              ],
+              "rubric": null,
+              "answerSource": "authored",
+              "answerRef": "—",
+              "answerConfidence": "check",
+              "teacherNote": "'बेर' (फल) भी मात्रा बदले बिना बनता है, पर इसमें दोनों वर्ण बदलते हैं; उसे भी पूरा अंक दें।"
+            },
+            {
+              "label": "",
+              "q": "चालक    ←→    ____",
+              "marks": 1,
+              "answerKind": "objective",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "पालक",
+              "acceptable": [],
+              "rubric": null,
+              "answerSource": "authored",
+              "answerRef": "—",
+              "answerConfidence": "ok",
+              "teacherNote": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "6",
+      "title": "वर्तनी पर आधारित प्रश्न 5 अंक",
+      "marks": 5,
+      "blocks": [
+        {
+          "num": "प्रश्न 6.",
+          "instruction": "नीचे दिए गए शब्दों में मात्रा लगाकर और हटाकर नए – नए शब्द बनाइए ।",
+          "passage": "उदाहरण–    बस –बीस    चला चल",
+          "passageType": null,
+          "printedMarks": "(1X5=5)",
+          "adaptation": "ऊपर छपे उदाहरण (बस → बीस, चला → चल) अंक के लिए नहीं हैं। कोई भी सही, सार्थक शब्द मान्य है।",
+          "picture": null,
+          "pictureAlt": null,
+          "items": [
+            {
+              "label": "",
+              "q": "भर - ____",
+              "marks": 1,
+              "answerKind": "objective",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "भार",
+              "acceptable": [
+                "भोर",
+                "भरा",
+                "भरी",
+                "भरे",
+                "भरो",
+                "भूरा",
+                "भारी"
+              ],
+              "rubric": null,
+              "answerSource": "authored",
+              "answerRef": "—",
+              "answerConfidence": "check",
+              "teacherNote": "कई सही शब्द बन सकते हैं"
+            },
+            {
+              "label": "",
+              "q": "पढ़ी - ____",
+              "marks": 1,
+              "answerKind": "objective",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "पढ़",
+              "acceptable": [
+                "पढ़ा",
+                "पढ़े",
+                "पढ़ो"
+              ],
+              "rubric": null,
+              "answerSource": "authored",
+              "answerRef": "—",
+              "answerConfidence": "check",
+              "teacherNote": "कई सही शब्द बन सकते हैं; यहाँ मात्रा हटाकर 'पढ़' बनता है, मात्रा बदलकर पढ़ा/पढ़े/पढ़ो भी सही हैं। बिना नुक्ते का 'पढ' अशुद्ध है।"
+            },
+            {
+              "label": "",
+              "q": "रह - ____",
+              "marks": 1,
+              "answerKind": "objective",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "राह",
+              "acceptable": [
+                "रहा",
+                "रही",
+                "रहे",
+                "रहो",
+                "राही"
+              ],
+              "rubric": null,
+              "answerSource": "authored",
+              "answerRef": "—",
+              "answerConfidence": "check",
+              "teacherNote": "कई सही शब्द बन सकते हैं"
+            },
+            {
+              "label": "",
+              "q": "कही - ____",
+              "marks": 1,
+              "answerKind": "objective",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "कह",
+              "acceptable": [
+                "कहा",
+                "कहे",
+                "कहो"
+              ],
+              "rubric": null,
+              "answerSource": "authored",
+              "answerRef": "—",
+              "answerConfidence": "check",
+              "teacherNote": "कई सही शब्द बन सकते हैं; यहाँ मात्रा हटाकर 'कह' बनता है, मात्रा बदलकर कहा/कहे/कहो भी सही हैं।"
+            },
+            {
+              "label": "",
+              "q": "फल - ____",
+              "marks": 1,
+              "answerKind": "objective",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "फूल",
+              "acceptable": [
+                "फली",
+                "फला",
+                "फले",
+                "फाल"
+              ],
+              "rubric": null,
+              "answerSource": "authored",
+              "answerRef": "—",
+              "answerConfidence": "check",
+              "teacherNote": "कई सही शब्द बन सकते हैं"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "7",
+      "title": "सुलेख 2 अंक",
+      "marks": 2,
+      "blocks": [
+        {
+          "num": "प्रश्न 7.",
+          "instruction": "सुलेख लिखो ।",
+          "passage": "हमें अपने आप को बेहतर बनाना है । सुंदर अक्षरों में लिखना है । सदा सत्य बोलना है । शिक्षक का कहना मानना है । शैतानी नहीं करना है । ज़ोर – ज़ोर से चिल्लाना भी अच्छी आदत नहीं है । हमें अपना व्यवहार सुधारना चाहिए । अपनी अच्छी आदतों के बल पर हम आगे अवश्य बढ़ेंगे । शिक्षा प्राप्त करने के लिए कठिन परिश्रम करना है ।",
+          "passageType": "गद्यांश",
+          "printedMarks": "(2)",
+          "adaptation": "यह प्रश्न छपे हुए पत्र पर करें; अभिभावक जाँचेंगे।",
+          "picture": null,
+          "pictureAlt": null,
+          "items": [
+            {
+              "label": "",
+              "q": "",
+              "marks": 2,
+              "answerKind": "paperOnly",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "छपा हुआ अनुच्छेद सुंदर, साफ़ अक्षरों में, बिना गलती के, पूरा लिखा जाए।",
+              "acceptable": [],
+              "rubric": [
+                {
+                  "marks": 2,
+                  "desc": "पूरा अनुच्छेद, सुंदर-साफ़ अक्षर, शिरोरेखा, सही दूरी, कोई गलती नहीं।"
+                },
+                {
+                  "marks": 1.5,
+                  "desc": "पूरा और साफ़, पर एक-दो गलतियाँ या कहीं-कहीं अक्षर बिगड़े।"
+                },
+                {
+                  "marks": 1,
+                  "desc": "आधा अनुच्छेद, या पूरा पर लिखावट साफ़ नहीं।"
+                },
+                {
+                  "marks": 0.5,
+                  "desc": "थोड़ा-सा लिखा, बहुत गलतियाँ।"
+                },
+                {
+                  "marks": 0,
+                  "desc": "नहीं लिखा।"
+                }
+              ],
+              "answerSource": "authored",
+              "answerRef": "—",
+              "answerConfidence": "ok",
+              "teacherNote": "सुलेख छपे हुए पत्र पर ही होता है; अभिभावक लिखावट देखकर अंक दें।"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

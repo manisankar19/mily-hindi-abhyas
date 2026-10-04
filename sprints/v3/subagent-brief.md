@@ -24,6 +24,7 @@ Do not touch any other file. Do not commit. Report back.
 ## 1. Copy the paper exactly
 - Copy every heading, instruction, passage, question, option and match column **from the transcript, character for character**. Keep typos, the `|` danda, missing spaces, numerals as printed (१ or 1) and the printed numbering, even when it is duplicated or skips. `<u>`/`<b>` words go into the item's `underline` array, and the tags are not written into `q`.
 - **Never correct the teacher. Never drop a question.** If the format can't work on screen (circle on a grid, draw lines to match, handwriting, drawing), keep the printed text. Add a short Hindi `adaptation` to the block, such as "यहाँ सही शब्द लिखिए।" or "यह प्रश्न छपे हुए पत्र पर करें; अभिभावक जाँचेंगे।", and use `answerKind: "paperOnly"` with a rubric where the work is done on paper.
+- **Printed worked examples** (e.g. `नियम ←→ नियमित`) go in the block `passage`. They are fidelity-checked but never scored. A printed per-part mark like "(1)" that sits between the instruction and the item may stay inside `q` if fidelity needs it.
 - **Broken question** (typo, duplicate number, marks that don't add up, two right options): keep it as printed, explain it in `teacherNote` (Hindi, 1–2 sentences), and accept every defensible reading.
 - **Block marks:** the validator reads each block's total from `printedMarks` (the number after the last `=`, otherwise the only number; Devanagari digits and ½ are understood). When the print gives no block total, or gives a wrong one, set a numeric `block.marks` that matches the section arithmetic. Say why in `teacherNote` on the block's first item.
 - **Marks:** use the printed marks. If a printed total has to be split across parts (e.g. "(5M)" over 5 parts), split it evenly. ½ is allowed. Say how you split it in `teacherNote` on the first item.
@@ -41,6 +42,7 @@ List every answer a Class 4 child could write that deserves full marks:
 - **Short forms and full sentences:** "पार्क", "पार्क में", "राम पार्क जाता है।"
 - **Synonyms** (पर्यायवाची/समानार्थी): give several, e.g. रात → रात्रि, निशा, रजनी. **Opposites** (विलोम): every correct pair.
 - **Standard spelling variants** a child or teacher may use: chandrabindu/anusvara (पहुँच/पहुंच, आँख/आंख), nukta and no nukta (ज़/ज, फ़/फ, ड़ only where both forms are standard), गए/गये, हुए/हुये, नई/नयी.
+- **Nukta, precisely:** only the optional-nukta pairs ज़/ज, फ़/फ, क़/क, ख़/ख, ग़/ग get both forms. **ड़/ढ़ are separate letters**, so पेड (for पेड़) or पढना (for पढ़ना) is a misspelling and is never accepted.
 - **Numerals:** Devanagari and Latin both (१४ / 14).
 - **Verb gender** where the subject could be either.
 - For "वाक्य बनाओ" or any "write a sentence" item, use `answerKind: "judgement"`: any correct sentence using the word in its proper sense. Give 1–2 model sentences and a rubric.

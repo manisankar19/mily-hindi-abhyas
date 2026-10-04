@@ -99,10 +99,12 @@ for (let n = 1; n <= 7; n++) {
   });
 }
 
-test('CLI: node validate.js on app/data → exit 0, "OK 7 papers"', () => {
+test('CLI: node validate.js on app/data → exit 0, "OK N papers" (7 chapters + every worksheet)', () => {
   const r = spawnSync(process.execPath, [path.join(ROOT, 'validate.js')], { cwd: ROOT, encoding: 'utf8' });
   assert.strictEqual(r.status, 0, r.stdout + r.stderr);
-  assert.ok(/^OK 7 papers, \d+ items$/m.test(r.stdout), r.stdout);
+  const expected = fs.readdirSync(path.join(ROOT, 'app', 'data')).filter(f => /^(chapter\d+|hindi-ws\d{2})\.json$/.test(f)).length;
+  assert.ok(expected >= 7);
+  assert.ok(new RegExp(`^OK ${expected} papers, \\d+ items$`, 'm').test(r.stdout), r.stdout);
 });
 
 test('CLI: a bad fixture → exit 1 with its rule tag', () => {
