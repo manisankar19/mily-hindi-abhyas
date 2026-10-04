@@ -4,6 +4,10 @@ A static practice-paper site for Mily's Class IV Hindi (वीणा textbook). 
 seven fixed question papers (पाठ १–७), 100 marks each, with a model answer for
 every question.
 
+Since v3 it also holds the **school's own worksheets** ("विद्यालय कार्यपत्रक",
+7 papers, 40 or 80 marks), copied exactly as printed, with answer keys written
+for practice — the school gave none. See [School worksheets](#school-worksheets-v3).
+
 Since v2, the paper screen has two modes:
 
 - **अभ्यास (practice) mode** — the default. Mily sees only the questions. No
@@ -88,9 +92,13 @@ node build.js
   parsing a `GANESH=` line out of a local `.env.local` at the repo root.
 - Fails loudly (non-zero exit, nothing written to `dist/`) if `GANESH` is
   unset, or if the hash placeholder is missing from `app/app.js`.
+- Discovers every paper in `app/data/` (`chapterN.json`, `hindi-wsNN.json`) —
+  no hard-coded counts — and fails on invalid JSON, a duplicate or misnamed
+  worksheet id, a missing picture, or an `app/worksheet-order.json` that does
+  not list every worksheet exactly once.
 - On success, writes the single bundled file `dist/index.html` (CSS and JS
-  inlined, all seven papers embedded as JSON, the placeholder replaced with
-  the computed hash).
+  inlined, all papers embedded as JSON, each picture from `app/assets/`
+  embedded once, the placeholder replaced with the computed hash).
 
 ### Serving `dist/` locally — don't just double-click the file
 
@@ -150,6 +158,56 @@ Rules when editing:
 After editing, rebuild (`node build.js`) and redeploy (see below) to publish
 the change.
 
+## School worksheets (v3)
+
+The worksheets the school hands out, put on the site **exactly as printed**
+(wording, typos, numbering, marks), with authored answers. Mily writes on paper
+in अभ्यास mode; a parent checks in जाँच mode, where each answer shows the model
+answer, the other acceptable answers, the marking rubric, a ⚑ when the answer
+rests on judgement, and a note on any printed mistake.
+
+**Before Mily uses a worksheet, a parent reads its review sheet**
+(`sprints/v3/answer-review/wsNN.md`, ⚑ items first). The answers were written
+for practice, not by the teacher.
+
+| What | Where |
+|---|---|
+| Source PDFs (read-only) | `source/samples/` → ws01…ws07 in filename order |
+| Typed transcripts (the PDFs' text layer is garbled) | `source/transcripts/wsNN.txt` + `second-read/` |
+| Intake (sections, marks, pictures, owner issues) | `source/intake/wsNN.json`, `source/WORKSHEETS-INTAKE.md` |
+| Worksheet data | `app/data/hindi-wsNN.json` (shape: `SCHEMA.md`) |
+| Pictures (original SVGs) | `app/assets/` |
+| Display order on the home page | `app/worksheet-order.json` |
+| Review sheets | `sprints/v3/answer-review/wsNN.md` (generated) |
+
+### Adding a new worksheet
+
+1. Put the PDF in `source/samples/` and run `scripts/render-pages.sh` (page images, 200 dpi).
+2. Type the transcript from the page images (`source/transcripts/wsNN.txt`, format in
+   `sprints/v3/school-contract.md` §1), then have it checked word by word by a
+   second reader; write `source/intake/wsNN.json` and run `node scripts/merge-intake.js`.
+3. Author `app/data/hindi-wsNN.json` (+ any `app/assets/wsNN-*.svg`) following
+   `sprints/v3/subagent-brief.md`; add the id to `app/worksheet-order.json`.
+4. Run the checks below until all pass, then `node scripts/review-sheet.js wsNN`.
+5. A parent reads the review sheet; then build and deploy.
+
+### Checks and tests
+
+`npm install` is needed only for the browser tests (Playwright, dev-only); the
+build itself has no dependencies.
+
+| Command | What it checks |
+|---|---|
+| `npm run validate` | every paper: marks add up (½ allowed), answer keys complete, pictures exist, alt text doesn't give the answer, review sheets up to date |
+| `npm run fidelity` | every printed string in a worksheet matches its transcript exactly (matras, nukta, numerals included) |
+| `npm run consistency` | a question printed in two worksheets has the same answer key in both |
+| `npm run check:existing` | the seven chapter papers are byte-identical to the v3 baseline |
+| `npm run test:fixtures` | the checkers themselves (bad fixtures must fail) |
+| `npm run test:build` | the build (discovery, pictures once, GANESH, failure cases) |
+| `npm run test:e2e` | Playwright: practice/checking modes, no answer text in the page before reveal, every worksheet at 390 px and 1280 px, ½ marks, results, print |
+
+The browser tests build with a throw-away test code, never the real `GANESH`.
+
 ---
 
 ## Deploy
@@ -159,6 +217,10 @@ From the repo root:
 ```bash
 node build.js && vercel deploy --prod --yes --token "$VERCEL_TOKEN"
 ```
+
+`.vercelignore` limits the upload to what the build needs (`build.js`, `app/`,
+`vercel.json`, `package.json`); sprint docs, source PDFs, tests and env files
+are never uploaded.
 
 Alternatively, since `vercel.json` at the repo root already declares
 `buildCommand: "node build.js"` and `outputDirectory: "dist"`, you can let

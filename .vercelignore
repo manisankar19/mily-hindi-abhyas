@@ -1,0 +1,15 @@
+# Upload only what `node build.js` needs (build.js, app/, vercel.json, package.json).
+# Keeps sprint docs, source PDFs/transcripts, tests and local env files out of the
+# Vercel deployment source.
+/source
+/sprints
+/tests
+/scripts
+/dist
+/node_modules
+/validate.js
+/SCHEMA.md
+/README.md
+/package-lock.json
+.env*
+app/.env*

@@ -203,9 +203,10 @@ Batch order is set at Gate 0. The default order is below, fewest pictures first.
     - **Finding (pre-existing, v2):** the plaintext jाँच code is written in 4 committed v2 docs (sprints/v2/PRD.md, REQUIREMENTS-v2.md, TASKS.md, WALKTHROUGH.md; commit dad696a, 2026-09-14), contradicting README's "never written". No v3 file contains it. Not fixed here (dev rule) → Task 44.
     - npm audit: 0 vulnerabilities. semgrep (all code): 29 path-join audit findings in local CLI scripts (inputs regex-checked; reviewed) + 1 missing-integrity on the v1 Google Fonts `<link>` (pre-existing; fonts CSS is dynamic, SRI not applicable). app.js/build.js: 0.
 
-- [ ] Task 41: README update (P1)
+- [x] Task 41: README update (P1)
   - Acceptance: README covers the worksheet group, the steps to add a new worksheet (intake → transcript → second read → sub-agent → validate/fidelity/sheet → build), the new npm scripts, and the review-sheet rule.
   - Files: README.md
+  - Completed: 2026-10-04 — README: worksheets in intro, build discovery/pictures, "School worksheets (v3)" section (files table, adding a new worksheet, review-sheet rule, checks/tests table); .vercelignore documented under Deploy
 
 - [ ] Task 42: 🛑 Production deploy and live check (P0)
   - Acceptance: With the owner's approval, production is deployed to the existing project. The live `index.html` hash equals the tested `dist/index.html`. A live e2e on chapter 6 and one worksheet passes in both modes at both widths.
