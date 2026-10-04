@@ -1,0 +1,23 @@
+{
+  "kind": "school",
+  "ws": "ws98",
+  "sourceFile": "fixture-table.pdf",
+  "title": "अभ्यास पत्र - \"तालिका\"",
+  "header": ["अभ्यास पत्र — “तालिका”"],
+  "totalMarks": 2,
+  "sections": [
+    {
+      "code": "1", "title": "", "marks": 2,
+      "blocks": [
+        {
+          "num": "प्रश्न1.", "instruction": "तालिका पूरी करो। (2)",
+          "passage": "शब्द | विलोम\nदिन | ____",
+          "items": [
+            { "label": "(क)", "q": "सही शब्द चुनो___ (1)", "marks": 1 },
+            { "label": "(ख )", "q": "'नया' का विलोम ____ (1)", "marks": 1 }
+          ]
+        }
+      ]
+    }
+  ]
+}
