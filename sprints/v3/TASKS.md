@@ -116,10 +116,10 @@ Batch order is set at Gate 0. The default order is below, fewest pictures first.
   - Completed: 2026-10-04 — recheck-batch1.md: 2 fixes, nukta policy + worked-example rule added to brief; owner asked to run Phase 3 straight through — parent still reads ws06/ws07 sheets before use
 - [x] Task 21: ws01 (पाठ 6–7, Aug 2025, 40) (P0)
   - Files: app/data/hindi-ws01.json, app/assets/ws01-*.svg, sprints/v3/answer-review/ws01.md
-  - Completed: 2026-10-04 — 40 items, 27 ⚑ (est. 24); shared post-box SVG
+  - Completed: 2026-10-04 — 40 items, 28 ⚑ (est. 24); shared post-box SVG
 - [x] Task 22: ws05 (पाठ 6–7, Aug 2026, 40). If Gate 0 drops it, mark it excluded. (P0)
   - Files: app/data/hindi-ws05.json, app/assets/ws05-*.svg, sprints/v3/answer-review/ws05.md
-  - Completed: 2026-10-04 — 39 items, 24 ⚑ (est. 24); kept (Gate 0 #1); shared answers built from one source
+  - Completed: 2026-10-04 — 39 items, 25 ⚑ (est. 24); kept (Gate 0 #1); shared answers built from one source
 - [x] Task 23: 🛑 Batch 2 coordinator re-check, including ws01/ws05 answer consistency for shared questions (P0)
   - Files: sprints/v3/recheck-batch2.md
   - Completed: 2026-10-04 — recheck-batch2.md: 5 fixes (3 misspellings/wrong synonyms removed from acceptable, 2 vague answers ⚑); consistency.js marks-aware, 0 inconsistent

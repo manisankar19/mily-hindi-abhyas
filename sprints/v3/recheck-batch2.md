@@ -4,8 +4,8 @@ Done by the coordinator, not delegated. One sub-agent authored ws01 and then ws0
 
 | ws | Items | Marks | ⚑ actual / intake estimate | Coordinator fixes |
 |---|---|---|---|---|
-| ws01 | 40 | 40 | 27 / 24 | 4 |
-| ws05 | 39 | 40 | 24 / 24 | 5 |
+| ws01 | 40 | 40 | 28 / 24 | 4 |
+| ws05 | 39 | 40 | 25 / 24 | 5 |
 
 ## Fixes (applied identically in both papers where the question is shared)
 1. **जौहरी:** `acceptable` contained the misspelling **जोहरी से**. It was removed, the item became ⚑, and the `teacherNote` now says "the meaning is right but the spelling is wrong; the parent decides". The agent's earlier note said the misspelling was accepted, and it was replaced, not appended to.
