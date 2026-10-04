@@ -5,3 +5,5 @@ node_modules/
 .vercel
 .env*
 .claude/
+source/page-images/
+tests/screenshots/*.tmp.png
