@@ -50,6 +50,15 @@ test('normalise: strips <u>/<b> tags', () => {
 test('normalise: drops page markers and picture/emblem lines', () => {
   assert.strictEqual(normalise('=== page 1 ===\n[चिह्न: school emblem]\nक\n[चित्र: a cat]\nख'), 'क ख');
 });
+test('normalise: page footers at a page break are dropped, so a passage can run across pages', () => {
+  const t = '=== page 1 ===\nवह माला बनाकर गाँव के\nप्रष्ठ 2/8\n=== page 2 ===\nमंदिर में बेचता था।\nPage 2 of 4';
+  assert.strictEqual(normalise(t), 'वह माला बनाकर गाँव के मंदिर में बेचता था।');
+  assert.strictEqual(normalise('=== page 1 ===\nक\n1 | Page\n=== page 2 ===\nख\nपृष्ठ   2 का 10'), 'क ख');
+  assert.strictEqual(normalise('=== page 1 ===\nक\n3\n=== page 2 ===\nख'), 'क ख');
+});
+test('normalise: a footer-like line NOT at a page break is kept', () => {
+  assert.strictEqual(normalise('=== page 1 ===\nPage 1 of 4\nक\n=== page 2 ===\nख'), 'Page 1 of 4 क ख');
+});
 test('normalise: | in running text becomes ।', () => {
   assert.strictEqual(normalise('लिखिए| (2)'), 'लिखिए। (2)');
   assert.strictEqual(normalise('क | ख'), 'क । ख');

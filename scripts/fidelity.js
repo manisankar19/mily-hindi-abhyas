@@ -29,14 +29,32 @@ function tableRow(line) {
  * opts.keepTags: keep <u>/<b> (used to look for underlined spans).
  * opts.table: treat the whole string as table rows (" | " → space).
  */
+// A printed page footer ("Page 1 of 4", "प्रष्ठ 2/8", "1 | Page", "पृष्ठ 2 का 10",
+// a bare page number) is dropped only when it is the last non-blank line before a
+// page marker or the end of the text, so a passage that runs across a page break
+// still matches as one string. Footer-like text anywhere else is kept.
+const FOOTER = /^(?:page\s*[0-9०-९]+(?:\s*of\s*[0-9०-९]+)?|[0-9०-९]+\s*[|।]\s*page|(?:पृष्ठ|प्रष्ठ)\s*[0-9०-९]+\s*(?:\/|का)\s*[0-9०-९]+|[0-9०-९]{1,2})$/i;
+function footerLines(lines) {
+  const drop = new Set();
+  if (!lines.some(l => PAGE_LINE.test(l))) return drop;
+  const lastBefore = (end) => { for (let j = end - 1; j >= 0; j--) if (lines[j].trim()) return j; return -1; };
+  const ends = lines.map((l, i) => (PAGE_LINE.test(l) ? i : -1)).filter(i => i > 0).concat(lines.length);
+  for (const end of ends) {
+    const j = lastBefore(end);
+    if (j >= 0 && !PAGE_LINE.test(lines[j]) && FOOTER.test(lines[j].trim().replace(/\s+/g, ' '))) drop.add(j);
+  }
+  return drop;
+}
+
 function normalise(s, opts = {}) {
   if (s === null || s === undefined) return '';
   let text = String(s).normalize('NFC');
   const lines = text.split(/\r?\n/);
+  const footers = footerLines(lines);
   const out = [];
   let inTable = !!opts.table;
-  for (let line of lines) {
-    if (PAGE_LINE.test(line)) continue;
+  for (let [i, line] of lines.entries()) {
+    if (PAGE_LINE.test(line) || footers.has(i)) continue;
     if (TABLE_OPEN.test(line)) { inTable = true; continue; }
     if (TABLE_CLOSE.test(line)) { inTable = !!opts.table; continue; }
     line = line.replace(BRACKET_NOTE, ' ');
