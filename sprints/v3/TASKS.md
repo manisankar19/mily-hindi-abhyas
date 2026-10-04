@@ -194,9 +194,14 @@ Batch order is set at Gate 0. The default order is below, fewest pictures first.
   - Files: tests/e2e-worksheets.js, tests/screenshots/
   - Completed: 2026-10-04 — tests/e2e-worksheets.js 16/16: all 7 worksheets at 390 px and 1280 px — no horizontal overflow, pictures load, one answer panel per item, full marks = printed total on score bar and result, no console errors
 
-- [ ] Task 40: Security pass (P1)
+- [x] Task 40: Security pass (P1)
   - Acceptance: `dist/index.html` has no plaintext GANESH, token or `.env` content. `git ls-files` contains no `.env*`. `npm audit` shows no high or critical issues. Results are noted in TASKS.
   - Files: sprints/v3/TASKS.md
+  - Completed: 2026-10-04 — results:
+    - dist/index.html: GANESH appears only as its SHA-256; the 13 standalone matches of the code word are CSS class names (`.<code>-title` etc., same as v2), never the value as data; 0 token/JWT patterns; token value 0×.
+    - git: 0 `.env*` tracked; token value 0× in history; no git remote.
+    - **Finding (pre-existing, v2):** the plaintext jाँच code is written in 4 committed v2 docs (sprints/v2/PRD.md, REQUIREMENTS-v2.md, TASKS.md, WALKTHROUGH.md; commit dad696a, 2026-09-14), contradicting README's "never written". No v3 file contains it. Not fixed here (dev rule) → Task 44.
+    - npm audit: 0 vulnerabilities. semgrep (all code): 29 path-join audit findings in local CLI scripts (inputs regex-checked; reviewed) + 1 missing-integrity on the v1 Google Fonts `<link>` (pre-existing; fonts CSS is dynamic, SRI not applicable). app.js/build.js: 0.
 
 - [ ] Task 41: README update (P1)
   - Acceptance: README covers the worksheet group, the steps to add a new worksheet (intake → transcript → second read → sub-agent → validate/fidelity/sheet → build), the new npm scripts, and the review-sheet rule.
@@ -205,6 +210,10 @@ Batch order is set at Gate 0. The default order is below, fewest pictures first.
 - [ ] Task 42: 🛑 Production deploy and live check (P0)
   - Acceptance: With the owner's approval, production is deployed to the existing project. The live `index.html` hash equals the tested `dist/index.html`. A live e2e on chapter 6 and one worksheet passes in both modes at both widths.
   - Files: tests/e2e-live.js
+
+- [ ] Task 44: Remove the plaintext jाँच code from the v2 docs and rotate it (P1, found in Task 40)
+  - Acceptance: owner chooses: (a) rotate GANESH (new value in Vercel env + .env.local, redeploy) so the old value in v2 docs is harmless, and/or (b) redact the value in sprints/v2/*.md going forward (history keeps it unless rewritten — owner decision). No v3 file contains the value.
+  - Files: sprints/v2/*.md (redaction), Vercel env (rotation)
 
 - [ ] Task 43: Walkthrough (P0)
   - Acceptance: `sprints/v3/WALKTHROUGH.md` covers instruction §14: ⚑ actual vs estimate per paper, every teacherNote, adaptations, pictures, paper-only items, second-read disagreements, PDF hashes re-checked, chapter files byte-identical and what was not verified. It states that the parent reads every review sheet before Mily uses that worksheet.
