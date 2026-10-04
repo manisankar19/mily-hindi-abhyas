@@ -18,7 +18,11 @@ function run(papers) {
   } finally { fs.rmSync(dir, { recursive: true, force: true }); }
 }
 function test(name, fn) { total++; try { fn(); pass++; } catch (e) { console.error('FAIL', name, '\n ', e.message); } }
-const copy = (ws) => Object.assign(JSON.parse(JSON.stringify(good)), { ws });
+const copy = (ws) => {
+  const p = Object.assign(JSON.parse(JSON.stringify(good)), { ws });
+  p.sections[1].blocks[2].items[0].q = 'बिल्ली के बारे में दो वाक्य लिखिए';   // give the judgement item a question so it is matched
+  return p;
+};
 
 test('same question, same key in two papers → OK', () => {
   const r = run([copy('ws01'), copy('ws02')]);
@@ -36,6 +40,17 @@ test('same question, different acceptable → FAIL naming both papers', () => {
 test('same question, different answerConfidence → FAIL', () => {
   const b = copy('ws02');
   b.sections[0].blocks[0].items[0].answerConfidence = 'check';
+  assert.strictEqual(run([copy('ws01'), b]).status, 1);
+});
+test('different marks → rubric may differ, key may not', () => {
+  const a = copy('ws01'), b = copy('ws02');
+  const it = b.sections[1].blocks[2].items[0];          // judgement item
+  it.marks = 2; it.rubric = [{ marks: 2, desc: 'x' }, { marks: 1, desc: 'y' }, { marks: 0, desc: 'z' }];
+  assert.strictEqual(run([a, b]).status, 0);
+});
+test('same marks, different rubric bands → FAIL', () => {
+  const b = copy('ws02');
+  b.sections[1].blocks[2].items[0].rubric[1].desc = 'कुछ और';
   assert.strictEqual(run([copy('ws01'), b]).status, 1);
 });
 test('one paper only → OK 0 shared', () => {

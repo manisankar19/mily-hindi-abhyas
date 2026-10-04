@@ -1,0 +1,1169 @@
+{
+  "kind": "school",
+  "ws": "ws01",
+  "sourceFile": "3.1.1  Hindi_L6-7_WS.pdf",
+  "title": "कार्यपत्रक (2025-26)",
+  "shortLabel": "कार्यपत्रक · अगस्त 2025",
+  "subtitle": "विद्यालय कार्यपत्रक · अगस्त 2025 · पाठ 6–7",
+  "header": [
+    "मुद्रित पृष्ठों की संख्या : 4",
+    "परमाणु ऊर्जा शिक्षण संस्था",
+    "कार्यपत्रक (2025-26)",
+    "कक्षा : चौथी    विषय: हिंदी    माह-अगस्त 2025    अंक- 40",
+    "दिया गया पाठ्यक्रम - पाठ 6 एवं 7",
+    "विद्यार्थी का नाम – ____",
+    "अनुक्रमांक - ____    कक्षा / अनुभाग - ____    दिनांक - ____"
+  ],
+  "portion": "दिया गया पाठ्यक्रम - पाठ 6 एवं 7",
+  "chapters": [
+    6,
+    7
+  ],
+  "totalMarks": 40,
+  "disclaimer": true,
+  "sections": [
+    {
+      "code": "1",
+      "title": "",
+      "marks": 40,
+      "blocks": [
+        {
+          "num": "प्रश्न 1.",
+          "instruction": "दिए गए गद्यांश को पढ़कर निम्नलिखित प्रश्नों के उत्तर लिखिए|",
+          "passageType": "गद्यांश",
+          "printedMarks": "(5M)",
+          "adaptation": null,
+          "picture": null,
+          "pictureAlt": null,
+          "passage": "जयपुर से लगभग चौदह किलोमीटर की दूरी पर आमेर का दुर्ग है। यह बहुत पुराना और बड़ा है।\nआमेर में शीशमहल देखने योग्य है। शीश महल के पास ही शिला देवी का मंदिर है। मंदिर में दर्शन\nकरने के बाद हम नगर वापस आए। रात में हमने राजस्थान के लोक नृत्य देखे। फिर राजस्थान का\nविशेष व्यंजन दाल- बाटी चूरमा खाया। आज दोपहर\nपश्चात् हम झीलों के नगर उदयपुर जाएँगे।",
+          "items": [
+            {
+              "label": "(क)",
+              "q": "आमेर का दुर्ग कहाँ है?",
+              "marks": 1,
+              "answerKind": "objective",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "आमेर का दुर्ग जयपुर से लगभग चौदह किलोमीटर की दूरी पर है।",
+              "acceptable": [
+                "जयपुर से लगभग चौदह किलोमीटर की दूरी पर",
+                "जयपुर से चौदह किलोमीटर दूर",
+                "जयपुर से 14 किलोमीटर की दूरी पर",
+                "जयपुर से १४ किलोमीटर की दूरी पर",
+                "जयपुर से 14 किलोमीटर दूर",
+                "जयपुर से लगभग 14 कि.मी. दूर",
+                "जयपुर के पास, लगभग चौदह किलोमीटर दूर",
+                "जयपुर के पास",
+                "आमेर में, जयपुर से लगभग चौदह किलोमीटर दूर"
+              ],
+              "rubric": null,
+              "answerSource": "passage",
+              "answerRef": "प्रश्न 1 गद्यांश, वाक्य 1",
+              "answerConfidence": "check",
+              "teacherNote": "‘जयपुर के पास’ (दूरी के बिना) भी स्वीकार है; अभिभावक चाहें तो पूरी दूरी (लगभग चौदह किलोमीटर) पर पूरे अंक दें।"
+            },
+            {
+              "label": "(ख)",
+              "q": "आमेर में क्या देखने योग्य है?",
+              "marks": 1,
+              "answerKind": "objective",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "आमेर में शीशमहल देखने योग्य है।",
+              "acceptable": [
+                "शीशमहल",
+                "शीश महल",
+                "शीशमहल देखने योग्य है",
+                "आमेर का शीशमहल",
+                "शीशमहल और शिला देवी का मंदिर",
+                "आमेर का दुर्ग और शीशमहल"
+              ],
+              "rubric": null,
+              "answerSource": "passage",
+              "answerRef": "प्रश्न 1 गद्यांश, वाक्य 3",
+              "answerConfidence": "ok",
+              "teacherNote": null
+            },
+            {
+              "label": "(ग)",
+              "q": "जयपुर किस राज्य की राजधानी है?",
+              "marks": 1,
+              "answerKind": "objective",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "जयपुर राजस्थान की राजधानी है।",
+              "acceptable": [
+                "राजस्थान",
+                "राजस्थान राज्य",
+                "राजस्थान की"
+              ],
+              "rubric": null,
+              "answerSource": "authored",
+              "answerRef": "गद्यांश में सीधे नहीं; 'राजस्थान के लोक नृत्य' से अनुमान / सामान्य ज्ञान",
+              "answerConfidence": "check",
+              "teacherNote": "गद्यांश में यह सीधे नहीं लिखा; 'राजस्थान के लोक नृत्य' और 'राजस्थान का विशेष व्यंजन' से अनुमान लगता है। उत्तर सामान्य ज्ञान से: राजस्थान।"
+            },
+            {
+              "label": "(घ)",
+              "q": "विलोम शब्द लिखो।\nपुराना x ____",
+              "marks": 0.5,
+              "answerKind": "objective",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "नया",
+              "acceptable": [
+                "नई",
+                "नवीन",
+                "नूतन",
+                "पुराना x नया"
+              ],
+              "rubric": null,
+              "answerSource": "authored",
+              "answerRef": "—",
+              "answerConfidence": "check",
+              "teacherNote": "छपे (1) अंक को दो खाली स्थानों में बाँटा गया: हर सही शब्द ½ अंक (यह बँटवारा हमारा है)।"
+            },
+            {
+              "label": "",
+              "q": "दिन x ____",
+              "marks": 0.5,
+              "answerKind": "objective",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "रात",
+              "acceptable": [
+                "रात्रि",
+                "दिन x रात"
+              ],
+              "rubric": null,
+              "answerSource": "authored",
+              "answerRef": "—",
+              "answerConfidence": "check",
+              "teacherNote": "(घ) का दूसरा खाली स्थान, ½ अंक (बँटवारा हमारा)।"
+            },
+            {
+              "label": "(ड)",
+              "q": "समान अर्थ लिखो।\nविशाल - ____",
+              "marks": 0.5,
+              "answerKind": "objective",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "बड़ा",
+              "acceptable": [
+                "बहुत बड़ा",
+                "विराट",
+                "विस्तृत",
+                "भारी-भरकम"
+              ],
+              "rubric": null,
+              "answerSource": "authored",
+              "answerRef": "—",
+              "answerConfidence": "check",
+              "teacherNote": "छपे (1) अंक को दो खाली स्थानों में बाँटा गया: हर सही शब्द ½ अंक (यह बँटवारा हमारा है)। 'बडा' (ड़ का बिंदु छूटा) वर्तनी की गलती है, उसे न मानें।"
+            },
+            {
+              "label": "",
+              "q": "रात्रि- ____",
+              "marks": 0.5,
+              "answerKind": "objective",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "रात",
+              "acceptable": [
+                "निशा",
+                "रजनी",
+                "यामिनी",
+                "रैन",
+                "रैना",
+                "विभावरी",
+                "शर्वरी"
+              ],
+              "rubric": null,
+              "answerSource": "authored",
+              "answerRef": "—",
+              "answerConfidence": "check",
+              "teacherNote": "(ड) का दूसरा खाली स्थान, ½ अंक (बँटवारा हमारा)।"
+            }
+          ]
+        },
+        {
+          "num": "प्रश्न 2.",
+          "instruction": "नीचे दिए प्रश्नों के उत्तर लिखिए|",
+          "passageType": null,
+          "printedMarks": null,
+          "adaptation": null,
+          "picture": null,
+          "pictureAlt": null,
+          "marks": 6,
+          "items": [
+            {
+              "label": "(क)",
+              "q": "अमर ने जयपुर में क्या- क्या देखा?",
+              "marks": 1,
+              "answerKind": "judgement",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "अमर ने जयपुर में हवामहल, जंतर-मंतर (वेधशाला), रामनिवास बाग का कला-संग्रहालय, आमेर का दुर्ग, शीशमहल, शिला देवी का मंदिर और राजस्थान के लोकनृत्य देखे।",
+              "acceptable": [],
+              "rubric": [
+                {
+                  "marks": 1,
+                  "desc": "कम-से-कम तीन सही स्थान/चीज़ें लिखीं (जैसे हवामहल, जंतर-मंतर, संग्रहालय, आमेर का दुर्ग, शीशमहल)।"
+                },
+                {
+                  "marks": 0.5,
+                  "desc": "केवल एक या दो सही स्थान लिखे।"
+                },
+                {
+                  "marks": 0,
+                  "desc": "कोई सही स्थान नहीं, या पाठ से बाहर की बात।"
+                }
+              ],
+              "answerSource": "textbook",
+              "answerRef": "पाठ 6, पृ. 62–63",
+              "answerConfidence": "check",
+              "teacherNote": "प्रश्न 2 का कुल अंक नहीं छपा; हर भाग के छपे अंक (1+1+1+2+1) जोड़कर 6 रखा गया। सूची वाला उत्तर है; पूरी सूची ज़रूरी नहीं। तीन या अधिक सही नाम पर पूरा अंक।"
+            },
+            {
+              "label": "(ख)",
+              "q": "पिनकोड कितने अंकों की संख्या होती है?",
+              "marks": 1,
+              "answerKind": "objective",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "पिनकोड छह अंकों की संख्या होती है।",
+              "acceptable": [
+                "छह",
+                "छः",
+                "छ:",
+                "छ",
+                "6",
+                "६",
+                "छह अंकों की",
+                "छह अंक",
+                "6 अंकों की",
+                "६ अंकों की",
+                "छः अंकों की संख्या",
+                "छह अंको की"
+              ],
+              "rubric": null,
+              "answerSource": "textbook",
+              "answerRef": "पाठ 6, पृ. 68, 'पिनकोड (PIN Code) छह अंकों की संख्या होती है'",
+              "answerConfidence": "ok",
+              "teacherNote": null
+            },
+            {
+              "label": "(ग)",
+              "q": "दरबारियों ने हीरों की जाँच किससे करवाई ?",
+              "marks": 1,
+              "answerKind": "objective",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "दरबारियों ने हीरों की जाँच जौहरी से करवाई।",
+              "acceptable": [
+                "जौहरी",
+                "जौहरी से",
+                "एक जौहरी से"
+              ],
+              "rubric": null,
+              "answerSource": "textbook",
+              "answerRef": "पाठ 7, पृ. 79, 'हमने इन हीरों की जाँच जौहरी से करवाई'",
+              "answerConfidence": "check",
+              "teacherNote": "‘जोहरी’ लिखा हो तो अर्थ सही है पर वर्तनी गलत (सही: जौहरी) — अंक अभिभावक तय करें।"
+            },
+            {
+              "label": "(घ)",
+              "q": "राजा ने नकली हीरों का पुरस्कार किन्हें और क्यों दिया?",
+              "marks": 2,
+              "answerKind": "judgement",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "राजा ने नकली हीरे उन दरबारियों को दिए जिन्होंने उसे प्रसन्न करने के लिए झूठा उत्तर दिया था (कि संसार में आप-सा बुद्धिमान और ईमानदार राजा कोई नहीं)। उन्होंने झूठा उत्तर दिया, इसलिए उन्हें हीरे भी नकली दिए गए।",
+              "acceptable": [],
+              "rubric": [
+                {
+                  "marks": 2,
+                  "desc": "दोनों बातें: किन्हें (झूठा/चापलूसी वाला उत्तर देने वाले दरबारियों को) और क्यों (उन्होंने झूठा उत्तर दिया)।"
+                },
+                {
+                  "marks": 1,
+                  "desc": "केवल एक बात सही (किन्हें या क्यों)।"
+                },
+                {
+                  "marks": 0,
+                  "desc": "दोनों गलत या उत्तर नहीं।"
+                }
+              ],
+              "answerSource": "textbook",
+              "answerRef": "पाठ 7, पृ. 80, 'आप सबने मेरे प्रश्न का झूठा उत्तर दिया... इसलिए हीरे भी आपको नकली दिए गए'",
+              "answerConfidence": "check",
+              "teacherNote": "अपने शब्दों में लिखा उत्तर भी पूरा माना जाए: 'सब दरबारियों को, क्योंकि उन्होंने झूठी प्रशंसा की' = 2 अंक।"
+            },
+            {
+              "label": "(ड)",
+              "q": "उदयपुर को झीलों का नगर क्यों कहा जाता है?",
+              "marks": 1,
+              "answerKind": "judgement",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "उदयपुर में बहुत-सी सुंदर झीलें हैं (जैसे पिछोला झील, फतेह सागर झील), इसलिए उसे झीलों का नगर कहा जाता है।",
+              "acceptable": [],
+              "rubric": [
+                {
+                  "marks": 1,
+                  "desc": "लिखा कि उदयपुर में बहुत-सी/कई झीलें हैं (झीलों के नाम ज़रूरी नहीं)।"
+                },
+                {
+                  "marks": 0.5,
+                  "desc": "केवल 'वहाँ झील है' जैसा अधूरा उत्तर।"
+                },
+                {
+                  "marks": 0,
+                  "desc": "झीलों की बात नहीं।"
+                }
+              ],
+              "answerSource": "authored",
+              "answerRef": "पाठ 6, पृ. 66 (अनुमान और कल्पना, प्रश्न 2) — उत्तर पाठ में नहीं",
+              "answerConfidence": "check",
+              "teacherNote": "पाठ में यह अनुमान वाला प्रश्न है; उत्तर पाठ में लिखा नहीं, सामान्य ज्ञान से है।"
+            }
+          ]
+        },
+        {
+          "num": "प्रश्न 3.",
+          "instruction": "अमर ने अपने पिता को पत्र में 'सादर प्रणाम' लिखा। सोचिए वह क्या लिखता यदि\nवह -",
+          "passageType": null,
+          "printedMarks": "(2M)",
+          "adaptation": null,
+          "picture": null,
+          "pictureAlt": null,
+          "items": [
+            {
+              "label": "(क)",
+              "q": "अपने मित्र को पत्र लिखता - ____",
+              "marks": 1,
+              "answerKind": "judgement",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "सप्रेम नमस्ते",
+              "acceptable": [],
+              "rubric": [
+                {
+                  "marks": 1,
+                  "desc": "मित्र के लिए उचित प्यार भरा अभिवादन/संबोधन: सप्रेम नमस्ते, नमस्ते, प्रिय मित्र, प्यारे दोस्त, ढेर सारा प्यार, मधुर याद, हैलो आदि।"
+                },
+                {
+                  "marks": 0.5,
+                  "desc": "अभिवादन लिखा पर मित्र के लिए ज़्यादा औपचारिक (जैसे 'सादर प्रणाम', 'चरण स्पर्श')।"
+                },
+                {
+                  "marks": 0,
+                  "desc": "कोई अभिवादन नहीं, या असंबंधित बात।"
+                }
+              ],
+              "answerSource": "authored",
+              "answerRef": "पाठ 6, पृ. 70 (अभिवादन, प्रश्न 1)",
+              "answerConfidence": "check",
+              "teacherNote": "कई उत्तर सही हैं: प्रिय मित्र / नमस्ते / सप्रेम नमस्ते / ढेर सारा प्यार / मधुर स्मृति। बच्चा संबोधन (प्रिय मित्र) या अभिवादन (नमस्ते) में से कोई भी लिखे, पूरा अंक।"
+            },
+            {
+              "label": "(ख)",
+              "q": "अपने अध्यापक को पत्र लिखता- ____",
+              "marks": 1,
+              "answerKind": "judgement",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "सादर नमस्ते",
+              "acceptable": [],
+              "rubric": [
+                {
+                  "marks": 1,
+                  "desc": "अध्यापक के लिए आदर भरा अभिवादन/संबोधन: सादर नमस्ते, सादर प्रणाम, प्रणाम, नमस्कार, आदरणीय गुरुजी/महोदय आदि।"
+                },
+                {
+                  "marks": 0.5,
+                  "desc": "अभिवादन लिखा पर आदर नहीं झलकता (जैसे 'प्रिय मित्र', 'हैलो', 'ढेर सारा प्यार')।"
+                },
+                {
+                  "marks": 0,
+                  "desc": "कोई अभिवादन नहीं, या असंबंधित बात।"
+                }
+              ],
+              "answerSource": "authored",
+              "answerRef": "पाठ 6, पृ. 70 (अभिवादन, प्रश्न 1)",
+              "answerConfidence": "check",
+              "teacherNote": "कई उत्तर सही हैं: सादर नमस्ते / सादर प्रणाम / प्रणाम / नमस्कार / आदरणीय गुरुजी। आदर वाला कोई भी अभिवादन पूरा अंक।"
+            }
+          ]
+        },
+        {
+          "num": "प्रश्न 4.",
+          "instruction": "दिए गए अधूरे वाक्यों को पूरा करो|",
+          "passageType": null,
+          "printedMarks": "(2M)",
+          "adaptation": null,
+          "picture": null,
+          "pictureAlt": null,
+          "items": [
+            {
+              "label": "(क)",
+              "q": "हमने झूम -झूमकर ____",
+              "marks": 1,
+              "answerKind": "judgement",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "हमने झूम-झूमकर गाना गाया।",
+              "acceptable": [],
+              "rubric": [
+                {
+                  "marks": 1,
+                  "desc": "सार्थक पूरा वाक्य जो 'झूम-झूमकर' के अर्थ से मेल खाए (नाचना, गाना, खुशी मनाना आदि)।"
+                },
+                {
+                  "marks": 0.5,
+                  "desc": "वाक्य पूरा किया पर व्याकरण की गलती, या अर्थ ठीक से नहीं बैठता।"
+                },
+                {
+                  "marks": 0,
+                  "desc": "नहीं लिखा या बेमेल।"
+                }
+              ],
+              "answerSource": "authored",
+              "answerRef": "पाठ 6, पृ. 71 (भाषा की बात 2)",
+              "answerConfidence": "check",
+              "teacherNote": "खुला प्रश्न। अन्य उदाहरण: 'हमने झूम-झूमकर नाच किया/नाचे।', 'हमने झूम-झूमकर मेले का आनंद लिया।'"
+            },
+            {
+              "label": "(ख)",
+              "q": "हमने उछल- उछलकर ____",
+              "marks": 1,
+              "answerKind": "judgement",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "हमने उछल-उछलकर गेंद पकड़ी।",
+              "acceptable": [],
+              "rubric": [
+                {
+                  "marks": 1,
+                  "desc": "सार्थक पूरा वाक्य जो 'उछल-उछलकर' के अर्थ से मेल खाए (खेलना, आम तोड़ना, खुशी मनाना आदि)।"
+                },
+                {
+                  "marks": 0.5,
+                  "desc": "वाक्य पूरा किया पर व्याकरण की गलती, या अर्थ ठीक से नहीं बैठता।"
+                },
+                {
+                  "marks": 0,
+                  "desc": "नहीं लिखा या बेमेल।"
+                }
+              ],
+              "answerSource": "authored",
+              "answerRef": "पाठ 6, पृ. 71 (भाषा की बात 2)",
+              "answerConfidence": "check",
+              "teacherNote": "खुला प्रश्न। अन्य उदाहरण: 'हमने उछल-उछलकर पेड़ से आम तोड़े।', 'हमने उछल-उछलकर खुशी मनाई।'"
+            }
+          ]
+        },
+        {
+          "num": "प्रश्न 5.",
+          "instruction": "दिए गए शब्दों से वाक्य बनाओ|",
+          "passageType": null,
+          "printedMarks": "(3M)",
+          "adaptation": null,
+          "picture": null,
+          "pictureAlt": null,
+          "items": [
+            {
+              "label": "(क)",
+              "q": "धीरे- धीरे- ____",
+              "marks": 1,
+              "answerKind": "judgement",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "कछुआ धीरे-धीरे चलता है।",
+              "acceptable": [],
+              "rubric": [
+                {
+                  "marks": 1,
+                  "desc": "'धीरे-धीरे' का सही अर्थ में प्रयोग करके पूरा, सार्थक वाक्य।"
+                },
+                {
+                  "marks": 0.5,
+                  "desc": "शब्द का प्रयोग ठीक है पर वाक्य अधूरा है या उसमें व्याकरण/वर्तनी की गलती है।"
+                },
+                {
+                  "marks": 0,
+                  "desc": "शब्द का प्रयोग नहीं या अर्थ गलत।"
+                }
+              ],
+              "answerSource": "authored",
+              "answerRef": "—",
+              "answerConfidence": "check",
+              "teacherNote": "कोई भी सही वाक्य मान्य है। दूसरा उदाहरण: दादाजी धीरे-धीरे सीढ़ियाँ चढ़ते हैं।"
+            },
+            {
+              "label": "(ख)",
+              "q": "साथ- साथ ____",
+              "marks": 1,
+              "answerKind": "judgement",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "हम दोनों साथ-साथ स्कूल जाते हैं।",
+              "acceptable": [],
+              "rubric": [
+                {
+                  "marks": 1,
+                  "desc": "'साथ-साथ' का सही अर्थ में प्रयोग करके पूरा, सार्थक वाक्य।"
+                },
+                {
+                  "marks": 0.5,
+                  "desc": "शब्द का प्रयोग ठीक है पर वाक्य अधूरा है या उसमें व्याकरण/वर्तनी की गलती है।"
+                },
+                {
+                  "marks": 0,
+                  "desc": "शब्द का प्रयोग नहीं या अर्थ गलत।"
+                }
+              ],
+              "answerSource": "authored",
+              "answerRef": "—",
+              "answerConfidence": "check",
+              "teacherNote": "कोई भी सही वाक्य मान्य है। दूसरा उदाहरण: राम और श्याम साथ-साथ खेलते हैं।"
+            },
+            {
+              "label": "(ग)",
+              "q": "धन्यवाद ____",
+              "marks": 1,
+              "answerKind": "judgement",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "मैंने उपहार के लिए मामाजी को धन्यवाद दिया।",
+              "acceptable": [],
+              "rubric": [
+                {
+                  "marks": 1,
+                  "desc": "'धन्यवाद' का सही अर्थ में प्रयोग करके पूरा, सार्थक वाक्य।"
+                },
+                {
+                  "marks": 0.5,
+                  "desc": "शब्द का प्रयोग ठीक है पर वाक्य अधूरा है या उसमें व्याकरण/वर्तनी की गलती है।"
+                },
+                {
+                  "marks": 0,
+                  "desc": "शब्द का प्रयोग नहीं या अर्थ गलत।"
+                }
+              ],
+              "answerSource": "authored",
+              "answerRef": "—",
+              "answerConfidence": "check",
+              "teacherNote": "कोई भी सही वाक्य मान्य है। दूसरा उदाहरण: राजा ने कहा, \"आपके उत्तर के लिए धन्यवाद।\""
+            }
+          ]
+        },
+        {
+          "num": "प्रश्न 6.",
+          "instruction": "नीचे लिखे शब्दों को उनके अर्थों के साथ मिलाओ।",
+          "passageType": null,
+          "printedMarks": "(2M)",
+          "adaptation": "रेखा खींचने के बदले हर शब्द के सामने उसका सही अर्थ चुनिए।",
+          "picture": null,
+          "pictureAlt": null,
+          "items": [
+            {
+              "label": "",
+              "q": "बुद्धिमान",
+              "marks": 0.5,
+              "answerKind": "objective",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "विवेकवान",
+              "acceptable": [],
+              "rubric": null,
+              "answerSource": "textbook",
+              "answerRef": "पाठ 7, पृ. 82 (शब्दों से मित्रता)",
+              "answerConfidence": "check",
+              "teacherNote": "छपा प्रश्न (2M) चार जोड़ों में बराबर बाँटा गया: हर सही जोड़ी ½ अंक (बँटवारा हमारा)। कागज़ पर रेखा खींचनी थी; यहाँ हर शब्द का अर्थ चुनना है।",
+              "pairs": [
+                {
+                  "left": "बुद्धिमान",
+                  "right": "विवेकवान"
+                }
+              ],
+              "printedRight": [
+                "बूढ़ा",
+                "विवेकवान",
+                "सर्वोत्तम",
+                "संदेह न होना"
+              ]
+            },
+            {
+              "label": "",
+              "q": "निस्संदेह",
+              "marks": 0.5,
+              "answerKind": "objective",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "संदेह न होना",
+              "acceptable": [],
+              "rubric": null,
+              "answerSource": "textbook",
+              "answerRef": "पाठ 7, पृ. 82 (शब्दों से मित्रता)",
+              "answerConfidence": "ok",
+              "teacherNote": null,
+              "pairs": [
+                {
+                  "left": "निस्संदेह",
+                  "right": "संदेह न होना"
+                }
+              ],
+              "printedRight": [
+                "बूढ़ा",
+                "विवेकवान",
+                "सर्वोत्तम",
+                "संदेह न होना"
+              ]
+            },
+            {
+              "label": "",
+              "q": "वृद्ध",
+              "marks": 0.5,
+              "answerKind": "objective",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "बूढ़ा",
+              "acceptable": [],
+              "rubric": null,
+              "answerSource": "textbook",
+              "answerRef": "पाठ 7, पृ. 82 (शब्दों से मित्रता)",
+              "answerConfidence": "ok",
+              "teacherNote": null,
+              "pairs": [
+                {
+                  "left": "वृद्ध",
+                  "right": "बूढ़ा"
+                }
+              ],
+              "printedRight": [
+                "बूढ़ा",
+                "विवेकवान",
+                "सर्वोत्तम",
+                "संदेह न होना"
+              ]
+            },
+            {
+              "label": "",
+              "q": "श्रेष्ठ",
+              "marks": 0.5,
+              "answerKind": "objective",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "सर्वोत्तम",
+              "acceptable": [],
+              "rubric": null,
+              "answerSource": "textbook",
+              "answerRef": "पाठ 7, पृ. 82 (शब्दों से मित्रता)",
+              "answerConfidence": "ok",
+              "teacherNote": null,
+              "pairs": [
+                {
+                  "left": "श्रेष्ठ",
+                  "right": "सर्वोत्तम"
+                }
+              ],
+              "printedRight": [
+                "बूढ़ा",
+                "विवेकवान",
+                "सर्वोत्तम",
+                "संदेह न होना"
+              ]
+            }
+          ]
+        },
+        {
+          "num": "प्रश्न 7.",
+          "instruction": "विलोम शब्द लिखो|",
+          "passageType": null,
+          "printedMarks": "(2M)",
+          "adaptation": null,
+          "picture": null,
+          "pictureAlt": null,
+          "items": [
+            {
+              "label": "",
+              "q": "आज x ____",
+              "marks": 0.5,
+              "answerKind": "objective",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "कल",
+              "acceptable": [
+                "आज x कल"
+              ],
+              "rubric": null,
+              "answerSource": "authored",
+              "answerRef": "—",
+              "answerConfidence": "check",
+              "teacherNote": "छपा प्रश्न (2M) चार शब्दों में बराबर बाँटा गया: हर सही विलोम ½ अंक (बँटवारा हमारा)।"
+            },
+            {
+              "label": "",
+              "q": "नकली x ____",
+              "marks": 0.5,
+              "answerKind": "objective",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "असली",
+              "acceptable": [
+                "असल",
+                "नकली x असली"
+              ],
+              "rubric": null,
+              "answerSource": "authored",
+              "answerRef": "—",
+              "answerConfidence": "ok",
+              "teacherNote": null
+            },
+            {
+              "label": "",
+              "q": "पास x ____",
+              "marks": 0.5,
+              "answerKind": "objective",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "दूर",
+              "acceptable": [
+                "पास x दूर"
+              ],
+              "rubric": null,
+              "answerSource": "authored",
+              "answerRef": "—",
+              "answerConfidence": "ok",
+              "teacherNote": null
+            },
+            {
+              "label": "",
+              "q": "प्रसन्नता x ____",
+              "marks": 0.5,
+              "answerKind": "objective",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "अप्रसन्नता",
+              "acceptable": [
+                "दुख",
+                "दुःख",
+                "उदासी",
+                "नाराज़गी",
+                "नाराजगी",
+                "खिन्नता",
+                "प्रसन्नता x अप्रसन्नता"
+              ],
+              "rubric": null,
+              "answerSource": "authored",
+              "answerRef": "—",
+              "answerConfidence": "check",
+              "teacherNote": "संज्ञा का विलोम संज्ञा होनी चाहिए; 'अप्रसन्नता' मानक है, दुख/उदासी भी सही हैं। 'अप्रसन्न'/'दुखी' (विशेषण रूप) लिखे तो अर्थ सही है पर शब्द-भेद अलग; पूरा ½ देना है या नहीं, अभिभावक तय करें।"
+            }
+          ]
+        },
+        {
+          "num": "प्रश्न 8.",
+          "instruction": "तालिका को ध्यान से पढ़कर उचित वाक्य लिखिए-",
+          "passageType": null,
+          "printedMarks": "(3M)",
+          "adaptation": "तालिका की हर पंक्ति के लिए उस समय (काल) का एक वाक्य लिखिए।",
+          "picture": null,
+          "pictureAlt": null,
+          "items": [
+            {
+              "label": "",
+              "q": "जो कार्य आगे आने वाले समय में होंगे|",
+              "marks": 1,
+              "answerKind": "judgement",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "हम सपरिवार कल घूमने जाएँगे।",
+              "acceptable": [],
+              "rubric": [
+                {
+                  "marks": 1,
+                  "desc": "भविष्यत् काल (आने वाला समय: '-गा/-गी/-गे') का पूरा, सही वाक्य।"
+                },
+                {
+                  "marks": 0.5,
+                  "desc": "भविष्यत् काल (आने वाला समय: '-गा/-गी/-गे') ठीक है पर वाक्य में छोटी गलती (मात्रा/लिंग/वचन), या काल ठीक पर वाक्य अधूरा।"
+                },
+                {
+                  "marks": 0,
+                  "desc": "काल गलत या वाक्य नहीं।"
+                }
+              ],
+              "answerSource": "authored",
+              "answerRef": "पाठ 6, पृ. 71 (तालिका का उदाहरण)",
+              "answerConfidence": "check",
+              "teacherNote": "हर पंक्ति 1 अंक (3M ÷ 3)। कोई भी सही भविष्यत् काल का वाक्य मान्य है, जैसे 'मैं कल नानी के घर जाऊँगी।'"
+            },
+            {
+              "label": "",
+              "q": "जो कार्य अभी हो रहे हैं|",
+              "marks": 1,
+              "answerKind": "judgement",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "मैं गीत गा रही हूँ।",
+              "acceptable": [],
+              "rubric": [
+                {
+                  "marks": 1,
+                  "desc": "वर्तमान काल (अभी हो रहा: 'रहा/रही/रहे है') का पूरा, सही वाक्य।"
+                },
+                {
+                  "marks": 0.5,
+                  "desc": "वर्तमान काल (अभी हो रहा: 'रहा/रही/रहे है') ठीक है पर वाक्य में छोटी गलती (मात्रा/लिंग/वचन), या काल ठीक पर वाक्य अधूरा।"
+                },
+                {
+                  "marks": 0,
+                  "desc": "काल गलत या वाक्य नहीं।"
+                }
+              ],
+              "answerSource": "authored",
+              "answerRef": "पाठ 6, पृ. 71 (तालिका का उदाहरण)",
+              "answerConfidence": "check",
+              "teacherNote": "कोई भी सही वर्तमान काल का वाक्य मान्य है, जैसे 'बच्चे मैदान में खेल रहे हैं।' 'मैं रोज़ स्कूल जाती हूँ' (सामान्य वर्तमान) भी मान लें।"
+            },
+            {
+              "label": "",
+              "q": "जो कार्य बीते समय पूरे हो गए हों|",
+              "marks": 1,
+              "answerKind": "judgement",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "हमारी यात्रा बहुत अच्छी रही।",
+              "acceptable": [],
+              "rubric": [
+                {
+                  "marks": 1,
+                  "desc": "भूतकाल (बीता समय: '-आ/-ई/-ए, था/थी') का पूरा, सही वाक्य।"
+                },
+                {
+                  "marks": 0.5,
+                  "desc": "भूतकाल (बीता समय: '-आ/-ई/-ए, था/थी') ठीक है पर वाक्य में छोटी गलती (मात्रा/लिंग/वचन), या काल ठीक पर वाक्य अधूरा।"
+                },
+                {
+                  "marks": 0,
+                  "desc": "काल गलत या वाक्य नहीं।"
+                }
+              ],
+              "answerSource": "authored",
+              "answerRef": "पाठ 6, पृ. 71 (तालिका का उदाहरण)",
+              "answerConfidence": "check",
+              "teacherNote": "कोई भी सही भूतकाल का वाक्य मान्य है, जैसे 'मैंने खाना खा लिया।' या 'कल बारिश हुई थी।'"
+            }
+          ]
+        },
+        {
+          "num": "प्रश्न 9.",
+          "instruction": "नीचे दी गई तालिका में नए शब्द बनाकर उनका वाक्यों में प्रयोग लिखो|",
+          "passageType": null,
+          "printedMarks": "(3M)",
+          "adaptation": "हर पंक्ति में खाली खाना (उपसर्ग / मूल शब्द / नया शब्द) भरिए और नए शब्द से एक वाक्य लिखिए।",
+          "picture": null,
+          "pictureAlt": null,
+          "items": [
+            {
+              "label": "",
+              "q": "भर | पेट",
+              "marks": 1,
+              "answerKind": "judgement",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "भरपेट — आज मैंने भरपेट खाना खाया।",
+              "acceptable": [],
+              "rubric": [
+                {
+                  "marks": 1,
+                  "desc": "खाली खाना सही (भरपेट) और उस नए शब्द से सही वाक्य।"
+                },
+                {
+                  "marks": 0.5,
+                  "desc": "केवल एक भाग सही: खाली खाना या वाक्य।"
+                },
+                {
+                  "marks": 0,
+                  "desc": "दोनों गलत या नहीं लिखे।"
+                }
+              ],
+              "answerSource": "authored",
+              "answerRef": "पाठ 6, पृ. 70 (भाषा की बात 1)",
+              "answerConfidence": "check",
+              "teacherNote": "हर पंक्ति 1 अंक: खाली खाना ½ + वाक्य ½ (बँटवारा हमारा)। पत्र (और पाठ्यपुस्तक) 'भर' को उपसर्ग मानता है, इसलिए यहाँ वही रखा है। 'भर पेट' (अलग लिखा) भी मान लें।"
+            },
+            {
+              "label": "",
+              "q": "अनु |  | अनुशासन",
+              "marks": 1,
+              "answerKind": "judgement",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "शासन — हमें विद्यालय में अनुशासन का पालन करना चाहिए।",
+              "acceptable": [],
+              "rubric": [
+                {
+                  "marks": 1,
+                  "desc": "खाली खाना सही (शासन) और उस नए शब्द से सही वाक्य।"
+                },
+                {
+                  "marks": 0.5,
+                  "desc": "केवल एक भाग सही: खाली खाना या वाक्य।"
+                },
+                {
+                  "marks": 0,
+                  "desc": "दोनों गलत या नहीं लिखे।"
+                }
+              ],
+              "answerSource": "authored",
+              "answerRef": "पाठ 6, पृ. 70 (भाषा की बात 1)",
+              "answerConfidence": "check",
+              "teacherNote": "खाली खाना ½ + वाक्य ½। वाक्य में 'अनुशासन' शब्द आना चाहिए।"
+            },
+            {
+              "label": "",
+              "q": "विचार | सुविचार",
+              "marks": 1,
+              "answerKind": "judgement",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "सु — मैं रोज़ एक सुविचार अपनी कॉपी में लिखता हूँ।",
+              "acceptable": [],
+              "rubric": [
+                {
+                  "marks": 1,
+                  "desc": "खाली खाना सही (सु) और उस नए शब्द से सही वाक्य।"
+                },
+                {
+                  "marks": 0.5,
+                  "desc": "केवल एक भाग सही: खाली खाना या वाक्य।"
+                },
+                {
+                  "marks": 0,
+                  "desc": "दोनों गलत या नहीं लिखे।"
+                }
+              ],
+              "answerSource": "authored",
+              "answerRef": "—",
+              "answerConfidence": "check",
+              "teacherNote": "खाली खाना ½ + वाक्य ½। वाक्य में 'सुविचार' शब्द आना चाहिए।"
+            }
+          ]
+        },
+        {
+          "num": "प्रश्न 10.",
+          "instruction": "नीचे दिए चित्र को पहचानकर नाम लिखो| इसके बारे में कोई तीन वाक्य लिखो|",
+          "passageType": null,
+          "printedMarks": "(3M)",
+          "adaptation": null,
+          "picture": "shared-postbox.svg",
+          "pictureAlt": "सड़क किनारे खड़ी एक लाल वस्तु, जिसकी ऊपरी टोपी गोल है, आगे एक पतली काली दरार और लिफ़ाफ़े का चिह्न है, नीचे काला आधार है।",
+          "items": [
+            {
+              "label": "",
+              "q": "नाम - ____",
+              "marks": 1,
+              "answerKind": "objective",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "लेटर बॉक्स",
+              "acceptable": [
+                "लेटरबॉक्स",
+                "लेटर-बॉक्स",
+                "पत्र-पेटी",
+                "पत्र पेटी",
+                "पत्रपेटी",
+                "डाक-पेटी",
+                "डाक पेटी",
+                "डाकपेटी",
+                "पोस्ट बॉक्स",
+                "पोस्टबॉक्स",
+                "पोस्ट-बॉक्स",
+                "पोस्ट बाॅक्स",
+                "लेटर बाॅक्स"
+              ],
+              "rubric": null,
+              "answerSource": "textbook",
+              "answerRef": "पाठ 6, पृ. 68 (डाक पेटी / पोस्ट बॉक्स)",
+              "answerConfidence": "check",
+              "teacherNote": "अंक बँटवारा हमारा: नाम 1 + तीन वाक्य 2 = 3। नाम के सभी रूप मान्य: लेटर बॉक्स / पत्र-पेटी / डाक-पेटी / पोस्ट बॉक्स (जुड़े, अलग या हाइफ़न के साथ)। 'डाकखाना/डाकघर' गलत है।"
+            },
+            {
+              "label": "",
+              "q": "",
+              "marks": 2,
+              "answerKind": "judgement",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "1. यह डाक पेटी लाल रंग की होती है। 2. इसमें हम चिट्ठियाँ डालते हैं। 3. डाकिया इसमें से चिट्ठियाँ निकालकर डाकघर ले जाता है।",
+              "acceptable": [],
+              "rubric": [
+                {
+                  "marks": 2,
+                  "desc": "डाक पेटी के बारे में तीन सही, पूरे वाक्य (रंग, चिट्ठी डालना, डाकिया, कहाँ होती है आदि)।"
+                },
+                {
+                  "marks": 1.5,
+                  "desc": "तीन वाक्य, पर एक में गलती या अधूरा।"
+                },
+                {
+                  "marks": 1,
+                  "desc": "दो सही वाक्य।"
+                },
+                {
+                  "marks": 0.5,
+                  "desc": "एक सही वाक्य।"
+                },
+                {
+                  "marks": 0,
+                  "desc": "कोई सही वाक्य नहीं।"
+                }
+              ],
+              "answerSource": "textbook",
+              "answerRef": "पाठ 6, पृ. 68 (इन्हें भी जानिए: डाक पेटी)",
+              "answerConfidence": "check",
+              "teacherNote": "तीन वाक्यों के 2 अंक (नाम 1 अंक अलग)। कोई भी सही बात मान्य: लाल रंग, चिट्ठियाँ डालते हैं, डाकिया चिट्ठियाँ निकालता है, सड़क किनारे/डाकघर के पास होती है।"
+            }
+          ]
+        },
+        {
+          "num": "प्रश्न 11.",
+          "instruction": "सही शब्द पर गोला लगाओ|",
+          "passageType": null,
+          "printedMarks": "(2M)",
+          "adaptation": "यहाँ सही शब्द लिखिए।",
+          "picture": null,
+          "pictureAlt": null,
+          "items": [
+            {
+              "label": "क)",
+              "q": "प्रसानं    प्रसन्न    प्रसंन्",
+              "marks": 1,
+              "answerKind": "spelling",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "प्रसन्न",
+              "acceptable": [],
+              "rubric": null,
+              "answerSource": "authored",
+              "answerRef": "—",
+              "answerConfidence": "ok",
+              "teacherNote": null
+            },
+            {
+              "label": "ख)",
+              "q": "संग्रालय    संगृहलय    संग्रहालय",
+              "marks": 1,
+              "answerKind": "spelling",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "संग्रहालय",
+              "acceptable": [],
+              "rubric": null,
+              "answerSource": "textbook",
+              "answerRef": "पाठ 6, पृ. 62",
+              "answerConfidence": "ok",
+              "teacherNote": null
+            }
+          ]
+        },
+        {
+          "num": "प्रश्न 12.",
+          "instruction": "दिए गए अक्षरों से सार्थक शब्द बनाओ|",
+          "passageType": null,
+          "printedMarks": "(2M)",
+          "adaptation": null,
+          "picture": null,
+          "pictureAlt": null,
+          "items": [
+            {
+              "label": "क)",
+              "q": "ध / वे / ला / शा - ____",
+              "marks": 1,
+              "answerKind": "spelling",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "वेधशाला",
+              "acceptable": [],
+              "rubric": null,
+              "answerSource": "textbook",
+              "answerRef": "पाठ 6, पृ. 62, 'इस वेधशाला का निर्माण'",
+              "answerConfidence": "ok",
+              "teacherNote": null
+            },
+            {
+              "label": "ख)",
+              "q": "र / द / बा / र - ____",
+              "marks": 1,
+              "answerKind": "spelling",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "दरबार",
+              "acceptable": [],
+              "rubric": null,
+              "answerSource": "textbook",
+              "answerRef": "पाठ 7, पृ. 77",
+              "answerConfidence": "ok",
+              "teacherNote": null
+            }
+          ]
+        },
+        {
+          "num": "प्रश्न 13.",
+          "instruction": "नीचे लिखी पंक्तियों को साफ़ – साफ़ पुनः लिखो|",
+          "passageType": "गद्यांश",
+          "printedMarks": "(5M)",
+          "adaptation": "यह प्रश्न छपे हुए पत्र पर करें; अभिभावक जाँचेंगे।",
+          "picture": null,
+          "pictureAlt": null,
+          "passage": "विद्यार्थी जीवन में समय का महत्व विशेष रूप से होता है। यह वह समय होता है जब व्यक्ति अपने\nभविष्य की नींव रखता है। समय का सदुपयोग करके विद्यार्थी अपने लक्ष्यों को प्राप्त कर सकता है।\nयदि विद्यार्थी अपने समय का सही उपयोग करता है, तो वह अपने शैक्षिक जीवन में उत्कृष्ट प्रदर्शन\nकर सकता है।",
+          "items": [
+            {
+              "label": "",
+              "q": "",
+              "marks": 5,
+              "answerKind": "paperOnly",
+              "picture": null,
+              "pictureAlt": null,
+              "a": "छपा हुआ गद्यांश सुंदर, साफ़ अक्षरों में, बिना गलती के, पूरा लिखा जाए।",
+              "acceptable": [],
+              "rubric": [
+                {
+                  "marks": 5,
+                  "desc": "पूरा गद्यांश, सुंदर-साफ़ अक्षर, शिरोरेखा, सही दूरी, मात्राएँ और विराम-चिह्न ठीक, कोई गलती नहीं।"
+                },
+                {
+                  "marks": 4,
+                  "desc": "पूरा और साफ़, पर एक-दो गलतियाँ या कहीं-कहीं अक्षर बिगड़े।"
+                },
+                {
+                  "marks": 3,
+                  "desc": "पूरा लिखा, पर लिखावट कई जगह साफ़ नहीं या तीन-चार गलतियाँ।"
+                },
+                {
+                  "marks": 2,
+                  "desc": "आधा गद्यांश लिखा, या बहुत गलतियाँ।"
+                },
+                {
+                  "marks": 1,
+                  "desc": "थोड़ा-सा लिखा।"
+                },
+                {
+                  "marks": 0,
+                  "desc": "नहीं लिखा।"
+                }
+              ],
+              "answerSource": "authored",
+              "answerRef": "—",
+              "answerConfidence": "ok",
+              "teacherNote": "सुलेख छपे हुए पत्र पर ही होता है; अभिभावक लिखावट देखकर अंक दें।"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

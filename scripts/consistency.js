@@ -6,8 +6,8 @@
  *
  * Items are matched by normalised (instruction + q) — and by q alone when
  * q is long enough to be distinctive (>= 12 chars). For each match we compare
- * `a`, the sorted `acceptable` list, `answerKind`, `marks`-relative rubric
- * presence and `answerConfidence`. Exit 1 on any mismatch.
+ * `a`, the sorted `acceptable` list, `answerKind` and `answerConfidence`, and
+ * the rubric bands between items worth the same marks. Exit 1 on any mismatch.
  *
  * Usage: node scripts/consistency.js [--data app/data]
  */
@@ -36,13 +36,16 @@ for (const f of files) {
   })));
 }
 
+// The answer key must match everywhere. The rubric is compared only between
+// items worth the same marks: a 2-mark and a 1-mark version of one question
+// legitimately have different bands.
 const sig = it => JSON.stringify({
   a: norm(it.a),
   acc: [...(it.acceptable || [])].map(norm).sort(),
   kind: it.answerKind,
-  rubric: Array.isArray(it.rubric) ? it.rubric.length : 0,
   conf: it.answerConfidence,
 });
+const rubricSig = it => JSON.stringify((Array.isArray(it.rubric) ? it.rubric : []).map(b => [b.marks, norm(b.desc)]));
 
 const seen = new Set();
 const problems = [];
@@ -55,7 +58,10 @@ for (const [key, recs] of byKey) {
   seen.add(id);
   pairs++;
   const sigs = new Set(recs.map(r => sig(r.it)));
-  if (sigs.size > 1) {
+  const byMarks = new Map();
+  recs.forEach(r => { const k = String(r.it.marks); if (!byMarks.has(k)) byMarks.set(k, new Set()); byMarks.get(k).add(rubricSig(r.it)); });
+  const rubricClash = [...byMarks.values()].some(set => set.size > 1);
+  if (sigs.size > 1 || rubricClash) {
     problems.push(`DIFFERENT: ${key.slice(0, 90)}\n` + recs.map(r =>
       `    ${r.where}: a=${JSON.stringify(r.it.a)} acceptable=${JSON.stringify(r.it.acceptable || [])} kind=${r.it.answerKind} conf=${r.it.answerConfidence}`).join('\n'));
   }
