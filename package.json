@@ -8,8 +8,9 @@
     "fidelity": "node scripts/fidelity.js",
     "review-sheets": "node scripts/review-sheet.js",
     "check:existing": "node scripts/check-existing.js",
-    "test:fixtures": "node tests/fixtures.test.js && node tests/fidelity.test.js && node tests/review-sheet.test.js",
-    "test:font": "node tests/font-check.js"
+    "test:fixtures": "node tests/fixtures.test.js && node tests/fidelity.test.js && node tests/review-sheet.test.js && node tests/consistency.test.js",
+    "test:font": "node tests/font-check.js",
+    "consistency": "node scripts/consistency.js"
   },
   "devDependencies": {
     "playwright": "1.63.0"

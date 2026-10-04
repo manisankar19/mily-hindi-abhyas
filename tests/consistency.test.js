@@ -1,0 +1,47 @@
+// Tests for scripts/consistency.js: identical keys pass, a differing key fails.
+'use strict';
+const assert = require('assert');
+const fs = require('fs');
+const os = require('os');
+const path = require('path');
+const { spawnSync } = require('child_process');
+
+const ROOT = path.resolve(__dirname, '..');
+const good = JSON.parse(fs.readFileSync(path.join(ROOT, 'tests/fixtures/good/hindi-ws99.json'), 'utf8'));
+const tmpBase = process.env.REVIEW_SHEET_TMP || os.tmpdir();
+let pass = 0, total = 0;
+function run(papers) {
+  const dir = fs.mkdtempSync(path.join(tmpBase, 'consistency-'));
+  try {
+    papers.forEach(p => fs.writeFileSync(path.join(dir, `hindi-${p.ws}.json`), JSON.stringify(p)));
+    return spawnSync(process.execPath, [path.join(ROOT, 'scripts/consistency.js'), '--data', dir], { encoding: 'utf8' });
+  } finally { fs.rmSync(dir, { recursive: true, force: true }); }
+}
+function test(name, fn) { total++; try { fn(); pass++; } catch (e) { console.error('FAIL', name, '\n ', e.message); } }
+const copy = (ws) => Object.assign(JSON.parse(JSON.stringify(good)), { ws });
+
+test('same question, same key in two papers → OK', () => {
+  const r = run([copy('ws01'), copy('ws02')]);
+  assert.strictEqual(r.status, 0, r.stdout);
+  assert.ok(/OK \d+ shared/.test(r.stdout), r.stdout);
+  assert.ok(!/OK 0 shared/.test(r.stdout), 'should find shared groups');
+});
+test('same question, different acceptable → FAIL naming both papers', () => {
+  const b = copy('ws02');
+  b.sections[0].blocks[0].items[0].acceptable = ['पार्क'];
+  const r = run([copy('ws01'), b]);
+  assert.strictEqual(r.status, 1, r.stdout);
+  assert.ok(r.stdout.includes('ws01') && r.stdout.includes('ws02'), r.stdout);
+});
+test('same question, different answerConfidence → FAIL', () => {
+  const b = copy('ws02');
+  b.sections[0].blocks[0].items[0].answerConfidence = 'check';
+  assert.strictEqual(run([copy('ws01'), b]).status, 1);
+});
+test('one paper only → OK 0 shared', () => {
+  const r = run([copy('ws01')]);
+  assert.strictEqual(r.status, 0);
+  assert.ok(/OK 0 shared/.test(r.stdout), r.stdout);
+});
+console.log(`consistency ${pass}/${total}`);
+process.exit(pass === total ? 0 : 1);
