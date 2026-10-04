@@ -1,0 +1,17 @@
+{
+  "ws": "ws99",
+  "sourceFile": "fixture.pdf",
+  "printedTotal": 8,
+  "sections": [
+    {
+      "code": "1",
+      "heading": "पठन (3 अंक)",
+      "marks": 3
+    },
+    {
+      "code": "2",
+      "heading": "व्याकरण (3 अंक)",
+      "marks": 3
+    }
+  ]
+}

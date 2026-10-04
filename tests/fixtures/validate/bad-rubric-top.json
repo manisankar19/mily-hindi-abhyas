@@ -1,0 +1,195 @@
+{
+  "kind": "school",
+  "ws": "ws99",
+  "sourceFile": "fixture.pdf",
+  "title": "परीक्षण कार्यपत्रक (2026-27)",
+  "shortLabel": "परीक्षण · फिक्स्चर",
+  "subtitle": "विद्यालय कार्यपत्रक · परीक्षण",
+  "header": [
+    "परीक्षण कार्यपत्रक (2026-27)",
+    "कक्षा: चौथी    विषय: हिंदी    अंक: 6"
+  ],
+  "portion": "",
+  "chapters": [],
+  "totalMarks": 6,
+  "disclaimer": true,
+  "sections": [
+    {
+      "code": "1",
+      "title": "पठन (3 अंक)",
+      "marks": 3,
+      "blocks": [
+        {
+          "num": "प्रश्न 1.",
+          "instruction": "नीचे दिए गद्यांश को पढ़कर प्रश्नों के उत्तर लिखिए| (2)",
+          "passage": "राम रोज़ सुबह पार्क जाता है। वह वहाँ दौड़ता है।",
+          "passageType": "गद्यांश",
+          "printedMarks": "(2)",
+          "adaptation": null,
+          "picture": null,
+          "pictureAlt": null,
+          "items": [
+            {
+              "label": "(क)",
+              "q": "राम रोज़ सुबह कहाँ जाता है?",
+              "marks": 1,
+              "answerKind": "objective",
+              "a": "राम रोज़ सुबह पार्क जाता है।",
+              "acceptable": [
+                "पार्क",
+                "पार्क में",
+                "बगीचे में",
+                "उद्यान में"
+              ],
+              "rubric": null,
+              "answerSource": "passage",
+              "answerRef": "प्रश्न 1 गद्यांश, वाक्य 1",
+              "answerConfidence": "ok",
+              "teacherNote": null
+            },
+            {
+              "label": "(ख)",
+              "q": "राम पार्क में क्या करता है?",
+              "marks": 1,
+              "answerKind": "objective",
+              "a": "राम पार्क में दौड़ता है।",
+              "acceptable": [
+                "दौड़ता है",
+                "दौड़ता",
+                "दौडता है"
+              ],
+              "rubric": null,
+              "answerSource": "passage",
+              "answerRef": "प्रश्न 1 गद्यांश, वाक्य 2",
+              "answerConfidence": "check",
+              "teacherNote": "‘दौडता’ (बिना नुक्ता) भी स्वीकार करें।"
+            }
+          ]
+        },
+        {
+          "num": "प्रश्न 2.",
+          "instruction": "रेखांकित शब्द का विलोम लिखिए| (1)",
+          "printedMarks": "(1)",
+          "adaptation": null,
+          "picture": null,
+          "pictureAlt": null,
+          "items": [
+            {
+              "label": "(क)",
+              "q": "यह कुआँ गहरा है।",
+              "underline": [
+                "गहरा"
+              ],
+              "marks": 1,
+              "answerKind": "objective",
+              "a": "उथला",
+              "acceptable": [
+                "छिछला"
+              ],
+              "rubric": null,
+              "answerSource": "authored",
+              "answerRef": "—",
+              "answerConfidence": "ok",
+              "teacherNote": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "2",
+      "title": "व्याकरण (3 अंक)",
+      "marks": 3,
+      "blocks": [
+        {
+          "num": "प्रश्न 3.",
+          "instruction": "सही शब्द पर गोला लगाओ| (1)",
+          "printedMarks": "(1)",
+          "adaptation": "यहाँ सही शब्द लिखिए।",
+          "picture": null,
+          "pictureAlt": null,
+          "items": [
+            {
+              "label": "(क)",
+              "q": "किताब / कीताब",
+              "marks": 1,
+              "answerKind": "spelling",
+              "a": "किताब",
+              "acceptable": [],
+              "rubric": null,
+              "answerSource": "authored",
+              "answerRef": "—",
+              "answerConfidence": "ok",
+              "teacherNote": null
+            }
+          ]
+        },
+        {
+          "num": "प्रश्न 4.",
+          "instruction": "सही विकल्प चुनिए| (1)",
+          "printedMarks": "(1)",
+          "adaptation": null,
+          "picture": null,
+          "pictureAlt": null,
+          "items": [
+            {
+              "label": "(क)",
+              "q": "सूरज किस दिशा में उगता है?",
+              "options": [
+                "क) पूर्व",
+                "ख) पश्चिम"
+              ],
+              "marks": 1,
+              "answerKind": "objective",
+              "a": "क) पूर्व",
+              "acceptable": [
+                "पूर्व"
+              ],
+              "rubric": null,
+              "answerSource": "authored",
+              "answerRef": "—",
+              "answerConfidence": "ok",
+              "teacherNote": null
+            }
+          ]
+        },
+        {
+          "num": "प्रश्न 5.",
+          "instruction": "चित्र देखकर दो वाक्य लिखिए| (1)",
+          "printedMarks": "(1)",
+          "adaptation": null,
+          "picture": "ws99-q5.svg",
+          "pictureAlt": "चटाई पर बैठा एक जानवर",
+          "items": [
+            {
+              "label": "",
+              "q": "",
+              "marks": 1,
+              "answerKind": "judgement",
+              "a": "यह एक बिल्ली है। बिल्ली चटाई पर बैठी है।",
+              "acceptable": [],
+              "rubric": [
+                {
+                  "marks": 2,
+                  "desc": "चित्र से जुड़े दो सही वाक्य"
+                },
+                {
+                  "marks": 0.5,
+                  "desc": "एक सही वाक्य"
+                },
+                {
+                  "marks": 0,
+                  "desc": "कोई सही वाक्य नहीं"
+                }
+              ],
+              "answerSource": "authored",
+              "answerRef": "—",
+              "answerConfidence": "check",
+              "teacherNote": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
