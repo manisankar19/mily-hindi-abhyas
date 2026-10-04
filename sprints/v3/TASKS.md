@@ -208,9 +208,10 @@ Batch order is set at Gate 0. The default order is below, fewest pictures first.
   - Files: README.md
   - Completed: 2026-10-04 — README: worksheets in intro, build discovery/pictures, "School worksheets (v3)" section (files table, adding a new worksheet, review-sheet rule, checks/tests table); .vercelignore documented under Deploy
 
-- [ ] Task 42: 🛑 Production deploy and live check (P0)
+- [x] Task 42: 🛑 Production deploy and live check (P0)
   - Acceptance: With the owner's approval, production is deployed to the existing project. The live `index.html` hash equals the tested `dist/index.html`. A live e2e on chapter 6 and one worksheet passes in both modes at both widths.
   - Files: tests/e2e-live.js
+  - Completed: 2026-10-04 — owner approved; old .env.local token had no team access → owner added a new token; `vercel deploy --prod` (scope = project team): deployment dpl_6Q2qkYCvGE1uSX7JnwnkrocUpau4 READY; live index.html sha256 db5c95c5b2b8df92… = local build (byte-identical, first try); deploy source = 28 files (build.js, app/, vercel.json, package.json, .vercelignore — no docs/env/PDFs); tests/e2e-live.js 8/8 (ch6 + ws05 at 390/1280, real code, no console errors)
 
 - [ ] Task 44: Remove the plaintext jाँच code from the v2 docs and rotate it (P1, found in Task 40)
   - Acceptance: owner chooses: (a) rotate GANESH (new value in Vercel env + .env.local, redeploy) so the old value in v2 docs is harmless, and/or (b) redact the value in sprints/v2/*.md going forward (history keeps it unless rewritten — owner decision). No v3 file contains the value.
