@@ -1,0 +1,83 @@
+{
+  "recorded": "2026-10-04",
+  "existing": {
+    "app/data/chapter1.json": "436bf8c5c47a825a340a47d145b8bda289157c351c72b868eb741a5947d2f0a4",
+    "app/data/chapter2.json": "6edc3ac4934ad0eb46f63fbfd84ce1bae0180786ff73024bb4dc8b7b19edcdd0",
+    "app/data/chapter3.json": "918ad1a3abe710aa30621ba4e52157be800eedd042b17b6d6cb653a47a43b4c6",
+    "app/data/chapter4.json": "806ba219dead07c0ceb00c1cf5eebe25a1e4f7ed651ab96e22053885bfc2dae8",
+    "app/data/chapter5.json": "5984d333c18d24780be91c42adeb51f8425fa2547a91ca37424afe7825fa67d2",
+    "app/data/chapter6.json": "717b22cc7411881c0a800fe03f431152bf1c4e6853bcb2ba919eab7e19c39453",
+    "app/data/chapter7.json": "732f24e54ad373fabc681246dfb3ef871b1716cf87ee39ec15114163f35fdb1f",
+    "app/app.js": "f07a472cf691c42e0c4805934fa23fa51594402e24384699c830e11447c3fa82",
+    "app/styles.css": "d25f3f99f8c7437b66cbb2a078074d39f7b659d7aa8b03eb697a77320ce91bd0",
+    "app/index.html": "bdc2b9189851c52f75081e33c4c4648834b2bccab9b3329019b230a261aec0fb",
+    "build.js": "4ded0564276585c9f5e257f2cb168d6ec2b30874e2f615010d2ffa9b5ed46312"
+  },
+  "worksheets": [
+    {
+      "ws": "ws01",
+      "file": "3.1.1  Hindi_L6-7_WS.pdf",
+      "sha256": "bddc63f3307ccc24680605a61aeb5837e0b54c1063ad6a4317361fe3d1cb312e"
+    },
+    {
+      "ws": "ws02",
+      "file": "3.1.2 4-Hindi_L-1-7_WS (SetA).pdf",
+      "sha256": "0efa2c1d43ff23c1d5610488e9f396a63a5fcb858e65455f1e66e72539309877"
+    },
+    {
+      "ws": "ws03",
+      "file": "3.1.3 -Hindi_L-1-7_WS (SetB).pdf",
+      "sha256": "418a62844cbaf8914137cd326c1d3b77563814b94aaf083ed7e7b24fda30103d"
+    },
+    {
+      "ws": "ws04",
+      "file": "3.1.4 _Hindi_WS_Sep '26_T-1(Set 2) 26-27.pdf",
+      "sha256": "0b5af0cc437f36272a83fe260c943cfbecd6a1d3b8e1f75d4838149c7a0728c6"
+    },
+    {
+      "ws": "ws05",
+      "file": "3.1.5 4_Hindi_WS_ Aug 26 L 6-7 (26-27).pdf",
+      "sha256": "9b946946855f1c12b6ffdde3e785951fb3f3407526f2536645e6f775863d41cd"
+    },
+    {
+      "ws": "ws06",
+      "file": "3.1.6 4_Hindi_WS_ July 26 L 4-5.pdf",
+      "sha256": "9f75250d89361d0056f24c72fc081043ec0f5b1801b56f99edbe36ec1d88d6f8"
+    },
+    {
+      "ws": "ws07",
+      "file": "3.1.7 4_Hindi_WS_ Sept 26.pdf",
+      "sha256": "7217e862c888155e26cff4d08000e895e702a6b9c89e4b186d870cb569089c6b"
+    }
+  ],
+  "textbook": [
+    {
+      "file": "dhve101 hindi.pdf",
+      "sha256": "047949ec444fcb1b7446444b2d6e4c75fcb85f1d20783acb1ab53e23e1fbcca6"
+    },
+    {
+      "file": "dhve102 hindi.pdf",
+      "sha256": "9ddfc8c6056fc7fe9426d91887fbaaa28103485cc3d2070607faab127a307500"
+    },
+    {
+      "file": "dhve103.pdf",
+      "sha256": "79609fb325b6151ae73fc8fe9ead1e3cc92b28915cbec6a2da308986437702f5"
+    },
+    {
+      "file": "dhve104.pdf",
+      "sha256": "fa3065e38bf1bd3c9d7220599e5cc3b85a482e4ff245aa06e02e9893c1582170"
+    },
+    {
+      "file": "dhve105.pdf",
+      "sha256": "2e7627b6f7633ceb7bff6f7e2487018bfcbaf744e69b91704639ca1047f53692"
+    },
+    {
+      "file": "dhve106.pdf",
+      "sha256": "e91f65239337a8d1c99a0e5ab9ee5e9e721eb731dbb1f0ced1fadf713cee899c"
+    },
+    {
+      "file": "dhve107.pdf",
+      "sha256": "5a351e104ca1fd750b5a46aaf719db5b7616905d06d10499dc74e9085a729044"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Sprint v3 — Tasks: School Worksheets with answers
 
-## Status: Not started
+## Status: In progress (Phases 0–2)
 
 Rules: `sprints/v3/instruction.md`. Plan: `sprints/v3/PRD.md`.
 🛑 = stop for the owner. Paper tasks (17–30) run one sub-agent per paper. That sub-agent writes only its own
@@ -11,27 +11,32 @@ Every task ends with `node build.js` still passing and the chapter1..7.json hash
 
 ## Phase 0 — Preflight and baseline
 
-- [ ] Task 1: Preflight tool and source check (P0)
+- [x] Task 1: Preflight tool and source check (P0)
   - Acceptance: `sprints/v3/preflight.md` records the versions of pdftoppm, pdftotext, node and Playwright, and whether a Devanagari font is present (`fc-list | grep -i devanagari`). It also has the count and SHA-256 of the 7 PDFs in `source/samples/` and of the 7 in `source/textbook/`, plus `git status`. No secret is printed.
   - Files: sprints/v3/preflight.md
+  - Completed: 2026-10-04 — tools, 7+7 PDFs hashed, git clean apart from new files; see preflight.md
 
-- [ ] Task 2: Baseline hashes and build check (P0)
+- [x] Task 2: Baseline hashes and build check (P0)
   - Acceptance: `node build.js` succeeds. `sprints/v3/preflight-hashes.json` holds the SHA-256 of `app/data/chapter1..7.json`, `app/app.js`, `app/styles.css` and `app/index.html`. `dist/index.html` contains the GANESH hash and not the plaintext. No `.env*` content appears in `dist/`. The live URL returns HTTP 200.
   - Files: sprints/v3/preflight-hashes.json, sprints/v3/preflight.md
+  - Completed: 2026-10-04 — build 264.5 KB; hash-only GANESH confirmed (plaintext 0×, matches local value); no token/JWT in dist; live 200; preflight-hashes.json
 
-- [ ] Task 3: Install Devanagari font for screenshots (P0)
+- [x] Task 3: Install Devanagari font for screenshots (P0)
   - Acceptance: `fc-list | grep -i devanagari` shows Noto Sans Devanagari, or a similar font. A test Playwright screenshot of chapter 6 shows Hindi text, not boxes.
   - Files: sprints/v3/preflight.md (note)
+  - Completed: 2026-10-04 — Noto Sans/Serif Devanagari installed (dnf); tests/font-check.js PASS; screenshot task3-01 shows Hindi correctly
 
-- [ ] Task 4: 🛑 Commit `source/` as the baseline (P0)
+- [x] Task 4: 🛑 Commit `source/` as the baseline (P0)
   - Acceptance: With the owner's OK, `source/samples/` and `source/textbook/` are committed unchanged. `.gitignore` adds `source/page-images/`. The commit has the session attribution lines.
   - Files: .gitignore
+  - Completed: 2026-10-04 — commit e788d4b (owner go-ahead via /dev 'up to phase 3'); page images gitignored
 
 ## Phase 1 — Intake
 
-- [ ] Task 5: Render page images and textbook text (P0)
+- [x] Task 5: Render page images and textbook text (P0)
   - Acceptance: `source/page-images/wsNN-P.png` exists at 200 dpi for every page of all 7 worksheets (42 pages), and the directory is gitignored. `source/textbook-text/ch1..7.txt` comes from `pdftotext`, and each file holds that chapter's title.
   - Files: scripts/render-pages.sh, source/textbook-text/*.txt
+  - Completed: 2026-10-04 — scripts/render-pages.sh: 42 page images (4/8/10/8/4/4/4); textbook-text ch1..7 (titles verified)
 
 - [ ] Task 6: Transcribe ws01 + ws05 from page images (P0)
   - Acceptance: `source/transcripts/ws01.txt` and `ws05.txt` have every printed string in Unicode Devanagari, page by page, with printed numerals, typos and `|` kept. Every page was viewed.

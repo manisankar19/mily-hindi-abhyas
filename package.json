@@ -1,0 +1,17 @@
+{
+  "name": "hindi-abhyas-site",
+  "private": true,
+  "description": "Class 4 Hindi practice papers + school worksheets (static, single-file build)",
+  "scripts": {
+    "build": "node build.js",
+    "validate": "node validate.js",
+    "fidelity": "node scripts/fidelity.js",
+    "review-sheets": "node scripts/review-sheet.js",
+    "check:existing": "node scripts/check-existing.js",
+    "test:fixtures": "node tests/fixtures.test.js && node tests/fidelity.test.js && node tests/review-sheet.test.js",
+    "test:font": "node tests/font-check.js"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0"
+  }
+}
