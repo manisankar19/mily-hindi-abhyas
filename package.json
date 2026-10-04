@@ -10,7 +10,8 @@
     "check:existing": "node scripts/check-existing.js",
     "test:fixtures": "node tests/fixtures.test.js && node tests/fidelity.test.js && node tests/review-sheet.test.js && node tests/consistency.test.js",
     "test:font": "node tests/font-check.js",
-    "consistency": "node scripts/consistency.js"
+    "consistency": "node scripts/consistency.js",
+    "test:build": "node tests/build.test.js"
   },
   "devDependencies": {
     "playwright": "1.63.0"

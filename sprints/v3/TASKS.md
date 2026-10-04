@@ -147,9 +147,10 @@ Batch order is set at Gate 0. The default order is below, fewest pictures first.
 
 ## Phase 4 — App and build
 
-- [ ] Task 31: `build.js` discovers papers and inlines SVGs once (P0)
+- [x] Task 31: `build.js` discovers papers and inlines SVGs once (P0)
   - Acceptance: `CHAPTER_COUNT` is removed. Papers are read from `chapter*.json` and `hindi-ws*.json`, and the build fails on a duplicate id or invalid JSON. Each SVG is inlined once in an asset map. The GANESH behaviour is unchanged, and the build fails when GANESH is unset. `dist/index.html` holds all papers. The size is printed.
   - Files: build.js
+  - Completed: 2026-10-04 — papers discovered from app/data; app/worksheet-order.json (must list each worksheet once); SVGs inlined once as data URIs (#assetsData); tests/build.test.js 12/12; dist 698 KB
 
 - [ ] Task 32: Paper ids, home group and score keys (P0)
   - Acceptance: Papers are keyed by id. A "विद्यालय कार्यपत्रक" section under the chapter grid shows short label, total and progress. Worksheet scores use their own localStorage key. Existing chapter score keys and saved marks still load.
