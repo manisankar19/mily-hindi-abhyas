@@ -1,6 +1,6 @@
 # Sprint v3 — Tasks: School Worksheets with answers
 
-## Status: In progress (Phases 0–2)
+## Status: Phases 0–2 done (Tasks 1–17); Phase 3 next (Task 18)
 
 Rules: `sprints/v3/instruction.md`. Plan: `sprints/v3/PRD.md`.
 🛑 = stop for the owner. Paper tasks (17–30) run one sub-agent per paper. That sub-agent writes only its own
@@ -73,9 +73,10 @@ Every task ends with `node build.js` still passing and the chapter1..7.json hash
   - Files: source/intake.json, source/WORKSHEETS-INTAKE.md
   - Completed: 2026-10-04 — scripts/merge-intake.js → source/intake.json + WORKSHEETS-INTAKE.md; 400 marks, 115 blocks, 344 items, ⚑ estimate 188; all arithmetic and hashes OK; ws01–ws05 share 54.7% of lines (exact-line match)
 
-- [ ] Task 13: 🛑 Gate 0: owner decisions (P0)
+- [x] Task 13: 🛑 Gate 0: owner decisions (P0)
   - Acceptance: `sprints/v3/v3-decisions.md` records the owner's answers on: the paper list and display order; ws01/ws05 (keep both or drop one); the ओणम के रंग source (add the chapter PDF, or use passage plus general knowledge with all ⚑); which items are paper-only; and any adaptation that needs a yes.
   - Files: sprints/v3/v3-decisions.md
+  - Completed: 2026-10-04 — owner chose the recommended option on all 4 questions; recorded with coordinator defaults in v3-decisions.md
 
 ## Phase 2 — Schema and tooling
 
