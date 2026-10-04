@@ -1,0 +1,239 @@
+{
+  "ws": "ws05",
+  "sourceFile": "3.1.5 4_Hindi_WS_ Aug 26 L 6-7 (26-27).pdf",
+  "sha256": "9b946946855f1c12b6ffdde3e785951fb3f3407526f2536645e6f775863d41cd",
+  "pdfPages": 4,
+  "printedPages": "05",
+  "header": [
+    "मुद्रित पृष्ठों की संख्या : 05",
+    "परमाणु ऊर्जा शिक्षण संस्था",
+    "कार्यपत्रक (2026-27)",
+    "कक्षा : चौथी    विषय: हिंदी    माह-अगस्त 2026    अंक- 40",
+    "दिया गया पाठ्यक्रम - पाठ -6 जयपुर से पत्र एवं पाठ -7 नकली हीरे",
+    "विद्यार्थी का नाम – ____",
+    "अनुक्रमांक - ____    कक्षा / अनुभाग - ____    दिनांक - ____"
+  ],
+  "printedTitle": "कार्यपत्रक (2026-27)",
+  "shortLabel": "कार्यपत्रक · अगस्त 2026 · पाठ 6–7",
+  "month": "अगस्त 2026",
+  "set": null,
+  "printedTotal": 40,
+  "portion": "पाठ -6 जयपुर से पत्र एवं पाठ -7 नकली हीरे",
+  "chapters": [6, 7],
+  "chaptersOutsideTextbook": [],
+  "sections": [
+    {
+      "code": "1",
+      "heading": "(पठन क्षमता पर आधारित प्रश्न- 10 अंक)",
+      "marks": 10,
+      "blocks": [
+        {
+          "label": "प्रश्न 1.",
+          "instruction": "दिए गए पठित गद्यांश को पढ़कर निम्नलिखित प्रश्नों के उत्तर लिखिए|",
+          "pattern": "passage-qa",
+          "items": 5,
+          "marksEach": 1,
+          "marks": 5,
+          "printedMarks": "(5M)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "The passage is from ch6 जयपुर से पत्र. It has 5 labelled parts (क)–(ड). (क)–(ग) are short answers. (घ) is विलोम with 2 blanks (पुराना x, दिन x) and (ड) is समान अर्थ with 2 blanks (विशाल -, रात्रि-), so (घ)/(ड) are likely ½ + ½. Part (ड) is labelled with ड, not ङ. (ग) 'जयपुर किस राज्य की राजधानी है?' is not stated in the passage; the child must infer राजस्थान. The passage prints पश्चात without a halant and 'रात को'. It differs from ws01 (पश्चात्, 'रात में')."
+        },
+        {
+          "label": "प्रश्न 2.",
+          "instruction": "अपठित गद्यांश को पढ़कर निम्नलिखित प्रश्नों के उत्तर लिखिए|",
+          "pattern": "unseen-passage",
+          "items": 5,
+          "marksEach": 1,
+          "marks": 5,
+          "printedMarks": "5M",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "Unseen passage (lion and mouse) that does not appear in ws01. The labels are inconsistent: 'क.', 'ख' (no full stop), 'ग.शरारती' (no space), 'घ .', 'ड.'. घ is a fill-blank: 'सही शब्द चुन कर लिखा -' (sic, लिखा for लिखो), but no word options are printed, so the answer (शरीर) comes from the passage. ड 'नजदीक' शब्द का अर्थ है– (पास/ दूर) is a two-option choice. The passage has the typo 'वहीपेड़' (missing space) and uses '|' as the danda. The marks are printed without brackets."
+        }
+      ]
+    },
+    {
+      "code": "2",
+      "heading": "(पाठ्यपुस्तक पर आधारित प्रश्न- 06 अंक)",
+      "marks": 6,
+      "blocks": [
+        {
+          "label": "प्रश्न 3 .",
+          "instruction": "नीचे दिए प्रश्नों के उत्तर लिखिए|",
+          "pattern": "short",
+          "items": 5,
+          "marksEach": null,
+          "marks": 6,
+          "printedMarks": "(1M) (1M) (1M) (2M) (1M)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "Marks are mixed: (क)1 (ख)1 (ग)1 (घ)2 (ड)1 = 6. (क), (ख) and (ड) are from ch6. (ग) and (घ) are from ch7. (ख) prints 'अंको' (sic, no anusvara). The label has a space: 'प्रश्न 3 .'. These are the same 5 questions as ws01 प्रश्न 2."
+        }
+      ]
+    },
+    {
+      "code": "3",
+      "heading": "(रचनात्मक क्षमता पर आधारित प्रश्न- 03 अंक)",
+      "marks": 3,
+      "blocks": [
+        {
+          "label": "प्रश्न 4.",
+          "instruction": "नीचे दिए चित्र को पहचानकर, इसके बारे में कोई तीन वाक्य लिखो|",
+          "pattern": "picture-describe",
+          "items": 3,
+          "marksEach": 1,
+          "marks": 3,
+          "printedMarks": "(3M)",
+          "pictures": [
+            {
+              "page": 2,
+              "what": "Black-and-white line drawing of a pillar-style post box (letter box). It has a domed top with a cap ledge, a black rectangular mail slot, an envelope symbol on the front panel and a solid black base.",
+              "need": "describe"
+            }
+          ],
+          "paperOnlyLikely": false,
+          "notes": "The child names the object (a 'नाम - ____' line is printed beside the picture; expected लेटर बॉक्स / पत्र-पेटी / डाक-पेटी) and writes 3 sentences. Whether the name itself earns marks is not stated, so 3 sentences × 1 is assumed. The same picture appears in ws01 प्रश्न 10, where the instruction there also says 'नाम लिखो'. It links to ch6 (letter writing)."
+        }
+      ]
+    },
+    {
+      "code": "4",
+      "heading": "(शब्द भंडार पर आधारित प्रश्न- 08 अंक)",
+      "marks": 8,
+      "blocks": [
+        {
+          "label": "प्रश्न 5.",
+          "instruction": "दिए गए शब्दों से वाक्य बनाओ|",
+          "pattern": "sentence-making",
+          "items": 2,
+          "marksEach": 1,
+          "marks": 2,
+          "printedMarks": "(2M)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "The words are धीरे-धीरे and साथ-साथ. ws01 had 3 items (with धन्यवाद) for 3M."
+        },
+        {
+          "label": "प्रश्न 6.",
+          "instruction": "तालिका को ध्यान से पढ़कर उचित वाक्य लिखिए-",
+          "pattern": "table",
+          "items": 3,
+          "marksEach": 1,
+          "marks": 3,
+          "printedMarks": "(3M)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "This is a tense (काल) table. The child writes one sentence each in future, present and past tense. The tense names are not printed, only the descriptions. Answers are open-ended (judgement)."
+        },
+        {
+          "label": "प्रश्न 7.",
+          "instruction": "नीचे दी गई तालिका में नए शब्द बनाकर उनका वाक्यों में प्रयोग लिखो|",
+          "pattern": "upsarg-pratyay",
+          "items": 3,
+          "marksEach": 1,
+          "marks": 3,
+          "printedMarks": "(3M)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "Each of the 3 rows has one missing cell plus a sentence. Row 1: भर + पेट → (भरपेट). Row 2: अनु + (शासन) → अनुशासन. Row 3: (सु) + विचार → सुविचार. The missing cell and the sentence are probably ½ each. 'भर' as an उपसर्ग is a teacher choice. The sentence part needs judgement."
+        }
+      ]
+    },
+    {
+      "code": "5",
+      "heading": "(व्याकरण क्षमता पर आधारित प्रश्न – 04 अंक)",
+      "marks": 4,
+      "blocks": [
+        {
+          "label": "प्रश्न 8.",
+          "instruction": "नीचे लिखे शब्दों को उनके अर्थों के साथ मिलाओ।",
+          "pattern": "match",
+          "items": 4,
+          "marksEach": 0.5,
+          "marks": 2,
+          "printedMarks": "(2M)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "Pairs are बुद्धिमान/निस्संदेह/वृद्ध/श्रेष्ठ against the jumbled meanings बूढ़ा/विवेकवान/सर्वोत्तम/संदेह न होना (ch7 words). The instruction ends with a true '।'. The section heading uses an en dash, unlike the other headings."
+        },
+        {
+          "label": "प्रश्न 9.",
+          "instruction": "विलोम शब्द लिखो|",
+          "pattern": "vilom",
+          "items": 4,
+          "marksEach": 0.5,
+          "marks": 2,
+          "printedMarks": "(2M)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "The words are आज, नकली, पास and प्रसन्नता. आज x कल is ambiguous but standard. प्रसन्नता has several acceptable answers (अप्रसन्नता / दुख / उदासी)."
+        }
+      ]
+    },
+    {
+      "code": "6",
+      "heading": "(वर्तनी पर आधारित प्रश्न- 04 अंक)",
+      "marks": 4,
+      "blocks": [
+        {
+          "label": "प्रश्न 10.",
+          "instruction": "सही शब्द पर गोला लगाओ|",
+          "pattern": "spelling-circle",
+          "items": 2,
+          "marksEach": 1,
+          "marks": 2,
+          "printedMarks": "(2M)",
+          "pictures": [],
+          "paperOnlyLikely": true,
+          "notes": "The options keep their deliberate misspellings exactly as printed. क) प्रसानं / प्रसन्न / प्रसंन्. ख) संग्रालय / संगृहलय / संग्रहालय. Circling is a paper action. Online it becomes a 3-option choice. The labels are 'क)' and 'ख)' without an opening bracket."
+        },
+        {
+          "label": "प्रश्न 11.",
+          "instruction": "दिए गए अक्षरों से सार्थक शब्द बनाओ|",
+          "pattern": "jumbled-letters",
+          "items": 2,
+          "marksEach": 1,
+          "marks": 2,
+          "printedMarks": "(2M)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "क) ध / वे / ला / शा → वेधशाला (ch6 जंतर-मंतर). ख) र / द / बा / र → दरबार (ch7)."
+        }
+      ]
+    },
+    {
+      "code": "7",
+      "heading": "(सुलेख आधारित प्रश्न- 5 अंक)",
+      "marks": 5,
+      "blocks": [
+        {
+          "label": "प्रश्न 12.",
+          "instruction": "नीचे लिखे गद्यांश को सुंदर अक्षरों में लिखो|",
+          "pattern": "handwriting",
+          "items": 1,
+          "marksEach": 5,
+          "marks": 5,
+          "printedMarks": "(5M)",
+          "pictures": [],
+          "paperOnlyLikely": true,
+          "notes": "This is सुलेख (copy in neat handwriting) on 13 ruled lines, so it can only be done on paper. The heading prints '5 अंक' without the leading zero used in the other headings. The passage's first two sentences match ws01 प्रश्न 13, and the last sentence differs."
+        }
+      ]
+    }
+  ],
+  "markArithmetic": "10 (5+5) + 6 (1+1+1+2+1) + 3 + 8 (2+3+3) + 4 (2+2) + 4 (2+2) + 5 = 40 = printed total (अंक- 40) ✔. Every section heading's printed marks equal the sum of its blocks ✔.",
+  "flagEstimate": 24,
+  "issues": [
+    "The header prints 'मुद्रित पृष्ठों की संख्या : 05' but the PDF has 4 pages. The paper looks complete: Q12 ends on p4 with the footer '4 | Page' and nothing seems missing. Owner to confirm whether a 5th page exists, or whether the header is just a template leftover.",
+    "ws05 (3.1.5, Aug 2026) repeats most of ws01 (3.1.1, Aug 2025, also L6-7). Repeated: the Q1 passage and its 5 questions (small wording changes: 'रात को' vs 'रात में', पश्चात vs पश्चात्, 'दाल-बाटी' spacing), all 5 textbook questions (ws01 Q2 = ws05 Q3, including the mixed 1/1/1/2/1 marks), the post-box picture, धीरे-धीरे/साथ-साथ, the tense table, the उपसर्ग table, the match list, the विलोम list, both spelling-circle items, both jumbled-letter items, and the first two sentences of the सुलेख passage. New in ws05: the section headings, the unseen lion-and-mouse passage (Q2), and the सुलेख last sentence. Dropped from ws01: 'सादर प्रणाम' letter-greeting Q, अधूरे वाक्य (झूम-झूमकर / उछल-उछलकर), and धन्यवाद sentence. Owner to decide whether to ship both papers, de-duplicate, or share answers/pictures (e.g. one shared post-box SVG).",
+    "Q1 (घ) and (ड) each have two blanks under a single item; Q1 is printed (5M) for 5 parts, so ½ per blank is assumed. Owner to confirm.",
+    "Q4 prints a separate 'नाम - ____' line, but marks are (3M) for 'तीन वाक्य'. It is unclear whether naming the object earns a mark. 3 × 1 for sentences is assumed.",
+    "Q7 row and sentence split (½ for the word, ½ for the sentence per row) is assumed. 'भर' is printed as an उपसर्ग (भरपेट), which is the teacher's own classification.",
+    "Q2 घ says 'सही शब्द चुन कर लिखा' (sic) but prints no options to choose from. The answer comes from the passage (शरीर).",
+    "Q1 (ग) (जयपुर किस राज्य की राजधानी है?) is not answered explicitly in the passage. Expected answer is राजस्थान (inferred from 'राजस्थान के लोक नृत्य').",
+    "Spelling-circle (Q10) and सुलेख (Q12) are paper actions. Q10 can become a 3-option choice online. Q12 is paper-only and needs a rubric."
+  ],
+  "pagesViewed": [1, 2, 3, 4],
+  "secondReadDisagreements": 0
+}

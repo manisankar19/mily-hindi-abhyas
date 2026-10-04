@@ -1,0 +1,208 @@
+{
+  "ws": "ws01",
+  "sourceFile": "3.1.1  Hindi_L6-7_WS.pdf",
+  "sha256": "bddc63f3307ccc24680605a61aeb5837e0b54c1063ad6a4317361fe3d1cb312e",
+  "pdfPages": 4,
+  "printedPages": "4 (मुद्रित पृष्ठों की संख्या : 4)",
+  "header": [
+    "मुद्रित पृष्ठों की संख्या : 4",
+    "परमाणु ऊर्जा शिक्षण संस्था",
+    "कार्यपत्रक (2025-26)",
+    "कक्षा : चौथी    विषय: हिंदी    माह-अगस्त 2025    अंक- 40",
+    "दिया गया पाठ्यक्रम - पाठ 6 एवं 7",
+    "विद्यार्थी का नाम – ____",
+    "अनुक्रमांक - ____    कक्षा / अनुभाग - ____    दिनांक - ____"
+  ],
+  "printedTitle": "कार्यपत्रक (2025-26)",
+  "shortLabel": "कार्यपत्रक · अगस्त 2025",
+  "month": "अगस्त 2025",
+  "set": null,
+  "printedTotal": 40,
+  "portion": "दिया गया पाठ्यक्रम - पाठ 6 एवं 7",
+  "chapters": [6, 7],
+  "chaptersOutsideTextbook": [],
+  "sections": [
+    {
+      "code": "1",
+      "heading": "",
+      "marks": 40,
+      "blocks": [
+        {
+          "label": "प्रश्न 1.",
+          "instruction": "दिए गए गद्यांश को पढ़कर निम्नलिखित प्रश्नों के उत्तर लिखिए|",
+          "pattern": "passage-qa",
+          "items": 5,
+          "marksEach": 1,
+          "marks": 5,
+          "printedMarks": "(5M)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "This is a seen passage, lightly adapted from पाठ 6 'जयपुर से पत्र' (ch6.txt lines ~24-31: आमेर का दुर्ग … उदयपुर जाएँगे). (क)-(ग) are short answers, and (ग) 'जयपुर किस राज्य की राजधानी है?' is general knowledge (राजस्थान). (घ) is विलोम ×2 (पुराना, दिन) and (ड) is समान अर्थ ×2 (विशाल, रात्रि), so each part = ½ when split. The printed label is '(ड)' (ड, not ङ)."
+        },
+        {
+          "label": "प्रश्न 2.",
+          "instruction": "नीचे दिए प्रश्नों के उत्तर लिखिए|",
+          "pattern": "short",
+          "items": 5,
+          "marksEach": null,
+          "marks": 6,
+          "printedMarks": "per item: (1M) (1M) (1M) (2M) (1M); no block total printed",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "Textbook questions. (क) अमर ने जयपुर में क्या- क्या देखा? (पाठ 6, a list answer, judgement). (ख) पिनकोड (पाठ 6 box: छह अंक). (ग) हीरों की जाँच (पाठ 7: जौहरी). (घ) 2M: why the king gave the reward for the fake diamonds (पाठ 7, reasoning). (ड) why उदयपुर is called झीलों का नगर (inference / general knowledge; पाठ 6 अनुमान question). The block total is not printed and is derived as 1+1+1+2+1 = 6."
+        },
+        {
+          "label": "प्रश्न 3.",
+          "instruction": "अमर ने अपने पिता को पत्र में 'सादर प्रणाम' लिखा। सोचिए वह क्या लिखता यदि वह -",
+          "pattern": "letter",
+          "items": 2,
+          "marksEach": 1,
+          "marks": 2,
+          "printedMarks": "(2M)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "These are letter greetings (अभिवादन) for a friend and for a teacher, and several answers are acceptable (प्रिय मित्र / नमस्ते / सप्रेम नमस्ते; आदरणीय / सादर नमस्ते / सादर प्रणाम). Uses straight quotes as printed. The instruction is printed across two lines."
+        },
+        {
+          "label": "प्रश्न 4.",
+          "instruction": "दिए गए अधूरे वाक्यों को पूरा करो|",
+          "pattern": "sentence-making",
+          "items": 2,
+          "marksEach": 1,
+          "marks": 2,
+          "printedMarks": "(2M)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "Sentence completion: 'हमने झूम -झूमकर ____' and 'हमने उछल- उछलकर ____' (both with odd hyphen spacing, kept as printed). The textbook has 'हमने उछल-उछलकर ...' as a पाठ 6 exercise. Open-ended."
+        },
+        {
+          "label": "प्रश्न 5.",
+          "instruction": "दिए गए शब्दों से वाक्य बनाओ|",
+          "pattern": "sentence-making",
+          "items": 3,
+          "marksEach": 1,
+          "marks": 3,
+          "printedMarks": "(3M)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "धीरे- धीरे- / साथ- साथ / धन्यवाद (from the पाठ 7 exercise)."
+        },
+        {
+          "label": "प्रश्न 6.",
+          "instruction": "नीचे लिखे शब्दों को उनके अर्थों के साथ मिलाओ।",
+          "pattern": "match",
+          "items": 4,
+          "marksEach": 0.5,
+          "marks": 2,
+          "printedMarks": "(2M)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "The left column (बुद्धिमान, निस्संदेह, वृद्ध, श्रेष्ठ) is in printed order against the right column (बूढ़ा, विवेकवान, सर्वोत्तम, संदेह न होना). On paper the child draws lines, and on screen this becomes a match item. Marks split ½ × 4 (my split). Ends in danda । (not |)."
+        },
+        {
+          "label": "प्रश्न 7.",
+          "instruction": "विलोम शब्द लिखो|",
+          "pattern": "vilom",
+          "items": 4,
+          "marksEach": 0.5,
+          "marks": 2,
+          "printedMarks": "(2M)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "आज, नकली, पास, प्रसन्नता. Marks split ½ × 4 (my split). प्रसन्नता has several answers (अप्रसन्नता / दुख / उदासी)."
+        },
+        {
+          "label": "प्रश्न 8.",
+          "instruction": "तालिका को ध्यान से पढ़कर उचित वाक्य लिखिए-",
+          "pattern": "table",
+          "items": 3,
+          "marksEach": 1,
+          "marks": 3,
+          "printedMarks": "(3M)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "Tense (काल) sentence-writing: one sentence each in future, present and past. The table is on p3 and the instruction on p2. Open-ended; this is effectively sentence-making."
+        },
+        {
+          "label": "प्रश्न 9.",
+          "instruction": "नीचे दी गई तालिका में नए शब्द बनाकर उनका वाक्यों में प्रयोग लिखो|",
+          "pattern": "upsarg-pratyay",
+          "items": 3,
+          "marksEach": 1,
+          "marks": 3,
+          "printedMarks": "(3M)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "Table उपसर्ग | मूल शब्द | नया शब्द | वाक्य. The blanks are भर+पेट→____ (भरपेट), अनु+____→अनुशासन (शासन), ____+विचार→सुविचार (सु), and each row also needs a sentence. Each item = fill + sentence, ½ + ½ suggested (my split)."
+        },
+        {
+          "label": "प्रश्न 10.",
+          "instruction": "नीचे दिए चित्र को पहचानकर नाम लिखो| इसके बारे में कोई तीन वाक्य लिखो|",
+          "pattern": "picture-describe",
+          "items": 1,
+          "marksEach": 3,
+          "marks": 3,
+          "printedMarks": "(3M)",
+          "pictures": [
+            {
+              "page": 3,
+              "what": "black-and-white line drawing of a pillar-style post box (लेटर बॉक्स / पत्र-पेटी): domed top over a dark band, a dark mail slot, an envelope symbol on the front, solid black base",
+              "need": "identify"
+            }
+          ],
+          "paperOnlyLikely": false,
+          "notes": "Must be drawn as an original SVG, recognisable as a post box from the drawing alone. The child names it and writes 3 sentences. Name answers to accept: लेटर बॉक्स / पत्र-पेटी / डाक-पेटी / पोस्ट बॉक्स / लेटर-बॉक्स. Split suggested: name ½–1 + sentences (my split). The pictureAlt must not say 'लेटर बॉक्स'/'पत्र-पेटी'. (3M) is printed on its own line."
+        },
+        {
+          "label": "प्रश्न 11.",
+          "instruction": "सही शब्द पर गोला लगाओ|",
+          "pattern": "spelling-circle",
+          "items": 2,
+          "marksEach": 1,
+          "marks": 2,
+          "printedMarks": "(2M)",
+          "pictures": [],
+          "paperOnlyLikely": true,
+          "notes": "Circling on paper; on screen this can become an MCQ / 'सही शब्द लिखिए' adaptation. The options are deliberate misspellings and must be copied exactly: क) प्रसानं / प्रसन्न / प्रसंन् ; ख) संग्रालय / संगृहलय / संग्रहालय. Answers: प्रसन्न, संग्रहालय. The labels are 'क)' and 'ख)' with no opening bracket. The heading is on p3 and the items on p4."
+        },
+        {
+          "label": "प्रश्न 12.",
+          "instruction": "दिए गए अक्षरों से सार्थक शब्द बनाओ|",
+          "pattern": "jumbled-letters",
+          "items": 2,
+          "marksEach": 1,
+          "marks": 2,
+          "printedMarks": "(2M)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "क) ध / वे / ला / शा → वेधशाला (पाठ 6: जंतर-मंतर … इस वेधशाला). ख) र / द / बा / र → दरबार (पाठ 7). Spelling items, exact target."
+        },
+        {
+          "label": "प्रश्न 13.",
+          "instruction": "नीचे लिखी पंक्तियों को साफ़ – साफ़ पुनः लिखो|",
+          "pattern": "handwriting",
+          "items": 1,
+          "marksEach": 5,
+          "marks": 5,
+          "printedMarks": "(5M)",
+          "pictures": [],
+          "paperOnlyLikely": true,
+          "notes": "सुलेख: copy a 4-line passage about विद्यार्थी जीवन में समय का महत्व onto the 10 printed lines. Paper-only, marked by the parent with a rubric (neatness, matras and शिरोरेखा, spelling, completeness). Has the en dash and nukta in 'साफ़ – साफ़'."
+        }
+      ]
+    }
+  ],
+  "markArithmetic": "No section headings; one section. Blocks: 5 + 6 (1+1+1+2+1, item marks only, no block total printed) + 2 + 2 + 3 + 2 + 2 + 3 + 3 + 3 + 2 + 2 + 5 = 40 = printed total (अंक- 40) ✔",
+  "flagEstimate": 24,
+  "issues": [
+    "ws05 (3.1.5, Aug 2026, पाठ 6–7) repeats most of ws01's questions. Its transcript shows the same वाक्य बनाओ, tense table, उपसर्ग table, picture-identify, match, विलोम, गोला लगाओ, jumbled letters and सुलेख blocks, re-ordered under competency headings, plus an अपठित गद्यांश. The owner decides at Gate 0 whether to keep both (answers for shared questions must be consistent, Task 23) or drop one.",
+    "Q2 has no printed block total; the block marks (6) are derived from per-item (1M)/(2M). OK for the total, but the section/block marks are my sum, not printed.",
+    "Marks I split myself (each ⚑ per the brief): Q1 (घ)/(ड) two words each → ½ + ½; Q6 match ½ × 4; Q7 विलोम ½ × 4; Q9 fill + sentence ½ + ½; Q10 name + 3 sentences.",
+    "Paper-only candidates: Q13 सुलेख (5M, whole block) and Q11 गोला लगाओ (can be adapted to choose/write the correct word). Q6 line-matching can be done on screen as a match item.",
+    "Q10 needs an original post-box SVG that is recognisable from the drawing alone (pillar box, domed top, slot, envelope symbol). There are several acceptable names: लेटर बॉक्स / पत्र-पेटी / डाक-पेटी / पोस्ट बॉक्स.",
+    "Q1 (ग) 'जयपुर किस राज्य की राजधानी है?' and Q2 (ड) (उदयपुर झीलों का नगर क्यों) need general knowledge or inference beyond the passage, so both are ⚑.",
+    "Q1 passage is copied from पाठ 6 with small differences ('दाल- बाटी', 'शीश महल' spelled once with a space). Copy from the transcript, not the textbook."
+  ],
+  "pagesViewed": [1, 2, 3, 4],
+  "secondReadDisagreements": 1
+}

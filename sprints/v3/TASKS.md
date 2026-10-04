@@ -38,33 +38,40 @@ Every task ends with `node build.js` still passing and the chapter1..7.json hash
   - Files: scripts/render-pages.sh, source/textbook-text/*.txt
   - Completed: 2026-10-04 — scripts/render-pages.sh: 42 page images (4/8/10/8/4/4/4); textbook-text ch1..7 (titles verified)
 
-- [ ] Task 6: Transcribe ws01 + ws05 from page images (P0)
+- [x] Task 6: Transcribe ws01 + ws05 from page images (P0)
   - Acceptance: `source/transcripts/ws01.txt` and `ws05.txt` have every printed string in Unicode Devanagari, page by page, with printed numerals, typos and `|` kept. Every page was viewed.
   - Files: source/transcripts/ws01.txt, source/transcripts/ws05.txt
+  - Completed: 2026-10-04 — ws01 108 lines, ws05 120 lines (sub-agent, all pages viewed)
 
-- [ ] Task 7: Transcribe ws06 + ws07 (P0)
+- [x] Task 7: Transcribe ws06 + ws07 (P0)
   - Acceptance: As Task 6, for ws06 and ws07.
   - Files: source/transcripts/ws06.txt, source/transcripts/ws07.txt
+  - Completed: 2026-10-04 — ws06 122 lines, ws07 117 lines (sub-agent)
 
-- [ ] Task 8: Transcribe ws02 (8 pages) (P0)
+- [x] Task 8: Transcribe ws02 (8 pages) (P0)
   - Acceptance: As Task 6.
   - Files: source/transcripts/ws02.txt
+  - Completed: 2026-10-04 — ws02 215 lines (sub-agent)
 
-- [ ] Task 9: Transcribe ws03 (10 pages) (P0)
+- [x] Task 9: Transcribe ws03 (10 pages) (P0)
   - Acceptance: As Task 6.
   - Files: source/transcripts/ws03.txt
+  - Completed: 2026-10-04 — ws03 245 lines, 22 questions (sub-agent)
 
-- [ ] Task 10: Transcribe ws04 (8 pages) (P0)
+- [x] Task 10: Transcribe ws04 (8 pages) (P0)
   - Acceptance: As Task 6.
   - Files: source/transcripts/ws04.txt
+  - Completed: 2026-10-04 — ws04 226 lines (sub-agent)
 
-- [ ] Task 11: Second independent read of all transcripts (P0)
+- [x] Task 11: Second independent read of all transcripts (P0)
   - Acceptance: A different agent compares each transcript with its page images word by word. `source/transcripts/SECOND-READ.md` lists every disagreement and how it was resolved, and none is left open. Unresolvable text is a hard stop.
   - Files: source/transcripts/SECOND-READ.md, source/transcripts/ws*.txt
+  - Completed: 2026-10-04 — 7 independent second readers; 6 fixes (punctuation/spacing/picture text), 0 open; logs in source/transcripts/second-read/, summary SECOND-READ.md; coordinator spot checks ws05 p1, ws07 p4 matched
 
-- [ ] Task 12: Intake records and duplicate check (P0)
+- [x] Task 12: Intake records and duplicate check (P0)
   - Acceptance: `source/intake.json` and `source/WORKSHEETS-INTAKE.md` give, for each paper: header lines, total, portion, every section and question pattern verbatim, the mark arithmetic (section marks summed against the total), pictures with what each question needs from them, likely paper-only items, a ⚑ estimate and the SHA-256. The ws01 vs ws05 text overlap is reported as a percentage, with the matching questions listed.
   - Files: source/intake.json, source/WORKSHEETS-INTAKE.md
+  - Completed: 2026-10-04 — scripts/merge-intake.js → source/intake.json + WORKSHEETS-INTAKE.md; 400 marks, 115 blocks, 344 items, ⚑ estimate 188; all arithmetic and hashes OK; ws01–ws05 share 54.7% of lines (exact-line match)
 
 - [ ] Task 13: 🛑 Gate 0: owner decisions (P0)
   - Acceptance: `sprints/v3/v3-decisions.md` records the owner's answers on: the paper list and display order; ws01/ws05 (keep both or drop one); the ओणम के रंग source (add the chapter PDF, or use passage plus general knowledge with all ⚑); which items are paper-only; and any adaptation that needs a yes.

@@ -9,7 +9,7 @@ The working agreement for the agents that run in parallel during Phases 1–2. `
 | Page images (gitignored) | `source/page-images/wsNN-P.png` (200 dpi; P is `1`… or `01`… as pdftoppm names them) |
 | Textbook text | `source/textbook-text/ch1..7.txt` |
 | Transcript | `source/transcripts/wsNN.txt` |
-| Second-read log | `source/transcripts/SECOND-READ.md` (one `## wsNN` section per paper) |
+| Second-read log | `source/transcripts/second-read/wsNN.md` per paper + summary `source/transcripts/SECOND-READ.md` |
 | Intake fragment | `source/intake/wsNN.json` |
 | Merged intake | `source/intake.json` (`{ "papers": [...] }`) + `source/WORKSHEETS-INTAKE.md` |
 | Worksheet JSON | `app/data/hindi-wsNN.json` |

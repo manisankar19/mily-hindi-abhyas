@@ -1,0 +1,411 @@
+{
+  "ws": "ws02",
+  "sourceFile": "3.1.2 4-Hindi_L-1-7_WS (SetA).pdf",
+  "sha256": "0efa2c1d43ff23c1d5610488e9f396a63a5fcb858e65455f1e66e72539309877",
+  "pdfPages": 8,
+  "printedPages": "0८",
+  "header": [
+    "(कुल मुद्रित पृष्ठों की संख्या: 0८)",
+    "परमाणु ऊर्जा शिक्षण संस्था ,मुंबई",
+    "कार्यपत्रक (२०२५-२६) सेट – अ(A)",
+    "कक्षा  : चौथी (४)    विषय : हिंदी    माह – सितंबर    अंक : ८०",
+    "दिया गया पाठ्यक्रम : पाठ १ से पाठ ७ तक",
+    "विद्यार्थी का नाम : ____",
+    "कक्षा/अनुभाग : ____    अनुक्रमांक : ____    दिनांक : ____",
+    "हस्ताक्षर निरीक्षक: ____    हस्ताक्षर जाँचकर्ता ____",
+    "हस्ताक्षर परीक्षक ____    प्राप्तांक:____"
+  ],
+  "printedTitle": "कार्यपत्रक (२०२५-२६) सेट – अ(A)",
+  "shortLabel": "कार्यपत्रक · सितंबर 2025 · सेट अ",
+  "month": "सितंबर 2025",
+  "set": "सेट अ",
+  "printedTotal": 80,
+  "portion": "पाठ १ से पाठ ७ तक",
+  "chapters": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "chaptersOutsideTextbook": [],
+  "sections": [
+    {
+      "code": "1",
+      "heading": "(पठन पर आधारित प्रश्न – २० अंक)",
+      "marks": 20,
+      "blocks": [
+        {
+          "label": "प्र.१)",
+          "instruction": "नीचे दिए गए गद्यांश को पढ़कर पूछे गए प्रश्नों के उत्तर लिखिए|",
+          "pattern": "passage-qa",
+          "items": 6,
+          "marksEach": null,
+          "marks": 5,
+          "printedMarks": "(१) per item; v. (क)+(ख) share one (१)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "Passage is from पाठ २ 'बगीचे का घोंघा' (textbook text has the same story). i.–iv. are 1 mark each. v. asks for synonyms from the passage, (क)जग and (ख) उपवन, under a single (१), so they are ½ + ½. Q1 iv. ends on p1 and its उत्तर line is on p2."
+        },
+        {
+          "label": "प्र. २)",
+          "instruction": "नीचे दिए गए गद्यांश को पढ़कर पूछे गए प्रश्नों के उत्तर लिखिए|",
+          "pattern": "passage-qa",
+          "items": 5,
+          "marksEach": 1,
+          "marks": 5,
+          "printedMarks": "(१) each",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "Passage is from पाठ ५ 'आसमान गिरा'. The worksheet prints ज़ोर/आवाज़ with nukta; the textbook text has जोर/आवाज."
+        },
+        {
+          "label": "प्र.३)",
+          "instruction": "नीचे दिए गए अपठित गद्यांश को पढ़कर पूछे गए प्रश्नों के उत्तर लिखिए |",
+          "pattern": "unseen-passage",
+          "items": 10,
+          "marksEach": null,
+          "marks": 10,
+          "printedMarks": "१.–४. (१) each; ५. (२); ६. (२); ७. (१); ८. (१)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "Unseen passage about राजू the माली and his daughter नमिता. ५. synonyms from the passage (स्कूल, अहंकार), 2 blanks. ६. antonyms (सही, खरीदना), 2 blanks. ७. किसने-किससे कहा. ८. is general knowledge ('फूलों से सबंधित काम करने वालों', teacher typo सबंधित), answer माली, which is also in the passage. Passage typos kept: रूपयों/रुपयों."
+        }
+      ]
+    },
+    {
+      "code": "2",
+      "heading": "(पाठ्य पुस्तक पर आधारित प्रश्न –  १० अंक)",
+      "marks": 10,
+      "blocks": [
+        {
+          "label": "प्र.४ -",
+          "instruction": "नीचे दिए गए प्रश्नों के उत्तर लिखिए|",
+          "pattern": "short",
+          "items": 6,
+          "marksEach": null,
+          "marks": 10,
+          "printedMarks": "(क)–(घ) (२) each; (ङ),(च) (१) each",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "Textbook short answers: (क) आहार → पाठ ४; (ख) पशु-पक्षियों के लिए घर → probably पाठ २ (verify); (ग) अमर, जयपुर → पाठ ६; (घ) घोंघा → पाठ २; (ङ) नीम → पाठ ३; (च) राजा, सलाहकार → पाठ ७. (ख) asks for an opinion plus a reason."
+        }
+      ]
+    },
+    {
+      "code": "3",
+      "heading": "(रचनात्मक लेखन पर आधारित प्रश्न – १० अंक)",
+      "marks": 10,
+      "blocks": [
+        {
+          "label": "प्र.५ (क)",
+          "instruction": "नीम के पेड़ के बारे में पाँच वाक्य लिखिए| अथवा अपने पसंदीदा भ्रमण-स्थल के बारे में पाँच वाक्य लिखिए|",
+          "pattern": "paragraph",
+          "items": 1,
+          "marksEach": 5,
+          "marks": 5,
+          "printedMarks": "(५)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "Choice (अथवा) between two five-sentence topics; one answer is written. Judgement with a rubric. The instruction joins both printed lines; in the transcript the mark (५) sits after the first line, before अथवा."
+        },
+        {
+          "label": "(ख)",
+          "instruction": "नीचे दिए गए चित्र को देखकर पाँच वाक्य लिखिए|",
+          "pattern": "picture-describe",
+          "items": 1,
+          "marksEach": 5,
+          "marks": 5,
+          "printedMarks": "(५)",
+          "pictures": [
+            {
+              "page": 5,
+              "what": "Black-and-white line drawing of children playing outdoors on a sunny day. On the left a girl sits smiling on a swing hanging from a big tree. In the middle a boy runs along a winding path, flying a diamond-shaped kite. On the right a girl with a ponytail bends to catch a striped ball rolling on the grass. Behind them are a small house, a barn with a fence, round trees, bushes and clouds in the sky.",
+              "need": "describe"
+            }
+          ],
+          "paperOnlyLikely": false,
+          "notes": "The picture must be drawn as an SVG, with enough detail for 5 sentences. Judgement with a rubric."
+        }
+      ]
+    },
+    {
+      "code": "4",
+      "heading": "(शब्द भंडार पर आधारित प्रश्न -  १० अंक)",
+      "marks": 10,
+      "blocks": [
+        {
+          "label": "प्र.–६ अ.",
+          "instruction": "नीचे दिए गए शब्दों को उनके उपयुक्त अर्थ के साथ मिलाइए|",
+          "pattern": "match",
+          "items": 4,
+          "marksEach": 1,
+          "marks": 4,
+          "printedMarks": "(४)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "Left: वृद्ध, पीड़ा, अपरंपार, श्रेष्ठ. Right (printed order): सर्वोत्तम, असीम, बूढ़ा, दुःख. 'मिलाइए' does not say draw lines, so it can be a match in the app."
+        },
+        {
+          "label": "आ.",
+          "instruction": "नीचे दिए गए आकृतियों का नाम लिखिए|",
+          "pattern": "picture-label",
+          "items": 2,
+          "marksEach": 1,
+          "marks": 2,
+          "printedMarks": "(२)",
+          "pictures": [
+            {
+              "page": 6,
+              "what": "Two plain outline shapes side by side, each with a blank answer line below: a wide rectangle (left) and a triangle (right, wider base than height)",
+              "need": "identify"
+            }
+          ],
+          "paperOnlyLikely": false,
+          "notes": "Teacher grammar 'दिए गए आकृतियों' kept. Answers are maths vocabulary (आयत, त्रिभुज); accept variants such as चतुर्भुज?"
+        },
+        {
+          "label": "इ.",
+          "instruction": "नीचे दिए गए शब्दों में मात्रा लगाकर नए सार्थक शब्द बनाइए| जैसे: बस – बीस",
+          "pattern": "matra",
+          "items": 2,
+          "marksEach": 1,
+          "marks": 2,
+          "printedMarks": "(२)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "Words फल and रह. Many valid answers (फूल/फैल/फाल…, रहा/राह/रोह…), so the acceptable list must be broad."
+        },
+        {
+          "label": "ई.",
+          "instruction": "जहाँ विविध वस्तुओं को संग्रहित और प्रदर्शित किया जाता हैं उसे संग्रहालय कहते हैं | वैसे निम्नलिखित स्थानों को क्या कहते हैं लिखिए|",
+          "pattern": "one-word",
+          "items": 2,
+          "marksEach": 1,
+          "marks": 2,
+          "printedMarks": "(२)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "i. विद्यालय/पाठशाला/स्कूल; ii. पुस्तकालय. Teacher grammar 'जाता हैं' kept."
+        }
+      ]
+    },
+    {
+      "code": "5",
+      "heading": "( व्याकरण पर आधारित प्रश्न – १५ अंक )",
+      "marks": 15,
+      "blocks": [
+        {
+          "label": "प्र. - ७ (अ)",
+          "instruction": "नीचे दिए वाक्य में रेखांकित शब्द का विपरीत अर्थ लिखो|",
+          "pattern": "vilom",
+          "items": 2,
+          "marksEach": 1,
+          "marks": 2,
+          "printedMarks": "(२)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "Underlined: भूलना, नकली. Answers fill a blank in the same sentence (याद, असली)."
+        },
+        {
+          "label": "(आ)",
+          "instruction": "‘प्र’ उपसर्ग वाले दो शब्द सोचकर लिखिए|",
+          "pattern": "upsarg-pratyay",
+          "items": 2,
+          "marksEach": 1,
+          "marks": 2,
+          "printedMarks": "(२)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "Open answer (any two प्र- words, e.g. प्रकाश/प्रगति/प्रबल…). Example (उदाहरण: प्र + दूषित = प्रदूषित). Each item has two blanks (root and word)."
+        },
+        {
+          "label": "(इ)",
+          "instruction": "नीचे लिखे वाक्यों में रेखांकित शब्दों का लिंग पहचानिए|",
+          "pattern": "ling-vachan",
+          "items": 2,
+          "marksEach": 1,
+          "marks": 2,
+          "printedMarks": "(२)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "Underlined: टमाटर (पुल्लिंग), माताजी (स्त्रीलिंग)."
+        },
+        {
+          "label": "(ई)",
+          "instruction": "‘नियमित’ शब्द ‘नियम’ में ‘इत’ प्रत्यय जोड़कर बना है| ऐसे ही नीचे दिए गए शब्दों में ‘इत’ प्रत्यय जोड़कर नए शब्द बनाइए|",
+          "pattern": "upsarg-pratyay",
+          "items": 2,
+          "marksEach": 1,
+          "marks": 2,
+          "printedMarks": "(२)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "प्रमाण + इत, शिक्षा + इत. Example line (उदा. : नियम + इत = नियमित )."
+        },
+        {
+          "label": "(उ)",
+          "instruction": "नीचे दिए गए शब्दों के समान अर्थ वाले शब्द लिखिए|",
+          "pattern": "paryay",
+          "items": 2,
+          "marksEach": 1,
+          "marks": 2,
+          "printedMarks": "(२)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "ठहरना, हरदम: multiple synonyms (रुकना; हमेशा/सदा/सदैव)."
+        },
+        {
+          "label": "(ऊ)",
+          "instruction": "निम्नलिखित शब्द-युग्मों की सहायता से एक वाक्य लिखिए|",
+          "pattern": "sentence-making",
+          "items": 1,
+          "marksEach": 1,
+          "marks": 1,
+          "printedMarks": "(१)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "टेढ़ी-मेढ़ी. Judgement."
+        },
+        {
+          "label": "(ए)",
+          "instruction": "निम्नलिखित पंक्तियों को नीचे दिए गए उचित विराम चिन्हों की सहायता से पूरा कीजिए|  ( ?   ,   !   |  )",
+          "pattern": "punctuation",
+          "items": 2,
+          "marksEach": 1,
+          "marks": 2,
+          "printedMarks": "(२)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "(i) a list needing commas plus a final danda; (ii) वाह needs ! plus a final danda. '?' in the given set is a distractor. The app needs a punctuation-entry adaptation (child rewrites the sentence)."
+        },
+        {
+          "label": "(ऐ)",
+          "instruction": "नीचे लिखे संज्ञा शब्दों की विशेषता लिखिए|",
+          "pattern": "other",
+          "items": 2,
+          "marksEach": 1,
+          "marks": 2,
+          "printedMarks": "(२)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "Write an adjective (विशेषण) for पत्थर and पेड़. Open answers, judgement."
+        }
+      ]
+    },
+    {
+      "code": "6",
+      "heading": "(वर्तनी पर आधारित प्रश्न -  १० अंक)",
+      "marks": 10,
+      "blocks": [
+        {
+          "label": "प्र.८ अ.",
+          "instruction": "शुध्द वर्तनी वाले शब्दों से रिक्त स्थान भरिए|",
+          "pattern": "fill-blank",
+          "items": 2,
+          "marksEach": 1,
+          "marks": 2,
+          "printedMarks": "(२)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "Teacher typo शुध्द kept. Options: (आस्चार्यों /आश्चर्यों / आशाचर्यो) and (स्वस्त /स्वास्थ्य /स्वासथ). Answers: आश्चर्यों, स्वास्थ्य. Wrong options are deliberate; keep them exact."
+        },
+        {
+          "label": "आ.",
+          "instruction": "निम्नलिखित वाक्यों को शुद्ध करके लिखिए|",
+          "pattern": "other",
+          "items": 2,
+          "marksEach": 1,
+          "marks": 2,
+          "printedMarks": "(२)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "Sentence correction: 'तुम्हारी नाम क्या है?' → तुम्हारा नाम क्या है?; 'इन्द्रधनुष में सात रंग होता हैं|' → …रंग होते हैं। Accept इंद्रधनुष/इन्द्रधनुष and |/।."
+        },
+        {
+          "label": "इ.",
+          "instruction": "सही वर्तनी वाले शब्दों पर गोला लगाइए|",
+          "pattern": "spelling-circle",
+          "items": 2,
+          "marksEach": 1,
+          "marks": 2,
+          "printedMarks": "(२)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "3 options per row (इमानदार ईमानदार इमनदार; चौदह चोदह चैदह), so it can be a single-choice item in the app, not a grid."
+        },
+        {
+          "label": "ई.",
+          "instruction": "वर्तनी को शुद्ध करके लिखिए|",
+          "pattern": "other",
+          "items": 2,
+          "marksEach": 1,
+          "marks": 2,
+          "printedMarks": "(२)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "Spelling correction: सब्ज़ीयाँ → सब्ज़ियाँ (accept सब्जियाँ without nukta?); मोसम → मौसम."
+        },
+        {
+          "label": "उ.",
+          "instruction": "अक्षरों के क्रम को ठीक करके सार्थक शब्द बनाइए|",
+          "pattern": "jumbled-letters",
+          "items": 2,
+          "marksEach": 1,
+          "marks": 2,
+          "printedMarks": "(२)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "आ / मा / न / स → आसमान; स / का / र / ला / ह → सलाहकार."
+        }
+      ]
+    },
+    {
+      "code": "7",
+      "heading": "(सुलेख  -  ५ अंक)",
+      "marks": 5,
+      "blocks": [
+        {
+          "label": "प्र.९)",
+          "instruction": "नीचे दिए गए अनुच्छेद को देखकर सुंदर अक्षरों में लिखिए|",
+          "pattern": "handwriting",
+          "items": 1,
+          "marksEach": 5,
+          "marks": 5,
+          "printedMarks": "(५)",
+          "pictures": [],
+          "paperOnlyLikely": true,
+          "notes": "Copy the 5-line paragraph about समय (teacher typo महत्व kept). Done on paper; the parent marks it with a rubric."
+        }
+      ]
+    }
+  ],
+  "markArithmetic": "20+10+10+10+15+10+5 = 80 = printed total (अंक : ८०) ✔. Block sums: S1 5+5+10=20 ✔; S2 4×2+2×1=10 ✔; S3 5+5=10 ✔; S4 4+2+2+2=10 ✔; S5 7×2+1=15 ✔; S6 5×2=10 ✔; S7 5 ✔",
+  "flagEstimate": 30,
+  "issues": [
+    "Q1 v.: the (क)जग / (ख)उपवन pair shares one printed (१). Split it ½ + ½ (proposed), or treat it as 1 item?",
+    "Q5 (क) अथवा: the child chooses one of two topics (नीम का पेड़ / पसंदीदा भ्रमण-स्थल). The app needs a choice adaptation; both are judgement items with a rubric.",
+    "Q5 (ख) needs an original SVG of the children-playing scene (swing, kite, ball, houses/barn, trees) detailed enough to write 5 sentences.",
+    "Q6 आ needs an SVG of a rectangle and a triangle. The answers (आयत/त्रिभुज) are maths vocabulary; decide whether चतुर्भुज or English names are acceptable.",
+    "Q6 इ (मात्रा लगाकर), Q7 आ (प्र- words), Q7 ऐ (विशेषता) and Q7 ऊ (sentence) are open-ended and need broad acceptable lists or rubrics (⚑).",
+    "Q7 ए punctuation: the app needs an adaptation (the child rewrites the sentence with the marks). Accept | as well as ।.",
+    "Q8 ई सब्ज़ीयाँ → सब्ज़ियाँ: decide whether सब्जियाँ (no nukta) is accepted. The textbook text drops nukta elsewhere (जोर/आवाज).",
+    "Q4 (ख) 'पशु-पक्षियों के लिए घर आवश्यक है या नहीं?' is an opinion question; confirm the source पाठ (likely पाठ २).",
+    "Teacher typos kept verbatim: सबंधित (Q3 ८), शुध्द (Q8 अ), प्रष्ठ (footers), महत्व (Q9), 'दिए गए आकृतियों' (Q6 आ), 'किया जाता हैं' (Q6 ई), रूपयों/रुपयों (Q3 passage). Each needs a teacherNote where it is in a checked string.",
+    "Set A (ws02) and Set B (ws03) share a blueprint (पाठ १–७, सितंबर). Keep answers consistent across both.",
+    "The second-read log was written to source/transcripts/second-read/ws02.md as the brief asked; contract §Paths names source/transcripts/SECOND-READ.md, so the coordinator should merge it."
+  ],
+  "pagesViewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "secondReadDisagreements": 2
+}

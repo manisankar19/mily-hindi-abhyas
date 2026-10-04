@@ -1,0 +1,2245 @@
+{
+  "papers": [
+    {
+      "ws": "ws01",
+      "sourceFile": "3.1.1  Hindi_L6-7_WS.pdf",
+      "sha256": "bddc63f3307ccc24680605a61aeb5837e0b54c1063ad6a4317361fe3d1cb312e",
+      "pdfPages": 4,
+      "printedPages": "4 (मुद्रित पृष्ठों की संख्या : 4)",
+      "header": [
+        "मुद्रित पृष्ठों की संख्या : 4",
+        "परमाणु ऊर्जा शिक्षण संस्था",
+        "कार्यपत्रक (2025-26)",
+        "कक्षा : चौथी    विषय: हिंदी    माह-अगस्त 2025    अंक- 40",
+        "दिया गया पाठ्यक्रम - पाठ 6 एवं 7",
+        "विद्यार्थी का नाम – ____",
+        "अनुक्रमांक - ____    कक्षा / अनुभाग - ____    दिनांक - ____"
+      ],
+      "printedTitle": "कार्यपत्रक (2025-26)",
+      "shortLabel": "कार्यपत्रक · अगस्त 2025",
+      "month": "अगस्त 2025",
+      "set": null,
+      "printedTotal": 40,
+      "portion": "दिया गया पाठ्यक्रम - पाठ 6 एवं 7",
+      "chapters": [
+        6,
+        7
+      ],
+      "chaptersOutsideTextbook": [],
+      "sections": [
+        {
+          "code": "1",
+          "heading": "",
+          "marks": 40,
+          "blocks": [
+            {
+              "label": "प्रश्न 1.",
+              "instruction": "दिए गए गद्यांश को पढ़कर निम्नलिखित प्रश्नों के उत्तर लिखिए|",
+              "pattern": "passage-qa",
+              "items": 5,
+              "marksEach": 1,
+              "marks": 5,
+              "printedMarks": "(5M)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "This is a seen passage, lightly adapted from पाठ 6 'जयपुर से पत्र' (ch6.txt lines ~24-31: आमेर का दुर्ग … उदयपुर जाएँगे). (क)-(ग) are short answers, and (ग) 'जयपुर किस राज्य की राजधानी है?' is general knowledge (राजस्थान). (घ) is विलोम ×2 (पुराना, दिन) and (ड) is समान अर्थ ×2 (विशाल, रात्रि), so each part = ½ when split. The printed label is '(ड)' (ड, not ङ)."
+            },
+            {
+              "label": "प्रश्न 2.",
+              "instruction": "नीचे दिए प्रश्नों के उत्तर लिखिए|",
+              "pattern": "short",
+              "items": 5,
+              "marksEach": null,
+              "marks": 6,
+              "printedMarks": "per item: (1M) (1M) (1M) (2M) (1M); no block total printed",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Textbook questions. (क) अमर ने जयपुर में क्या- क्या देखा? (पाठ 6, a list answer, judgement). (ख) पिनकोड (पाठ 6 box: छह अंक). (ग) हीरों की जाँच (पाठ 7: जौहरी). (घ) 2M: why the king gave the reward for the fake diamonds (पाठ 7, reasoning). (ड) why उदयपुर is called झीलों का नगर (inference / general knowledge; पाठ 6 अनुमान question). The block total is not printed and is derived as 1+1+1+2+1 = 6."
+            },
+            {
+              "label": "प्रश्न 3.",
+              "instruction": "अमर ने अपने पिता को पत्र में 'सादर प्रणाम' लिखा। सोचिए वह क्या लिखता यदि वह -",
+              "pattern": "letter",
+              "items": 2,
+              "marksEach": 1,
+              "marks": 2,
+              "printedMarks": "(2M)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "These are letter greetings (अभिवादन) for a friend and for a teacher, and several answers are acceptable (प्रिय मित्र / नमस्ते / सप्रेम नमस्ते; आदरणीय / सादर नमस्ते / सादर प्रणाम). Uses straight quotes as printed. The instruction is printed across two lines."
+            },
+            {
+              "label": "प्रश्न 4.",
+              "instruction": "दिए गए अधूरे वाक्यों को पूरा करो|",
+              "pattern": "sentence-making",
+              "items": 2,
+              "marksEach": 1,
+              "marks": 2,
+              "printedMarks": "(2M)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Sentence completion: 'हमने झूम -झूमकर ____' and 'हमने उछल- उछलकर ____' (both with odd hyphen spacing, kept as printed). The textbook has 'हमने उछल-उछलकर ...' as a पाठ 6 exercise. Open-ended."
+            },
+            {
+              "label": "प्रश्न 5.",
+              "instruction": "दिए गए शब्दों से वाक्य बनाओ|",
+              "pattern": "sentence-making",
+              "items": 3,
+              "marksEach": 1,
+              "marks": 3,
+              "printedMarks": "(3M)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "धीरे- धीरे- / साथ- साथ / धन्यवाद (from the पाठ 7 exercise)."
+            },
+            {
+              "label": "प्रश्न 6.",
+              "instruction": "नीचे लिखे शब्दों को उनके अर्थों के साथ मिलाओ।",
+              "pattern": "match",
+              "items": 4,
+              "marksEach": 0.5,
+              "marks": 2,
+              "printedMarks": "(2M)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "The left column (बुद्धिमान, निस्संदेह, वृद्ध, श्रेष्ठ) is in printed order against the right column (बूढ़ा, विवेकवान, सर्वोत्तम, संदेह न होना). On paper the child draws lines, and on screen this becomes a match item. Marks split ½ × 4 (my split). Ends in danda । (not |)."
+            },
+            {
+              "label": "प्रश्न 7.",
+              "instruction": "विलोम शब्द लिखो|",
+              "pattern": "vilom",
+              "items": 4,
+              "marksEach": 0.5,
+              "marks": 2,
+              "printedMarks": "(2M)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "आज, नकली, पास, प्रसन्नता. Marks split ½ × 4 (my split). प्रसन्नता has several answers (अप्रसन्नता / दुख / उदासी)."
+            },
+            {
+              "label": "प्रश्न 8.",
+              "instruction": "तालिका को ध्यान से पढ़कर उचित वाक्य लिखिए-",
+              "pattern": "table",
+              "items": 3,
+              "marksEach": 1,
+              "marks": 3,
+              "printedMarks": "(3M)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Tense (काल) sentence-writing: one sentence each in future, present and past. The table is on p3 and the instruction on p2. Open-ended; this is effectively sentence-making."
+            },
+            {
+              "label": "प्रश्न 9.",
+              "instruction": "नीचे दी गई तालिका में नए शब्द बनाकर उनका वाक्यों में प्रयोग लिखो|",
+              "pattern": "upsarg-pratyay",
+              "items": 3,
+              "marksEach": 1,
+              "marks": 3,
+              "printedMarks": "(3M)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Table उपसर्ग | मूल शब्द | नया शब्द | वाक्य. The blanks are भर+पेट→____ (भरपेट), अनु+____→अनुशासन (शासन), ____+विचार→सुविचार (सु), and each row also needs a sentence. Each item = fill + sentence, ½ + ½ suggested (my split)."
+            },
+            {
+              "label": "प्रश्न 10.",
+              "instruction": "नीचे दिए चित्र को पहचानकर नाम लिखो| इसके बारे में कोई तीन वाक्य लिखो|",
+              "pattern": "picture-describe",
+              "items": 1,
+              "marksEach": 3,
+              "marks": 3,
+              "printedMarks": "(3M)",
+              "pictures": [
+                {
+                  "page": 3,
+                  "what": "black-and-white line drawing of a pillar-style post box (लेटर बॉक्स / पत्र-पेटी): domed top over a dark band, a dark mail slot, an envelope symbol on the front, solid black base",
+                  "need": "identify"
+                }
+              ],
+              "paperOnlyLikely": false,
+              "notes": "Must be drawn as an original SVG, recognisable as a post box from the drawing alone. The child names it and writes 3 sentences. Name answers to accept: लेटर बॉक्स / पत्र-पेटी / डाक-पेटी / पोस्ट बॉक्स / लेटर-बॉक्स. Split suggested: name ½–1 + sentences (my split). The pictureAlt must not say 'लेटर बॉक्स'/'पत्र-पेटी'. (3M) is printed on its own line."
+            },
+            {
+              "label": "प्रश्न 11.",
+              "instruction": "सही शब्द पर गोला लगाओ|",
+              "pattern": "spelling-circle",
+              "items": 2,
+              "marksEach": 1,
+              "marks": 2,
+              "printedMarks": "(2M)",
+              "pictures": [],
+              "paperOnlyLikely": true,
+              "notes": "Circling on paper; on screen this can become an MCQ / 'सही शब्द लिखिए' adaptation. The options are deliberate misspellings and must be copied exactly: क) प्रसानं / प्रसन्न / प्रसंन् ; ख) संग्रालय / संगृहलय / संग्रहालय. Answers: प्रसन्न, संग्रहालय. The labels are 'क)' and 'ख)' with no opening bracket. The heading is on p3 and the items on p4."
+            },
+            {
+              "label": "प्रश्न 12.",
+              "instruction": "दिए गए अक्षरों से सार्थक शब्द बनाओ|",
+              "pattern": "jumbled-letters",
+              "items": 2,
+              "marksEach": 1,
+              "marks": 2,
+              "printedMarks": "(2M)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "क) ध / वे / ला / शा → वेधशाला (पाठ 6: जंतर-मंतर … इस वेधशाला). ख) र / द / बा / र → दरबार (पाठ 7). Spelling items, exact target."
+            },
+            {
+              "label": "प्रश्न 13.",
+              "instruction": "नीचे लिखी पंक्तियों को साफ़ – साफ़ पुनः लिखो|",
+              "pattern": "handwriting",
+              "items": 1,
+              "marksEach": 5,
+              "marks": 5,
+              "printedMarks": "(5M)",
+              "pictures": [],
+              "paperOnlyLikely": true,
+              "notes": "सुलेख: copy a 4-line passage about विद्यार्थी जीवन में समय का महत्व onto the 10 printed lines. Paper-only, marked by the parent with a rubric (neatness, matras and शिरोरेखा, spelling, completeness). Has the en dash and nukta in 'साफ़ – साफ़'."
+            }
+          ]
+        }
+      ],
+      "markArithmetic": "No section headings; one section. Blocks: 5 + 6 (1+1+1+2+1, item marks only, no block total printed) + 2 + 2 + 3 + 2 + 2 + 3 + 3 + 3 + 2 + 2 + 5 = 40 = printed total (अंक- 40) ✔",
+      "flagEstimate": 24,
+      "issues": [
+        "ws05 (3.1.5, Aug 2026, पाठ 6–7) repeats most of ws01's questions. Its transcript shows the same वाक्य बनाओ, tense table, उपसर्ग table, picture-identify, match, विलोम, गोला लगाओ, jumbled letters and सुलेख blocks, re-ordered under competency headings, plus an अपठित गद्यांश. The owner decides at Gate 0 whether to keep both (answers for shared questions must be consistent, Task 23) or drop one.",
+        "Q2 has no printed block total; the block marks (6) are derived from per-item (1M)/(2M). OK for the total, but the section/block marks are my sum, not printed.",
+        "Marks I split myself (each ⚑ per the brief): Q1 (घ)/(ड) two words each → ½ + ½; Q6 match ½ × 4; Q7 विलोम ½ × 4; Q9 fill + sentence ½ + ½; Q10 name + 3 sentences.",
+        "Paper-only candidates: Q13 सुलेख (5M, whole block) and Q11 गोला लगाओ (can be adapted to choose/write the correct word). Q6 line-matching can be done on screen as a match item.",
+        "Q10 needs an original post-box SVG that is recognisable from the drawing alone (pillar box, domed top, slot, envelope symbol). There are several acceptable names: लेटर बॉक्स / पत्र-पेटी / डाक-पेटी / पोस्ट बॉक्स.",
+        "Q1 (ग) 'जयपुर किस राज्य की राजधानी है?' and Q2 (ड) (उदयपुर झीलों का नगर क्यों) need general knowledge or inference beyond the passage, so both are ⚑.",
+        "Q1 passage is copied from पाठ 6 with small differences ('दाल- बाटी', 'शीश महल' spelled once with a space). Copy from the transcript, not the textbook."
+      ],
+      "pagesViewed": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "secondReadDisagreements": 1
+    },
+    {
+      "ws": "ws02",
+      "sourceFile": "3.1.2 4-Hindi_L-1-7_WS (SetA).pdf",
+      "sha256": "0efa2c1d43ff23c1d5610488e9f396a63a5fcb858e65455f1e66e72539309877",
+      "pdfPages": 8,
+      "printedPages": "0८",
+      "header": [
+        "(कुल मुद्रित पृष्ठों की संख्या: 0८)",
+        "परमाणु ऊर्जा शिक्षण संस्था ,मुंबई",
+        "कार्यपत्रक (२०२५-२६) सेट – अ(A)",
+        "कक्षा  : चौथी (४)    विषय : हिंदी    माह – सितंबर    अंक : ८०",
+        "दिया गया पाठ्यक्रम : पाठ १ से पाठ ७ तक",
+        "विद्यार्थी का नाम : ____",
+        "कक्षा/अनुभाग : ____    अनुक्रमांक : ____    दिनांक : ____",
+        "हस्ताक्षर निरीक्षक: ____    हस्ताक्षर जाँचकर्ता ____",
+        "हस्ताक्षर परीक्षक ____    प्राप्तांक:____"
+      ],
+      "printedTitle": "कार्यपत्रक (२०२५-२६) सेट – अ(A)",
+      "shortLabel": "कार्यपत्रक · सितंबर 2025 · सेट अ",
+      "month": "सितंबर 2025",
+      "set": "सेट अ",
+      "printedTotal": 80,
+      "portion": "पाठ १ से पाठ ७ तक",
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "chaptersOutsideTextbook": [],
+      "sections": [
+        {
+          "code": "1",
+          "heading": "(पठन पर आधारित प्रश्न – २० अंक)",
+          "marks": 20,
+          "blocks": [
+            {
+              "label": "प्र.१)",
+              "instruction": "नीचे दिए गए गद्यांश को पढ़कर पूछे गए प्रश्नों के उत्तर लिखिए|",
+              "pattern": "passage-qa",
+              "items": 6,
+              "marksEach": null,
+              "marks": 5,
+              "printedMarks": "(१) per item; v. (क)+(ख) share one (१)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Passage is from पाठ २ 'बगीचे का घोंघा' (textbook text has the same story). i.–iv. are 1 mark each. v. asks for synonyms from the passage, (क)जग and (ख) उपवन, under a single (१), so they are ½ + ½. Q1 iv. ends on p1 and its उत्तर line is on p2."
+            },
+            {
+              "label": "प्र. २)",
+              "instruction": "नीचे दिए गए गद्यांश को पढ़कर पूछे गए प्रश्नों के उत्तर लिखिए|",
+              "pattern": "passage-qa",
+              "items": 5,
+              "marksEach": 1,
+              "marks": 5,
+              "printedMarks": "(१) each",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Passage is from पाठ ५ 'आसमान गिरा'. The worksheet prints ज़ोर/आवाज़ with nukta; the textbook text has जोर/आवाज."
+            },
+            {
+              "label": "प्र.३)",
+              "instruction": "नीचे दिए गए अपठित गद्यांश को पढ़कर पूछे गए प्रश्नों के उत्तर लिखिए |",
+              "pattern": "unseen-passage",
+              "items": 10,
+              "marksEach": null,
+              "marks": 10,
+              "printedMarks": "१.–४. (१) each; ५. (२); ६. (२); ७. (१); ८. (१)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Unseen passage about राजू the माली and his daughter नमिता. ५. synonyms from the passage (स्कूल, अहंकार), 2 blanks. ६. antonyms (सही, खरीदना), 2 blanks. ७. किसने-किससे कहा. ८. is general knowledge ('फूलों से सबंधित काम करने वालों', teacher typo सबंधित), answer माली, which is also in the passage. Passage typos kept: रूपयों/रुपयों."
+            }
+          ]
+        },
+        {
+          "code": "2",
+          "heading": "(पाठ्य पुस्तक पर आधारित प्रश्न –  १० अंक)",
+          "marks": 10,
+          "blocks": [
+            {
+              "label": "प्र.४ -",
+              "instruction": "नीचे दिए गए प्रश्नों के उत्तर लिखिए|",
+              "pattern": "short",
+              "items": 6,
+              "marksEach": null,
+              "marks": 10,
+              "printedMarks": "(क)–(घ) (२) each; (ङ),(च) (१) each",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Textbook short answers: (क) आहार → पाठ ४; (ख) पशु-पक्षियों के लिए घर → probably पाठ २ (verify); (ग) अमर, जयपुर → पाठ ६; (घ) घोंघा → पाठ २; (ङ) नीम → पाठ ३; (च) राजा, सलाहकार → पाठ ७. (ख) asks for an opinion plus a reason."
+            }
+          ]
+        },
+        {
+          "code": "3",
+          "heading": "(रचनात्मक लेखन पर आधारित प्रश्न – १० अंक)",
+          "marks": 10,
+          "blocks": [
+            {
+              "label": "प्र.५ (क)",
+              "instruction": "नीम के पेड़ के बारे में पाँच वाक्य लिखिए| अथवा अपने पसंदीदा भ्रमण-स्थल के बारे में पाँच वाक्य लिखिए|",
+              "pattern": "paragraph",
+              "items": 1,
+              "marksEach": 5,
+              "marks": 5,
+              "printedMarks": "(५)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Choice (अथवा) between two five-sentence topics; one answer is written. Judgement with a rubric. The instruction joins both printed lines; in the transcript the mark (५) sits after the first line, before अथवा."
+            },
+            {
+              "label": "(ख)",
+              "instruction": "नीचे दिए गए चित्र को देखकर पाँच वाक्य लिखिए|",
+              "pattern": "picture-describe",
+              "items": 1,
+              "marksEach": 5,
+              "marks": 5,
+              "printedMarks": "(५)",
+              "pictures": [
+                {
+                  "page": 5,
+                  "what": "Black-and-white line drawing of children playing outdoors on a sunny day. On the left a girl sits smiling on a swing hanging from a big tree. In the middle a boy runs along a winding path, flying a diamond-shaped kite. On the right a girl with a ponytail bends to catch a striped ball rolling on the grass. Behind them are a small house, a barn with a fence, round trees, bushes and clouds in the sky.",
+                  "need": "describe"
+                }
+              ],
+              "paperOnlyLikely": false,
+              "notes": "The picture must be drawn as an SVG, with enough detail for 5 sentences. Judgement with a rubric."
+            }
+          ]
+        },
+        {
+          "code": "4",
+          "heading": "(शब्द भंडार पर आधारित प्रश्न -  १० अंक)",
+          "marks": 10,
+          "blocks": [
+            {
+              "label": "प्र.–६ अ.",
+              "instruction": "नीचे दिए गए शब्दों को उनके उपयुक्त अर्थ के साथ मिलाइए|",
+              "pattern": "match",
+              "items": 4,
+              "marksEach": 1,
+              "marks": 4,
+              "printedMarks": "(४)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Left: वृद्ध, पीड़ा, अपरंपार, श्रेष्ठ. Right (printed order): सर्वोत्तम, असीम, बूढ़ा, दुःख. 'मिलाइए' does not say draw lines, so it can be a match in the app."
+            },
+            {
+              "label": "आ.",
+              "instruction": "नीचे दिए गए आकृतियों का नाम लिखिए|",
+              "pattern": "picture-label",
+              "items": 2,
+              "marksEach": 1,
+              "marks": 2,
+              "printedMarks": "(२)",
+              "pictures": [
+                {
+                  "page": 6,
+                  "what": "Two plain outline shapes side by side, each with a blank answer line below: a wide rectangle (left) and a triangle (right, wider base than height)",
+                  "need": "identify"
+                }
+              ],
+              "paperOnlyLikely": false,
+              "notes": "Teacher grammar 'दिए गए आकृतियों' kept. Answers are maths vocabulary (आयत, त्रिभुज); accept variants such as चतुर्भुज?"
+            },
+            {
+              "label": "इ.",
+              "instruction": "नीचे दिए गए शब्दों में मात्रा लगाकर नए सार्थक शब्द बनाइए| जैसे: बस – बीस",
+              "pattern": "matra",
+              "items": 2,
+              "marksEach": 1,
+              "marks": 2,
+              "printedMarks": "(२)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Words फल and रह. Many valid answers (फूल/फैल/फाल…, रहा/राह/रोह…), so the acceptable list must be broad."
+            },
+            {
+              "label": "ई.",
+              "instruction": "जहाँ विविध वस्तुओं को संग्रहित और प्रदर्शित किया जाता हैं उसे संग्रहालय कहते हैं | वैसे निम्नलिखित स्थानों को क्या कहते हैं लिखिए|",
+              "pattern": "one-word",
+              "items": 2,
+              "marksEach": 1,
+              "marks": 2,
+              "printedMarks": "(२)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "i. विद्यालय/पाठशाला/स्कूल; ii. पुस्तकालय. Teacher grammar 'जाता हैं' kept."
+            }
+          ]
+        },
+        {
+          "code": "5",
+          "heading": "( व्याकरण पर आधारित प्रश्न – १५ अंक )",
+          "marks": 15,
+          "blocks": [
+            {
+              "label": "प्र. - ७ (अ)",
+              "instruction": "नीचे दिए वाक्य में रेखांकित शब्द का विपरीत अर्थ लिखो|",
+              "pattern": "vilom",
+              "items": 2,
+              "marksEach": 1,
+              "marks": 2,
+              "printedMarks": "(२)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Underlined: भूलना, नकली. Answers fill a blank in the same sentence (याद, असली)."
+            },
+            {
+              "label": "(आ)",
+              "instruction": "‘प्र’ उपसर्ग वाले दो शब्द सोचकर लिखिए|",
+              "pattern": "upsarg-pratyay",
+              "items": 2,
+              "marksEach": 1,
+              "marks": 2,
+              "printedMarks": "(२)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Open answer (any two प्र- words, e.g. प्रकाश/प्रगति/प्रबल…). Example (उदाहरण: प्र + दूषित = प्रदूषित). Each item has two blanks (root and word)."
+            },
+            {
+              "label": "(इ)",
+              "instruction": "नीचे लिखे वाक्यों में रेखांकित शब्दों का लिंग पहचानिए|",
+              "pattern": "ling-vachan",
+              "items": 2,
+              "marksEach": 1,
+              "marks": 2,
+              "printedMarks": "(२)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Underlined: टमाटर (पुल्लिंग), माताजी (स्त्रीलिंग)."
+            },
+            {
+              "label": "(ई)",
+              "instruction": "‘नियमित’ शब्द ‘नियम’ में ‘इत’ प्रत्यय जोड़कर बना है| ऐसे ही नीचे दिए गए शब्दों में ‘इत’ प्रत्यय जोड़कर नए शब्द बनाइए|",
+              "pattern": "upsarg-pratyay",
+              "items": 2,
+              "marksEach": 1,
+              "marks": 2,
+              "printedMarks": "(२)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "प्रमाण + इत, शिक्षा + इत. Example line (उदा. : नियम + इत = नियमित )."
+            },
+            {
+              "label": "(उ)",
+              "instruction": "नीचे दिए गए शब्दों के समान अर्थ वाले शब्द लिखिए|",
+              "pattern": "paryay",
+              "items": 2,
+              "marksEach": 1,
+              "marks": 2,
+              "printedMarks": "(२)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "ठहरना, हरदम: multiple synonyms (रुकना; हमेशा/सदा/सदैव)."
+            },
+            {
+              "label": "(ऊ)",
+              "instruction": "निम्नलिखित शब्द-युग्मों की सहायता से एक वाक्य लिखिए|",
+              "pattern": "sentence-making",
+              "items": 1,
+              "marksEach": 1,
+              "marks": 1,
+              "printedMarks": "(१)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "टेढ़ी-मेढ़ी. Judgement."
+            },
+            {
+              "label": "(ए)",
+              "instruction": "निम्नलिखित पंक्तियों को नीचे दिए गए उचित विराम चिन्हों की सहायता से पूरा कीजिए|  ( ?   ,   !   |  )",
+              "pattern": "punctuation",
+              "items": 2,
+              "marksEach": 1,
+              "marks": 2,
+              "printedMarks": "(२)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "(i) a list needing commas plus a final danda; (ii) वाह needs ! plus a final danda. '?' in the given set is a distractor. The app needs a punctuation-entry adaptation (child rewrites the sentence)."
+            },
+            {
+              "label": "(ऐ)",
+              "instruction": "नीचे लिखे संज्ञा शब्दों की विशेषता लिखिए|",
+              "pattern": "other",
+              "items": 2,
+              "marksEach": 1,
+              "marks": 2,
+              "printedMarks": "(२)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Write an adjective (विशेषण) for पत्थर and पेड़. Open answers, judgement."
+            }
+          ]
+        },
+        {
+          "code": "6",
+          "heading": "(वर्तनी पर आधारित प्रश्न -  १० अंक)",
+          "marks": 10,
+          "blocks": [
+            {
+              "label": "प्र.८ अ.",
+              "instruction": "शुध्द वर्तनी वाले शब्दों से रिक्त स्थान भरिए|",
+              "pattern": "fill-blank",
+              "items": 2,
+              "marksEach": 1,
+              "marks": 2,
+              "printedMarks": "(२)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Teacher typo शुध्द kept. Options: (आस्चार्यों /आश्चर्यों / आशाचर्यो) and (स्वस्त /स्वास्थ्य /स्वासथ). Answers: आश्चर्यों, स्वास्थ्य. Wrong options are deliberate; keep them exact."
+            },
+            {
+              "label": "आ.",
+              "instruction": "निम्नलिखित वाक्यों को शुद्ध करके लिखिए|",
+              "pattern": "other",
+              "items": 2,
+              "marksEach": 1,
+              "marks": 2,
+              "printedMarks": "(२)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Sentence correction: 'तुम्हारी नाम क्या है?' → तुम्हारा नाम क्या है?; 'इन्द्रधनुष में सात रंग होता हैं|' → …रंग होते हैं। Accept इंद्रधनुष/इन्द्रधनुष and |/।."
+            },
+            {
+              "label": "इ.",
+              "instruction": "सही वर्तनी वाले शब्दों पर गोला लगाइए|",
+              "pattern": "spelling-circle",
+              "items": 2,
+              "marksEach": 1,
+              "marks": 2,
+              "printedMarks": "(२)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "3 options per row (इमानदार ईमानदार इमनदार; चौदह चोदह चैदह), so it can be a single-choice item in the app, not a grid."
+            },
+            {
+              "label": "ई.",
+              "instruction": "वर्तनी को शुद्ध करके लिखिए|",
+              "pattern": "other",
+              "items": 2,
+              "marksEach": 1,
+              "marks": 2,
+              "printedMarks": "(२)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Spelling correction: सब्ज़ीयाँ → सब्ज़ियाँ (accept सब्जियाँ without nukta?); मोसम → मौसम."
+            },
+            {
+              "label": "उ.",
+              "instruction": "अक्षरों के क्रम को ठीक करके सार्थक शब्द बनाइए|",
+              "pattern": "jumbled-letters",
+              "items": 2,
+              "marksEach": 1,
+              "marks": 2,
+              "printedMarks": "(२)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "आ / मा / न / स → आसमान; स / का / र / ला / ह → सलाहकार."
+            }
+          ]
+        },
+        {
+          "code": "7",
+          "heading": "(सुलेख  -  ५ अंक)",
+          "marks": 5,
+          "blocks": [
+            {
+              "label": "प्र.९)",
+              "instruction": "नीचे दिए गए अनुच्छेद को देखकर सुंदर अक्षरों में लिखिए|",
+              "pattern": "handwriting",
+              "items": 1,
+              "marksEach": 5,
+              "marks": 5,
+              "printedMarks": "(५)",
+              "pictures": [],
+              "paperOnlyLikely": true,
+              "notes": "Copy the 5-line paragraph about समय (teacher typo महत्व kept). Done on paper; the parent marks it with a rubric."
+            }
+          ]
+        }
+      ],
+      "markArithmetic": "20+10+10+10+15+10+5 = 80 = printed total (अंक : ८०) ✔. Block sums: S1 5+5+10=20 ✔; S2 4×2+2×1=10 ✔; S3 5+5=10 ✔; S4 4+2+2+2=10 ✔; S5 7×2+1=15 ✔; S6 5×2=10 ✔; S7 5 ✔",
+      "flagEstimate": 30,
+      "issues": [
+        "Q1 v.: the (क)जग / (ख)उपवन pair shares one printed (१). Split it ½ + ½ (proposed), or treat it as 1 item?",
+        "Q5 (क) अथवा: the child chooses one of two topics (नीम का पेड़ / पसंदीदा भ्रमण-स्थल). The app needs a choice adaptation; both are judgement items with a rubric.",
+        "Q5 (ख) needs an original SVG of the children-playing scene (swing, kite, ball, houses/barn, trees) detailed enough to write 5 sentences.",
+        "Q6 आ needs an SVG of a rectangle and a triangle. The answers (आयत/त्रिभुज) are maths vocabulary; decide whether चतुर्भुज or English names are acceptable.",
+        "Q6 इ (मात्रा लगाकर), Q7 आ (प्र- words), Q7 ऐ (विशेषता) and Q7 ऊ (sentence) are open-ended and need broad acceptable lists or rubrics (⚑).",
+        "Q7 ए punctuation: the app needs an adaptation (the child rewrites the sentence with the marks). Accept | as well as ।.",
+        "Q8 ई सब्ज़ीयाँ → सब्ज़ियाँ: decide whether सब्जियाँ (no nukta) is accepted. The textbook text drops nukta elsewhere (जोर/आवाज).",
+        "Q4 (ख) 'पशु-पक्षियों के लिए घर आवश्यक है या नहीं?' is an opinion question; confirm the source पाठ (likely पाठ २).",
+        "Teacher typos kept verbatim: सबंधित (Q3 ८), शुध्द (Q8 अ), प्रष्ठ (footers), महत्व (Q9), 'दिए गए आकृतियों' (Q6 आ), 'किया जाता हैं' (Q6 ई), रूपयों/रुपयों (Q3 passage). Each needs a teacherNote where it is in a checked string.",
+        "Set A (ws02) and Set B (ws03) share a blueprint (पाठ १–७, सितंबर). Keep answers consistent across both.",
+        "The second-read log was written to source/transcripts/second-read/ws02.md as the brief asked; contract §Paths names source/transcripts/SECOND-READ.md, so the coordinator should merge it."
+      ],
+      "pagesViewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "secondReadDisagreements": 2
+    },
+    {
+      "ws": "ws03",
+      "sourceFile": "3.1.3 -Hindi_L-1-7_WS (SetB).pdf",
+      "sha256": "418a62844cbaf8914137cd326c1d3b77563814b94aaf083ed7e7b24fda30103d",
+      "pdfPages": 10,
+      "printedPages": "10 (the header 'कुल मुद्रित पृष्ठों की  संख्या: _' is left blank; the footers read 'पृष्ठ   N का 10')",
+      "header": [
+        "कुल मुद्रित पृष्ठों की  संख्या: ____",
+        "परमाणु ऊर्जा शिक्षण संस्था",
+        "संशोधन पत्र (2025-26) सेट – ब(B)",
+        "कक्षा  : चौथी (४)    विषय : हिंदी    माह – सितंबर    अंक : ८०",
+        "दिया गया पाठ्यक्रम : पाठ १ से पाठ ७ तक",
+        "विद्यार्थी का नाम : ____",
+        "कक्षा/अनुभाग : ____    अनुक्रमांक : ____    दिनांक : ____",
+        "हस्ताक्षर निरीक्षक: ____    हस्ताक्षर जाँचकर्ता ____",
+        "हस्ताक्षर परीक्षक ____    प्राप्तांक: ____"
+      ],
+      "printedTitle": "संशोधन पत्र (2025-26) सेट – ब(B)",
+      "shortLabel": "संशोधन पत्र · सितंबर 2025 · सेट ब",
+      "month": "सितंबर 2025",
+      "set": "सेट – ब(B)",
+      "printedTotal": 80,
+      "portion": "पाठ १ से पाठ ७ तक",
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "chaptersOutsideTextbook": [],
+      "sections": [
+        {
+          "code": "1",
+          "heading": "",
+          "marks": 80,
+          "blocks": [
+            {
+              "label": "प्रश्न-1",
+              "instruction": "दिए गए अपठित गद्यांश को पढ़कर प्रश्नों के उत्तर लिखिए |",
+              "pattern": "unseen-passage",
+              "items": 10,
+              "marksEach": 1,
+              "marks": 10,
+              "printedMarks": "(10)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "This is an unseen passage (Suman's forest walk) and is not in the textbook. There are 10 parts, क)–ञ). क)–ङ) are short answers. च) समान अर्थ: जंगल - (वन). छ) is a passage completion with 2 blanks (चहचहाहट, पगडंडी), probably ½+½. ज) बहुवचन: जूता - (जूते). झ) सही शब्द: भ्रमण/ भृमण. ञ) jumbled letters ता चं ल च → चंचलता. ङ) says 'सुमन और उसकी सहेलियों' but the passage says 'दोस्तों'. The passage uses '।'; the questions use '|'."
+            },
+            {
+              "label": "प्रश्न-2",
+              "instruction": "दिए गए गद्यांश को पढ़कर प्रश्नों के उत्तर लिखिए |",
+              "pattern": "passage-qa",
+              "items": 5,
+              "marksEach": 1,
+              "marks": 5,
+              "printedMarks": "(5)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "This passage is from ch6 जयपुर से पत्र (आमेर). There are 5 parts, क)–ङ): 4 short answers plus ङ) समान अर्थ: विशेष - (खास). The printed passage has 'दोपहर पश्चात' and '|' as the danda. Labels क)–घ) are on p2 and ङ) is on p3."
+            },
+            {
+              "label": "प्रश्न-3",
+              "instruction": "दिए गए पद्यांश को पढ़कर प्रश्नों के उत्तर लिखिए |",
+              "pattern": "poem-qa",
+              "items": 5,
+              "marksEach": 1,
+              "marks": 5,
+              "printedMarks": "(5)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "This poem is from ch4 हमारा आहार. There are 5 parts, क)–ङ). क) and घ) are list answers (vegetables: आलू, भिंडी, परवल, नेनुआ, plus ककड़ी/खीरा?; fruits: आम, अमरूद, पपीता, केला, बेल, खरबूज, तरबूज), so whether ककड़ी/खीरा count as vegetables or fruits is a judgement call. ङ) is a line completion: आम-अमरुद ____ खाओ| (पपीता). The poem prints अमरूद but ङ) prints अमरुद."
+            },
+            {
+              "label": "प्रश्न -4",
+              "instruction": "दी  गई सारणी को  स्वास्थ्यवर्धक  और स्वास्थ्य के लिए हानिकारक खाद्य पदार्थों से पूरा कीजिए |",
+              "pattern": "table",
+              "items": 5,
+              "marksEach": 1,
+              "marks": 5,
+              "printedMarks": "(5)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "This is a 5-row table (क्रम संख्या | स्वास्थ्यवर्धक खाद्य पदार्थ | हानिकारक खाद्य पदार्थ) with 10 cells for 5 marks, so ½ per cell. It is open-ended. Row 1 is on p3 and rows 2–5 are on p4. Linked to ch4."
+            },
+            {
+              "label": "प्रश्न-5",
+              "instruction": "नीम के पेड़ की उपयोगिता के बारे में एक अनुच्छेद लिखिए |",
+              "pattern": "paragraph",
+              "items": 1,
+              "marksEach": 5,
+              "marks": 5,
+              "printedMarks": "(5)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Paragraph on ch3 नीम, with 14 answer lines. Needs a rubric."
+            },
+            {
+              "label": "प्रश्न-6",
+              "instruction": "पाठों के आधार पर दिए  गए प्रश्नों के उत्तर लिखिए |",
+              "pattern": "short",
+              "items": 6,
+              "marksEach": null,
+              "marks": 10,
+              "printedMarks": null,
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "There is no block total; marks are printed per item: क)(1) ch7 नकली हीरे, ख)(1) ch5 आसमान गिरा (characters in order), ग)(2) ch4, घ)(2) ch3, ङ)(2) ch1/ch2 (the bird in the open sky), च)(2) ch2 बगीचे का घोंघा. Sum 1+1+2+2+2+2 = 10. The instruction has a double space ('दिए  गए')."
+            },
+            {
+              "label": "प्रश्न -7",
+              "instruction": "दिए  गए उदाहरण को पढ़िए और नए शब्द बना कर वाक्य पूरे कीजिए |",
+              "pattern": "upsarg-pratyay",
+              "items": 2,
+              "marksEach": 1,
+              "marks": 2,
+              "printedMarks": "(2)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Table (उपसर्ग | मूल शब्द | नया शब्द | वाक्य प्रयोग), with the example row वि+शेष=विशेष. Rows: उप+योग → उपयोग + a sentence; अनु+शासन → अनुशासन + a sentence. Each row is 1 mark, probably word ½ + sentence ½. The sentences are open-ended."
+            },
+            {
+              "label": "प्रश्न -8",
+              "instruction": "अमर ने अपने पिता को पत्र में ‘सादर प्रणाम’ लिखा है| यदि वह अपने मित्र को पत्र लिखता तो क्या लिखता? लिखिए|",
+              "pattern": "letter",
+              "items": 1,
+              "marksEach": 1,
+              "marks": 1,
+              "printedMarks": "(1)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "From ch6 (letter conventions). 'सादर प्रणाम' is underlined. Expected answer: प्रिय मित्र / सप्रेम नमस्ते / नमस्ते, with several acceptable answers."
+            },
+            {
+              "label": "प्रश्न-9",
+              "instruction": "दिए  गए वाक्य को पढ़िए और ‘कौन’ लगा कर प्रश्न बनाइए |",
+              "pattern": "question-forming",
+              "items": 2,
+              "marksEach": 1,
+              "marks": 2,
+              "printedMarks": "(2)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Sentences from ch5: 'भागते- भागते उन्हें शेर मिला |' → 'भागते-भागते उन्हें कौन मिला?'; 'खरगोश भागते- भागते बोला |' → 'भागते-भागते कौन बोला?'. Each answer line ends in a printed '?'."
+            },
+            {
+              "label": "प्रश्न-10",
+              "instruction": "मुहावरे का अर्थ लिख कर वाक्य बनाइए |",
+              "pattern": "muhavara",
+              "items": 1,
+              "marksEach": 2,
+              "marks": 2,
+              "printedMarks": "(2)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "आसमान सिर पर उठाना (ch5). Probably meaning 1 + sentence 1, which needs a rubric."
+            },
+            {
+              "label": "प्रश्न -11",
+              "instruction": "दिए गए वाक्यों में उचित विराम चिन्ह लगाइए |",
+              "pattern": "punctuation",
+              "items": 2,
+              "marksEach": 1,
+              "marks": 2,
+              "printedMarks": "(2)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "क) ये पुस्तकें किसकी हैं → ? ; ख) वाह कितने सुन्दर फूल हैं → वाह! … हैं! (or । at the end). This needs acceptable variants. 'चिन्ह' is printed as is."
+            },
+            {
+              "label": "प्रश्न-12",
+              "instruction": "‘नियमित’शब्द‘नियम’ में ‘इत’ जोड़ कर बना है|ऐसे ही शब्द बनाइए|",
+              "pattern": "upsarg-pratyay",
+              "items": 2,
+              "marksEach": 1,
+              "marks": 2,
+              "printedMarks": "(2)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "This is the ch4 exercise. क) प्रमाण → प्रमाणित; ख) शिक्षा → शिक्षित. The quoted words are bold. There are no spaces around शब्द, printed as is."
+            },
+            {
+              "label": "प्रश्न-13",
+              "instruction": "चित्र देख कर प्रश्नों के उत्तर लिखिए  |",
+              "pattern": "classify",
+              "items": 2,
+              "marksEach": 2,
+              "marks": 4,
+              "printedMarks": null,
+              "pictures": [
+                {
+                  "page": 7,
+                  "what": "Colour illustration of 12 vegetable plants with soil/roots. Top row: tomato, capsicum, potato (tubers), an UNIDENTIFIED plant with broad palmately lobed leaves and only roots, brinjal. Bottom row: pumpkin on vine, beetroot, pink-purple bulb with tubular shoots (red onion or turnip), carrot, radish, small white bulb with tubular shoots (garlic or white onion), cabbage.",
+                  "need": "identify"
+                }
+              ],
+              "paperOnlyLikely": false,
+              "notes": "The instruction is on p6; the picture and items are on p7. There is no block total; marks are per item: क) ज़मीन के नीचे … (2), ख) ज़मीन के ऊपर … (2). Each item has 2 printed blanks, so probably 2 names × 1. Below ground: आलू, चुकंदर, गाजर, मूली, प्याज़, (शलजम/लहसुन). Above ground: टमाटर, शिमला मिर्च, बैंगन, कद्दू, पत्तागोभी. The 4th top-row plant can't be identified, so leave it out of the key. The site will need a redrawn SVG."
+            },
+            {
+              "label": "प्रश्न-14",
+              "instruction": "चित्र देख कर उसके भागों के नाम लिखिए",
+              "pattern": "picture-label",
+              "items": 2,
+              "marksEach": 1,
+              "marks": 2,
+              "printedMarks": "(2)",
+              "pictures": [
+                {
+                  "page": 7,
+                  "what": "Colour mango tree with orange-yellow mangoes; two arrows from the left with empty label boxes: upper arrow ends among the leaves of the upper-left crown (a mango just above-right of the tip); lower longer arrow crosses the trunk/branch zone and its tip touches a mango on the right of the crown.",
+                  "need": "label"
+                }
+              ],
+              "paperOnlyLikely": false,
+              "notes": "Expected: upper = पत्ती/पत्तियाँ, lower = फल/आम. The upper arrow is slightly ambiguous because there is a mango right next to its tip. There is no danda after लिखिए."
+            },
+            {
+              "label": "प्रश्न-15",
+              "instruction": "दी गई वर्ग पहेली में से दिए गए शब्दों के समान अर्थ ढूँढ़कर लिखिए |",
+              "pattern": "word-grid",
+              "items": 4,
+              "marksEach": 1,
+              "marks": 4,
+              "printedMarks": "(4)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "5×5 grid, confirmed at 400 dpi: अ म भो जी दु / सी ट ज तो ख / म ह ज लो च / खी उ प व न / त र का री ग. Targets: अपरंपार → असीम (col1 ↓), आहार → भोजन (NOT FINDABLE: col3 reads भो-ज-ज, so only भोज is there; the textbook ch4 grid has भो-ज-न, so this is a teacher copy error), सब्ज़ी → तरकारी (row5 →), बाग → उपवन (row4 →). Note that the label 'बाग-' has no nukta. Answers are written, not circled, so this can be done on the site if the grid is rendered as a table."
+            },
+            {
+              "label": "प्रश्न-16",
+              "instruction": "दिए गए  फलों और सब्ज़ियों के नामों को पढ़कर उन्हें स्त्रीलिंग और पुल्लिंग की श्रेणी में रखिए |",
+              "pattern": "classify",
+              "items": 6,
+              "marksEach": 0.5,
+              "marks": 3,
+              "printedMarks": "(3)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Words: गोभी, अंगूर, केला, भिंडी, सेब, लौकी. स्त्रीलिंग: गोभी, भिंडी, लौकी. पुल्लिंग: अंगूर, केला, सेब. 6 × ½ = 3. The two-column answer grid is on p8."
+            },
+            {
+              "label": "प्रश्न-17",
+              "instruction": "‘प्र’ उपसर्ग लगाकर शब्द बनाइए |",
+              "pattern": "upsarg-pratyay",
+              "items": 2,
+              "marksEach": 1,
+              "marks": 2,
+              "printedMarks": "(2)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Open-ended: any 2 words with प्र (e.g. प्रदूषित, प्रकाश, प्रयोग, प्रचार, प्रबल). This is close to the ch3 exercise. It needs a judgement/acceptable list. '‘प्र’ उपसर्ग' is bold."
+            },
+            {
+              "label": "प्रश्न-18",
+              "instruction": "पत्तियों के चित्रों को उनके नामों से मिलाइए |",
+              "pattern": "picture-match",
+              "items": 4,
+              "marksEach": 0.5,
+              "marks": 2,
+              "printedMarks": "(2)",
+              "pictures": [
+                {
+                  "page": 8,
+                  "what": "Left column top→bottom: tulsi sprig (line drawing with flower spike; short pink stray line below), banana leaf (line drawing), photo of 3 broad glossy oval leaves (banyan), peepal leaf (line drawing with drip tip). Right column printed order: केला, बरगद, तुलसी, पीपल.",
+                  "need": "match"
+                }
+              ],
+              "paperOnlyLikely": false,
+              "notes": "4 pairs × ½. Key: 1→तुलसी, 2→केला, 3→बरगद, 4→पीपल. Linked to ch3. The site needs 4 small SVG/photos."
+            },
+            {
+              "label": "प्रश्न –19",
+              "instruction": "रेखांकित शब्दों के विपरीत अर्थ वाले शब्द से रिक्त स्थानों की पूर्ति कीजिए –",
+              "pattern": "vilom",
+              "items": 3,
+              "marksEach": 1,
+              "marks": 3,
+              "printedMarks": "(3)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Underlined: भूलना → याद; सोइए → जागिए/उठिए; गर्मी → सर्दी/सर्दियों/जाड़े. ख) is from ch4's exercise. ग) continues on p9. 'विपरीत अर्थ' is bold."
+            },
+            {
+              "label": "प्रश्न-20",
+              "instruction": "मात्रा लगा कर और मात्रा हटा कर शब्द बनाइए |",
+              "pattern": "matra",
+              "items": 2,
+              "marksEach": 1,
+              "marks": 2,
+              "printedMarks": "(2)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "क) बस - (add a matra: बास/बसी/बीस…), ख) चला - (remove: चल; or change). This is ambiguous: it's not clear which item adds a matra and which removes one. Many answers are acceptable, so it needs a judgement or an acceptable list (based on ch5 अभ्यास 4)."
+            },
+            {
+              "label": "प्रश्न 21–",
+              "instruction": "नीचे दिए गए शब्दों को उनके उपयुक्त अर्थों के साथ रेखाएँ खींच कर मिलाइए |",
+              "pattern": "match",
+              "items": 4,
+              "marksEach": 0.5,
+              "marks": 2,
+              "printedMarks": "(2)",
+              "pictures": [
+                {
+                  "page": 9,
+                  "what": "Printed example arrow from वृद्ध (left row 1) to बूढ़ा (right row 3).",
+                  "need": "decorative"
+                }
+              ],
+              "paperOnlyLikely": false,
+              "notes": "5 pairs, with वृद्ध→बूढ़ा printed as the example, so 4 to do × ½ = 2. Key: निस्संदेह→संदेह न होना, बुद्धिमान→विवेकवान, श्रेष्ठ→सर्वोत्तम, ठहराना→रुकना (ठहराना is printed as is; the meaning pair should be ठहरना). Words are from ch7. Line drawing becomes a match on the site; the pairs are objective."
+            },
+            {
+              "label": "प्रश्न–22",
+              "instruction": "सुलेख लिखिए |",
+              "pattern": "handwriting",
+              "items": 1,
+              "marksEach": 5,
+              "marks": 5,
+              "printedMarks": "(5)",
+              "pictures": [],
+              "paperOnlyLikely": true,
+              "notes": "A 4-sentence passage on trees to copy, with 6 lines on p9 and 13 on p10. It is paper-only and needs a handwriting rubric."
+            }
+          ]
+        }
+      ],
+      "markArithmetic": "प्रश्न-1 10 + प्रश्न-2 5 + प्रश्न-3 5 + प्रश्न -4 5 + प्रश्न-5 5 + प्रश्न-6 10 + प्रश्न -7 2 + प्रश्न -8 1 + प्रश्न-9 2 + प्रश्न-10 2 + प्रश्न -11 2 + प्रश्न-12 2 + प्रश्न-13 4 + प्रश्न-14 2 + प्रश्न-15 4 + प्रश्न-16 3 + प्रश्न-17 2 + प्रश्न-18 2 + प्रश्न –19 3 + प्रश्न-20 2 + प्रश्न 21– 2 + प्रश्न–22 5 = 80 = printed total (अंक : ८०) ✔. There are no section headings, so it is one section of 80. Q6 (1+1+2+2+2+2) and Q13 (2+2) are summed from per-item marks.",
+      "flagEstimate": 30,
+      "issues": [
+        "Q15 GRID ERROR: आहार → भोजन cannot be found in the printed 5×5 grid. Column 3 reads भो-ज-ज-प-का (row 3, col 3 is clearly ज at 400 dpi), so only भोज is findable. The textbook ch4 grid has भो-ज-न. Owner decides: (a) accept भोजन as the key with a teacherNote explaining the misprint (recommended), (b) also accept भोज, or (c) silently correct the grid cell to न on the site, which would break fidelity with the paper's grid.",
+        "Q13 PICTURE: the 4th plant in the top row (broad lobed leaves, roots only, no produce) can't be identified, and the pink bulb (red onion vs turnip) and white bulb (garlic vs onion) are uncertain. Proposal: redraw the SVG with clearly identifiable vegetables, leave the unidentified plant out, and accept any 2 correct names per item.",
+        "Q14 ARROWS: upper = पत्ती/पत्तियाँ and lower = फल/आम. The upper arrow's tip sits next to a mango, so फल could be argued for it too. Proposal: key the upper arrow as पत्तियाँ (accept पत्ती/पत्ते) and the lower as फल (accept आम).",
+        "MARKS SPLITS ARE INFERRED: Q1 छ) 2 blanks for 1 mark (½+½); Q4 10 cells/5 marks (½ each); Q7 word+sentence per 1 mark; Q10 meaning+sentence for 2 marks; Q13 2 names per 2-mark item; Q16/Q18/Q21 ½ each. Please confirm.",
+        "Q6 and Q13 have no printed block total, only per-item marks. Q6 = 1+1+2+2+2+2 = 10 and Q13 = 2+2 = 4.",
+        "Q20 is ambiguous: 'मात्रा लगा कर और मात्रा हटा कर' — it's not clear which item takes which operation (बस, चला). It needs a broad acceptable list or a judgement rubric.",
+        "Q21 prints ठहराना (the causative form) paired with रुकना; the matching pair is ठहरना. Keep it as printed and add a teacherNote.",
+        "Q1 ङ) asks about 'सुमन और उसकी सहेलियों', but the passage says 'दोस्तों'. Q3 ङ) prints अमरुद while the poem prints अमरूद. Keep both as printed.",
+        "Q3 क)/घ): it is unclear whether ककड़ी/खीरा/खरबूज/तरबूज count as vegetables or fruits. The answer key needs an acceptable list.",
+        "No section headings are printed, so the paper is modelled as one section (code 1, heading \"\", 80 marks).",
+        "The year in the title is 2025-26, so the month is taken as सितंबर 2025.",
+        "Paper-only: Q22 सुलेख. Q21 (drawing lines) and Q15 (grid) can be done on the site as match / written answers."
+      ],
+      "pagesViewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "secondReadDisagreements": 3
+    },
+    {
+      "ws": "ws04",
+      "sourceFile": "3.1.4 _Hindi_WS_Sep '26_T-1(Set 2) 26-27.pdf",
+      "sha256": "0b5af0cc437f36272a83fe260c943cfbecd6a1d3b8e1f75d4838149c7a0728c6",
+      "pdfPages": 8,
+      "printedPages": "8",
+      "header": [
+        "कुल मुद्रित पृष्ठों की  संख्या /Total No. of printed pages:  8",
+        "परमाणु ऊर्जा शिक्षण संस्था",
+        "Atomic Energy Education Society",
+        "अर्ध-वार्षिक अभ्यास प्रश्न-पत्र / Half-Yearly Practice Paper (2026-27)",
+        "Set 2",
+        "कक्षा /Class:____4____    विषय /Subject: हिन्दी    माह/ Month: September    अंक/Marks: 80",
+        "दिया गया पाठ्यक्रम/Portion covered:  पाठ 1 से पाठ 7",
+        "विद्यार्थी का नाम/Name of the student: ____",
+        "अनुक्रमांक /Roll No.____    कक्षा/अनुभाग  Class /Sec.:____ दिनांक /Date: ____"
+      ],
+      "printedTitle": "अर्ध-वार्षिक अभ्यास प्रश्न-पत्र / Half-Yearly Practice Paper (2026-27)",
+      "shortLabel": "अर्ध-वार्षिक अभ्यास · सितंबर 2026",
+      "month": "सितंबर 2026",
+      "set": "Set 2",
+      "printedTotal": 80,
+      "portion": "पाठ 1 से पाठ 7",
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "chaptersOutsideTextbook": [],
+      "sections": [
+        {
+          "code": "1",
+          "heading": "पठन आधारित प्रश्न - 20 अंक",
+          "marks": 20,
+          "blocks": [
+            {
+              "label": "प्रश्न1.",
+              "instruction": "निम्नलिखित गद्यांश को पढ़कर नीचे दिए गए प्रश्नों के उत्तर लिखिए।",
+              "pattern": "unseen-passage",
+              "items": 10,
+              "marksEach": 1,
+              "marks": 10,
+              "printedMarks": "10 अंक",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "अपठित गद्यांश (महात्मा गांधी) — not from वीणा पाठ 1–7. Sub-items 1–10 mix short answers, an MCQ (4, options क–घ; घ = (क और ख) दोनों), a विलोम (8), a शब्दार्थ (9) and a fill-blank (10). No per-item marks printed; proposed 1 each. Item 6 runs onto page 2 (its answer line is at the top of p2)."
+            },
+            {
+              "label": "प्रश्न2.",
+              "instruction": "निम्नलिखित कविता को पढ़कर नीचे दिए गए प्रश्नों के उत्तर लिखिए|",
+              "pattern": "poem-qa",
+              "items": 5,
+              "marksEach": 1,
+              "marks": 5,
+              "printedMarks": "5 अंक",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "पद्यांश is the opening of वीणा पाठ 3 'नीम' (6 lines). Teacher typos: शद्ध in the poem (for शुद्ध), भागता in item 3 (for भगाता); item 3 is answered by two lines ('नहीं डॉक्टर फिर भी देखो, / कितने रोग भगाता नीम।'), so accept either or both. Instruction ends with ASCII '|'. No per-item marks printed; proposed 1 each."
+            },
+            {
+              "label": "प्रश्न3.",
+              "instruction": "निम्नलिखित पठित गद्यांश को पढ़कर दिए गए प्रश्नों के उत्तर लिखिए।",
+              "pattern": "passage-qa",
+              "items": 5,
+              "marksEach": 1,
+              "marks": 5,
+              "printedMarks": "5 अंक",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "पठित गद्यांश paraphrased from वीणा पाठ 7 'नकली हीरे'. Items: 2 MCQs ((क)–(घ)), 1 short answer, विलोम (बुद्धिमान), शब्दार्थ (वृद्ध). No per-item marks printed; proposed 1 each."
+            }
+          ]
+        },
+        {
+          "code": "2",
+          "heading": "(पाठ्य पुस्तक पर आधारित प्रश्न – 10 अंक)",
+          "marks": 10,
+          "blocks": [
+            {
+              "label": "प्रश्न 4.",
+              "instruction": "निम्नलिखित प्रश्नों के उत्तर लिखिए।",
+              "pattern": "short",
+              "items": 5,
+              "marksEach": 2,
+              "marks": 10,
+              "printedMarks": null,
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Textbook questions: 1) पाठ 5 'आसमान गिरा' (opinion — judgement), 2) पाठ 6 'जयपुर से पत्र', 3) पाठ 2 'बगीचे का घोंघा', 4) पाठ 1 (textbook prints चहचहाहट; worksheet prints चहचहाट), 5) पाठ 4 'हमारा आहार कैसा हो' (item number printed '5' with no ')'; typo क्यां). No marks per item printed; section heading gives 10 → proposed 2 each, judgement rubrics 2/1/0."
+            }
+          ]
+        },
+        {
+          "code": "3",
+          "heading": "(रचनात्मक लेखन पर आधारित प्रश्न – 10 अंक)",
+          "marks": 10,
+          "blocks": [
+            {
+              "label": "प्रश्न -5 क)",
+              "instruction": "अपने किसी पसंदीदा दर्शनीय स्थल (शहर) की यात्रा के बारे में बताते हुए अपने मित्र को एक पत्र लिखें।",
+              "pattern": "letter",
+              "items": 1,
+              "marksEach": 5,
+              "marks": 5,
+              "printedMarks": "5 अंक",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Informal letter to a friend about a trip to a favourite दर्शनीय स्थल (शहर). '5 अंक' printed on its own line below the instruction. 13 answer lines. Judgement item, rubric covering format (पता, दिनांक, संबोधन, अभिवादन, विषय-वस्तु, समापन, नाम) scaled to 5."
+            },
+            {
+              "label": "ख)",
+              "instruction": "नीचे एक तालिका दी गई है। दिए गए नामों के आधार पर तालिका को पूरा कीजिए-",
+              "pattern": "table",
+              "items": 1,
+              "marksEach": 5,
+              "marks": 5,
+              "printedMarks": "5 अंक",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "BROKEN: says 'दिए गए नामों के आधार पर' but NO names/example are printed anywhere (verified on all 8 pages, embedded images and text layer). Source is वीणा पाठ 4 'हमारा आहार कैसा हो' task 1, which prints the example row आम / परवल / दही / गाजर ('दिए गए उदाहरण के आधार पर'). Table: 4 columns (फलों के नाम | साग भजियों के नाम | दूध से बने वस्तुओं  के नाम | सलाद की सामग्री के नाम) × 4 empty rows = 16 cells. 16 cells cannot be split evenly in ½ marks into 5; proposed: ONE judgement item of 5 marks with banded rubric (15–16 correct → 5, 12–14 → 4, 9–11 → 3, 6–8 → 2, 3–5 → 1, 0–2 → 0), or alternatively 4 column items × 1 + 1 for overall (owner to choose). Screen entry of 16 short names is practical (4 text boxes, one per column), so not paper-only."
+            }
+          ]
+        },
+        {
+          "code": "4",
+          "heading": "व्याकरण आधारित प्रश्न - 15 अंक",
+          "marks": 15,
+          "blocks": [
+            {
+              "label": "प्रश्न 6 क)",
+              "instruction": "नीचे दिए गए वाक्यों में गहरे शब्दों के विलोम शब्द लिखें।",
+              "pattern": "vilom",
+              "items": 2,
+              "marksEach": 1,
+              "marks": 2,
+              "printedMarks": null,
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Bold (गहरे) words बड़ा, भूलना marked <b>. No per-part marks printed in this whole section; 15 parts → 1 each."
+            },
+            {
+              "label": "ख)",
+              "instruction": "दिए गए शब्दों को जोड़कर नए शब्द बनाएं।",
+              "pattern": "word-formation",
+              "items": 3,
+              "marksEach": 1,
+              "marks": 3,
+              "printedMarks": null,
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "शिक्षा+ इत, अनु + शासन, सु + दर्शन (upsarg/pratyay joining)."
+            },
+            {
+              "label": "ग)",
+              "instruction": "नीचे दिए गए शब्दों से वाक्य बनाइए",
+              "pattern": "sentence-making",
+              "items": 2,
+              "marksEach": 1,
+              "marks": 2,
+              "printedMarks": null,
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "इतना-सा (पाठ 1), टेढ़ी-मेढ़ी. Judgement items."
+            },
+            {
+              "label": "घ)",
+              "instruction": "नीचे दिए गए मुहावरे का अर्थ लिखकर वाक्य प्रयोग कीजिए।",
+              "pattern": "muhavara",
+              "items": 2,
+              "marksEach": 1,
+              "marks": 2,
+              "printedMarks": null,
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "One मुहावरा 'ज़मीन आसमान एक करना' with two parts: अर्थ (1) + वाक्य प्रयोग (1, judgement)."
+            },
+            {
+              "label": "ड़)",
+              "instruction": "तालिका को ध्यान से पढ़कर उपयुक्त वाक्य लिखिए।",
+              "pattern": "sentence-making",
+              "items": 3,
+              "marksEach": 1,
+              "marks": 3,
+              "printedMarks": null,
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Tense (काल) task: a 2-column layout 'समय | वाक्य' (no printed borders) gives a definition + an example sentence for past/present/future; child writes one more sentence of the same tense on each answer line. Instruction is vague ('उपयुक्त वाक्य'); judgement items. Example 'हम सब परिवार कल घूमने जाएंगे।' kept as printed."
+            },
+            {
+              "label": "च)",
+              "instruction": "निम्नलिखित वाक्यों को उचित विराम चिन्हो की सहायता से पूरा कीजिए।",
+              "pattern": "punctuation",
+              "items": 3,
+              "marksEach": 1,
+              "marks": 3,
+              "printedMarks": null,
+              "pictures": [
+                {
+                  "page": 6,
+                  "what": "Oval box (top right of page 6) holding the punctuation marks , ? ! on one row and | below",
+                  "need": "decorative"
+                }
+              ],
+              "paperOnlyLikely": false,
+              "notes": "Instruction is on p5, the box and the 3 sentences on p6. The box's content is plain text (, ? ! |) and can be rendered as text or a simple SVG; no picture recognition is needed. Sentence 1 'अरे इतना बड़ा हाथी' admits several readings (अरे! इतना बड़ा हाथी! / अरे, इतना बड़ा हाथी!) — accept all; sentence 3 needs commas in the list + । / |."
+            }
+          ]
+        },
+        {
+          "code": "5",
+          "heading": "शब्दावली पर आधारित प्रश्न - 10 अंक",
+          "marks": 10,
+          "blocks": [
+            {
+              "label": "प्रश्न 6. क)",
+              "instruction": "दिए गए शब्दों को अर्थ लिखे।",
+              "pattern": "one-word",
+              "items": 2,
+              "marksEach": 1,
+              "marks": 2,
+              "printedMarks": null,
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "DUPLICATE NUMBER: second 'प्रश्न 6' (the grammar block is also प्रश्न 6). Keep as printed + teacherNote. Meanings of आहार (पाठ 4), निस्संदेह (पाठ 7). Typo: 'शब्दों को अर्थ'. No per-part marks printed in this section; 10 parts → 1 each."
+            },
+            {
+              "label": "ख)",
+              "instruction": "दिए गए निर्देश के अनुसार उत्तर लिखे |",
+              "pattern": "one-word",
+              "items": 2,
+              "marksEach": 1,
+              "marks": 2,
+              "printedMarks": null,
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "General knowledge: कोलकाता का प्रसिद्ध पुल (हावड़ा ब्रिज / हावड़ा पुल / रवीन्द्र सेतु; also विद्यासागर सेतु defensible), दिल्ली का प्रसिद्ध किला (लाल किला; पुराना किला defensible). Instruction ends with ASCII '|'."
+            },
+            {
+              "label": "ग)",
+              "instruction": "दिए गई पेड़ की पत्तियों की कोई एक विशेषता लिखिए |",
+              "pattern": "short",
+              "items": 2,
+              "marksEach": 1,
+              "marks": 2,
+              "printedMarks": null,
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "One feature of आम and नीम leaves (पाठ 3 पत्तियों activity). Many correct answers — judgement."
+            },
+            {
+              "label": "घ)",
+              "instruction": "दो औषधीय पेड़ -पौधे के नाम लिखिए।",
+              "pattern": "one-word",
+              "items": 2,
+              "marksEach": 1,
+              "marks": 2,
+              "printedMarks": null,
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Two medicinal plants: one line '____ ,  ____'. Proposed 2 items × 1 (or one item 2 marks with ½/1 per name). Open answer set (नीम, तुलसी, एलोवेरा/घृतकुमारी, हल्दी, आँवला, गिलोय …)."
+            },
+            {
+              "label": "ड़)",
+              "instruction": "निम्नलिखित पहेली को पढ़कर उत्तर लिखिए।",
+              "pattern": "other",
+              "items": 2,
+              "marksEach": 1,
+              "marks": 2,
+              "printedMarks": null,
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Two पहेलियाँ (riddles) from पाठ 3 and पाठ 4 'बूझो तो जानें': 1 → गरी (नारियल), 2 → करेला. Riddle 2 has teacher typo 'मध्य हेट' (textbook: मध्य हटे) and 'जाऊं'."
+            }
+          ]
+        },
+        {
+          "code": "6",
+          "heading": "वर्तनी पर आधारित प्रश्न - 10 अंक",
+          "marks": 10,
+          "blocks": [
+            {
+              "label": "प्रश्न 7. क)",
+              "instruction": "वर्णों को सही क्रम में लगाकर उचित शब्द बनाएं",
+              "pattern": "jumbled-letters",
+              "items": 2,
+              "marksEach": 1,
+              "marks": 2,
+              "printedMarks": null,
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "अ / र/ प / रं /पा → अपरंपार; प्र / षि / दू / त → प्रदूषित. Spelling items (exact target). 'प्रश्न 7.' is bold in print. No per-part marks printed in this section; 10 parts → 1 each."
+            },
+            {
+              "label": "ख)",
+              "instruction": "रेखांकित वर्ण को बदलकर फल अथवा साग तरकारी का नाम लिखें । ध्यान रखिए मात्रा ना बदले –",
+              "pattern": "other",
+              "items": 2,
+              "marksEach": 1,
+              "marks": 2,
+              "printedMarks": null,
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Replace the underlined letter keeping the matra to get a fruit/vegetable: <u>चौ</u>की → लौकी, <u>म</u>कड़ी → ककड़ी (from पाठ 4). Underlined letters are also bold in print."
+            },
+            {
+              "label": "ग)",
+              "instruction": "नीचे दिए गए शब्दों में मात्र लगाकर नए सार्थक शब्द बनायें|",
+              "pattern": "matra",
+              "items": 2,
+              "marksEach": 1,
+              "marks": 2,
+              "printedMarks": null,
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "कल, सब — add a matra to make a new meaningful word. Several valid answers (e.g. कल → काल, कील, कुल; सब → साब, सेब), so the acceptable list needs careful checking, ⚑. Typo 'मात्र' for मात्रा; instruction ends 'बनायें|'."
+            },
+            {
+              "label": "घ)",
+              "instruction": "सही वर्तनी वाले शब्द पर गोला करें |",
+              "pattern": "spelling-circle",
+              "items": 2,
+              "marksEach": 1,
+              "marks": 2,
+              "printedMarks": null,
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Circle the correct spelling: चिट्ठी / चिट्टी / चीटटी; विवहार / व्यीवहार / व्यवहार. On screen this is a single-choice pick — no need for paper."
+            },
+            {
+              "label": "ड़)",
+              "instruction": "निम्नलिखित वाक्यों को शुद्ध करकें लिखे |",
+              "pattern": "other",
+              "items": 2,
+              "marksEach": 1,
+              "marks": 2,
+              "printedMarks": null,
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Sentence correction (word order): 'भैया  स्वादिष्ट ने  बनाया भोजन |' → भैया ने स्वादिष्ट भोजन बनाया। ; 'भागते भागते लोमड़ी उसे एक मिली |' → भागते-भागते उसे एक लोमड़ी मिली। Several word orders are acceptable — ⚑. Typo 'करकें'."
+            }
+          ]
+        },
+        {
+          "code": "7",
+          "heading": "",
+          "marks": 5,
+          "blocks": [
+            {
+              "label": "प्रश्न 8.",
+              "instruction": "सुलेख लेखन -",
+              "pattern": "handwriting",
+              "items": 1,
+              "marksEach": 5,
+              "marks": 5,
+              "printedMarks": "5 अंक",
+              "pictures": [],
+              "paperOnlyLikely": true,
+              "notes": "No section heading: 'प्रश्न 8.    सुलेख लेखन -    5 अंक' is one printed line (सुलेख लेखन bold) after the वर्तनी section, whose 10 अंक are fully used by प्रश्न 7. The 6-line passage on books is copied onto 17 ruled lines (7 on p7, 10 on p8). Paper-only; rubric for neatness, शिरोरेखा, matras, spacing and accuracy."
+            }
+          ]
+        }
+      ],
+      "markArithmetic": "20 (पठन: 10+5+5) + 10 (पाठ्य पुस्तक) + 10 (रचनात्मक: 5+5) + 15 (व्याकरण) + 10 (शब्दावली) + 10 (वर्तनी) + 5 (सुलेख, प्रश्न 8) = 80 = printed total ✔. Note: प्रश्न 8's 5 अंक sit outside any printed section heading; without them the headed sections sum to 75.",
+      "flagEstimate": 38,
+      "issues": [
+        "Duplicate number: 'प्रश्न 6' is printed twice (व्याकरण p5 'प्रश्न 6 क)' and शब्दावली p6 'प्रश्न 6. क)'). Keep both as printed + teacherNote; there is no प्रश्न 6 renumbering.",
+        "प्रश्न -5 ख) says 'दिए गए नामों के आधार पर' but no names or example row are printed. The textbook (वीणा पाठ 4) prints the example row आम / परवल / दही / गाजर. Owner: show that example row in an adaptation note, or treat the task as an open 'write 4 names per column' item? Also the marks split (16 cells → 5 marks) needs a decision (proposed: one 5-mark banded rubric).",
+        "Per-part marks are not printed for any sub-question (only block/section totals). Proposed splits: 1 each in प्रश्न 1–3, 6 (both), 7; 2 each in प्रश्न 4; 5 for the letter, the table and सुलेख. Owner to confirm.",
+        "प्रश्न 8 सुलेख (17 ruled lines) is paper-only: done on the printout and marked by the parent with a rubric.",
+        "प्रश्न 1 is an अपठित गद्यांश on Mahatma Gandhi (not in पाठ 1–7); answers come from the printed passage. Item 5 ('हमें हमेशा किस रास्ते पर चलने के लिए कहते हैं') reads the passage loosely: accept सत्य और अहिंसा.",
+        "Teacher typos kept as printed (each needs a teacherNote where it affects the answer): शद्ध (poem), भागता (Q2.3), मध्य हेट (riddle 2), मात्र (Q7 ग), क्यां (Q4.5), चहचहाट (Q4.4), कपड़ो (Q1.6), 'शब्दों को अर्थ' (second Q6 क), 'दिए गई' (second Q6 ग).",
+        "Second प्रश्न 6 ख) is general knowledge (कोलकाता का पुल, दिल्ली का किला) with more than one defensible answer. Accept हावड़ा ब्रिज/रवीन्द्र सेतु (and विद्यासागर सेतु) and लाल किला (and पुराना किला), ⚑.",
+        "प्रश्न 6 ड़) (tense table) has a vague instruction ('उपयुक्त वाक्य लिखिए'). Proposed reading: write one more sentence of the same tense as each example; judgement items, ⚑.",
+        "प्रश्न 7 ग) (मात्रा लगाकर नए शब्द) has many valid answers; it is a spelling-type item, so the acceptable list must hold only correct words. ⚑ with a teacherNote."
+      ],
+      "pagesViewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "secondReadDisagreements": 0
+    },
+    {
+      "ws": "ws05",
+      "sourceFile": "3.1.5 4_Hindi_WS_ Aug 26 L 6-7 (26-27).pdf",
+      "sha256": "9b946946855f1c12b6ffdde3e785951fb3f3407526f2536645e6f775863d41cd",
+      "pdfPages": 4,
+      "printedPages": "05",
+      "header": [
+        "मुद्रित पृष्ठों की संख्या : 05",
+        "परमाणु ऊर्जा शिक्षण संस्था",
+        "कार्यपत्रक (2026-27)",
+        "कक्षा : चौथी    विषय: हिंदी    माह-अगस्त 2026    अंक- 40",
+        "दिया गया पाठ्यक्रम - पाठ -6 जयपुर से पत्र एवं पाठ -7 नकली हीरे",
+        "विद्यार्थी का नाम – ____",
+        "अनुक्रमांक - ____    कक्षा / अनुभाग - ____    दिनांक - ____"
+      ],
+      "printedTitle": "कार्यपत्रक (2026-27)",
+      "shortLabel": "कार्यपत्रक · अगस्त 2026 · पाठ 6–7",
+      "month": "अगस्त 2026",
+      "set": null,
+      "printedTotal": 40,
+      "portion": "पाठ -6 जयपुर से पत्र एवं पाठ -7 नकली हीरे",
+      "chapters": [
+        6,
+        7
+      ],
+      "chaptersOutsideTextbook": [],
+      "sections": [
+        {
+          "code": "1",
+          "heading": "(पठन क्षमता पर आधारित प्रश्न- 10 अंक)",
+          "marks": 10,
+          "blocks": [
+            {
+              "label": "प्रश्न 1.",
+              "instruction": "दिए गए पठित गद्यांश को पढ़कर निम्नलिखित प्रश्नों के उत्तर लिखिए|",
+              "pattern": "passage-qa",
+              "items": 5,
+              "marksEach": 1,
+              "marks": 5,
+              "printedMarks": "(5M)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "The passage is from ch6 जयपुर से पत्र. It has 5 labelled parts (क)–(ड). (क)–(ग) are short answers. (घ) is विलोम with 2 blanks (पुराना x, दिन x) and (ड) is समान अर्थ with 2 blanks (विशाल -, रात्रि-), so (घ)/(ड) are likely ½ + ½. Part (ड) is labelled with ड, not ङ. (ग) 'जयपुर किस राज्य की राजधानी है?' is not stated in the passage; the child must infer राजस्थान. The passage prints पश्चात without a halant and 'रात को'. It differs from ws01 (पश्चात्, 'रात में')."
+            },
+            {
+              "label": "प्रश्न 2.",
+              "instruction": "अपठित गद्यांश को पढ़कर निम्नलिखित प्रश्नों के उत्तर लिखिए|",
+              "pattern": "unseen-passage",
+              "items": 5,
+              "marksEach": 1,
+              "marks": 5,
+              "printedMarks": "5M",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Unseen passage (lion and mouse) that does not appear in ws01. The labels are inconsistent: 'क.', 'ख' (no full stop), 'ग.शरारती' (no space), 'घ .', 'ड.'. घ is a fill-blank: 'सही शब्द चुन कर लिखा -' (sic, लिखा for लिखो), but no word options are printed, so the answer (शरीर) comes from the passage. ड 'नजदीक' शब्द का अर्थ है– (पास/ दूर) is a two-option choice. The passage has the typo 'वहीपेड़' (missing space) and uses '|' as the danda. The marks are printed without brackets."
+            }
+          ]
+        },
+        {
+          "code": "2",
+          "heading": "(पाठ्यपुस्तक पर आधारित प्रश्न- 06 अंक)",
+          "marks": 6,
+          "blocks": [
+            {
+              "label": "प्रश्न 3 .",
+              "instruction": "नीचे दिए प्रश्नों के उत्तर लिखिए|",
+              "pattern": "short",
+              "items": 5,
+              "marksEach": null,
+              "marks": 6,
+              "printedMarks": "(1M) (1M) (1M) (2M) (1M)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Marks are mixed: (क)1 (ख)1 (ग)1 (घ)2 (ड)1 = 6. (क), (ख) and (ड) are from ch6. (ग) and (घ) are from ch7. (ख) prints 'अंको' (sic, no anusvara). The label has a space: 'प्रश्न 3 .'. These are the same 5 questions as ws01 प्रश्न 2."
+            }
+          ]
+        },
+        {
+          "code": "3",
+          "heading": "(रचनात्मक क्षमता पर आधारित प्रश्न- 03 अंक)",
+          "marks": 3,
+          "blocks": [
+            {
+              "label": "प्रश्न 4.",
+              "instruction": "नीचे दिए चित्र को पहचानकर, इसके बारे में कोई तीन वाक्य लिखो|",
+              "pattern": "picture-describe",
+              "items": 3,
+              "marksEach": 1,
+              "marks": 3,
+              "printedMarks": "(3M)",
+              "pictures": [
+                {
+                  "page": 2,
+                  "what": "Black-and-white line drawing of a pillar-style post box (letter box). It has a domed top with a cap ledge, a black rectangular mail slot, an envelope symbol on the front panel and a solid black base.",
+                  "need": "describe"
+                }
+              ],
+              "paperOnlyLikely": false,
+              "notes": "The child names the object (a 'नाम - ____' line is printed beside the picture; expected लेटर बॉक्स / पत्र-पेटी / डाक-पेटी) and writes 3 sentences. Whether the name itself earns marks is not stated, so 3 sentences × 1 is assumed. The same picture appears in ws01 प्रश्न 10, where the instruction there also says 'नाम लिखो'. It links to ch6 (letter writing)."
+            }
+          ]
+        },
+        {
+          "code": "4",
+          "heading": "(शब्द भंडार पर आधारित प्रश्न- 08 अंक)",
+          "marks": 8,
+          "blocks": [
+            {
+              "label": "प्रश्न 5.",
+              "instruction": "दिए गए शब्दों से वाक्य बनाओ|",
+              "pattern": "sentence-making",
+              "items": 2,
+              "marksEach": 1,
+              "marks": 2,
+              "printedMarks": "(2M)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "The words are धीरे-धीरे and साथ-साथ. ws01 had 3 items (with धन्यवाद) for 3M."
+            },
+            {
+              "label": "प्रश्न 6.",
+              "instruction": "तालिका को ध्यान से पढ़कर उचित वाक्य लिखिए-",
+              "pattern": "table",
+              "items": 3,
+              "marksEach": 1,
+              "marks": 3,
+              "printedMarks": "(3M)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "This is a tense (काल) table. The child writes one sentence each in future, present and past tense. The tense names are not printed, only the descriptions. Answers are open-ended (judgement)."
+            },
+            {
+              "label": "प्रश्न 7.",
+              "instruction": "नीचे दी गई तालिका में नए शब्द बनाकर उनका वाक्यों में प्रयोग लिखो|",
+              "pattern": "upsarg-pratyay",
+              "items": 3,
+              "marksEach": 1,
+              "marks": 3,
+              "printedMarks": "(3M)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Each of the 3 rows has one missing cell plus a sentence. Row 1: भर + पेट → (भरपेट). Row 2: अनु + (शासन) → अनुशासन. Row 3: (सु) + विचार → सुविचार. The missing cell and the sentence are probably ½ each. 'भर' as an उपसर्ग is a teacher choice. The sentence part needs judgement."
+            }
+          ]
+        },
+        {
+          "code": "5",
+          "heading": "(व्याकरण क्षमता पर आधारित प्रश्न – 04 अंक)",
+          "marks": 4,
+          "blocks": [
+            {
+              "label": "प्रश्न 8.",
+              "instruction": "नीचे लिखे शब्दों को उनके अर्थों के साथ मिलाओ।",
+              "pattern": "match",
+              "items": 4,
+              "marksEach": 0.5,
+              "marks": 2,
+              "printedMarks": "(2M)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Pairs are बुद्धिमान/निस्संदेह/वृद्ध/श्रेष्ठ against the jumbled meanings बूढ़ा/विवेकवान/सर्वोत्तम/संदेह न होना (ch7 words). The instruction ends with a true '।'. The section heading uses an en dash, unlike the other headings."
+            },
+            {
+              "label": "प्रश्न 9.",
+              "instruction": "विलोम शब्द लिखो|",
+              "pattern": "vilom",
+              "items": 4,
+              "marksEach": 0.5,
+              "marks": 2,
+              "printedMarks": "(2M)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "The words are आज, नकली, पास and प्रसन्नता. आज x कल is ambiguous but standard. प्रसन्नता has several acceptable answers (अप्रसन्नता / दुख / उदासी)."
+            }
+          ]
+        },
+        {
+          "code": "6",
+          "heading": "(वर्तनी पर आधारित प्रश्न- 04 अंक)",
+          "marks": 4,
+          "blocks": [
+            {
+              "label": "प्रश्न 10.",
+              "instruction": "सही शब्द पर गोला लगाओ|",
+              "pattern": "spelling-circle",
+              "items": 2,
+              "marksEach": 1,
+              "marks": 2,
+              "printedMarks": "(2M)",
+              "pictures": [],
+              "paperOnlyLikely": true,
+              "notes": "The options keep their deliberate misspellings exactly as printed. क) प्रसानं / प्रसन्न / प्रसंन्. ख) संग्रालय / संगृहलय / संग्रहालय. Circling is a paper action. Online it becomes a 3-option choice. The labels are 'क)' and 'ख)' without an opening bracket."
+            },
+            {
+              "label": "प्रश्न 11.",
+              "instruction": "दिए गए अक्षरों से सार्थक शब्द बनाओ|",
+              "pattern": "jumbled-letters",
+              "items": 2,
+              "marksEach": 1,
+              "marks": 2,
+              "printedMarks": "(2M)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "क) ध / वे / ला / शा → वेधशाला (ch6 जंतर-मंतर). ख) र / द / बा / र → दरबार (ch7)."
+            }
+          ]
+        },
+        {
+          "code": "7",
+          "heading": "(सुलेख आधारित प्रश्न- 5 अंक)",
+          "marks": 5,
+          "blocks": [
+            {
+              "label": "प्रश्न 12.",
+              "instruction": "नीचे लिखे गद्यांश को सुंदर अक्षरों में लिखो|",
+              "pattern": "handwriting",
+              "items": 1,
+              "marksEach": 5,
+              "marks": 5,
+              "printedMarks": "(5M)",
+              "pictures": [],
+              "paperOnlyLikely": true,
+              "notes": "This is सुलेख (copy in neat handwriting) on 13 ruled lines, so it can only be done on paper. The heading prints '5 अंक' without the leading zero used in the other headings. The passage's first two sentences match ws01 प्रश्न 13, and the last sentence differs."
+            }
+          ]
+        }
+      ],
+      "markArithmetic": "10 (5+5) + 6 (1+1+1+2+1) + 3 + 8 (2+3+3) + 4 (2+2) + 4 (2+2) + 5 = 40 = printed total (अंक- 40) ✔. Every section heading's printed marks equal the sum of its blocks ✔.",
+      "flagEstimate": 24,
+      "issues": [
+        "The header prints 'मुद्रित पृष्ठों की संख्या : 05' but the PDF has 4 pages. The paper looks complete: Q12 ends on p4 with the footer '4 | Page' and nothing seems missing. Owner to confirm whether a 5th page exists, or whether the header is just a template leftover.",
+        "ws05 (3.1.5, Aug 2026) repeats most of ws01 (3.1.1, Aug 2025, also L6-7). Repeated: the Q1 passage and its 5 questions (small wording changes: 'रात को' vs 'रात में', पश्चात vs पश्चात्, 'दाल-बाटी' spacing), all 5 textbook questions (ws01 Q2 = ws05 Q3, including the mixed 1/1/1/2/1 marks), the post-box picture, धीरे-धीरे/साथ-साथ, the tense table, the उपसर्ग table, the match list, the विलोम list, both spelling-circle items, both jumbled-letter items, and the first two sentences of the सुलेख passage. New in ws05: the section headings, the unseen lion-and-mouse passage (Q2), and the सुलेख last sentence. Dropped from ws01: 'सादर प्रणाम' letter-greeting Q, अधूरे वाक्य (झूम-झूमकर / उछल-उछलकर), and धन्यवाद sentence. Owner to decide whether to ship both papers, de-duplicate, or share answers/pictures (e.g. one shared post-box SVG).",
+        "Q1 (घ) and (ड) each have two blanks under a single item; Q1 is printed (5M) for 5 parts, so ½ per blank is assumed. Owner to confirm.",
+        "Q4 prints a separate 'नाम - ____' line, but marks are (3M) for 'तीन वाक्य'. It is unclear whether naming the object earns a mark. 3 × 1 for sentences is assumed.",
+        "Q7 row and sentence split (½ for the word, ½ for the sentence per row) is assumed. 'भर' is printed as an उपसर्ग (भरपेट), which is the teacher's own classification.",
+        "Q2 घ says 'सही शब्द चुन कर लिखा' (sic) but prints no options to choose from. The answer comes from the passage (शरीर).",
+        "Q1 (ग) (जयपुर किस राज्य की राजधानी है?) is not answered explicitly in the passage. Expected answer is राजस्थान (inferred from 'राजस्थान के लोक नृत्य').",
+        "Spelling-circle (Q10) and सुलेख (Q12) are paper actions. Q10 can become a 3-option choice online. Q12 is paper-only and needs a rubric."
+      ],
+      "pagesViewed": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "secondReadDisagreements": 0
+    },
+    {
+      "ws": "ws06",
+      "sourceFile": "3.1.6 4_Hindi_WS_ July 26 L 4-5.pdf",
+      "sha256": "9f75250d89361d0056f24c72fc081043ec0f5b1801b56f99edbe36ec1d88d6f8",
+      "pdfPages": 4,
+      "printedPages": "06 (as printed on the header: 'कुल मुद्रित पृष्ठों की संख्या: 06'; the PDF has only 4 pages, numbered 1–4)",
+      "header": [
+        "कुल मुद्रित पृष्ठों की संख्या: 06",
+        "परमाणु ऊर्जा शिक्षण संस्था",
+        "कार्यपत्रक (2026-27)",
+        "कक्षा: चार    विषय:हिन्दी    माह:जुलाई    अंक:40",
+        "दिया गया पाठ्यक्रम: पाठ4. हमारा आहार सेपाठ 5. आसमान गिरा तक",
+        "विद्यार्थीका नाम:____",
+        "अनुक्रमांक:____कक्षा / अनुभाग:____दिनांक: ____"
+      ],
+      "printedTitle": "कार्यपत्रक (2026-27)",
+      "shortLabel": "कार्यपत्रक · जुलाई 2026 · पाठ 4–5",
+      "month": "जुलाई 2026",
+      "set": null,
+      "printedTotal": 40,
+      "portion": "पाठ4. हमारा आहार सेपाठ 5. आसमान गिरा तक",
+      "chapters": [
+        4,
+        5
+      ],
+      "chaptersOutsideTextbook": [],
+      "sections": [
+        {
+          "code": "1",
+          "heading": "वाचन पर आधारित प्रश्न 10 अंक",
+          "marks": 10,
+          "blocks": [
+            {
+              "label": "प्रश्न 1.",
+              "instruction": "पठित और अपठित गद्यांशों को पढ़कर नीचे लिखे प्रश्नों के उत्तर दो ।",
+              "pattern": "passage-qa",
+              "items": 5,
+              "marksEach": 1,
+              "marks": 5,
+              "printedMarks": "(1) after each item; no block total printed",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Sub-heading 'पठित गद्यांश' (underlined); passage is from पाठ 5 आसमान गिरा (खरगोश/लोमड़ी). Items (क)–(ग) passage Q&A, (घ) पर्यायवाची 'वृक्ष - ____', (ङ) विलोम 'ऊपर - ____' — mixed patterns inside one passage block. The one printed instruction covers both passages."
+            },
+            {
+              "label": "अपठित गद्यांश",
+              "instruction": "पठित और अपठित गद्यांशों को पढ़कर नीचे लिखे प्रश्नों के उत्तर दो ।",
+              "pattern": "unseen-passage",
+              "items": 5,
+              "marksEach": 1,
+              "marks": 5,
+              "printedMarks": "(1) after each item; no block total printed",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Unseen passage (चूहे / बिल्ली के गले में घंटी). (क)–(ग) Q&A, (ग) asks the moral (judgement); (घ) लिंग बदलो 'चुहिया - ____(चूहा ,शेर ,तालाब ,कछुए)' and (ङ) वचन बदलो 'बिल्लियाँ - ____(औरत ,बिल्ली,बच्ची ,रानियाँ )' are MCQ-in-brackets (word bank). Label '(ख )' printed with a space before ')'. The same instruction line (प्रश्न 1.) governs this block; there is no separate number."
+            }
+          ]
+        },
+        {
+          "code": "2",
+          "heading": "पाठ्य पुस्तक पर आधारित प्रश्न 5 अंक",
+          "marks": 5,
+          "blocks": [
+            {
+              "label": "प्रश्न 2.",
+              "instruction": "",
+              "pattern": "short",
+              "items": 3,
+              "marksEach": null,
+              "marks": 5,
+              "printedMarks": "(1), (2), (2) per item; no block total printed",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "No instruction line; the number runs straight into item (क): 'प्रश्न 2.(क) सभीजानवरों को किसने रोक लिया ?' (पाठ 5). (ख) 'हमें भूख से अधिक क्यों नहीं खाना चाहिए ?' and (ग) 'भोजन का सेवन किस प्रकार करने की सलाह दी गई है और क्यों?' are 2-mark explanations from पाठ 4 हमारा आहार. Unequal marks: 1+2+2 = 5."
+            }
+          ]
+        },
+        {
+          "code": "3",
+          "heading": "रचनात्मक लेखन पर आधारित प्रश्न5 अंक",
+          "marks": 5,
+          "blocks": [
+            {
+              "label": "प्रश्न 3.",
+              "instruction": "हाथीके बारे में पाँच पंक्तियाँ लिखिए ।",
+              "pattern": "paragraph",
+              "items": 1,
+              "marksEach": 5,
+              "marks": 5,
+              "printedMarks": "(5)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Heading printed 'प्रश्न5' (no space) and instruction 'हाथीके' (no space) — keep verbatim. Five numbered answer lines '1.____' … '5. ____'. Open writing: needs a rubric (could also be modelled as 5 × 1-mark lines)."
+            }
+          ]
+        },
+        {
+          "code": "4",
+          "heading": "व्याकरण पर आधारित प्रश्न 8 अंक",
+          "marks": 8,
+          "blocks": [
+            {
+              "label": "प्रश्न 4.(क)",
+              "instruction": "रेखांकित शब्दों के विपरीत अर्थ वाले शब्द से रिक्त स्थानों की पूर्ति कीजिए ।",
+              "pattern": "vilom",
+              "items": 4,
+              "marksEach": 1,
+              "marks": 4,
+              "printedMarks": "(1X4=4)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Fill-in-the-blank with the opposite of the underlined word (अधिक, भूलना, गरमी, सोइए). गरमी → सरदी/सर्दी/जाड़ा and सोइए → जागिए/उठिए have several acceptable forms. Label printed with no space: 'प्रश्न 4.(क)रेखांकित'."
+            },
+            {
+              "label": "(ख)",
+              "instruction": "‘ नियमित’ शब्द‘ नियम’ में ‘ इत’ जोड़कर बना है । ऐसे हीनीचे दिए गए शब्दों में ‘ इत’ लगाकरनए शब्द बनाइए।",
+              "pattern": "upsarg-pratyay",
+              "items": 4,
+              "marksEach": 1,
+              "marks": 4,
+              "printedMarks": "(1X4=4)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Suffix 'इत': worked example 'नियम ←→ नियमित' (not scored), then शिक्षा, मोह, चर्चा, सुगंध (सुगंध row is on page 4). Drawn double-headed arrows transcribed as ←→. Missing spaces 'शब्द‘', 'हीनीचे', 'लगाकरनए' are printed that way."
+            }
+          ]
+        },
+        {
+          "code": "5",
+          "heading": "शब्द भंडार पर आधारित प्रश्न 5 अंक",
+          "marks": 5,
+          "blocks": [
+            {
+              "label": "प्रश्न 5.",
+              "instruction": "नीचे दिए गए शब्दों में से आपको केवल वर्ण बदलकर फल अथवा साग – तरकारी का नाम लिखना है । ध्यान रखिए कि मात्रा न बदले ।",
+              "pattern": "word-formation",
+              "items": 5,
+              "marksEach": 1,
+              "marks": 5,
+              "printedMarks": "(1X5=5)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Change one letter (keep the matra) to get a fruit/vegetable. Worked example 'भालू ←→ आलू' (not scored); items मीरा, चौकी, मेला, जेब, चालक (expected खीरा, लौकी, केला, सेब, पालक). Arrows transcribed ←→. Label printed 'प्रश्न 5.नीचे' (no space)."
+            }
+          ]
+        },
+        {
+          "code": "6",
+          "heading": "वर्तनी पर आधारित प्रश्न 5 अंक",
+          "marks": 5,
+          "blocks": [
+            {
+              "label": "प्रश्न 6.",
+              "instruction": "नीचे दिए गए शब्दों में मात्रा लगाकर और हटाकर नए – नए शब्द बनाइए ।",
+              "pattern": "matra",
+              "items": 5,
+              "marksEach": 1,
+              "marks": 5,
+              "printedMarks": "(1X5=5)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Examples 'बस –बीस' (add) and 'चला चल' (remove), not scored. Items भर, पढ़ी, रह, कही, फल — two columns. Many valid answers (भर → भार/भीर…, रह → राह/रहा/रही, फल → फूल/फली/फेल…, पढ़ी → पढ़, कही → कह/कहा); also unclear whether a given item expects adding or removing a matra. Heading printed 'वर्तनी  पर' with a double space."
+            }
+          ]
+        },
+        {
+          "code": "7",
+          "heading": "सुलेख 2 अंक",
+          "marks": 2,
+          "blocks": [
+            {
+              "label": "प्रश्न 7.",
+              "instruction": "सुलेख लिखो ।",
+              "pattern": "handwriting",
+              "items": 1,
+              "marksEach": 2,
+              "marks": 2,
+              "printedMarks": "(2)",
+              "pictures": [],
+              "paperOnlyLikely": true,
+              "notes": "Copy the printed 4-line paragraph (हमें अपने आप को बेहतर बनाना है … कठिन परिश्रम करना है ।) neatly on 7 ruled lines. Handwriting quality can only be judged on paper."
+            }
+          ]
+        }
+      ],
+      "markArithmetic": "10 (वाचन: 5×1 पठित + 5×1 अपठित) + 5 (पाठ्य पुस्तक: 1+2+2) + 5 (रचनात्मक लेखन) + 8 (व्याकरण: 4+4) + 5 (शब्द भंडार) + 5 (वर्तनी) + 2 (सुलेख) = 40 = printed total (अंक:40) ✔; every section heading's marks equal the sum of its item marks ✔",
+      "flagEstimate": 16,
+      "issues": [
+        "Header says 'कुल मुद्रित पृष्ठों की संख्या: 06' but the PDF has 4 pages (footers 1–4) and the content is complete through प्रश्न 7 / 40 marks — likely a copied header; confirm nothing is missing.",
+        "प्रश्न 1 has one instruction for two passages (पठित + अपठित), each with its own 5 × 1-mark items — confirm splitting into two blocks (pattern passage-qa and unseen-passage) is acceptable.",
+        "प्रश्न 2 has no instruction line and unequal marks (1, 2, 2) — block marksEach is null.",
+        "प्रश्न 3 (हाथी, पाँच पंक्तियाँ, 5 marks): score as one 5-mark judgement item with a rubric, or 5 × 1-mark lines?",
+        "प्रश्न 6 (मात्रा लगाकर और हटाकर): several valid words per item and the paper does not say which items take adding vs removing — needs an owner decision on accepted answers.",
+        "प्रश्न 7 सुलेख (2 marks) is paper-only; decide adaptation (e.g. copy-typing check or 'done on printed sheet').",
+        "प्रश्न 4(ख) and प्रश्न 5 worked examples (नियम→नियमित, भालू→आलू) are printed as rows of the list — exclude from scoring."
+      ],
+      "pagesViewed": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "secondReadDisagreements": 0
+    },
+    {
+      "ws": "ws07",
+      "sourceFile": "3.1.7 4_Hindi_WS_ Sept 26.pdf",
+      "sha256": "7217e862c888155e26cff4d08000e895e702a6b9c89e4b186d870cb569089c6b",
+      "pdfPages": 4,
+      "printedPages": "6 (header 'कुल मुद्रित पृष्ठों की संख्या: 6'; the PDF has 4 pages and the footers say 'Page n of 4')",
+      "header": [
+        "परमाणु ऊर्जा शिक्षण संस्था",
+        "कार्यपत्रक (2026-27)",
+        "कुल मुद्रित पृष्ठों की संख्या: 6",
+        "कक्षा: चौथी    विषय: हिंदी    माह: सितंबर    अंक: 40",
+        "दिया गया पाठ्यक्रम: ओणम के रंग",
+        "विद्यार्थी का नाम: ____",
+        "अनुक्रमांक.____    कक्षा/अनुभाग:____ दिनांक: ____"
+      ],
+      "printedTitle": "कार्यपत्रक (2026-27)",
+      "shortLabel": "कार्यपत्रक · ओणम के रंग · सितंबर 2026",
+      "month": "सितंबर 2026",
+      "set": null,
+      "printedTotal": 40,
+      "portion": "ओणम के रंग",
+      "chapters": [],
+      "chaptersOutsideTextbook": [
+        "ओणम के रंग"
+      ],
+      "sections": [
+        {
+          "code": "1",
+          "heading": "पठन (१०)",
+          "marks": 10,
+          "blocks": [
+            {
+              "label": "•",
+              "instruction": "पठित गद्यांश को पढकर नीचे लिखे प्रश्नों के उत्तर लिखें|",
+              "pattern": "passage-qa",
+              "items": 5,
+              "marksEach": 1,
+              "marks": 5,
+              "printedMarks": "(५)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "The printed passage (वामन/महाबली, very likely taken from the chapter) is reproduced in full, so it is the answer source. MARKS: printed (५) covers प्र.१–प्र.3. (3 questions) plus प्र.४ with 2 word items (पग, त्रिविक्रम). Proposed split: 5 items × 1 mark = प्र.१ 1 + प्र.२ 1 + प्र.3. 1 + प्र.४ (१) 1 + प्र.४ (२) 1. Alternative: प्र.१–3 at 1 each and प्र.४ at 2 (1 each), which comes to the same thing. ANSWERS: प्र.१ वामन, प्र.२ ब्रह्मांड तक, प्र.3. सिर झुका दिया are all in the PASSAGE. प्र.४ पग → कदम/डग is GENERAL KNOWLEDGE (⚑, wide acceptable list). प्र.४ त्रिविक्रम is not in the passage beyond context; its 'समानअर्थ' (विराट रूप / तीन पगों में तीनों लोक नापने वाले विष्णु / वामन-अवतार विष्णु) is GENERAL KNOWLEDGE, ideally the CHAPTER glossary (⚑). Typos kept: 'समानअर्थ' (no space), 'फैल गये' (the passage has 'फैल गए'), 'पढकर' (no nukta). प्र.3. uses a Latin 3 while the rest use Devanagari digits."
+            },
+            {
+              "label": "•",
+              "instruction": "अपठित गद्यांश को पढकर नीचे लिखे प्रश्नों के उत्तर लिखें|",
+              "pattern": "unseen-passage",
+              "items": 5,
+              "marksEach": 1,
+              "marks": 5,
+              "printedMarks": "(५)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Dussehra passage. All answers come from the PASSAGE: प्र.१ आश्विन (महीने की शुक्ल पक्ष की दशमी); प्र.२ रावण; प्र.३ मेघनाथ, कुंभकरण (⚑: accept मेघनाद/कुंभकर्ण, and the printed spellings must be accepted); प्र.४ सच्चाई के रास्ते पर चलना (⚑, wording); प्र.५ अच्छाई → बुराई. 5 items × 1 = 5. Typo kept: प्र.५ 'लिखे|' (for लिखें)."
+            }
+          ]
+        },
+        {
+          "code": "2",
+          "heading": "पाठ्य प्रश्न (5)",
+          "marks": 5,
+          "blocks": [
+            {
+              "label": "",
+              "instruction": "",
+              "pattern": "short",
+              "items": 5,
+              "marksEach": 1,
+              "marks": 5,
+              "printedMarks": null,
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "No printed instruction line: प्र.१–प्र.५ follow the heading directly. Heading uses a Latin '5'. 5 × 1 = 5 (the 1 mark each is an inference). ANSWER SOURCE: प्र.१ ओणम कब मनाया जाता है: GENERAL KNOWLEDGE (मलयालम महीना चिंगम, अगस्त–सितंबर, फ़सल कटाई), but the expected wording is in the CHAPTER (⚑). प्र.२ महाबली ने वामन से कौन सा वरदान माँगा: NEEDS CHAPTER TEXT (ओणम के रंग, not in पाठ 1–7) (the traditional answer is that he may visit his people/प्रजा once a year, i.e. at Onam) (⚑). प्र.3. ओणम के भोज में भोज्य पदार्थ: NEEDS CHAPTER TEXT (ओणम के रंग, not in पाठ 1–7) (ओणसद्या: चावल, सांभर, अवियल, पायसम, केले के चिप्स… from general knowledge) (⚑). प्र.४. पौराणिक कथा: partly from the PRINTED पठित PASSAGE plus general knowledge (राजा महाबली और वामन अवतार) (⚑). प्र.५. त्योहार वाले दिन आप क्या क्या करते है?: personal, judgement (⚑). Typo kept: 'करते है?'. प्र.3. uses a Latin 3."
+            }
+          ]
+        },
+        {
+          "code": "3",
+          "heading": "रचनात्मक लेखन (5)",
+          "marks": 5,
+          "blocks": [
+            {
+              "label": "१)",
+              "instruction": "ओणम के त्योहार के बारें में तीन वाक्य लिखें|",
+              "pattern": "short",
+              "items": 1,
+              "marksEach": 3,
+              "marks": 3,
+              "printedMarks": "(३)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Judgement item with a 3-band rubric (1 per correct sentence) (⚑). Content comes from GENERAL KNOWLEDGE plus the printed passage; the CHAPTER would help make the model answer match class teaching. Typo kept: 'बारें'."
+            },
+            {
+              "label": "२)",
+              "instruction": "आपको कौन सा त्योहार, सबसे अधिक अच्छा लगता है और क्यों?",
+              "pattern": "short",
+              "items": 1,
+              "marksEach": 2,
+              "marks": 2,
+              "printedMarks": "(२)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Personal opinion. Judgement item with rubric: 1 for naming a festival, 1 for the reason (⚑). No source needed."
+            }
+          ]
+        },
+        {
+          "code": "4",
+          "heading": "व्याकरण (७)",
+          "marks": 7,
+          "blocks": [
+            {
+              "label": "अ)",
+              "instruction": "नीचे दिए गए वाक्यों में विशेषता वाले शब्द लिखें।",
+              "pattern": "other",
+              "items": 5,
+              "marksEach": 1,
+              "marks": 5,
+              "printedMarks": "(५)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Identify the विशेषण in each sentence. The answer is self-contained in each printed sentence (the sentences probably come from the chapter, but the chapter is not needed). १) रंग-बिरंगे; २) ठंडी-ठंडी, तेज (two adjectives, ⚑: split ½+½?); ३) उँचे उँचे (printed spelling; standard ऊँचे-ऊँचे; accept both, ⚑); ४) सुंदर; ५) स्वच्छ (and arguably सुंदर as a predicative adjective, ⚑). Typos kept: 'रखें जाते', 'होंठो', 'उँचे'. Danda glyphs vary (। vs |) as printed."
+            },
+            {
+              "label": "आ)",
+              "instruction": "शब्दों के समान अर्थ लिखें|",
+              "pattern": "paryay",
+              "items": 2,
+              "marksEach": 1,
+              "marks": 2,
+              "printedMarks": "(२)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "१) सह्य: NEEDS CHAPTER TEXT (ओणम के रंग, not in पाठ 1–7). Out of context it means 'सहने योग्य'; in a Kerala/Onam chapter it very likely refers to सह्य पर्वत/सह्याद्रि (पश्चिमी घाट), and a glossary meaning cannot be reconstructed with confidence (⚑, possible owner question). २) याचना = माँगना / विनती / प्रार्थना / निवेदन / भीख माँगना: GENERAL KNOWLEDGE; the word appears in the पठित passage ('भूमि की याचना की') (⚑ for acceptable width)."
+            }
+          ]
+        },
+        {
+          "code": "5",
+          "heading": "शब्दावली (५)",
+          "marks": 5,
+          "blocks": [
+            {
+              "label": "अ)",
+              "instruction": "शब्दों को सही क्रम में लिखें|",
+              "pattern": "jumbled-letters",
+              "items": 3,
+              "marksEach": 1,
+              "marks": 3,
+              "printedMarks": "(३)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "१) ब ली हा म → महाबली (from the passage). २) न्मु आ र ला → आरन्मुला (Aranmula, the Kerala snake-boat race place): a proper noun from the chapter, NEEDS CHAPTER TEXT (ओणम के रंग, not in पाठ 1–7) to confirm the spelling (⚑). ३) क त लो गी → लोकगीत (it appears in व्याकरण अ) ४))."
+            },
+            {
+              "label": "आ)",
+              "instruction": "नीचे दिए गए शब्दों के अर्थ लिखें|",
+              "pattern": "other",
+              "items": 2,
+              "marksEach": 1,
+              "marks": 2,
+              "printedMarks": "(२)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Word meanings (शब्दार्थ). १) स्वीकार = मानना / मंज़ूर करना / अपनाना / हाँ कहना; २) ब्रह्मांड = संसार / विश्व / सृष्टि / जगत / पूरा आकाश. GENERAL KNOWLEDGE; both words occur in the पठित passage (स्वीकृति, ब्रह्मांड). The CHAPTER glossary wording is unavailable (⚑ both, wide acceptable lists)."
+            }
+          ]
+        },
+        {
+          "code": "6",
+          "heading": "वर्तनी (५)",
+          "marks": 5,
+          "blocks": [
+            {
+              "label": "अ)",
+              "instruction": "शुद्ध शब्द पर गोला बनाईये|",
+              "pattern": "spelling-circle",
+              "items": 2,
+              "marksEach": 1,
+              "marks": 2,
+              "printedMarks": "(२)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "Options as printed (verified at 400 dpi): १) पककलम / पूलकम / पुक्कलम; २) पौराणिक / पौराणक / पाराणिक. ② = पौराणिक (certain). ① = most likely पुक्कलम (the only option with the क्क of 'pookkalam'), but none of the three matches the usual Hindi पूकलम/पूक्कलम; NEEDS CHAPTER TEXT (ओणम के रंग, not in पाठ 1–7) to confirm the spelling the teacher expects (⚑ + teacherNote). Typo kept: 'बनाईये'. Done on the website as MCQ-style choice; circling is paper-only."
+            },
+            {
+              "label": "आ)",
+              "instruction": "नीचे दिए गए शब्दों से वाक्य बनाएँ।",
+              "pattern": "sentence-making",
+              "items": 3,
+              "marksEach": 1,
+              "marks": 3,
+              "printedMarks": "(३)",
+              "pictures": [],
+              "paperOnlyLikely": false,
+              "notes": "चमकना, मंडराना, थमना. Judgement items, any correct sentence (⚑ ×3). No source needed."
+            }
+          ]
+        },
+        {
+          "code": "7",
+          "heading": "सुलेख (३)",
+          "marks": 3,
+          "blocks": [
+            {
+              "label": "",
+              "instruction": "",
+              "pattern": "handwriting",
+              "items": 1,
+              "marksEach": 3,
+              "marks": 3,
+              "printedMarks": "(३)",
+              "pictures": [],
+              "paperOnlyLikely": true,
+              "notes": "No instruction line: the passage about the Ganga (मेरा जन्म हिमालय की गोद में…भागीरथी भी है।) is followed by 6 answer lines for copying. Paper-only, with a rubric (neatness/शुद्धता/शिरोरेखा). It is not from ओणम के रंग."
+            }
+          ]
+        }
+      ],
+      "markArithmetic": "पठन 10 (पठित 5 + अपठित 5) + पाठ्य प्रश्न 5 + रचनात्मक लेखन 5 (3+2) + व्याकरण 7 (5+2) + शब्दावली 5 (3+2) + वर्तनी 5 (2+3) + सुलेख 3 = 40 = printed total (अंक: 40) ✔. Block brackets add up to each section heading. Only the per-item split inside पठित (५) is inferred: 3 questions + प्र.४ with 2 words = 5 items × 1.",
+      "flagEstimate": 26,
+      "issues": [
+        "CHAPTER NOT AVAILABLE: 'ओणम के रंग' is not in पाठ 1–7 (dhve101–107). These need its text: पाठ्य प्रश्न प्र.२ (वरदान) and प्र.3. (भोज्य पदार्थ), and to confirm the expected wording of प्र.१/प्र.४; व्याकरण आ) सह्य; शब्दावली अ) न्मु आ र ला (आरन्मुला spelling); वर्तनी अ) १) (the intended spelling of pookkalam); पठित प्र.४ त्रिविक्रम (glossary meaning). Owner decides: supply the chapter PDF, or answer from the printed passage plus general knowledge with all such items ⚑.",
+        "PAGE COUNT: the header prints 'कुल मुद्रित पृष्ठों की संख्या: 6', but the PDF has 4 pages, each footed 'Page n of 4'. Section marks add up to exactly 40, so nothing seems missing (probably a template leftover), but please confirm that no printed pages are missing.",
+        "पठित गद्यांश marks: printed (५) with 3 questions + प्र.४ (2 words). Proposed: 5 items × 1 mark. Please confirm.",
+        "वर्तनी अ) १) 'पककलम / पूलकम / पुक्कलम': none is the common Hindi spelling (पूकलम/पूक्कलम). Proposed key: पुक्कलम, with ⚑ and a teacherNote. Please confirm against the chapter.",
+        "व्याकरण आ) 'सह्य': the meaning depends on the chapter (सहने योग्य vs सह्य पर्वत/सह्याद्रि). Possibly no defensible single answer without the chapter.",
+        "व्याकरण अ) २) has two adjectives (ठंडी-ठंडी, तेज) for 1 mark: ½ + ½? ५) arguably has two (स्वच्छ, सुंदर).",
+        "Teacher typos kept as printed (with teacherNote where they affect answers): समानअर्थ, फैल गये, लिखे| (प्र.५ अपठित), करते है?, बारें, उँचे उँचे, रखें जाते, होंठो, बनाईये, मेघनाथ/कुंभकरण (standard मेघनाद/कुंभकर्ण), पढकर.",
+        "पाठ्य प्रश्न (5) and सुलेख (३) have no printed instruction line; the block instruction is empty.",
+        "Paper-only: सुलेख (३) is copied on the printout and marked by the parent with a rubric. Circling in वर्तनी अ) becomes a choice on the site.",
+        "No pictures (only the school emblem on page 1)."
+      ],
+      "pagesViewed": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "secondReadDisagreements": 0
+    }
+  ],
+  "duplicateCheck": [
+    {
+      "a": "ws01",
+      "b": "ws05",
+      "shared": 35,
+      "aLines": 64,
+      "bLines": 72,
+      "pctOfSmaller": 54.7
+    },
+    {
+      "a": "ws01",
+      "b": "ws03",
+      "shared": 6,
+      "aLines": 64,
+      "bLines": 128,
+      "pctOfSmaller": 9.4
+    },
+    {
+      "a": "ws03",
+      "b": "ws05",
+      "shared": 6,
+      "aLines": 128,
+      "bLines": 72,
+      "pctOfSmaller": 8.3
+    },
+    {
+      "a": "ws02",
+      "b": "ws03",
+      "shared": 9,
+      "aLines": 141,
+      "bLines": 128,
+      "pctOfSmaller": 7
+    },
+    {
+      "a": "ws05",
+      "b": "ws07",
+      "shared": 3,
+      "aLines": 72,
+      "bLines": 71,
+      "pctOfSmaller": 4.2
+    },
+    {
+      "a": "ws05",
+      "b": "ws06",
+      "shared": 2,
+      "aLines": 72,
+      "bLines": 59,
+      "pctOfSmaller": 3.4
+    },
+    {
+      "a": "ws06",
+      "b": "ws07",
+      "shared": 2,
+      "aLines": 59,
+      "bLines": 71,
+      "pctOfSmaller": 3.4
+    },
+    {
+      "a": "ws01",
+      "b": "ws07",
+      "shared": 2,
+      "aLines": 64,
+      "bLines": 71,
+      "pctOfSmaller": 3.1
+    },
+    {
+      "a": "ws01",
+      "b": "ws06",
+      "shared": 1,
+      "aLines": 64,
+      "bLines": 59,
+      "pctOfSmaller": 1.7
+    },
+    {
+      "a": "ws03",
+      "b": "ws06",
+      "shared": 1,
+      "aLines": 128,
+      "bLines": 59,
+      "pctOfSmaller": 1.7
+    },
+    {
+      "a": "ws04",
+      "b": "ws06",
+      "shared": 1,
+      "aLines": 144,
+      "bLines": 59,
+      "pctOfSmaller": 1.7
+    },
+    {
+      "a": "ws01",
+      "b": "ws02",
+      "shared": 1,
+      "aLines": 64,
+      "bLines": 141,
+      "pctOfSmaller": 1.6
+    },
+    {
+      "a": "ws01",
+      "b": "ws04",
+      "shared": 1,
+      "aLines": 64,
+      "bLines": 144,
+      "pctOfSmaller": 1.6
+    },
+    {
+      "a": "ws02",
+      "b": "ws05",
+      "shared": 1,
+      "aLines": 141,
+      "bLines": 72,
+      "pctOfSmaller": 1.4
+    },
+    {
+      "a": "ws03",
+      "b": "ws07",
+      "shared": 1,
+      "aLines": 128,
+      "bLines": 71,
+      "pctOfSmaller": 1.4
+    },
+    {
+      "a": "ws04",
+      "b": "ws05",
+      "shared": 1,
+      "aLines": 144,
+      "bLines": 72,
+      "pctOfSmaller": 1.4
+    },
+    {
+      "a": "ws04",
+      "b": "ws07",
+      "shared": 1,
+      "aLines": 144,
+      "bLines": 71,
+      "pctOfSmaller": 1.4
+    },
+    {
+      "a": "ws03",
+      "b": "ws04",
+      "shared": 1,
+      "aLines": 128,
+      "bLines": 144,
+      "pctOfSmaller": 0.8
+    },
+    {
+      "a": "ws02",
+      "b": "ws04",
+      "shared": 0,
+      "aLines": 141,
+      "bLines": 144,
+      "pctOfSmaller": 0
+    },
+    {
+      "a": "ws02",
+      "b": "ws06",
+      "shared": 0,
+      "aLines": 141,
+      "bLines": 59,
+      "pctOfSmaller": 0
+    },
+    {
+      "a": "ws02",
+      "b": "ws07",
+      "shared": 0,
+      "aLines": 141,
+      "bLines": 71,
+      "pctOfSmaller": 0
+    }
+  ]
+}

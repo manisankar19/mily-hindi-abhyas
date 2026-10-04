@@ -1,0 +1,242 @@
+{
+  "ws": "ws07",
+  "sourceFile": "3.1.7 4_Hindi_WS_ Sept 26.pdf",
+  "sha256": "7217e862c888155e26cff4d08000e895e702a6b9c89e4b186d870cb569089c6b",
+  "pdfPages": 4,
+  "printedPages": "6 (header 'कुल मुद्रित पृष्ठों की संख्या: 6'; the PDF has 4 pages and the footers say 'Page n of 4')",
+  "header": [
+    "परमाणु ऊर्जा शिक्षण संस्था",
+    "कार्यपत्रक (2026-27)",
+    "कुल मुद्रित पृष्ठों की संख्या: 6",
+    "कक्षा: चौथी    विषय: हिंदी    माह: सितंबर    अंक: 40",
+    "दिया गया पाठ्यक्रम: ओणम के रंग",
+    "विद्यार्थी का नाम: ____",
+    "अनुक्रमांक.____    कक्षा/अनुभाग:____ दिनांक: ____"
+  ],
+  "printedTitle": "कार्यपत्रक (2026-27)",
+  "shortLabel": "कार्यपत्रक · ओणम के रंग · सितंबर 2026",
+  "month": "सितंबर 2026",
+  "set": null,
+  "printedTotal": 40,
+  "portion": "ओणम के रंग",
+  "chapters": [],
+  "chaptersOutsideTextbook": [
+    "ओणम के रंग"
+  ],
+  "sections": [
+    {
+      "code": "1",
+      "heading": "पठन (१०)",
+      "marks": 10,
+      "blocks": [
+        {
+          "label": "•",
+          "instruction": "पठित गद्यांश को पढकर नीचे लिखे प्रश्नों के उत्तर लिखें|",
+          "pattern": "passage-qa",
+          "items": 5,
+          "marksEach": 1,
+          "marks": 5,
+          "printedMarks": "(५)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "The printed passage (वामन/महाबली, very likely taken from the chapter) is reproduced in full, so it is the answer source. MARKS: printed (५) covers प्र.१–प्र.3. (3 questions) plus प्र.४ with 2 word items (पग, त्रिविक्रम). Proposed split: 5 items × 1 mark = प्र.१ 1 + प्र.२ 1 + प्र.3. 1 + प्र.४ (१) 1 + प्र.४ (२) 1. Alternative: प्र.१–3 at 1 each and प्र.४ at 2 (1 each), which comes to the same thing. ANSWERS: प्र.१ वामन, प्र.२ ब्रह्मांड तक, प्र.3. सिर झुका दिया are all in the PASSAGE. प्र.४ पग → कदम/डग is GENERAL KNOWLEDGE (⚑, wide acceptable list). प्र.४ त्रिविक्रम is not in the passage beyond context; its 'समानअर्थ' (विराट रूप / तीन पगों में तीनों लोक नापने वाले विष्णु / वामन-अवतार विष्णु) is GENERAL KNOWLEDGE, ideally the CHAPTER glossary (⚑). Typos kept: 'समानअर्थ' (no space), 'फैल गये' (the passage has 'फैल गए'), 'पढकर' (no nukta). प्र.3. uses a Latin 3 while the rest use Devanagari digits."
+        },
+        {
+          "label": "•",
+          "instruction": "अपठित गद्यांश को पढकर नीचे लिखे प्रश्नों के उत्तर लिखें|",
+          "pattern": "unseen-passage",
+          "items": 5,
+          "marksEach": 1,
+          "marks": 5,
+          "printedMarks": "(५)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "Dussehra passage. All answers come from the PASSAGE: प्र.१ आश्विन (महीने की शुक्ल पक्ष की दशमी); प्र.२ रावण; प्र.३ मेघनाथ, कुंभकरण (⚑: accept मेघनाद/कुंभकर्ण, and the printed spellings must be accepted); प्र.४ सच्चाई के रास्ते पर चलना (⚑, wording); प्र.५ अच्छाई → बुराई. 5 items × 1 = 5. Typo kept: प्र.५ 'लिखे|' (for लिखें)."
+        }
+      ]
+    },
+    {
+      "code": "2",
+      "heading": "पाठ्य प्रश्न (5)",
+      "marks": 5,
+      "blocks": [
+        {
+          "label": "",
+          "instruction": "",
+          "pattern": "short",
+          "items": 5,
+          "marksEach": 1,
+          "marks": 5,
+          "printedMarks": null,
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "No printed instruction line: प्र.१–प्र.५ follow the heading directly. Heading uses a Latin '5'. 5 × 1 = 5 (the 1 mark each is an inference). ANSWER SOURCE: प्र.१ ओणम कब मनाया जाता है: GENERAL KNOWLEDGE (मलयालम महीना चिंगम, अगस्त–सितंबर, फ़सल कटाई), but the expected wording is in the CHAPTER (⚑). प्र.२ महाबली ने वामन से कौन सा वरदान माँगा: NEEDS CHAPTER TEXT (ओणम के रंग, not in पाठ 1–7) (the traditional answer is that he may visit his people/प्रजा once a year, i.e. at Onam) (⚑). प्र.3. ओणम के भोज में भोज्य पदार्थ: NEEDS CHAPTER TEXT (ओणम के रंग, not in पाठ 1–7) (ओणसद्या: चावल, सांभर, अवियल, पायसम, केले के चिप्स… from general knowledge) (⚑). प्र.४. पौराणिक कथा: partly from the PRINTED पठित PASSAGE plus general knowledge (राजा महाबली और वामन अवतार) (⚑). प्र.५. त्योहार वाले दिन आप क्या क्या करते है?: personal, judgement (⚑). Typo kept: 'करते है?'. प्र.3. uses a Latin 3."
+        }
+      ]
+    },
+    {
+      "code": "3",
+      "heading": "रचनात्मक लेखन (5)",
+      "marks": 5,
+      "blocks": [
+        {
+          "label": "१)",
+          "instruction": "ओणम के त्योहार के बारें में तीन वाक्य लिखें|",
+          "pattern": "short",
+          "items": 1,
+          "marksEach": 3,
+          "marks": 3,
+          "printedMarks": "(३)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "Judgement item with a 3-band rubric (1 per correct sentence) (⚑). Content comes from GENERAL KNOWLEDGE plus the printed passage; the CHAPTER would help make the model answer match class teaching. Typo kept: 'बारें'."
+        },
+        {
+          "label": "२)",
+          "instruction": "आपको कौन सा त्योहार, सबसे अधिक अच्छा लगता है और क्यों?",
+          "pattern": "short",
+          "items": 1,
+          "marksEach": 2,
+          "marks": 2,
+          "printedMarks": "(२)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "Personal opinion. Judgement item with rubric: 1 for naming a festival, 1 for the reason (⚑). No source needed."
+        }
+      ]
+    },
+    {
+      "code": "4",
+      "heading": "व्याकरण (७)",
+      "marks": 7,
+      "blocks": [
+        {
+          "label": "अ)",
+          "instruction": "नीचे दिए गए वाक्यों में विशेषता वाले शब्द लिखें।",
+          "pattern": "other",
+          "items": 5,
+          "marksEach": 1,
+          "marks": 5,
+          "printedMarks": "(५)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "Identify the विशेषण in each sentence. The answer is self-contained in each printed sentence (the sentences probably come from the chapter, but the chapter is not needed). १) रंग-बिरंगे; २) ठंडी-ठंडी, तेज (two adjectives, ⚑: split ½+½?); ३) उँचे उँचे (printed spelling; standard ऊँचे-ऊँचे; accept both, ⚑); ४) सुंदर; ५) स्वच्छ (and arguably सुंदर as a predicative adjective, ⚑). Typos kept: 'रखें जाते', 'होंठो', 'उँचे'. Danda glyphs vary (। vs |) as printed."
+        },
+        {
+          "label": "आ)",
+          "instruction": "शब्दों के समान अर्थ लिखें|",
+          "pattern": "paryay",
+          "items": 2,
+          "marksEach": 1,
+          "marks": 2,
+          "printedMarks": "(२)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "१) सह्य: NEEDS CHAPTER TEXT (ओणम के रंग, not in पाठ 1–7). Out of context it means 'सहने योग्य'; in a Kerala/Onam chapter it very likely refers to सह्य पर्वत/सह्याद्रि (पश्चिमी घाट), and a glossary meaning cannot be reconstructed with confidence (⚑, possible owner question). २) याचना = माँगना / विनती / प्रार्थना / निवेदन / भीख माँगना: GENERAL KNOWLEDGE; the word appears in the पठित passage ('भूमि की याचना की') (⚑ for acceptable width)."
+        }
+      ]
+    },
+    {
+      "code": "5",
+      "heading": "शब्दावली (५)",
+      "marks": 5,
+      "blocks": [
+        {
+          "label": "अ)",
+          "instruction": "शब्दों को सही क्रम में लिखें|",
+          "pattern": "jumbled-letters",
+          "items": 3,
+          "marksEach": 1,
+          "marks": 3,
+          "printedMarks": "(३)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "१) ब ली हा म → महाबली (from the passage). २) न्मु आ र ला → आरन्मुला (Aranmula, the Kerala snake-boat race place): a proper noun from the chapter, NEEDS CHAPTER TEXT (ओणम के रंग, not in पाठ 1–7) to confirm the spelling (⚑). ३) क त लो गी → लोकगीत (it appears in व्याकरण अ) ४))."
+        },
+        {
+          "label": "आ)",
+          "instruction": "नीचे दिए गए शब्दों के अर्थ लिखें|",
+          "pattern": "other",
+          "items": 2,
+          "marksEach": 1,
+          "marks": 2,
+          "printedMarks": "(२)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "Word meanings (शब्दार्थ). १) स्वीकार = मानना / मंज़ूर करना / अपनाना / हाँ कहना; २) ब्रह्मांड = संसार / विश्व / सृष्टि / जगत / पूरा आकाश. GENERAL KNOWLEDGE; both words occur in the पठित passage (स्वीकृति, ब्रह्मांड). The CHAPTER glossary wording is unavailable (⚑ both, wide acceptable lists)."
+        }
+      ]
+    },
+    {
+      "code": "6",
+      "heading": "वर्तनी (५)",
+      "marks": 5,
+      "blocks": [
+        {
+          "label": "अ)",
+          "instruction": "शुद्ध शब्द पर गोला बनाईये|",
+          "pattern": "spelling-circle",
+          "items": 2,
+          "marksEach": 1,
+          "marks": 2,
+          "printedMarks": "(२)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "Options as printed (verified at 400 dpi): १) पककलम / पूलकम / पुक्कलम; २) पौराणिक / पौराणक / पाराणिक. ② = पौराणिक (certain). ① = most likely पुक्कलम (the only option with the क्क of 'pookkalam'), but none of the three matches the usual Hindi पूकलम/पूक्कलम; NEEDS CHAPTER TEXT (ओणम के रंग, not in पाठ 1–7) to confirm the spelling the teacher expects (⚑ + teacherNote). Typo kept: 'बनाईये'. Done on the website as MCQ-style choice; circling is paper-only."
+        },
+        {
+          "label": "आ)",
+          "instruction": "नीचे दिए गए शब्दों से वाक्य बनाएँ।",
+          "pattern": "sentence-making",
+          "items": 3,
+          "marksEach": 1,
+          "marks": 3,
+          "printedMarks": "(३)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "चमकना, मंडराना, थमना. Judgement items, any correct sentence (⚑ ×3). No source needed."
+        }
+      ]
+    },
+    {
+      "code": "7",
+      "heading": "सुलेख (३)",
+      "marks": 3,
+      "blocks": [
+        {
+          "label": "",
+          "instruction": "",
+          "pattern": "handwriting",
+          "items": 1,
+          "marksEach": 3,
+          "marks": 3,
+          "printedMarks": "(३)",
+          "pictures": [],
+          "paperOnlyLikely": true,
+          "notes": "No instruction line: the passage about the Ganga (मेरा जन्म हिमालय की गोद में…भागीरथी भी है।) is followed by 6 answer lines for copying. Paper-only, with a rubric (neatness/शुद्धता/शिरोरेखा). It is not from ओणम के रंग."
+        }
+      ]
+    }
+  ],
+  "markArithmetic": "पठन 10 (पठित 5 + अपठित 5) + पाठ्य प्रश्न 5 + रचनात्मक लेखन 5 (3+2) + व्याकरण 7 (5+2) + शब्दावली 5 (3+2) + वर्तनी 5 (2+3) + सुलेख 3 = 40 = printed total (अंक: 40) ✔. Block brackets add up to each section heading. Only the per-item split inside पठित (५) is inferred: 3 questions + प्र.४ with 2 words = 5 items × 1.",
+  "flagEstimate": 26,
+  "issues": [
+    "CHAPTER NOT AVAILABLE: 'ओणम के रंग' is not in पाठ 1–7 (dhve101–107). These need its text: पाठ्य प्रश्न प्र.२ (वरदान) and प्र.3. (भोज्य पदार्थ), and to confirm the expected wording of प्र.१/प्र.४; व्याकरण आ) सह्य; शब्दावली अ) न्मु आ र ला (आरन्मुला spelling); वर्तनी अ) १) (the intended spelling of pookkalam); पठित प्र.४ त्रिविक्रम (glossary meaning). Owner decides: supply the chapter PDF, or answer from the printed passage plus general knowledge with all such items ⚑.",
+    "PAGE COUNT: the header prints 'कुल मुद्रित पृष्ठों की संख्या: 6', but the PDF has 4 pages, each footed 'Page n of 4'. Section marks add up to exactly 40, so nothing seems missing (probably a template leftover), but please confirm that no printed pages are missing.",
+    "पठित गद्यांश marks: printed (५) with 3 questions + प्र.४ (2 words). Proposed: 5 items × 1 mark. Please confirm.",
+    "वर्तनी अ) १) 'पककलम / पूलकम / पुक्कलम': none is the common Hindi spelling (पूकलम/पूक्कलम). Proposed key: पुक्कलम, with ⚑ and a teacherNote. Please confirm against the chapter.",
+    "व्याकरण आ) 'सह्य': the meaning depends on the chapter (सहने योग्य vs सह्य पर्वत/सह्याद्रि). Possibly no defensible single answer without the chapter.",
+    "व्याकरण अ) २) has two adjectives (ठंडी-ठंडी, तेज) for 1 mark: ½ + ½? ५) arguably has two (स्वच्छ, सुंदर).",
+    "Teacher typos kept as printed (with teacherNote where they affect answers): समानअर्थ, फैल गये, लिखे| (प्र.५ अपठित), करते है?, बारें, उँचे उँचे, रखें जाते, होंठो, बनाईये, मेघनाथ/कुंभकरण (standard मेघनाद/कुंभकर्ण), पढकर.",
+    "पाठ्य प्रश्न (5) and सुलेख (३) have no printed instruction line; the block instruction is empty.",
+    "Paper-only: सुलेख (३) is copied on the printout and marked by the parent with a rubric. Circling in वर्तनी अ) becomes a choice on the site.",
+    "No pictures (only the school emblem on page 1)."
+  ],
+  "pagesViewed": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "secondReadDisagreements": 0
+}

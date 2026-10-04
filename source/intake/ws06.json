@@ -1,0 +1,204 @@
+{
+  "ws": "ws06",
+  "sourceFile": "3.1.6 4_Hindi_WS_ July 26 L 4-5.pdf",
+  "sha256": "9f75250d89361d0056f24c72fc081043ec0f5b1801b56f99edbe36ec1d88d6f8",
+  "pdfPages": 4,
+  "printedPages": "06 (as printed on the header: 'कुल मुद्रित पृष्ठों की संख्या: 06'; the PDF has only 4 pages, numbered 1–4)",
+  "header": [
+    "कुल मुद्रित पृष्ठों की संख्या: 06",
+    "परमाणु ऊर्जा शिक्षण संस्था",
+    "कार्यपत्रक (2026-27)",
+    "कक्षा: चार    विषय:हिन्दी    माह:जुलाई    अंक:40",
+    "दिया गया पाठ्यक्रम: पाठ4. हमारा आहार सेपाठ 5. आसमान गिरा तक",
+    "विद्यार्थीका नाम:____",
+    "अनुक्रमांक:____कक्षा / अनुभाग:____दिनांक: ____"
+  ],
+  "printedTitle": "कार्यपत्रक (2026-27)",
+  "shortLabel": "कार्यपत्रक · जुलाई 2026 · पाठ 4–5",
+  "month": "जुलाई 2026",
+  "set": null,
+  "printedTotal": 40,
+  "portion": "पाठ4. हमारा आहार सेपाठ 5. आसमान गिरा तक",
+  "chapters": [
+    4,
+    5
+  ],
+  "chaptersOutsideTextbook": [],
+  "sections": [
+    {
+      "code": "1",
+      "heading": "वाचन पर आधारित प्रश्न 10 अंक",
+      "marks": 10,
+      "blocks": [
+        {
+          "label": "प्रश्न 1.",
+          "instruction": "पठित और अपठित गद्यांशों को पढ़कर नीचे लिखे प्रश्नों के उत्तर दो ।",
+          "pattern": "passage-qa",
+          "items": 5,
+          "marksEach": 1,
+          "marks": 5,
+          "printedMarks": "(1) after each item; no block total printed",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "Sub-heading 'पठित गद्यांश' (underlined); passage is from पाठ 5 आसमान गिरा (खरगोश/लोमड़ी). Items (क)–(ग) passage Q&A, (घ) पर्यायवाची 'वृक्ष - ____', (ङ) विलोम 'ऊपर - ____' — mixed patterns inside one passage block. The one printed instruction covers both passages."
+        },
+        {
+          "label": "अपठित गद्यांश",
+          "instruction": "पठित और अपठित गद्यांशों को पढ़कर नीचे लिखे प्रश्नों के उत्तर दो ।",
+          "pattern": "unseen-passage",
+          "items": 5,
+          "marksEach": 1,
+          "marks": 5,
+          "printedMarks": "(1) after each item; no block total printed",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "Unseen passage (चूहे / बिल्ली के गले में घंटी). (क)–(ग) Q&A, (ग) asks the moral (judgement); (घ) लिंग बदलो 'चुहिया - ____(चूहा ,शेर ,तालाब ,कछुए)' and (ङ) वचन बदलो 'बिल्लियाँ - ____(औरत ,बिल्ली,बच्ची ,रानियाँ )' are MCQ-in-brackets (word bank). Label '(ख )' printed with a space before ')'. The same instruction line (प्रश्न 1.) governs this block; there is no separate number."
+        }
+      ]
+    },
+    {
+      "code": "2",
+      "heading": "पाठ्य पुस्तक पर आधारित प्रश्न 5 अंक",
+      "marks": 5,
+      "blocks": [
+        {
+          "label": "प्रश्न 2.",
+          "instruction": "",
+          "pattern": "short",
+          "items": 3,
+          "marksEach": null,
+          "marks": 5,
+          "printedMarks": "(1), (2), (2) per item; no block total printed",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "No instruction line; the number runs straight into item (क): 'प्रश्न 2.(क) सभीजानवरों को किसने रोक लिया ?' (पाठ 5). (ख) 'हमें भूख से अधिक क्यों नहीं खाना चाहिए ?' and (ग) 'भोजन का सेवन किस प्रकार करने की सलाह दी गई है और क्यों?' are 2-mark explanations from पाठ 4 हमारा आहार. Unequal marks: 1+2+2 = 5."
+        }
+      ]
+    },
+    {
+      "code": "3",
+      "heading": "रचनात्मक लेखन पर आधारित प्रश्न5 अंक",
+      "marks": 5,
+      "blocks": [
+        {
+          "label": "प्रश्न 3.",
+          "instruction": "हाथीके बारे में पाँच पंक्तियाँ लिखिए ।",
+          "pattern": "paragraph",
+          "items": 1,
+          "marksEach": 5,
+          "marks": 5,
+          "printedMarks": "(5)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "Heading printed 'प्रश्न5' (no space) and instruction 'हाथीके' (no space) — keep verbatim. Five numbered answer lines '1.____' … '5. ____'. Open writing: needs a rubric (could also be modelled as 5 × 1-mark lines)."
+        }
+      ]
+    },
+    {
+      "code": "4",
+      "heading": "व्याकरण पर आधारित प्रश्न 8 अंक",
+      "marks": 8,
+      "blocks": [
+        {
+          "label": "प्रश्न 4.(क)",
+          "instruction": "रेखांकित शब्दों के विपरीत अर्थ वाले शब्द से रिक्त स्थानों की पूर्ति कीजिए ।",
+          "pattern": "vilom",
+          "items": 4,
+          "marksEach": 1,
+          "marks": 4,
+          "printedMarks": "(1X4=4)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "Fill-in-the-blank with the opposite of the underlined word (अधिक, भूलना, गरमी, सोइए). गरमी → सरदी/सर्दी/जाड़ा and सोइए → जागिए/उठिए have several acceptable forms. Label printed with no space: 'प्रश्न 4.(क)रेखांकित'."
+        },
+        {
+          "label": "(ख)",
+          "instruction": "‘ नियमित’ शब्द‘ नियम’ में ‘ इत’ जोड़कर बना है । ऐसे हीनीचे दिए गए शब्दों में ‘ इत’ लगाकरनए शब्द बनाइए।",
+          "pattern": "upsarg-pratyay",
+          "items": 4,
+          "marksEach": 1,
+          "marks": 4,
+          "printedMarks": "(1X4=4)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "Suffix 'इत': worked example 'नियम ←→ नियमित' (not scored), then शिक्षा, मोह, चर्चा, सुगंध (सुगंध row is on page 4). Drawn double-headed arrows transcribed as ←→. Missing spaces 'शब्द‘', 'हीनीचे', 'लगाकरनए' are printed that way."
+        }
+      ]
+    },
+    {
+      "code": "5",
+      "heading": "शब्द भंडार पर आधारित प्रश्न 5 अंक",
+      "marks": 5,
+      "blocks": [
+        {
+          "label": "प्रश्न 5.",
+          "instruction": "नीचे दिए गए शब्दों में से आपको केवल वर्ण बदलकर फल अथवा साग – तरकारी का नाम लिखना है । ध्यान रखिए कि मात्रा न बदले ।",
+          "pattern": "word-formation",
+          "items": 5,
+          "marksEach": 1,
+          "marks": 5,
+          "printedMarks": "(1X5=5)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "Change one letter (keep the matra) to get a fruit/vegetable. Worked example 'भालू ←→ आलू' (not scored); items मीरा, चौकी, मेला, जेब, चालक (expected खीरा, लौकी, केला, सेब, पालक). Arrows transcribed ←→. Label printed 'प्रश्न 5.नीचे' (no space)."
+        }
+      ]
+    },
+    {
+      "code": "6",
+      "heading": "वर्तनी पर आधारित प्रश्न 5 अंक",
+      "marks": 5,
+      "blocks": [
+        {
+          "label": "प्रश्न 6.",
+          "instruction": "नीचे दिए गए शब्दों में मात्रा लगाकर और हटाकर नए – नए शब्द बनाइए ।",
+          "pattern": "matra",
+          "items": 5,
+          "marksEach": 1,
+          "marks": 5,
+          "printedMarks": "(1X5=5)",
+          "pictures": [],
+          "paperOnlyLikely": false,
+          "notes": "Examples 'बस –बीस' (add) and 'चला चल' (remove), not scored. Items भर, पढ़ी, रह, कही, फल — two columns. Many valid answers (भर → भार/भीर…, रह → राह/रहा/रही, फल → फूल/फली/फेल…, पढ़ी → पढ़, कही → कह/कहा); also unclear whether a given item expects adding or removing a matra. Heading printed 'वर्तनी  पर' with a double space."
+        }
+      ]
+    },
+    {
+      "code": "7",
+      "heading": "सुलेख 2 अंक",
+      "marks": 2,
+      "blocks": [
+        {
+          "label": "प्रश्न 7.",
+          "instruction": "सुलेख लिखो ।",
+          "pattern": "handwriting",
+          "items": 1,
+          "marksEach": 2,
+          "marks": 2,
+          "printedMarks": "(2)",
+          "pictures": [],
+          "paperOnlyLikely": true,
+          "notes": "Copy the printed 4-line paragraph (हमें अपने आप को बेहतर बनाना है … कठिन परिश्रम करना है ।) neatly on 7 ruled lines. Handwriting quality can only be judged on paper."
+        }
+      ]
+    }
+  ],
+  "markArithmetic": "10 (वाचन: 5×1 पठित + 5×1 अपठित) + 5 (पाठ्य पुस्तक: 1+2+2) + 5 (रचनात्मक लेखन) + 8 (व्याकरण: 4+4) + 5 (शब्द भंडार) + 5 (वर्तनी) + 2 (सुलेख) = 40 = printed total (अंक:40) ✔; every section heading's marks equal the sum of its item marks ✔",
+  "flagEstimate": 16,
+  "issues": [
+    "Header says 'कुल मुद्रित पृष्ठों की संख्या: 06' but the PDF has 4 pages (footers 1–4) and the content is complete through प्रश्न 7 / 40 marks — likely a copied header; confirm nothing is missing.",
+    "प्रश्न 1 has one instruction for two passages (पठित + अपठित), each with its own 5 × 1-mark items — confirm splitting into two blocks (pattern passage-qa and unseen-passage) is acceptable.",
+    "प्रश्न 2 has no instruction line and unequal marks (1, 2, 2) — block marksEach is null.",
+    "प्रश्न 3 (हाथी, पाँच पंक्तियाँ, 5 marks): score as one 5-mark judgement item with a rubric, or 5 × 1-mark lines?",
+    "प्रश्न 6 (मात्रा लगाकर और हटाकर): several valid words per item and the paper does not say which items take adding vs removing — needs an owner decision on accepted answers.",
+    "प्रश्न 7 सुलेख (2 marks) is paper-only; decide adaptation (e.g. copy-typing check or 'done on printed sheet').",
+    "प्रश्न 4(ख) and प्रश्न 5 worked examples (नियम→नियमित, भालू→आलू) are printed as rows of the list — exclude from scoring."
+  ],
+  "pagesViewed": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "secondReadDisagreements": 0
+}
