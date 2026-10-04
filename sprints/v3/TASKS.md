@@ -1,6 +1,6 @@
 # Sprint v3 — Tasks: School Worksheets with answers
 
-## Status: Phases 0–4 done (Tasks 1–37); Phase 5 next (Task 38)
+## Status: Tasks 1–43 done; Task 44 (P1, owner decision) open
 
 Rules: `sprints/v3/instruction.md`. Plan: `sprints/v3/PRD.md`.
 🛑 = stop for the owner. Paper tasks (17–30) run one sub-agent per paper. That sub-agent writes only its own
@@ -217,6 +217,7 @@ Batch order is set at Gate 0. The default order is below, fewest pictures first.
   - Acceptance: owner chooses: (a) rotate GANESH (new value in Vercel env + .env.local, redeploy) so the old value in v2 docs is harmless, and/or (b) redact the value in sprints/v2/*.md going forward (history keeps it unless rewritten — owner decision). No v3 file contains the value.
   - Files: sprints/v2/*.md (redaction), Vercel env (rotation)
 
-- [ ] Task 43: Walkthrough (P0)
+- [x] Task 43: Walkthrough (P0)
   - Acceptance: `sprints/v3/WALKTHROUGH.md` covers instruction §14: ⚑ actual vs estimate per paper, every teacherNote, adaptations, pictures, paper-only items, second-read disagreements, PDF hashes re-checked, chapter files byte-identical and what was not verified. It states that the parent reads every review sheet before Mily uses that worksheet.
   - Files: sprints/v3/WALKTHROUGH.md
+  - Completed: 2026-10-04 — WALKTHROUGH.md with generated tables (scripts/walkthrough-tables.js --check): 343 items, 205 ⚑ vs 188 estimated, 239 teacherNotes, all PDF and chapter hashes match; final run of every suite green
