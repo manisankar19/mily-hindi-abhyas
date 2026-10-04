@@ -89,6 +89,11 @@ test('underline, options, pairs, paperOnly count, adaptation once per part', () 
   assert.ok(md.includes('प्रकार: केवल कागज़ पर (paperOnly)'));
 });
 
+test('an unlabelled item shows its slot (e.g. चित्र 1) in the location line', () => {
+  const p = load();
+  p.sections[1].blocks[2].items[0].slot = 'चित्र 1';
+  assert.ok(renderSheet(p).includes('प्रश्न 5. › चित्र 1 —'), 'slot in location');
+});
 test('CLI with no hindi-ws*.json in app/data prints "0 sheets" and exits 0', () => {
   const have = fs.readdirSync(path.join(ROOT, 'app', 'data')).some(f => /^hindi-ws\d+\.json$/.test(f));
   if (have) return; // only meaningful before any worksheet exists

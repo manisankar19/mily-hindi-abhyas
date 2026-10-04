@@ -1,6 +1,6 @@
 # Sprint v3 — Tasks: School Worksheets with answers
 
-## Status: Phases 0–2 done (Tasks 1–17); Phase 3 next (Task 18)
+## Status: Phases 0–3 done (Tasks 1–30); Phase 4 next (Task 31)
 
 Rules: `sprints/v3/instruction.md`. Plan: `sprints/v3/PRD.md`.
 🛑 = stop for the owner. Paper tasks (17–30) run one sub-agent per paper. That sub-agent writes only its own
@@ -123,20 +123,27 @@ Batch order is set at Gate 0. The default order is below, fewest pictures first.
 - [x] Task 23: 🛑 Batch 2 coordinator re-check, including ws01/ws05 answer consistency for shared questions (P0)
   - Files: sprints/v3/recheck-batch2.md
   - Completed: 2026-10-04 — recheck-batch2.md: 5 fixes (3 misspellings/wrong synonyms removed from acceptable, 2 vague answers ⚑); consistency.js marks-aware, 0 inconsistent
-- [ ] Task 24: ws04 sections 1–3 (पठन, पाठ्य पुस्तक, रचनात्मक) (P0)
+- [x] Task 24: ws04 sections 1–3 (पठन, पाठ्य पुस्तक, रचनात्मक) (P0)
   - Files: app/data/hindi-ws04.json, sprints/v3/answer-review/ws04.md
-- [ ] Task 25: ws04 remaining sections (व्याकरण, शब्दावली, वर्तनी), duplicate "प्रश्न 6" kept with a teacherNote (P0)
+  - Completed: 2026-10-04 — ws04 written whole by one agent (Tasks 24+25): 62 items, 41 ⚑ (est. 38)
+- [x] Task 25: ws04 remaining sections (व्याकरण, शब्दावली, वर्तनी), duplicate "प्रश्न 6" kept with a teacherNote (P0)
   - Files: app/data/hindi-ws04.json, app/assets/ws04-*.svg, sprints/v3/answer-review/ws04.md
-- [ ] Task 26: ws02 Set A, first half of its sections (P0)
+  - Completed: 2026-10-04 — see Task 24 (one agent wrote all sections); duplicate प्रश्न 6 kept with teacherNote
+- [x] Task 26: ws02 Set A, first half of its sections (P0)
   - Files: app/data/hindi-ws02.json, sprints/v3/answer-review/ws02.md
-- [ ] Task 27: ws02 Set A, remaining sections + pictures (P0)
+  - Completed: 2026-10-04 — ws02 written whole by one agent (Tasks 26+27): 65 items, 33 ⚑ (est. 30)
+- [x] Task 27: ws02 Set A, remaining sections + pictures (P0)
   - Files: app/data/hindi-ws02.json, app/assets/ws02-*.svg, sprints/v3/answer-review/ws02.md
-- [ ] Task 28: ws03 Set B, प्रश्न 1–10 (P0)
+  - Completed: 2026-10-04 — see Task 26; ws02-q5kh.svg, ws02-q6aa.svg
+- [x] Task 28: ws03 Set B, प्रश्न 1–10 (P0)
   - Files: app/data/hindi-ws03.json, sprints/v3/answer-review/ws03.md
-- [ ] Task 29: ws03 Set B, प्रश्न 11–21, including the picture questions (प्रश्न 13, 14, 18, word grid 15) (P0)
+  - Completed: 2026-10-04 — ws03 written whole by one agent (Tasks 28+29): 69 items, 36 ⚑ (est. 30)
+- [x] Task 29: ws03 Set B, प्रश्न 11–21, including the picture questions (प्रश्न 13, 14, 18, word grid 15) (P0)
   - Files: app/data/hindi-ws03.json, app/assets/ws03-*.svg, sprints/v3/answer-review/ws03.md
-- [ ] Task 30: 🛑 Batch 3 coordinator re-check, including Set A / Set B / Set 2 answer consistency (P0)
+  - Completed: 2026-10-04 — see Task 28; ws03-q13/q14/q18.svg; grid misprint handled (भोजन + भोज)
+- [x] Task 30: 🛑 Batch 3 coordinator re-check, including Set A / Set B / Set 2 answer consistency (P0)
   - Files: sprints/v3/recheck-batch3.md
+  - Completed: 2026-10-04 — recheck-batch3.md: fidelity footer fix (root cause of a passage split), new display-only `slot` field, 1 acceptable removed, consistency 0 inconsistent across 7 papers
 
 ## Phase 4 — App and build
 

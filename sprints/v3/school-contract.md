@@ -86,7 +86,7 @@ This is today's chapter shape plus the school fields marked †. The chapter fil
           "printedMarks": "(5M)"†, "marks": 5† /* optional numeric override when print gives no/incorrect block total */, "adaptation": "<Hindi note shown under the instruction, or null>"†, "picture": "ws99-q4.svg or null"†,
           "pictureAlt": "<Hindi alt text that does not give away the answer>"†,
           "items": [
-            { "label": "(क)", "q": "<verbatim>", "marks": 1,
+            { "label": "(क)", "q": "<verbatim>", "slot"†: "<display-only, e.g. चित्र 1, when label and q are empty>", "marks": 1,
               "answerKind"†: "objective | spelling | judgement | paperOnly",
               "options"†: ["<verbatim>", "…"],            // MCQ only
               "pairs"†: [{ "left": "…", "right": "…" }],     // match only; printedRight = printed order of right column

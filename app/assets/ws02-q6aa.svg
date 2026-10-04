@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 260" role="img">
+  <rect x="0" y="0" width="600" height="260" fill="#ffffff"/>
+  <!-- shape 1: a wide four-sided figure with right angles -->
+  <rect x="50" y="40" width="220" height="110" fill="none" stroke="#222" stroke-width="4"/>
+  <!-- shape 2: a three-sided figure -->
+  <polygon points="350,150 550,150 450,45" fill="none" stroke="#222" stroke-width="4" stroke-linejoin="miter"/>
+  <!-- numbered blanks -->
+  <circle cx="160" cy="205" r="20" fill="#fff" stroke="#222" stroke-width="3"/>
+  <text x="160" y="214" font-family="Arial, sans-serif" font-size="26" font-weight="bold" text-anchor="middle" fill="#222">1</text>
+  <circle cx="450" cy="205" r="20" fill="#fff" stroke="#222" stroke-width="3"/>
+  <text x="450" y="214" font-family="Arial, sans-serif" font-size="26" font-weight="bold" text-anchor="middle" fill="#222">2</text>
+</svg>

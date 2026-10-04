@@ -84,6 +84,7 @@ This is the chapter shape plus the school fields. "Req." means the contract requ
 | Field | Req. | Meaning |
 |---|---|---|
 | `label` | yes | Printed sub-label (`(क)`, `(i)`), or `""`. |
+| `slot` | optional | **Display-only** name for an item with no printed label and no question text, e.g. `चित्र 1`, `आकृति 2`, `डिब्बा 1`. The app shows it so the child knows which picture or box the answer belongs to; fidelity does not check it (it is not printed). |
 | `q` | yes | Printed question, verbatim (may be `""` when the block instruction is the whole question). |
 | `marks` | yes | Item marks, a multiple of 0.5. |
 | `answerKind` | yes | `objective` (exact answer, auto-checkable with variants), `spelling` (one exact target), `judgement` (rubric-marked, e.g. वाक्य बनाओ, अनुच्छेद), `paperOnly` (done on the printed sheet; rubric-marked). |

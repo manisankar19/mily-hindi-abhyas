@@ -1,0 +1,202 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" role="img">
+  <defs>
+    <linearGradient id="soil" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c9955c"/>
+      <stop offset="1" stop-color="#a87443"/>
+    </linearGradient>
+    <g id="leafS"><path d="M0 0 C6 -6 16 -6 22 0 C16 6 6 6 0 0 Z" fill="#3f8f3a" stroke="#2c6b28" stroke-width="1"/></g>
+  </defs>
+  <rect width="1000" height="600" fill="#f4f9ff"/>
+
+  <!-- ===== Row 1: soil ===== -->
+  <rect x="10" y="215" width="980" height="70" fill="url(#soil)"/>
+  <line x1="10" y1="215" x2="990" y2="215" stroke="#6b4423" stroke-width="3"/>
+  <!-- ===== Row 2: soil ===== -->
+  <rect x="10" y="505" width="980" height="80" fill="url(#soil)"/>
+  <line x1="10" y1="505" x2="990" y2="505" stroke="#6b4423" stroke-width="3"/>
+
+  <!-- 1 Tomato (x=100) -->
+  <g>
+    <path d="M100 215 L100 80" stroke="#4b8a2e" stroke-width="5" fill="none"/>
+    <path d="M100 170 L70 145 M100 140 L132 118 M100 110 L72 92 M100 185 L130 165" stroke="#4b8a2e" stroke-width="3" fill="none"/>
+    <g fill="#4f9a3a" stroke="#2f6b25" stroke-width="1">
+      <path d="M70 145 c-10 -4 -18 -2 -22 4 c8 4 16 4 22 -4z"/><path d="M80 152 c-4 -10 -12 -14 -18 -12 c2 8 8 12 18 12z"/>
+      <path d="M132 118 c10 -4 18 -2 22 4 c-8 4 -16 4 -22 -4z"/><path d="M122 124 c4 -10 12 -14 18 -12 c-2 8 -8 12 -18 12z"/>
+      <path d="M72 92 c-10 -4 -18 -2 -22 4 c8 4 16 4 22 -4z"/><path d="M84 100 c-4 -10 -12 -14 -18 -12 c2 8 8 12 18 12z"/>
+      <path d="M130 165 c10 -4 18 -2 22 4 c-8 4 -16 4 -22 -4z"/>
+      <path d="M100 80 c-8 -10 -6 -18 0 -22 c6 4 8 12 0 22z"/>
+    </g>
+    <g stroke="#9a1c12" stroke-width="1.5">
+      <circle cx="66" cy="168" r="13" fill="#e2352a"/><circle cx="88" cy="185" r="11" fill="#e2352a"/>
+      <circle cx="138" cy="140" r="13" fill="#e2352a"/><circle cx="118" cy="198" r="10" fill="#f06a3a"/>
+    </g>
+    <g fill="#3d7d2b"><path d="M60 156 l6 4 l6 -4 l-6 2z"/><path d="M132 128 l6 4 l6 -4 l-6 2z"/></g>
+    <path d="M100 215 l-14 30 M100 215 l2 40 M100 215 l16 28 M93 230 l-14 10 M108 238 l14 8" stroke="#e9dcc0" stroke-width="2" fill="none"/>
+  </g>
+
+  <!-- 2 Capsicum (x=300) -->
+  <g>
+    <path d="M300 215 L300 95" stroke="#3f7f2c" stroke-width="6"/>
+    <path d="M300 180 L262 150 M300 150 L340 125 M300 125 L268 100 M300 195 L338 170" stroke="#3f7f2c" stroke-width="3"/>
+    <g fill="#2f8a30" stroke="#1f5e20" stroke-width="1">
+      <ellipse cx="255" cy="140" rx="20" ry="9" transform="rotate(-25 255 140)"/>
+      <ellipse cx="348" cy="115" rx="20" ry="9" transform="rotate(20 348 115)"/>
+      <ellipse cx="262" cy="92" rx="18" ry="8" transform="rotate(-30 262 92)"/>
+      <ellipse cx="300" cy="82" rx="9" ry="18"/>
+      <ellipse cx="335" cy="88" rx="18" ry="8" transform="rotate(30 335 88)"/>
+      <ellipse cx="344" cy="163" rx="18" ry="8" transform="rotate(15 344 163)"/>
+    </g>
+    <!-- bell peppers: blocky, lobed -->
+    <g fill="#23a83a" stroke="#14662a" stroke-width="2">
+      <path d="M248 160 c-14 0 -18 14 -16 28 c2 14 8 20 14 18 c4 4 10 4 14 0 c8 2 12 -6 12 -18 c0 -16 -8 -28 -24 -28z"/>
+      <path d="M332 132 c-14 0 -18 14 -16 28 c2 14 8 20 14 18 c4 4 10 4 14 0 c8 2 12 -6 12 -18 c0 -16 -8 -28 -24 -28z"/>
+      <path d="M296 150 c-12 0 -15 12 -13 24 c2 12 7 17 12 15 c3 3 8 3 12 0 c7 2 10 -5 10 -15 c0 -14 -7 -24 -21 -24z"/>
+    </g>
+    <g stroke="#14662a" stroke-width="1.5" fill="none"><path d="M248 210 L248 190 M332 182 L333 162 M297 205 L298 186"/></g>
+    <g fill="#2a6b1e"><rect x="250" y="152" width="6" height="10"/><rect x="334" y="124" width="6" height="10"/><rect x="298" y="143" width="5" height="9"/></g>
+    <path d="M300 215 l-16 32 M300 215 l2 42 M300 215 l18 30 M292 232 l-14 10 M309 238 l14 8" stroke="#e9dcc0" stroke-width="2" fill="none"/>
+  </g>
+
+  <!-- 3 Potato (x=500): leafy top, tubers underground -->
+  <g>
+    <path d="M500 215 L500 105" stroke="#4b8a2e" stroke-width="5"/>
+    <path d="M500 180 L466 158 M500 150 L536 130 M500 125 L470 108 M500 190 L534 172" stroke="#4b8a2e" stroke-width="3"/>
+    <g fill="#5aa043" stroke="#326b25" stroke-width="1">
+      <ellipse cx="460" cy="153" rx="16" ry="9" transform="rotate(-20 460 153)"/><ellipse cx="478" cy="166" rx="12" ry="7" transform="rotate(20 478 166)"/>
+      <ellipse cx="542" cy="126" rx="16" ry="9" transform="rotate(20 542 126)"/><ellipse cx="524" cy="139" rx="12" ry="7" transform="rotate(-20 524 139)"/>
+      <ellipse cx="465" cy="103" rx="15" ry="8" transform="rotate(-25 465 103)"/><ellipse cx="500" cy="95" rx="8" ry="15"/>
+      <ellipse cx="538" cy="168" rx="15" ry="8" transform="rotate(15 538 168)"/>
+    </g>
+    <g fill="#f5f2e8"><circle cx="492" cy="100" r="4"/><circle cx="508" cy="102" r="4"/></g>
+    <path d="M500 215 C490 230 470 238 462 248 M500 215 C505 235 515 245 530 250 M500 215 L500 255 M500 220 C520 225 540 232 548 236" stroke="#d9c9a0" stroke-width="2" fill="none"/>
+    <g fill="#d9b46a" stroke="#8a6a2a" stroke-width="2">
+      <ellipse cx="458" cy="252" rx="20" ry="14"/>
+      <ellipse cx="500" cy="262" rx="22" ry="15"/>
+      <ellipse cx="538" cy="254" rx="19" ry="13"/>
+      <ellipse cx="552" cy="236" rx="14" ry="10"/>
+      <ellipse cx="478" cy="236" rx="14" ry="10"/>
+    </g>
+    <g fill="#8a6a2a"><circle cx="452" cy="249" r="1.8"/><circle cx="464" cy="256" r="1.8"/><circle cx="496" cy="258" r="1.8"/><circle cx="508" cy="266" r="1.8"/><circle cx="534" cy="252" r="1.8"/><circle cx="544" cy="257" r="1.8"/></g>
+  </g>
+
+  <!-- 4 Broad lobed-leaf plant with roots only (x=700) -->
+  <g>
+    <path d="M700 215 L700 120" stroke="#4b8a2e" stroke-width="5"/>
+    <path d="M700 170 L660 140 M700 150 L742 122 M700 190 L742 175" stroke="#4b8a2e" stroke-width="3"/>
+    <g fill="#62a84a" stroke="#356e28" stroke-width="1.5">
+      <path d="M660 140 l-8 -26 l-10 14 l-14 -10 l2 18 l-18 4 l14 12 l-8 14 l18 -4 l8 14 z"/>
+      <path d="M742 122 l8 -26 l10 14 l14 -10 l-2 18 l18 4 l-14 12 l8 14 l-18 -4 l-8 14 z"/>
+      <path d="M700 120 l-12 -22 l-4 -18 l10 6 l6 -18 l6 18 l10 -6 l-4 18 z"/>
+      <path d="M742 175 l14 -18 l6 14 l16 -4 l-6 16 l14 8 l-18 4 l2 16 l-14 -10 z"/>
+    </g>
+    <path d="M700 215 l-18 30 M700 215 l-4 45 M700 215 l10 42 M700 215 l22 28 M688 235 l-16 8 M712 240 l16 10" stroke="#e9dcc0" stroke-width="2" fill="none"/>
+  </g>
+
+  <!-- 5 Brinjal (x=900) -->
+  <g>
+    <path d="M900 215 L900 90" stroke="#5a7a3a" stroke-width="6"/>
+    <path d="M900 170 L862 145 M900 140 L940 118 M900 115 L866 96" stroke="#5a7a3a" stroke-width="3"/>
+    <g fill="#5b9447" stroke="#35632a" stroke-width="1">
+      <path d="M862 145 c-6 -14 -24 -20 -36 -12 c8 14 24 18 36 12z"/>
+      <path d="M940 118 c6 -14 24 -20 36 -12 c-8 14 -24 18 -36 12z"/>
+      <path d="M866 96 c-6 -14 -22 -18 -32 -10 c8 12 22 16 32 10z"/>
+      <path d="M900 90 c-12 -8 -12 -24 0 -32 c12 8 12 24 0 32z"/>
+      <path d="M900 190 c8 -12 26 -14 36 -4 c-10 10 -26 12 -36 4z"/>
+    </g>
+    <g fill="#5b2a86" stroke="#341650" stroke-width="2">
+      <path d="M870 152 c-12 6 -16 30 -6 46 c8 10 20 6 22 -8 c2 -16 -4 -36 -16 -38z"/>
+      <path d="M932 128 c12 6 16 30 6 46 c-8 10 -20 6 -22 -8 c-2 -16 4 -36 16 -38z"/>
+      <path d="M905 145 c-10 5 -13 24 -5 37 c7 8 16 5 18 -6 c2 -13 -3 -29 -13 -31z"/>
+    </g>
+    <g fill="#3f7a2e"><path d="M862 152 l8 -6 l10 4 l-4 8 l-10 0z"/><path d="M924 128 l8 -6 l10 4 l-4 8 l-10 0z"/><path d="M898 145 l7 -5 l8 3 l-3 7 l-8 0z"/></g>
+    <g fill="#fff" opacity="0.35"><ellipse cx="868" cy="172" rx="3" ry="10"/><ellipse cx="930" cy="148" rx="3" ry="10"/></g>
+    <path d="M900 215 l-14 30 M900 215 l2 40 M900 215 l16 28" stroke="#e9dcc0" stroke-width="2" fill="none"/>
+  </g>
+
+  <!-- ===== Row 2 ===== -->
+  <!-- 6 Pumpkin (x=80) on the ground, vine -->
+  <g>
+    <path d="M10 500 C40 470 70 480 100 470 C130 462 150 480 160 470" stroke="#4b8a2e" stroke-width="4" fill="none"/>
+    <g fill="#4f9a3a" stroke="#2c6b28" stroke-width="1.5">
+      <path d="M35 478 c-18 -10 -26 -30 -12 -40 c6 6 14 2 18 10 c6 -8 16 -4 16 6 c4 14 -8 26 -22 24z"/>
+      <path d="M140 472 c-18 -10 -26 -30 -12 -40 c6 6 14 2 18 10 c6 -8 16 -4 16 6 c4 14 -8 26 -22 24z"/>
+    </g>
+    <path d="M118 462 l6 -14 l6 14 l12 -6 l-8 12 z" fill="#f5c518" stroke="#b08a0a" stroke-width="1"/>
+    <g stroke="#b5651d" stroke-width="2">
+      <ellipse cx="82" cy="478" rx="44" ry="30" fill="#f29a1f"/>
+      <path d="M82 448 C70 460 70 496 82 508 M82 448 C94 460 94 496 82 508 M82 448 C52 456 50 500 82 508 M82 448 C112 456 114 500 82 508" fill="none"/>
+    </g>
+    <path d="M82 450 l0 -14 l8 -4" stroke="#4b6b2a" stroke-width="5" fill="none"/>
+    <path d="M60 505 l-6 20 M100 505 l6 18" stroke="#e9dcc0" stroke-width="2"/>
+  </g>
+
+  <!-- 7 Beetroot (x=220): red root in soil, red-veined leaves -->
+  <g>
+    <g fill="#4f9a3a" stroke="#2c6b28" stroke-width="1.5">
+      <path d="M215 500 c-30 -20 -40 -60 -28 -80 c16 10 24 40 28 80z"/>
+      <path d="M220 500 c-4 -40 0 -80 6 -100 c12 20 8 70 -6 100z"/>
+      <path d="M225 500 c20 -30 36 -60 30 -84 c-18 12 -26 50 -30 84z"/>
+    </g>
+    <path d="M215 500 L195 430 M220 500 L225 410 M225 500 L250 425" stroke="#b0123a" stroke-width="2.5" fill="none"/>
+    <path d="M220 498 c-26 0 -36 22 -30 40 c6 18 22 22 30 28 c8 -6 24 -10 30 -28 c6 -18 -4 -40 -30 -40z" fill="#7a0f2e" stroke="#4a081a" stroke-width="2"/>
+    <path d="M220 566 C220 576 218 584 216 590" stroke="#7a0f2e" stroke-width="3" fill="none"/>
+  </g>
+
+  <!-- 8 Turnip (x=360): purple top, white bottom root, broad leaves -->
+  <g>
+    <g fill="#5aa043" stroke="#326b25" stroke-width="1.5">
+      <path d="M352 498 c-26 -16 -44 -48 -36 -74 c10 2 14 10 18 8 c4 -8 12 -6 14 2 c8 18 10 42 4 64z"/>
+      <path d="M368 498 c26 -16 44 -48 36 -74 c-10 2 -14 10 -18 8 c-4 -8 -12 -6 -14 2 c-8 18 -10 42 -4 64z"/>
+      <path d="M360 498 c-8 -30 -6 -66 0 -86 c6 20 8 56 0 86z"/>
+    </g>
+    <path d="M360 496 c-30 0 -40 26 -30 46 c8 16 22 20 30 22 c8 -2 22 -6 30 -22 c10 -20 0 -46 -30 -46z" fill="#f4f1ea" stroke="#8c7d9a" stroke-width="2"/>
+    <clipPath id="turnipClip"><path d="M360 496 c-30 0 -40 26 -30 46 c8 16 22 20 30 22 c8 -2 22 -6 30 -22 c10 -20 0 -46 -30 -46z"/></clipPath>
+    <rect x="320" y="490" width="80" height="34" fill="#9b3a8f" clip-path="url(#turnipClip)"/>
+    <rect x="320" y="520" width="80" height="8" fill="#c58abf" clip-path="url(#turnipClip)"/>
+    <path d="M360 564 C360 574 361 584 362 592" stroke="#d8d0c4" stroke-width="3" fill="none"/>
+  </g>
+
+  <!-- 9 Carrot (x=500) -->
+  <g>
+    <g stroke="#3f8f3a" stroke-width="2" fill="none">
+      <path d="M500 500 C490 470 478 450 470 420 M500 500 C500 470 502 440 500 410 M500 500 C510 470 522 450 532 422 M488 460 l-12 -6 M484 448 l-12 -4 M512 460 l12 -6 M516 448 l12 -4 M500 450 l-10 -8 M500 440 l10 -8"/>
+    </g>
+    <g fill="#5aa043"><circle cx="470" cy="420" r="5"/><circle cx="500" cy="410" r="5"/><circle cx="532" cy="422" r="5"/><circle cx="476" cy="436" r="4"/><circle cx="524" cy="436" r="4"/></g>
+    <path d="M484 500 L516 500 L502 590 L498 590 Z" fill="#f07a14" stroke="#b54d06" stroke-width="2"/>
+    <path d="M488 520 l8 2 M510 538 l-7 2 M492 556 l6 2 M508 570 l-5 1" stroke="#b54d06" stroke-width="1.5"/>
+  </g>
+
+  <!-- 10 Radish (x=640): long white root -->
+  <g>
+    <g fill="#5aa043" stroke="#326b25" stroke-width="1.5">
+      <path d="M632 500 c-22 -20 -36 -50 -28 -76 c14 6 22 30 28 76z"/>
+      <path d="M640 500 c-4 -36 -2 -72 4 -92 c8 22 6 60 -4 92z"/>
+      <path d="M648 500 c22 -20 36 -50 28 -76 c-14 6 -22 30 -28 76z"/>
+    </g>
+    <path d="M626 498 L654 498 C656 530 650 565 642 592 L638 592 C630 565 624 530 626 498 Z" fill="#fbfbf6" stroke="#9c9c90" stroke-width="2"/>
+    <path d="M628 506 L652 506" stroke="#c9d9a0" stroke-width="5"/>
+  </g>
+
+  <!-- 11 Onion (x=780): bulb in soil with tubular shoots -->
+  <g>
+    <g stroke="#3f8f3a" stroke-width="6" fill="none" stroke-linecap="round">
+      <path d="M776 504 C772 470 766 440 760 412"/>
+      <path d="M780 504 C780 470 782 440 784 404"/>
+      <path d="M784 504 C790 474 798 446 806 420"/>
+    </g>
+    <path d="M780 506 c-28 6 -34 30 -26 44 c8 12 18 14 26 16 c8 -2 18 -4 26 -16 c8 -14 2 -38 -26 -44z" fill="#f6efe2" stroke="#a89878" stroke-width="2"/>
+    <path d="M780 508 C770 520 768 548 780 566 M780 508 C790 520 792 548 780 566" stroke="#c8b898" stroke-width="1.5" fill="none"/>
+    <path d="M780 566 l-10 18 M780 566 l0 22 M780 566 l10 18 M780 566 l-18 12 M780 566 l18 12" stroke="#d9c9a0" stroke-width="1.5"/>
+  </g>
+
+  <!-- 12 Cabbage (x=920) sitting above the soil -->
+  <g>
+    <g stroke="#3d7a32" stroke-width="2">
+      <path d="M920 504 c-50 0 -66 -36 -52 -62 c10 -18 28 -22 36 -14 c-2 -14 20 -24 32 -12 c12 -10 32 -2 30 14 c12 -6 30 4 30 22 c4 30 -22 52 -76 52z" fill="#8cc46a"/>
+      <circle cx="920" cy="462" r="30" fill="#c6e3a0"/>
+      <path d="M896 470 c10 -20 38 -24 50 -4" fill="none"/>
+      <path d="M902 452 c12 -12 30 -10 38 2" fill="none"/>
+    </g>
+    <path d="M920 505 l-6 20 M920 505 l6 20" stroke="#e9dcc0" stroke-width="2"/>
+  </g>
+</svg>

@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img">
+  <!-- sky and grass -->
+  <rect x="0" y="0" width="800" height="520" fill="#dff1fb"/>
+  <path d="M0 270 Q200 250 400 265 T800 255 L800 520 L0 520 Z" fill="#bfe3a0" stroke="#5c8a3a" stroke-width="2"/>
+  <!-- sun -->
+  <circle cx="740" cy="55" r="28" fill="#ffd54a" stroke="#e0a800" stroke-width="2"/>
+  <g stroke="#e0a800" stroke-width="3" stroke-linecap="round">
+    <line x1="740" y1="12" x2="740" y2="20"/><line x1="740" y1="90" x2="740" y2="98"/>
+    <line x1="697" y1="55" x2="705" y2="55"/><line x1="775" y1="55" x2="783" y2="55"/>
+    <line x1="710" y1="25" x2="716" y2="31"/><line x1="764" y1="79" x2="770" y2="85"/>
+    <line x1="770" y1="25" x2="764" y2="31"/><line x1="716" y1="79" x2="710" y2="85"/>
+  </g>
+  <!-- clouds -->
+  <g fill="#ffffff" stroke="#7a8a99" stroke-width="2">
+    <path d="M250 80 a18 18 0 0 1 30 -15 a22 22 0 0 1 40 5 a16 16 0 0 1 10 28 h-75 a14 14 0 0 1 -5 -18 z"/>
+    <path d="M520 60 a16 16 0 0 1 26 -12 a20 20 0 0 1 36 5 a14 14 0 0 1 8 24 h-66 a12 12 0 0 1 -4 -17 z"/>
+    <path d="M620 125 a12 12 0 0 1 20 -9 a15 15 0 0 1 27 4 a11 11 0 0 1 6 18 h-50 a10 10 0 0 1 -3 -13 z"/>
+  </g>
+  <!-- background round trees -->
+  <g stroke="#3f6b2a" stroke-width="2">
+    <rect x="352" y="225" width="8" height="45" fill="#8a5a33"/>
+    <circle cx="356" cy="205" r="30" fill="#7cc15a"/>
+    <rect x="726" y="215" width="8" height="55" fill="#8a5a33"/>
+    <circle cx="730" cy="190" r="34" fill="#6fb24f"/>
+    <circle cx="770" cy="215" r="24" fill="#7cc15a"/>
+  </g>
+  <!-- house -->
+  <g stroke="#4a3a2a" stroke-width="2.5">
+    <rect x="270" y="125" width="14" height="30" fill="#c96a4a"/>
+    <rect x="200" y="180" width="110" height="90" fill="#fff4dc"/>
+    <polygon points="190,182 255,125 320,182" fill="#d9534f"/>
+    <rect x="215" y="200" width="28" height="24" fill="#bfe7ff"/>
+    <line x1="229" y1="200" x2="229" y2="224"/><line x1="215" y1="212" x2="243" y2="212"/>
+    <rect x="262" y="222" width="30" height="48" fill="#a0683c"/>
+    <circle cx="285" cy="248" r="2.5" fill="#4a3a2a"/>
+  </g>
+  <!-- barn -->
+  <g stroke="#4a2a1a" stroke-width="2.5">
+    <polygon points="545,195 560,150 615,125 670,150 685,195" fill="#b33a2e"/>
+    <rect x="550" y="195" width="130" height="80" fill="#c94a3a"/>
+    <rect x="595" y="222" width="42" height="53" fill="#f6e2c0"/>
+    <line x1="595" y1="222" x2="637" y2="275"/><line x1="637" y1="222" x2="595" y2="275"/>
+    <line x1="616" y1="222" x2="616" y2="275"/>
+    <rect x="603" y="160" width="24" height="20" fill="#f6e2c0"/>
+    <rect x="652" y="210" width="18" height="16" fill="#f6e2c0"/>
+  </g>
+  <!-- fence -->
+  <g stroke="#6b4a2a" stroke-width="2.5" fill="#e9c896">
+    <rect x="690" y="262" width="110" height="7"/>
+    <rect x="690" y="282" width="110" height="7"/>
+    <rect x="695" y="250" width="10" height="48"/>
+    <rect x="725" y="250" width="10" height="48"/>
+    <rect x="755" y="250" width="10" height="48"/>
+    <rect x="785" y="250" width="10" height="48"/>
+  </g>
+  <!-- winding path -->
+  <path d="M380 520 C440 470 560 470 520 400 C485 340 560 320 600 280 L630 280 C600 320 540 345 570 400 C610 470 520 500 470 520 Z" fill="#f2deb0" stroke="#a88a55" stroke-width="2"/>
+  <!-- bushes and grass tufts -->
+  <g fill="#8fd16a" stroke="#3f6b2a" stroke-width="2">
+    <path d="M420 300 a14 14 0 0 1 24 -8 a14 14 0 0 1 24 8 z"/>
+    <path d="M60 470 a14 14 0 0 1 22 -8 a14 14 0 0 1 22 8 z"/>
+    <path d="M300 330 a12 12 0 0 1 20 -6 a12 12 0 0 1 20 6 z"/>
+  </g>
+  <g stroke="#3f6b2a" stroke-width="2" stroke-linecap="round">
+    <path d="M200 470 l4 -10 M210 470 l0 -12 M220 470 l-4 -10"/>
+    <path d="M330 420 l3 -8 M338 420 l0 -10 M346 420 l-3 -8"/>
+    <path d="M720 470 l3 -8 M728 470 l0 -10 M736 470 l-3 -8"/>
+    <path d="M460 360 l3 -8 M468 360 l0 -10 M476 360 l-3 -8"/>
+  </g>
+
+  <!-- big tree on the left with a swing -->
+  <g stroke="#4a2a12" stroke-width="2.5">
+    <path d="M20 470 C40 380 45 250 50 170 L95 170 C95 260 100 380 125 470 Z" fill="#9a6a3c"/>
+    <path d="M85 135 C130 120 180 112 230 108 L232 120 C185 124 135 135 95 155 Z" fill="#9a6a3c"/>
+  </g>
+  <g fill="#5fa84a" stroke="#2f5a22" stroke-width="2.5">
+    <circle cx="30" cy="80" r="60"/>
+    <circle cx="105" cy="55" r="55"/>
+    <circle cx="180" cy="75" r="45"/>
+    <circle cx="80" cy="130" r="45"/>
+  </g>
+  <!-- swing ropes and seat -->
+  <g stroke="#5a3a1a" stroke-width="3">
+    <line x1="140" y1="122" x2="140" y2="372"/>
+    <line x1="215" y1="112" x2="215" y2="372"/>
+  </g>
+  <rect x="128" y="370" width="100" height="10" rx="3" fill="#c98a4a" stroke="#5a3a1a" stroke-width="2"/>
+  <!-- girl on the swing -->
+  <g stroke="#3a2a20" stroke-width="2.5">
+    <!-- legs -->
+    <path d="M160 372 L150 420" fill="none" stroke="#e8b48a" stroke-width="9" stroke-linecap="round"/>
+    <path d="M195 372 L205 420" fill="none" stroke="#e8b48a" stroke-width="9" stroke-linecap="round"/>
+    <path d="M140 420 h20 v8 h-24 z" fill="#d84a7a"/>
+    <path d="M198 420 h20 l4 8 h-24 z" fill="#d84a7a"/>
+    <!-- dress -->
+    <path d="M160 300 L195 300 L215 375 L140 375 Z" fill="#f48fb1"/>
+    <!-- arms holding ropes -->
+    <path d="M165 310 L142 300" fill="none" stroke="#e8b48a" stroke-width="8" stroke-linecap="round"/>
+    <path d="M190 310 L213 300" fill="none" stroke="#e8b48a" stroke-width="8" stroke-linecap="round"/>
+    <!-- head -->
+    <circle cx="178" cy="275" r="24" fill="#f3c9a3"/>
+    <path d="M154 272 C152 240 205 238 202 272 C196 258 170 252 154 272 Z" fill="#5a3218"/>
+    <path d="M154 270 C146 290 150 305 158 310" fill="none" stroke="#5a3218" stroke-width="6"/>
+    <path d="M202 270 C210 290 206 305 198 310" fill="none" stroke="#5a3218" stroke-width="6"/>
+    <circle cx="170" cy="276" r="2.5" fill="#222"/><circle cx="186" cy="276" r="2.5" fill="#222"/>
+    <path d="M170 286 Q178 293 186 286" fill="none" stroke-width="2"/>
+  </g>
+
+  <!-- kite and string -->
+  <polygon points="430,40 462,82 430,128 398,82" fill="#ffcf3a" stroke="#7a4a00" stroke-width="2.5"/>
+  <line x1="430" y1="40" x2="430" y2="128" stroke="#7a4a00" stroke-width="2"/>
+  <line x1="398" y1="82" x2="462" y2="82" stroke="#7a4a00" stroke-width="2"/>
+  <path d="M430 128 C440 145 420 155 432 170 C442 182 425 192 436 205" fill="none" stroke="#7a4a00" stroke-width="2"/>
+  <g fill="#e53935"><path d="M428 148 l-10 -5 l2 10 z"/><path d="M434 178 l10 -5 l-2 10 z"/></g>
+  <path d="M430 128 Q400 220 382 296" fill="none" stroke="#555" stroke-width="1.5"/>
+
+  <!-- running boy holding the kite string -->
+  <g stroke="#2a2a2a" stroke-width="2.5">
+    <!-- legs (running) -->
+    <path d="M392 380 L372 420 L352 430" fill="none" stroke="#3b5aa8" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M405 380 L425 412 L448 408" fill="none" stroke="#3b5aa8" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+    <ellipse cx="346" cy="433" rx="12" ry="6" fill="#333"/>
+    <ellipse cx="455" cy="410" rx="12" ry="6" fill="#333"/>
+    <!-- shirt -->
+    <path d="M382 318 L418 318 L414 385 L386 385 Z" fill="#4caf50"/>
+    <!-- arm up to the string -->
+    <path d="M386 325 L382 296" fill="none" stroke="#d9a07a" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="382" cy="294" r="6" fill="#d9a07a"/>
+    <!-- other arm swinging -->
+    <path d="M414 328 L440 352" fill="none" stroke="#d9a07a" stroke-width="9" stroke-linecap="round"/>
+    <!-- head -->
+    <circle cx="402" cy="293" r="24" fill="#e7b893"/>
+    <path d="M378 290 C376 262 428 260 426 288 C418 276 395 272 378 290 Z" fill="#2b1a10"/>
+    <circle cx="395" cy="294" r="2.5" fill="#222"/><circle cx="411" cy="294" r="2.5" fill="#222"/>
+    <path d="M394 304 Q403 312 412 304" fill="none" stroke-width="2"/>
+  </g>
+
+  <!-- striped ball rolling on the grass -->
+  <g stroke="#333" stroke-width="2.5">
+    <circle cx="590" cy="455" r="24" fill="#ffffff"/>
+    <path d="M568 445 Q590 432 612 445 L613 455 Q590 442 567 455 Z" fill="#1e88e5"/>
+    <path d="M567 463 Q590 452 613 463 L610 470 Q590 460 570 470 Z" fill="#e53935"/>
+  </g>
+
+  <!-- girl with a ponytail bending to catch the ball -->
+  <g stroke="#3a2a20" stroke-width="2.5">
+    <!-- legs -->
+    <path d="M680 445 L668 490" fill="none" stroke="#f0c09a" stroke-width="9" stroke-linecap="round"/>
+    <path d="M700 442 L725 478 L728 495" fill="none" stroke="#f0c09a" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <ellipse cx="662" cy="494" rx="12" ry="6" fill="#7b3fa0"/>
+    <ellipse cx="735" cy="498" rx="12" ry="6" fill="#7b3fa0"/>
+    <!-- skirt and top, leaning forward -->
+    <path d="M665 410 L712 400 L728 450 L672 455 Z" fill="#ab47bc"/>
+    <path d="M650 382 L700 372 L712 405 L665 414 Z" fill="#ffb74d"/>
+    <!-- arms reaching to the ball -->
+    <path d="M660 392 L622 432" fill="none" stroke="#f0c09a" stroke-width="8" stroke-linecap="round"/>
+    <path d="M675 398 L632 446" fill="none" stroke="#f0c09a" stroke-width="8" stroke-linecap="round"/>
+    <!-- head -->
+    <circle cx="640" cy="362" r="23" fill="#f6cfaa"/>
+    <path d="M617 360 C614 332 664 330 663 356 C655 345 632 342 617 360 Z" fill="#6b3a1a"/>
+    <!-- ponytail -->
+    <path d="M660 345 C690 330 700 350 688 368 C682 355 672 352 662 356 Z" fill="#6b3a1a"/>
+    <circle cx="661" cy="349" r="4" fill="#e53935"/>
+    <circle cx="632" cy="364" r="2.5" fill="#222"/><circle cx="647" cy="364" r="2.5" fill="#222"/>
+    <path d="M632 374 Q640 381 648 374" fill="none" stroke-width="2"/>
+  </g>
+  <rect x="1" y="1" width="798" height="518" fill="none" stroke="#333" stroke-width="2"/>
+</svg>

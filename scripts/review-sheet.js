@@ -54,7 +54,7 @@ function question(it) {
 }
 
 function location(sec, blk, it) {
-  return [sec.title || `खंड ${sec.code}`, blk.num, it.label].filter(has).map(s => esc(oneLine(s))).join(' › ');
+  return [sec.title || `खंड ${sec.code}`, blk.num, it.label || it.slot].filter(has).map(s => esc(oneLine(s))).join(' › ');
 }
 
 // state: { shownInstr: Set (per output part) } for block-level lines.
